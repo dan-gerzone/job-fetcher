@@ -44,7 +44,7 @@ ALL_IDS = {}   # family -> set(doc ids)
 
 
 # ---------------------------------------------------------------- helpers
-def http(url, data=None, headers=None, tries=3, timeout=40):
+def http(url, data=None, headers=None, tries=4, timeout=40):
     h = {"User-Agent": UA, "Accept": "application/json, text/html;q=0.9, */*;q=0.8",
          "Accept-Language": "en-US,en;q=0.9"}
     if headers:
@@ -61,9 +61,14 @@ def http(url, data=None, headers=None, tries=3, timeout=40):
                 return r.read().decode("utf-8", "replace")
         except Exception as e:  # noqa
             last = e
-            if getattr(e, "code", None) in (400, 401, 403, 404, 410):
+            code = getattr(e, "code", None)
+            if code in (400, 401, 403, 404, 410, 422):
                 break
-            time.sleep(2 * (i + 1))
+            if code == 429:
+                ra = (getattr(e, "headers", None) or {}).get("Retry-After") or ""
+                time.sleep(min(int(ra), 30) if ra.isdigit() else 8 * (i + 1))
+            else:
+                time.sleep(2 * (i + 1))
     raise last
 
 
@@ -321,20 +326,41 @@ def workable(acct):
     return out
 
 
+RE_DESC_REMOTE = re.compile(r"work virtually|virtual:|fully remote|100% remote|remote position|remote role|"
+                            r"work remotely|work from home|work at home|remote[- ]first|remote eligible|"
+                            r"remote within the (us|u\.s\.|united states)|remote,? (us|u\.s\.|united states)", re.I)
+WD_FULL = set()   # Workday prefixes whose complete posting list was read (absence => closed)
+
+
 def workday(w):
     base = f"https://{w['host']}/wday/cxs/{w['tenant']}/{w['site']}"
     seen, listing = set(), []
-    for q in CFG["workdayQueries"]:
-        for off in (0, 20, 40):
-            j = jget(f"{base}/jobs", data={"appliedFacets": {}, "limit": 20, "offset": off, "searchText": q})
-            jp = j.get("jobPostings") or []
-            for x in jp:
-                p = x.get("externalPath")
-                if p and p not in seen:
-                    seen.add(p)
-                    listing.append(x)
-            if len(jp) < 20:
-                break
+
+    def page(q, off):
+        return jget(f"{base}/jobs", data={"appliedFacets": {}, "limit": 20, "offset": off, "searchText": q})
+
+    def take(jp):
+        for x in jp:
+            p = x.get("externalPath")
+            if p and p not in seen:
+                seen.add(p)
+                listing.append(x)
+
+    first = page("", 0)
+    total = first.get("total") or 0
+    if total <= 1500:
+        # small enough to read every posting: complete id list, no keyword gaps
+        take(first.get("jobPostings") or [])
+        for off in range(20, total, 20):
+            take(page("", off).get("jobPostings") or [])
+        if len(seen) >= total * 0.95:
+            WD_FULL.add(w["prefix"])
+    else:
+        for q in CFG["workdayQueries"]:
+            j = page(q, 0)
+            take(j.get("jobPostings") or [])
+            for off in range(20, min(j.get("total") or 0, 300), 20):
+                take(page(q, off).get("jobPostings") or [])
     pre = [x for x in listing if title_ok(x.get("title"))]
 
     def detail(x):
@@ -344,24 +370,34 @@ def workday(w):
         t = text_of(p.get("jobDescription"))
         return x, p, locs, t
 
-    out, ids = [], [f"wd-{w['prefix']}-{x.get('bulletFields', [''])[0]}" for x in listing if x.get("bulletFields")]
+    out = []
+    ids = [f"wd-{w['prefix']}-{x['bulletFields'][0]}" for x in listing if x.get("bulletFields")]
+    failed = 0
     with cf.ThreadPoolExecutor(6) as ex:
         for fut in [ex.submit(detail, x) for x in pre]:
             try:
                 x, p, locs, t = fut.result()
             except Exception:
+                failed += 1
                 continue
             did = f"wd-{w['prefix']}-{p.get('jobReqId')}"
             ids.append(did)
-            remote = True if re.search(r"remote|work at home|work from home|virtual", (p.get("remoteType") or "") + " ".join(locs), re.I) else None
+            rt = (p.get("remoteType") or "") + " " + " ".join(locs)
+            remote = True if (re.search(r"remote|work at home|work from home|virtual", rt, re.I)
+                              or RE_DESC_REMOTE.search(t[:4000])) else None
             if not loc_ok(locs, remote, w.get("stateRestrictedRemote", False)):
                 continue
+            if remote and not RE_REMOTE.search(" ".join(locs)):
+                locs = locs + ["(description says remote/virtual)"]
             out.append(cand(id=did, source=f"workday-{w['prefix']}", board=w["tenant"], company=w["company"],
                             title=p.get("title") or x.get("title"), locations=locs, workplace=p.get("remoteType", ""),
                             url=p.get("externalUrl") or f"https://{w['host']}/{w['site']}{x['externalPath']}",
                             posted=norm_date(p.get("startDate")), pay=pay_snips(t), eligibility=elig_snips(t), excerpt=excerpt(t)))
+    if failed and failed > len(pre) / 3:
+        raise RuntimeError(f"{failed}/{len(pre)} detail requests failed")
     note_ids(f"wd-{w['prefix']}", ids)
     COUNTS[f"workday:{w['prefix']}:all"] = len(listing)
+    COUNTS[f"workday:{w['prefix']}:total"] = total
     return out
 
 
@@ -470,36 +506,49 @@ def amazon():
 def google():
     g = CFG["google"]
     base = "https://www.google.com/about/careers/applications/jobs/results/"
-    urls = [f"{base}?q={urllib.parse.quote(q)}&location=United%20States&has_remote=true" for q in g["remoteQueries"]]
-    urls += [f"{base}?q={urllib.parse.quote(q)}&location={urllib.parse.quote(l)}&target_level=DIRECTOR&target_level=ADVANCED"
+    reqs = [(f"{base}?q={urllib.parse.quote(q)}&location=United%20States&has_remote=true", "Remote eligible (US)")
+            for q in g["remoteQueries"]]
+    reqs += [(f"{base}?q={urllib.parse.quote(q)}&location={urllib.parse.quote(l)}&target_level=DIRECTOR&target_level=ADVANCED", l)
              for l in g["coloradoLocations"] for q in g["coloradoQueries"]]
+    rx = re.compile(r'<a[^>]+href="(jobs/results/(\d+)[^"]*)"[^>]*aria-label="Learn more about ([^"]+)"')
     found = {}
-    for u in urls:
-        page = http(u, headers={"Accept": "text/html"})
-        for block in re.split(r"<li\b", page)[1:]:
-            h3 = re.search(r"<h3[^>]*>(.*?)</h3>", block, re.S)
-            m = re.search(r'href="[^"]*jobs/results/(\d+)', block)
-            if not (h3 and m):
-                continue
-            txt = text_of(block)
-            found.setdefault(m.group(1), {"title": text_of(h3.group(1)), "remote": "Remote eligible" in txt, "text": txt[:400]})
+    for u, where in reqs:
+        for pg in (1, 2, 3):
+            page = http(u + (f"&page={pg}" if pg > 1 else ""), headers={"Accept": "text/html"})
+            new, prev = 0, 0
+            for m in rx.finditer(page):
+                card = text_of(page[prev:m.start()])[-1500:]
+                prev = m.end()
+                k = m.group(2)
+                locm = re.search(r"\bplace\s*(.*?)\s*(?:laptop_windows|bar_chart|info_outline|Learn more|$)", card, re.S)
+                locs = [s.strip() for s in (locm.group(1) if locm else "").split(";") if s.strip()]
+                if k not in found:
+                    new += 1
+                    found[k] = {"title": html.unescape(m.group(3)), "href": m.group(1).split("?")[0], "locs": locs,
+                                "where": set(), "remote": "Remote eligible" in card}
+                found[k]["where"].add(where)
+            if not new:
+                break
+    if not found:
+        raise RuntimeError("no Google results parsed (page layout may have changed)")
     note_ids("goog", [f"goog-{k}" for k in found])
     COUNTS["google:all"] = len(found)
     out = []
     for k, x in found.items():
         if not title_ok(x["title"], google=True):
             continue
-        t = text_of(http(base + k, headers={"Accept": "text/html"}))
+        t = text_of(http(base + x["href"].split("jobs/results/", 1)[1], headers={"Accept": "text/html"}))
         i = t.find(x["title"])
         body = t[i:i + 6000] if i >= 0 else t[:6000]
-        locm = re.search(r"place\s*(.*?)\s*(?:laptop_windows|bar_chart)", x["text"], re.S)
-        locs = [s.strip() for s in (locm.group(1) if locm else "").split(";") if s.strip()]
-        if "Remote eligible" in body[:600] or x["remote"]:
+        locs = list(x["locs"])
+        if x["remote"] or "Remote eligible" in body[:800] or "Remote eligible (US)" in x["where"]:
             locs.append("Remote eligible")
+        locs += [w for w in x["where"] if w != "Remote eligible (US)" and w not in locs]
         if not loc_ok(locs, None):
             continue
         out.append(cand(id=f"goog-{k}", source="google", company="Google", title=x["title"], locations=locs,
-                        url=base + k, posted="", pay=pay_snips(body), eligibility=elig_snips(body[:1500]), excerpt=excerpt(body, 1600)))
+                        url=base + x["href"].split("jobs/results/", 1)[1], posted="", pay=pay_snips(body),
+                        eligibility=elig_snips(body[:1500]), excerpt=excerpt(body, 1600)))
     return out
 
 
@@ -512,6 +561,7 @@ def microsoft():
         for start in range(0, 100, 10):
             j = jget(f"{host}/api/pcsx/search?domain=microsoft.com&query={urllib.parse.quote(q)}&location={urllib.parse.quote(loc)}&start={start}&filter_include_remote=1")
             ps = (j.get("data") or {}).get("positions") or []
+            time.sleep(1)
             for p in ps:
                 found[str(p["id"])] = p
             if len(ps) < 10:
@@ -563,6 +613,8 @@ def verify_one(item):
         bad = [k for k in ERRORS if k.split(":")[0] == {"gh": "greenhouse", "lv": "lever", "ab": "ashby", "wk": "workable"}[fam]]
         return "unknown" if bad else "closed"
     if fam.startswith("wd-"):
+        if fam[3:] in WD_FULL and f"workday:{fam[3:]}" not in ERRORS:
+            return "closed"   # complete posting list read and the id is not in it
         m = re.match(r"https://([^/]+)/([^/]+)(/job/.+)$", url)
         if not m:
             return "unknown"
