@@ -5,7 +5,7 @@ Workday (Elevance, Humana, CVS, Centene, Evolent, Health Catalyst), UnitedHealth
 Zelis, Amazon, Google and Microsoft, and writes a pre-filtered candidate list to `data/`.
 A Claude routine reads `data/`, judges fit and updates the job tracker.
 
-- **Runs:** daily at ~5:17am Denver, or on demand (Actions tab → "Fetch job listings" → Run workflow).
+- **Runs:** daily at ~3:17am Denver (10:17 UTC), or on demand (Actions tab → "Fetch job listings" → Run workflow).
 - **Add a company:** add its board slug to the right list in `config.json`
   (Greenhouse / Lever / Ashby), or a new entry under `workday`. No code changes needed.
 - **Tune the title filter:** edit the regexes under `filters` in `config.json`.
