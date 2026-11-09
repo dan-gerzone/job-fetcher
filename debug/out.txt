@@ -1,0 +1,135 @@
+
+===== google
+status 200 final https://www.google.com/about/careers/applications/jobs/results/?q=health&location=United%20States&has_remote=true len 1058346
+counts li 45 jobs/results/ 9 h3 10
+CTX 'own metrics.</li>\n</ul></div><div class="VfPpkd-dgl2Hf-ppHlrf-sM5MNb" data-is-touch-wrapper=\'true\'><div class="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-INsAgc VfPpkd-LgbsSe-OWXEXe-dgl2Hf Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7" jscontroller="nKuFpb" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;mlnRJb:fLiPzd;" data-idom-class="Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7" jsname="hOZ7Ge"><div class="VfPpkd-Jh9lGc"></div><span jsname="V67aGc" class="VfPpkd-vQzf8d" aria-hidden="true">Learn more</span><a class="WpHeLc VfPpkd-mRLv6 VfPpkd-RLmnJb" href="jobs/results/94673594256106182-field-sales-representative-health-and-human-services-google-public-sector?q=health&amp;location=United+States&amp;has_remote=true" aria-label="Learn more about Field Sales Representative, Health and Human Services, Google Public Sector" jsname="hSRGPd"></a><div class="'
+CTX 'the C-level.</li>\n</ul></div><div class="VfPpkd-dgl2Hf-ppHlrf-sM5MNb" data-is-touch-wrapper=\'true\'><div class="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-INsAgc VfPpkd-LgbsSe-OWXEXe-dgl2Hf Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7" jscontroller="nKuFpb" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;mlnRJb:fLiPzd;" data-idom-class="Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7" jsname="hOZ7Ge"><div class="VfPpkd-Jh9lGc"></div><span jsname="V67aGc" class="VfPpkd-vQzf8d" aria-hidden="true">Learn more</span><a class="WpHeLc VfPpkd-mRLv6 VfPpkd-RLmnJb" href="jobs/results/130905020047467206-key-account-executive-healthcare-and-life-sciences-medtech-google-cloud?q=health&amp;location=United+States&amp;has_remote=true" aria-label="Learn more about Key Account Executive, Healthcare and Life Sciences MedTech, Google Cloud" jsname="hSRGPd"></a><div class="VfP'
+CTX 'own metrics.</li>\n</ul></div><div class="VfPpkd-dgl2Hf-ppHlrf-sM5MNb" data-is-touch-wrapper=\'true\'><div class="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-INsAgc VfPpkd-LgbsSe-OWXEXe-dgl2Hf Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7" jscontroller="nKuFpb" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;mlnRJb:fLiPzd;" data-idom-class="Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7" jsname="hOZ7Ge"><div class="VfPpkd-Jh9lGc"></div><span jsname="V67aGc" class="VfPpkd-vQzf8d" aria-hidden="true">Learn more</span><a class="WpHeLc VfPpkd-mRLv6 VfPpkd-RLmnJb" href="jobs/results/105484783659688646-field-sales-representative-govops-and-climate-google-public-sector?q=health&amp;location=United+States&amp;has_remote=true" aria-label="Learn more about Field Sales Representative, GovOps and Climate, Google Public Sector" jsname="hSRGPd"></a><div class="VfPpkd-J1Ukfc'
+AF_initDataCallback at 854061 5
+  key ds:0 at 1033833
+  key ds:1 at 1034861
+ds:1 ctx 'rs/applications/jobs/results"><script nonce="nrSxntZ3Av8VHWSlouheoQ">var AF_initDataKeys = ["ds:0","ds:1"]; var AF_dataServiceRequests = {\'ds:0\' : {id:\'O4hThe\',request:[]},\'ds:1\' : {id:\'r06xKb\',request:[["health",null,null,null,"en-US",null,[["United States"]],1,null,1]]}}; var AF_initDataChunkQueue = []; var AF_initDataCallback; var AF_initDataInitializeCallback; if (AF_initDataInitializeCallback) {AF_initDataInitializeCallback(AF_initDataKeys, AF_initDataChunkQueue, AF_dataServiceRequests);}if (!AF_initDataCallback) {AF_initDataCallback = function(chunk) {AF_initDataChunkQueue.push(chunk);};}</script></head><body id="yDmH0d" jscontroller="pjICDe" jsaction="rcuQ6b:npT2md; click:FAbpgf; auxclick:FAbpgf" class="tQj5Y ghyPEc IqBfM ecJEib EWZcud" data-has-footer="true"><script aria-hidden="true" nonce="nrSxntZ3Av8VHWSlouheoQ">window.wiz_progress&&window.wiz_progress();</script><div class="VUoKZ" aria-hidden="true"><div class="TRHLAc"></div></div><div class="pGxpHc"><header class="gb_Ta gb_Lb gb_Nd gb_1d gb_e gb_cb" ng-non-bindable="" id="gb" role="banner"><div class="gb_ie"></div><div class="gb_Vd gb_Zd gb_Wd"><div class="gb_4d gb_Cd gb_Dd"><div class="gb_cd" aria-expanded="false" aria-label="Main menu" role="button" tabindex="0"><svg focusable="false" viewbox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></div><div class="gb_cd gb_fd gb_3" aria-label="Go back" title="Go back" role="button" tabindex="0"><svg focusable="false" viewbox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path></svg></div><div class="gb_cd gb_k gb_3" aria-label="Close" role="button" tabindex="0"><svg viewbox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg></div><div class="gb_5c"><div class="gb_6c"><a class="gb_oe gb_7c" aria-label="Careers" href="/about/careers/applications/"><span class="gb_bd gb_re" aria-hidden="true" role="presentation"></span><span class="gb_2d gb_Bd">Careers</span></a><div class="gb_ve">Careers</div></div></div><div class="gb_4d gb_3 gb_Ad gb_Bd"><span class="gb_Ed" aria-level="1" role="heading"></span><div class="gb_Fd"></div></div></div><div class="gb_4d gb_ce gb_Wd gb_We gb_9e gb_af gb_df"><div class="gb_j gb_Ce"><div class="gb_Ee gb_De"><div jscontroller="Et1rYe" jsaction="Jciule:vJTo6;JIbuQc:vJTo6;"><div class="VfPpkd-dgl2Hf-ppHlrf-sM5MNb" data-is-touch-wrapper=\'true\'><button class="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf Kjnxrf C1Uh5b DuMIQc LQeN7 a4aBqd" jscontrolle'
+
+===== workday elv
+total (empty search) 276
+q='analytics' total=19 got=19
+q='data' total=113 got=20
+q='insights' total=15 got=15
+q='provider data' total=42 got=20
+q='data product' total=85 got=20
+q='informatics' total=0 got=0
+q='reporting' total=49 got=20
+q='director' total=82 got=20
+q='vice president' total=2 got=2
+title_ok: 5 of 77
+  sample listing {"title": "Healthcare Outcomes Research Analyst (Business Information Consultant)", "externalPath": "/job/GA-ATLANTA-740-W-PEACHTREE-ST-NW/Healthcare-Outcomes-Research-Analyst--Business-Information-Consultant-_JR203996", "timeType": "Full time", "locationsText": "5 Locations", "postedOn": "Posted To
+  sample listing {"title": "Senior Mobile Android Engineer (Engineer III)", "externalPath": "/job/TN-NASHVILLE-501-GREAT-CIRCLE-RD/Senior-Mobile-Android-Engineer--Engineer-III-_JR212003", "timeType": "Full time", "locationsText": "TN-NASHVILLE, 501 GREAT CIRCLE RD", "postedOn": "Posted 3 Days Ago", "bulletFields": [
+  sample listing {"title": "Senior Product Manager", "externalPath": "/job/TN-NASHVILLE-501-GREAT-CIRCLE-RD/Senior-Product-Manager_JR210612", "timeType": "Full time", "locationsText": "7 Locations", "postedOn": "Posted 3 Days Ago", "bulletFields": ["JR210612"]}
+  sample listing {"title": "Product Operations Analyst", "externalPath": "/job/TN-NASHVILLE-926-MAIN-ST/Product-Operations-Analyst_JR210610-1", "timeType": "Full time", "locationsText": "6 Locations", "postedOn": "Posted 3 Days Ago", "bulletFields": ["JR210610"]}
+  sample listing {"title": "Distinguished Engineer", "externalPath": "/job/OH-MASON-4361-IRWIN-SIMPSON-RD/Distinguished-Engineer_JR212007", "timeType": "Full time", "locationsText": "3 Locations", "postedOn": "Posted 5 Days Ago", "bulletFields": ["JR212007"]}
+  sample listing {"title": "Director Continuous Value Improvement", "externalPath": "/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Director-Continuous-Value-Improvement_JR207978-1", "timeType": "Full time", "locationsText": "13 Locations", "postedOn": "Posted 5 Days Ago", "bulletFields": ["JR207978"]}
+  OK Director Continuous Value Improvement | locs ['IN-INDIANAPOLIS, 220 VIRGINIA AVE', 'CA-WOODLAND HILLS, 21215 BURBANK BLVD', 'WI-Waukesha, N17W24222 Riverwood Dr., Ste 300', 'CT-WALLINGFORD, 108 LEIGUS RD, 1ST FL', 'FL-MIAMI, 11430 NW 20TH ST, STE 200 & 300'] | remoteType None | loc_ok False
+  OK Staff VP Digital Claims Operations | locs ['IN-INDIANAPOLIS, 220 VIRGINIA AVE', 'California - Woodland Hills', 'Virginia - Norfolk', 'Virginia - Richmond', 'Ohio - Mason'] | remoteType None | loc_ok False
+  OK Government Relations Director Senior | locs ['DC-WASHINGTON, 1001 PENNSYLVANIA AVE NW, STE 710', 'CA-WOODLAND HILLS, 21215 BURBANK BLVD', 'NY-NEW YORK, ONE PENN PLAZA, 35TH & 36TH FL', 'FL-TAMPA, 5411 SKYCENTER DR, STE 700 & 800', 'FL-MIAMI, 11430 NW 20TH ST, STE 200 & 300'] | remoteType None | loc_ok False
+  OK Director Strategic Initiatives | locs ['GA-ATLANTA, 740 W PEACHTREE ST NW'] | remoteType None | loc_ok False
+  OK Business Change Director - Carelon Payment Integrity | locs ['IN-INDIANAPOLIS, 220 VIRGINIA AVE', 'GA-ATLANTA, 740 W PEACHTREE ST NW', 'FL-TAMPA, 5411 SKYCENTER DR, STE 700 & 800', 'OH-MASON, 4361 IRWIN SIMPSON RD'] | remoteType None | loc_ok False
+extra /job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Staff-VP-Provider-Data-Solutions_JR210482 403 
+  search by id JR210482 0 []
+
+===== workday cen
+total (empty search) 383
+q='analytics' total=37 got=20
+q='data' total=180 got=20
+q='insights' total=23 got=20
+q='provider data' total=160 got=20
+q='data product' total=70 got=20
+q='informatics' total=2 got=2
+q='reporting' total=153 got=20
+q='director' total=54 got=20
+q='vice president' total=15 got=15
+title_ok: 14 of 111
+  sample listing {"title": "Analytics Engineer II", "externalPath": "/job/Remote-MO/Analytics-Engineer-II_1672325", "locationsText": "48 Locations", "postedOn": "Posted Today", "bulletFields": ["1672325"]}
+  sample listing {"title": "Senior Manager, Credentialing & Provider Data Analytics", "externalPath": "/job/Remote-MO/Senior-Manager--Credentialing---Provider-Data-Management-Systems_1662022", "locationsText": "9 Locations", "postedOn": "Posted 20 Days Ago", "bulletFields": ["1662022"]}
+  sample listing {"title": "Outcomes Analyst III", "externalPath": "/job/Remote-IN/Outcomes-Analyst-III_1672985", "locationsText": "Remote-IN", "postedOn": "Posted 10 Days Ago", "bulletFields": ["1672985"]}
+  sample listing {"title": "Senior Business Transformation Manager", "externalPath": "/job/Remote-FL/Senior-Business-Transformation-Manager_1673516", "locationsText": "5 Locations", "postedOn": "Posted 5 Days Ago", "bulletFields": ["1673516"]}
+  sample listing {"title": "Senior Business Transformation Manager", "externalPath": "/job/Remote-FL/Senior-Business-Transformation-Manager_1673514", "locationsText": "5 Locations", "postedOn": "Posted 5 Days Ago", "bulletFields": ["1673514"]}
+  sample listing {"title": "Senior Business Transformation Manager", "externalPath": "/job/Remote-FL/Senior-Business-Transformation-Manager_1673515", "locationsText": "5 Locations", "postedOn": "Posted 5 Days Ago", "bulletFields": ["1673515"]}
+  OK Vice President, Contact Center Platforms | locs ['Remote-FL'] | remoteType None | loc_ok False
+  OK Director, Business Operations | locs ['Remote-FL', 'Remote-GA', 'Remote-MO', 'Remote-MI', 'Remote-KY'] | remoteType None | loc_ok False
+  OK Senior Director, Provider Network Performance | locs ['Remote-NY', 'Remote-CT', 'Remote-NJ'] | remoteType None | loc_ok False
+  OK Vice President, Clinical Technology UM Portfolio Management | locs ['Remote-MO'] | remoteType None | loc_ok False
+  OK Vice President, Interoperability Strategy and Operations | locs ['Remote-NC'] | remoteType None | loc_ok False
+  OK Director, Quality Improvement | locs ['Remote-IN'] | remoteType None | loc_ok False
+  OK Director, Product Performance | locs ['Remote-NC'] | remoteType None | loc_ok False
+  OK Director, Provider Grievance & Appeals | locs ['Remote-FL'] | remoteType None | loc_ok False
+
+===== health catalyst
+healthcatalyst.wd5.myworkdayjobs.com healthcatalystcareers total 2 ['Jr Data Engineer', 'Sr. Marketing Manager- Demand Generation & Marketing Ops']
+healthcatalyst.wd1.myworkdayjobs.com healthcatalystcareers EXC HTTP Error 422: Unprocessable Entity
+healthcatalyst.wd5.myworkdayjobs.com External EXC HTTP Error 404: Not Found
+healthcatalyst.wd1.myworkdayjobs.com External EXC HTTP Error 422: Unprocessable Entity
+healthcatalyst.wd5.myworkdayjobs.com HealthCatalyst EXC HTTP Error 404: Not Found
+healthcatalyst.wd1.myworkdayjobs.com HealthCatalyst EXC HTTP Error 422: Unprocessable Entity
+
+===== microsoft
+keys ['positions', 'filterDef', 'count', 'sortBy', 'appliedFilters', 'debug', 'savedSearchMetadata', 'resultsMetaData'] count 1
+  pos {"id": 1970393557007962, "displayJobId": "200057982", "name": "Senior Digital Cloud Solution Architect", "locations": ["United States, Colorado, Denver", "United States, North Dakota, Fargo", "United States, Illinois, Chicago", "United States, Texas, Dallas", "United States, Washington, Seattle", "United States, Arizona, Phoenix", "United States, California, San Diego", "United States, California, Los Angeles", "United States, Oregon, Portland"], "standardizedLocations": ["Denver, CO, US", "Fargo, ND, US", "Chicago, IL, US", "Dallas, TX, US", "Seattle, WA, US", "Phoenix, AZ, US", "San Diego, C
+EXC HTTPError HTTP Error 429: Too Many Requests
+sponse = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: Too Many Requests
+
+
+===== amazon
+q='healthcare analytics' co=False hits=5 n=5 top locs=[('Chicago, Illinois, USA', 2), ('Santa Monica, California, USA', 1), ('Washington, USA', 1), ('Arlington, Virginia, USA', 1)]
+q='healthcare data' co=False hits=8 n=8 top locs=[('San Francisco, California, USA', 3), ('Seattle, Washington, USA', 1), ('Austin, Texas, USA', 1), ('Arlington, Virginia, USA', 1), ('Santa Monica, California, USA', 1), ('Jersey City, New Jersey, USA', 1)]
+q='One Medical analytics' co=False hits=720 n=100 top locs=[('Seattle, Washington, USA', 39), ('Bellevue, Washington, USA', 11), ('Arlington, Virginia, USA', 9), ('New York, New York, USA', 8), ('Redmond, Washington, USA', 4), ('San Francisco, California, USA', 4)]
+    Principal Product Manager – Technical, AWS Data & Analytics | Seattle, Washington, USA
+    Sr. Manager, Studios Analytics, Prime Video Finance | Culver City, California, USA
+    Associate Principal, Insights & Measurement, Analytics & Insights (A&I) | New York, New York, USA
+    Associate Principal, Insights & Measurement, Analytics & Insights (A&I) | New York, New York, USA
+    Sr. Manager Solution Architecture,  Analytics Specialist Solutions Architects  | Seattle, Washington, USA
+    Principal Technical Product Manager, Quick Sight - Structured Data Analytics | Seattle, Washington, USA
+    Principal, Specialist Solutions Architect, Data, Agentic AI & Analytics, Strategic Account | San Francisco, California, USA
+    Principal Solutions Architect, Automotive & Manufacturing | Dallas, Texas, USA
+    Principal AI Security SA, AWS Security & Networking | San Francisco, California, USA
+    Senior Manager of Data Engineering & Business Intelligence, Alexa Audio | Seattle, Washington, USA
+    Principal Business Intelligence Engineer, Amazon Customer Service | Seattle, Washington, USA
+    Principal Solutions Architect, National Security Solutions Architecture Team | Jessup, Maryland, USA
+q='clinical data' co=False hits=61 n=61 top locs=[('San Antonio, Texas, USA', 5), ('Seattle, Washington, USA', 4), ('Arlington, Virginia, USA', 4), ('Boston, Massachusetts, USA', 3), ('Fairburn, Georgia, USA', 3), ('Plainfield, Indiana, USA', 3)]
+    Principal Applied Scientist - AI for Life Sciences, AWS Applied AI Solutions - Life Scienc | Seattle, Washington, USA
+    Principal Product Designer, AWS Applied AI Solutions | Seattle, Washington, USA
+    Principal Account Executive,  Healthcare | Pittsburgh, Pennsylvania, USA
+q='analytics' co=True hits=77 n=77 top locs=[('Denver, Colorado, USA', 23), ('Arlington, Virginia, USA', 15), ('San Francisco, California, USA', 7), ('Aurora, Colorado, USA', 4), ('Dallas, Texas, USA', 3), ('Atlanta, Georgia, USA', 3)]
+    Principal AI Security SA, AWS Security & Networking | San Francisco, California, USA
+    Sr. Manager Enterprise Support , ES-NAMER-ISV | Austin, Texas, USA
+    Principal BD Specialist | Santa Monica, California, USA
+    Principal Delivery Consultant, Emerging Technologies – Sports Industry | Arlington, Virginia, USA
+q='business intelligence' co=True hits=7 n=7 top locs=[('Denver, Colorado, USA', 5), ('Boulder, Colorado, USA', 1), ('Arlington, Virginia, USA', 1)]
+q='insights' co=True hits=29 n=29 top locs=[('Denver, Colorado, USA', 6), ('Arlington, Virginia, USA', 4), ('Seattle, Washington, USA', 3), ('Aurora, Colorado, USA', 3), ('Herndon, Virginia, USA', 2), ('Colorado Springs, Colorado, USA', 2)]
+    Principal Forward Deployed Engineer, AWS Forward Deployed Engineering | Arlington, Virginia, USA
+    Principal Technical Program Manager, Ad Measurements Science  | New York, New York, USA
+q='data strategy' co=True hits=7 n=7 top locs=[('Denver, Colorado, USA', 4), ('Seattle, Washington, USA', 1), ('Mountain View, California, USA', 1), ('Arlington, Virginia, USA', 1)]
+q='product' co=True hits=179 n=100 top locs=[('Herndon, Virginia, USA', 31), ('Denver, Colorado, USA', 28), ('Arlington, Virginia, USA', 21), ('Seattle, Washington, USA', 4), ('Cupertino, California, USA', 4), ('New York, New York, USA', 2)]
+    Principal Software Engineer, Devices Global Retail Technology | Seattle, Washington, USA
+    Principal Forward Deployed Engineer, AWS Forward Deployed Engineering | Arlington, Virginia, USA
+    Principal Technical Program Manager, Ad Measurements Science  | New York, New York, USA
+    Principal Delivery Consultant, WWPS Professional Services | Herndon, Virginia, USA
+q='director' co=True hits=1 n=1 top locs=[('Arlington, Virginia, USA', 1)]
+q='head of' co=True hits=1 n=1 top locs=[('Herndon, Virginia, USA', 1)]
+
+===== uhg no pay
+  $ctx "tter where or when you begin a career with us, you'll find a far-reaching choice of benefits and incentives. The salary for this role will range from $xx,xxx to $xx,xxx annually based on full-time employment. We comply with all minimum wage laws as applicable. \n Application Deadline : This will be p"
+  $ctx "or when you begin a career with us, you'll find a far-reaching choice of benefits and incentives. The salary for this role will range from $xx,xxx to $xx,xxx annually based on full-time employment. We comply with all minimum wage laws as applicable. \n Application Deadline : This will be posted for a"
+len 18534
