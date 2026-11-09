@@ -407,8 +407,8 @@
   "locations": [
    "Colorado, USA",
    "Remote eligible",
-   "Denver, CO, USA",
-   "Boulder, CO, USA"
+   "Boulder, CO, USA",
+   "Denver, CO, USA"
   ],
   "url": "https://www.google.com/about/careers/applications/jobs/results/125510110821655238-group-product-manager-agent-platform-and-open-source",
   "posted": "",
@@ -444,8 +444,8 @@
    "Atlanta, GA, USA",
    "+3 more",
    "+2 more",
-   "Denver, CO, USA",
-   "Boulder, CO, USA"
+   "Boulder, CO, USA",
+   "Denver, CO, USA"
   ],
   "url": "https://www.google.com/about/careers/applications/jobs/results/137787645009765062-technical-program-manager-lead-network-delivery-implementation",
   "posted": "",
@@ -865,25 +865,6 @@
   "excerpt": "About Us \n At&nbsp; Prenuvo , we are on a mission to flip the paradigm from reactive \u201csick-care\u201d to proactive health care. Our award-winning whole body scan is fast (under 1 hour), safe (MRI has no ionizing radiation), and non-invasive (no contrast). Our unique integrated stack of optimized hardware, software, and increasingly AI, coupled with the patient-centric experience across our domestic and global clinics, have allowed us to lead the change against \u201cwe caught it too late again\".\n We're looking for an Operations Director to own the day-to-day operations of our biomarker programs. You'll build and run the processes that take a sample from collection through lab processing, results, and storage, working across clinical, lab, vendor, and internal teams to make sure everything runs smoothly and meets quality and compliance standards. This is a permanent, remote, role with long-term ownership of these programs, both during launch and as they grow.&nbsp;\n This role does not provide visa sponsorship. Applicants must be legally authorized to work in the United States at the time of hire and must not require employer sponsorship for a work visa (current or future). \n Help reshape the world through proactive healthcare while working with cutting-edge technology and high performing teams with deep expertise - join us to make a difference in people\u2019s lives!\n What You'll Do \n Own the "
  },
  {
-  "id": "gh-4721458006",
-  "source": "greenhouse",
-  "board": "strivehealth",
-  "company": "Strive Health",
-  "title": "Director, Clinical Product Management",
-  "locations": [
-   "United States",
-   "Denver HQ",
-   "Hybrid"
-  ],
-  "url": "https://job-boards.greenhouse.io/strivehealth/jobs/4721458006",
-  "posted": "2026-10-13",
-  "pay": [
-   "Annual Salary Range: $130,000 - $196,000"
-  ],
-  "eligibility": [],
-  "excerpt": "How You\u2019ll Make An Impact \n At Strive Health, patients come first. We\u2019re on a mission to transform chronic conditions by identifying risk earlier, coordinating thoughtful care, and supporting people through every stage of their health journey. \n Our work reduces emergency visits, improves outcomes, and helps patients live fuller lives. You\u2019ll work alongside passionate Strivers who care deeply about making an impact, show up for one another as One Team, and find ways to elevate the everyday. \n If you\u2019re looking for meaningful work where your contributions truly matter, you\u2019ll feel right at home at Strive! \n Benefits & Perks \n Hybrid-Remote Flexibility \u2013 Work from home while fulfilling in-person needs at the office, clinic, or patient home visits. \n Comprehensive Benefits \u2013 Medical, dental, and vision insurance, employee assistance programs, employer-paid and voluntary life and disability insurance, plus health and flexible spending accounts. \n Financial & Retirement Support \u2013 Competitive compensation with a performance-based bonus program, 401k with employer match, and financial wellness resources. \n Time Off & Leave \u2013 Paid holidays, vacation time, sick time, and paid birthgiving, bonding, sabbatical, and living donor leaves. \n Wellness & Growth \u2013 Family forming services through Maven Maternity at no cost and physical wellness perks, mental health support, and an annual professi"
- },
- {
   "id": "gh-4721039006",
   "source": "greenhouse",
   "board": "strivehealth",
@@ -895,6 +876,25 @@
    "Hybrid"
   ],
   "url": "https://job-boards.greenhouse.io/strivehealth/jobs/4721039006",
+  "posted": "2026-10-13",
+  "pay": [
+   "Annual Salary Range: $130,000 - $196,000"
+  ],
+  "eligibility": [],
+  "excerpt": "How You\u2019ll Make An Impact \n At Strive Health, patients come first. We\u2019re on a mission to transform chronic conditions by identifying risk earlier, coordinating thoughtful care, and supporting people through every stage of their health journey. \n Our work reduces emergency visits, improves outcomes, and helps patients live fuller lives. You\u2019ll work alongside passionate Strivers who care deeply about making an impact, show up for one another as One Team, and find ways to elevate the everyday. \n If you\u2019re looking for meaningful work where your contributions truly matter, you\u2019ll feel right at home at Strive! \n Benefits & Perks \n Hybrid-Remote Flexibility \u2013 Work from home while fulfilling in-person needs at the office, clinic, or patient home visits. \n Comprehensive Benefits \u2013 Medical, dental, and vision insurance, employee assistance programs, employer-paid and voluntary life and disability insurance, plus health and flexible spending accounts. \n Financial & Retirement Support \u2013 Competitive compensation with a performance-based bonus program, 401k with employer match, and financial wellness resources. \n Time Off & Leave \u2013 Paid holidays, vacation time, sick time, and paid birthgiving, bonding, sabbatical, and living donor leaves. \n Wellness & Growth \u2013 Family forming services through Maven Maternity at no cost and physical wellness perks, mental health support, and an annual professi"
+ },
+ {
+  "id": "gh-4721458006",
+  "source": "greenhouse",
+  "board": "strivehealth",
+  "company": "Strive Health",
+  "title": "Director, Clinical Product Management",
+  "locations": [
+   "United States",
+   "Denver HQ",
+   "Hybrid"
+  ],
+  "url": "https://job-boards.greenhouse.io/strivehealth/jobs/4721458006",
   "posted": "2026-10-13",
   "pay": [
    "Annual Salary Range: $130,000 - $196,000"
@@ -1761,6 +1761,61 @@
   "excerpt": "About the Role \n Reporting to executive leadership, the Senior Director of Product Management \u2013 Risk & Quality is a key leader within Innovaccer\u2019s Payer vertical. In this role, you will hold end-to-end accountability for the product strategy, roadmap, and go-to-market (GTM) execution across our Risk Adjustment, RADV/Audit Readiness, Quality (HEDIS/Stars), and Compliance solution portfolio.\n We are looking for a seasoned product leader who possesses deep domain expertise in clinical and financial risk operations across Commercial (ACA), Medicare Advantage, and Managed Medicaid markets. You will translate complex regulatory requirements, coding workflows, and risk-capture dynamics into a market-leading, AI-native product platform that drives verifiable revenue accuracy, audit defensibility, and operational efficiency for our health plan partners. \n A Day in the Life \n 1. Product Strategy & Domain Leadership (Risk & Quality) \n End-to-End Portfolio Vision: Own the multi-year product strategy for Risk Adjustment (Prospective, Concurrent, and Retrospective), RADV Audit Management, Risk Analytics, and integrated Quality/HEDIS products.\n AI-First Innovation: Translate market needs into an AI-native product roadmap\u2014leveraging NLP, LLMs, and automated chart retrieval/coding engines to eliminate manual touchpoints and maximize risk accuracy.\n Regulatory Agility: Stay ahead of evolving CMS"
  },
  {
+  "id": "wd-cen-1670357",
+  "source": "workday-cen",
+  "board": "centene",
+  "company": "Centene",
+  "title": "Director, AI Vendor Integrations & Standards",
+  "locations": [
+   "Remote-MO",
+   "Remote-GA",
+   "Remote-NE",
+   "Remote-FL",
+   "Remote-WA State",
+   "Remote-NY",
+   "Remote-SC",
+   "Remote-NC",
+   "Remote-IL",
+   "Remote-MD",
+   "Remote-VA",
+   "Remote-MA",
+   "Remote-PA",
+   "Remote-NJ",
+   "Remote-TX",
+   "Remote-CA",
+   "(description says remote anywhere in the US)"
+  ],
+  "workplace": "",
+  "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Director--AI-Vendor-Integrations---Standards_1670357",
+  "posted": "2026-11-01",
+  "pay": [
+   "Pay Range: $146,000.00 - $269,600"
+  ],
+  "eligibility": [],
+  "excerpt": "Position Purpose: Leads Centene's vendor AI review and integration standards function, accountable for ensuring that third-party and vendor-supplied AI capability entering the enterprise is properly assessed, architecturally suitable for Centene's AI Control Plane, and held to defined integration and interoperability standards over the life of the relationship. Directs vendor AI intake review and technical assessment in coordination with AI Intake, Enterprise AI Governance, Security Risk Management/TPRM, Procurement, and Legal, ensuring AI functionality is disclosed, evaluated, and routed through the required review paths before contract execution or deployment. Determines and documents each vendor solution's suitability to the AI Control Plane across the defined integration points \u2014 intake assessment, control adherence, vendor agents running on Centene's agentic framework, vendor agents interacting with LLMs through the Centene AI Gateway, and network-level AI observability. Ensures compliance with Centene's standards for vendor AI integration, including open-standard and protocol expectations such as MCP, model routing and gateway use, telemetry and observability schemas, agent registration, and cost attribution. Owns ongoing vendor AI control plane adherence \u2014 monitoring conformance, managing model-change notification, and driving remediation when vendor solutions drift from"
+ },
+ {
+  "id": "wd-cen-1658268",
+  "source": "workday-cen",
+  "board": "centene",
+  "company": "Centene",
+  "title": "Senior Director, Third Party Risk Management",
+  "locations": [
+   "Remote-MO",
+   "(description says remote anywhere in the US)"
+  ],
+  "workplace": "",
+  "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Senior-Director--Third-Party-Risk-Management_1658268",
+  "posted": "2026-11-03",
+  "pay": [
+   "Pay Range: $134,600.00 - $249,000"
+  ],
+  "eligibility": [
+   "Key Details: Applicants for this job have the flexibility to work remote from home anywhere in the Continental United States"
+  ],
+  "excerpt": "Position Purpose:\n Provides enterprise-wide leadership and strategic direction for third party risk management from a compliance perspective, including the audit, monitoring, and oversight of delegated healthcare functions. Establishes the governance model, risk framework, enterprise standards, and multi-year roadmap to identify, assess, monitor, escalate, and remediate third party compliance risk across Medicare, Medicaid, and Marketplace environments. Holds accountability for program effectiveness, risk-based audit and monitoring, regulatory and accreditation readiness, and executive and board reporting. Leads directors, other people leaders, and teams of audit, monitoring, compliance, and delegated oversight professionals, partnering with Compliance, Legal, Procurement, Operations, Enterprise Risk, and business owners to strengthen third party accountability and consistent enterprise execution.\n Key Details: Applicants for this job have the flexibility to work remote from home anywhere in the Continental United States. A Certified Internal Auditor (CIA) certification is required for this role. \n Key Responsibilities: \n Establishes the enterprise strategy, governance model, risk framework, and decision rights for third party risk management from a compliance perspective, aligning regulatory expectations, accreditation requirements, contractual obligations, enterprise risk app"
+ },
+ {
   "id": "wd-cvs-R1064176",
   "source": "workday-cvs",
   "board": "cvshealth",
@@ -1872,7 +1927,8 @@
    "Work At Home-Colorado",
    "Work At Home-Florida",
    "Work At Home-Wyoming",
-   "Work At Home-Delaware"
+   "Work At Home-Delaware",
+   "(description says remote anywhere in the US)"
   ],
   "workplace": "Remote",
   "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/FL---Work-from-home/Executive-Director-Digital-Product-Growth-and-Membership_R1080859",
@@ -2038,7 +2094,8 @@
    "Work At Home-Colorado",
    "Work At Home-Florida",
    "Work At Home-Wyoming",
-   "Work At Home-Delaware"
+   "Work At Home-Delaware",
+   "(description says remote anywhere in the US)"
   ],
   "workplace": "Remote",
   "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---Work-from-hom/Executive-Director-Digital-Product---Medical-Cost-Initiatives_R1050178",
@@ -2218,7 +2275,8 @@
    "Work At Home-Colorado",
    "Work At Home-Florida",
    "Work At Home-Wyoming",
-   "Work At Home-Delaware"
+   "Work At Home-Delaware",
+   "(description says remote anywhere in the US)"
   ],
   "workplace": "Remote",
   "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/FL---Work-from-home/Lead-Director-Product-Membership_R1081048",
