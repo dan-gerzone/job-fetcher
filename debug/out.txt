@@ -1,28 +1,25 @@
-national director: [["Director of Product Strategy, Commerce", ["United States, California, Mountain View", "United States, Washington, Redmond"], "onsite"], ["Creative Director, Advertising Copy", ["United States, Washington, Redmond", "United States, California, Mountain View"], "onsite"], ["Director, Relationship Marketing Ops & Capabilities", ["United States, Washington, Redmond", "United States, California, Mountain View"], "onsite"], ["Director, Strategic Accounts- Pharmaceuticals", ["United States, California, San Francisco"], "onsite"], ["Director, Cost Management - Air Gap Cloud", ["United States, Multiple Locations, Multiple Locations"], "onsite"], ["Collections Director - Treasury", ["United States, Washington, Redmond"], "onsite"], ["Director of Sales Strategy Enablement", ["United States, Multiple Locations, Multiple Locations"], "onsite"], ["Finance Director, Microsoft Elevate", ["United States, Washington, Redmond"], "onsite"], ["Director of Product Marketing - Azure Databricks", ["United States, Washington, Redmond", "United States, California, San Francisco"], "onsite"], ["Director of Product Marketing, Copilot Studio Growth", ["United States, Washington, Redmond", "United States, California, Mountain View"], "onsite"]]
-details top keys: ['status', 'error', 'data', 'metadata'] data keys: ['id', 'displayJobId', 'name', 'locations', 'standardizedLocations', 'postedTs', 'stars', 'department', 'creationTs', 'jobDescription', 'location', 'isHot', 'workLocationOption', 'locationFlexibility', 'atsJobId', 'positionUrl', 'publicUrl', 'efcustomTextWorkSite', 'efcustomTextRequiredTravel', 'efcustomTextCurrentProfession', 'efcustomTextTaDisciplineName', 'efcustomTextRoletype', 'efcustomTextEmploymentType', 'jdHighlight', 'positionExtraDetails', 'positionUserActions']
-  id: '1970393557040463'
-  displayJobId: '200061756'
-  name: 'Director of Product Strategy, Commerce'
-  locations: "['United States, California, Mountain View', 'United States, Washington, Redmond']"
-  standardizedLocations: "['Mountain View, CA, US', 'Redmond, WA, US']"
-  postedTs: '1793646808'
-  stars: '0'
-  department: 'Business Strategy'
-  creationTs: '1791927283'
-  jobDescription: '<b>Overview</b><br><div dir="ltr"><p>Microsoft Commerce is placing large bets across Consumer, Merchant, Partner, and Payments in a market being reshaped by agentic commerce and a live contest over th'
-  location: 'United States, California, Mountain View'
-  isHot: '0'
-  workLocationOption: 'onsite'
-  locationFlexibility: 'None'
-  atsJobId: '200061756'
-  positionUrl: '/careers/job/1970393557040463'
-  publicUrl: 'https://apply.careers.microsoft.com/careers/job/1970393557040463'
-  efcustomTextWorkSite: "['4 days / week in-office']"
-  efcustomTextRequiredTravel: "['Less than 25%']"
-  efcustomTextCurrentProfession: "['Business Development & Ventures']"
-  efcustomTextTaDisciplineName: "['Business Strategy']"
-  efcustomTextRoletype: "['Individual Contributor']"
-  efcustomTextEmploymentType: "['Full-Time']"
-  jdHighlight: '[]'
-  positionExtraDetails: "{'videos': [{'url': 'https://www.youtube-nocookie.com/embed/3zVUrcGVTrw', 'title': 'Our mission', 'description': '220,000 employees empowering 8,000,000,000 people on the planet. To make every small b"
-  positionUserActions: "{'isSaved': False, 'applyAction': {'status': 'log_in'}}"
+elv | Government Relations Director Senior | DC-WASHINGTON, 1001 PENNSYLVANIA AVE NW, STE 710; CA-WOODLAND HILLS, 21215 BURBANK BLVD; N |  Please note that per our policy on hybrid/virtual work, candidates not within a reasonable commuting distance from the posting lo
+elv | Business Change Director - Carelon Payment Integrity | IN-INDIANAPOLIS, 220 VIRGINIA AVE; GA-ATLANTA, 740 W PEACHTREE ST NW; FL-TAMPA, 5411 SKYCE |  combines structured office engagement with the autonomy of virtual work, promoting a dynamic and adaptable workplace. Alternate locations may be c
+elv | Director Strategic Initiatives | GA-ATLANTA, 740 W PEACHTREE ST NW |  combines structured office engagement with the autonomy of virtual work, promoting a dynamic and adaptable workplace. Alternate locations may be c
+elv | Director Continuous Value Improvement | IN-INDIANAPOLIS, 220 VIRGINIA AVE; CA-WOODLAND HILLS, 21215 BURBANK BLVD; WI-Waukesha, N17 |  combines structured office engagement with the autonomy of virtual work, promoting a dynamic and adaptable workplace. Alternate locations may be c
+elv | Staff VP Digital Claims Operations | IN-INDIANAPOLIS, 220 VIRGINIA AVE; California - Woodland Hills; Virginia - Norfolk; Virgin |  combines structured office engagement with the autonomy of virtual work, promoting a dynamic and adaptable workplace. Alternate locations may be c
+elv | Clinical Programs Director | NY-LATHAM, 15 PLAZA DR; GA-ATLANTA, 740 W PEACHTREE ST NW; NJ-ISELIN, 111 S WOOD AVE, STE  |  combines structured office engagement with the autonomy of virtual work, promoting a dynamic and adaptable workplace. Alternate locations may be c
+elv | Trade Director CarelonRx | FL-LAKE MARY, 3200 LAKE EMMA RD, STE 1000 |  combines structured office engagement with the autonomy of virtual work, promoting a dynamic and adaptable workplace. Alternate locations may be c
+cen | Director, Product Performance | Remote-NC | ime off plus holidays, and a flexible approach to work with remote, hybrid, field or office work schedules. Actual pay will be adjusted based on a
+cen | Director, Business Operations | Remote-FL; Remote-GA; Remote-MO; Remote-MI; Remote-KY | ime off plus holidays, and a flexible approach to work with remote, hybrid, field or office work schedules. Actual pay will be adjusted based on a
+cen | Director, Provider Grievance & Appeals | Remote-FL | ime off plus holidays, and a flexible approach to work with remote, hybrid, field or office work schedules. Actual pay will be adjusted based on a
+cen | Vice President, Enterprise PMO | Remote-KY; Remote-MO | ime off plus holidays, and a flexible approach to work with remote, hybrid, field or office work schedules. Actual pay will be adjusted based on a
+cen | Vice President, Enterprise Business Platforms, Membership En | Remote-MO | ime off plus holidays, and a flexible approach to work with remote, hybrid, field or office work schedules. Actual pay will be adjusted based on a
+cen | Senior Director, Provider Network Performance | Remote-NY; Remote-CT; Remote-NJ | This is a remote position but does require travel into the NY offices, so would prefer a candida
+cen | Senior Director, Third Party Risk Management | Remote-MO | tails: Applicants for this job have the flexibility to work remote from home anywhere in the Continental United States. A Certified Internal Audit
+cen | Director, AI Vendor Integrations & Standards | Remote-MO; Remote-GA; Remote-NE; Remote-FL; Remote-WA State; Remote-NY; Remote-SC; Remote- | company, and to change healthcare for the better! This is a remote role within the United States, requiring business travel 2-3 times per quarter.
+cen | Vice President, Ambetter Market Product Development & Manage | Remote-MO | ime off plus holidays, and a flexible approach to work with remote, hybrid, field or office work schedules. Actual pay will be adjusted based on a
+cen | Director, Quality Improvement | Remote-IN | -
+cen | Senior Director, Utilization Management Strategy & Innovatio | Remote-MO; Remote-NY; Remote-FL; Remote-CA | ime off plus holidays, and a flexible approach to work with remote, hybrid, field or office work schedules. Actual pay will be adjusted based on a
+cen | Chief Operating Officer, Illinois Health Practice Alliance | Remote-IL | ime off plus holidays, and a flexible approach to work with remote, hybrid, field or office work schedules. Actual pay will be adjusted based on a
+cen | Vice President, Operations (Arkansas Total Care) | Little Rock - 1001 Technology Dr (11089) | ime off plus holidays, and a flexible approach to work with remote, hybrid, field or office work schedules. Actual pay will be adjusted based on a
+cen | VP, Network Strategy and Management Solutions | Remote-MO; Remote-NY; Remote-TX; Remote-FL; Remote-CA | ime off plus holidays, and a flexible approach to work with remote, hybrid, field or office work schedules. Actual pay will be adjusted based on a
+cen | Vice President, Member Enrollment & Billing | Remote-MO | ime off plus holidays, and a flexible approach to work with remote, hybrid, field or office work schedules. Actual pay will be adjusted based on a
+cen | Vice President, Contact Center Platforms | Remote-FL |  Advances conversational AI, virtual assistants, intelligent routing, and speech technologies to enhance customer in
+cen | Vice President, Interoperability Strategy and Operations | Remote-NC | ime off plus holidays, and a flexible approach to work with remote, hybrid, field or office work schedules. Actual pay will be adjusted based on a
+cen | Vice President, Clinical Technology UM Portfolio Management | Remote-MO | ime off plus holidays, and a flexible approach to work with remote, hybrid, field or office work schedules. Actual pay will be adjusted based on a
