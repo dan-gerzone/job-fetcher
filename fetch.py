@@ -329,6 +329,8 @@ def workable(acct):
 RE_DESC_REMOTE = re.compile(r"work virtually|virtual:|fully remote|100% remote|remote position|remote role|"
                             r"work remotely|work from home|work at home|remote[- ]first|remote eligible|"
                             r"remote within the (us|u\.s\.|united states)|remote,? (us|u\.s\.|united states)", re.I)
+RE_NATIONWIDE = re.compile(r"anywhere in the (continental )?(us|u\.s\.|united states)|remote role within the (us|united states)|"
+                           r"remote (from home )?(anywhere )?(within|across) the (continental )?(us|united states)|nationwide", re.I)
 WD_FULL = set()   # Workday prefixes whose complete posting list was read (absence => closed)
 
 
@@ -385,9 +387,12 @@ def workday(w):
             rt = (p.get("remoteType") or "") + " " + " ".join(locs)
             remote = True if (re.search(r"remote|work at home|work from home|virtual", rt, re.I)
                               or RE_DESC_REMOTE.search(t[:4000])) else None
-            if not loc_ok(locs, remote, w.get("stateRestrictedRemote", False)):
+            nationwide = bool(RE_NATIONWIDE.search(t))
+            if nationwide:
+                locs = locs + ["(description says remote anywhere in the US)"]
+            if not loc_ok(locs, remote, w.get("stateRestrictedRemote", False) and not nationwide):
                 continue
-            if remote and not RE_REMOTE.search(" ".join(locs)):
+            if remote and not RE_REMOTE.search(" ".join(locs)) and not nationwide:
                 locs = locs + ["(description says remote/virtual)"]
             out.append(cand(id=did, source=f"workday-{w['prefix']}", board=w["tenant"], company=w["company"],
                             title=p.get("title") or x.get("title"), locations=locs, workplace=p.get("remoteType", ""),
