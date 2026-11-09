@@ -1,0 +1,36 @@
+{
+  "greenhouse": ["komodohealth", "datavant2", "truveta", "flatironhealth", "oscar", "garnerhealth", "coherehealth", "machinifyinc", "pathai", "omadahealth", "rightway", "strivehealth", "freenome", "elationhealth", "zocdoc", "mavenclinic", "akidolabs", "mainstreethealth", "healthie", "oshihealth", "modernhealth", "healthjoy", "cortica", "prenuvo", "healthverity", "firsthand", "sidecarhealth", "onemedical"],
+  "lever": ["arcadia", "aledade", "h1", "clarifyhealth", "ribbon", "includedhealth", "zushealth", "nomihealth", "everlywell", "ro", "lyrahealth"],
+  "ashby": ["turquoise-health", "abridge", "commure", "candidhealth", "healthgorilla", "notable", "infinitus", "tennr", "ambiencehealthcare", "headway", "grow-therapy", "pomelo-care", "cedar", "openevidence", "nirvana", "stedi", "vori", "develop-health", "finni-health", "nabla", "rula", "sprinter-health", "sondermind", "assorthealth", "virtahealth", "talkiatry", "centivo", "pearlhealth", "hellopatient", "stellar-health", "certifyos"],
+  "workable": [{"account": "innovaccer-analytics", "company": "Innovaccer"}],
+  "workday": [
+    {"prefix": "elv", "company": "Elevance Health", "host": "elevancehealth.wd1.myworkdayjobs.com", "tenant": "elevancehealth", "site": "ANT"},
+    {"prefix": "hum", "company": "Humana", "host": "humana.wd5.myworkdayjobs.com", "tenant": "humana", "site": "Humana_External_Career_Site"},
+    {"prefix": "cvs", "company": "CVS Health", "host": "cvshealth.wd1.myworkdayjobs.com", "tenant": "cvshealth", "site": "CVS_Health_Careers"},
+    {"prefix": "cen", "company": "Centene", "host": "centene.wd5.myworkdayjobs.com", "tenant": "centene", "site": "Centene_External", "stateRestrictedRemote": true},
+    {"prefix": "evo", "company": "Evolent", "host": "evolent.wd1.myworkdayjobs.com", "tenant": "evolent", "site": "External"},
+    {"prefix": "hc", "company": "Health Catalyst", "host": "healthcatalyst.wd5.myworkdayjobs.com", "tenant": "healthcatalyst", "site": "healthcatalystcareers"}
+  ],
+  "workdayQueries": ["analytics", "data", "insights", "provider data", "data product", "informatics", "reporting", "director", "vice president"],
+  "uhgQueries": ["director analytics", "director data", "vice president analytics", "vice president data", "director insights", "director product data", "provider data", "director informatics", "director reporting", "head of analytics", "value-based care analytics"],
+  "zelisQueries": ["director", "vice president", "head of", "analytics"],
+  "amazon": {
+    "nationalQueries": ["healthcare analytics", "healthcare data", "One Medical analytics", "clinical data"],
+    "coloradoQueries": ["analytics", "business intelligence", "insights", "data strategy", "product", "director", "head of"]
+  },
+  "google": {
+    "remoteQueries": ["health", "healthcare", "clinical", "Fitbit", "life sciences", "Google Health", "Verily"],
+    "coloradoLocations": ["Boulder, CO, USA", "Denver, CO, USA"],
+    "coloradoQueries": ["analytics", "data", "insights", "data strategy", "business intelligence", "product manager", "program manager"]
+  },
+  "microsoft": {
+    "coloradoQueries": ["analytics", "data", "director", "healthcare"],
+    "nationalQueries": ["healthcare data"]
+  },
+  "filters": {
+    "level": "\\b(director|head of|head,|vp\\b|vice president|chief|group product manager|svp|evp)\\b",
+    "levelGoogleExtra": "\\b(lead|principal)\\b",
+    "dropLevel": "associate director|assistant director|associate vice president|\\bavp\\b",
+    "excludeTitle": "sales|account (exec|manag|director)|strategic accounts?|business development|partnership|contract|negotiat|marketing|recruit|legal|counsel|litigation|finance|fp&a|financial planning|accounting|controller|medical director|chief medical|\\bnurs|clinical operations|pharmac|engineer|software|security|infrastructure|data center|architect|customer success|client success|machine learning|\\bml\\b|scientist|data science|revenue|people|talent|\\bhr\\b|human resources|total rewards|tax|treasury|payroll|brand|communications|social media|creative|devops|facilities|real estate|procurement|supply chain|manufacturing|regulatory|compliance|privacy|actuar|underwrit|audit|cyber|cloud|physician|therap|psychiatr|government affairs|public affairs|state affairs|chief of staff|leave of absence|workforce management|learning & development|learning and development|clinical director|clinical training|care management|hospice|telecom|network engineering|fiber"
+  }
+}
