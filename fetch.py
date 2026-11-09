@@ -648,15 +648,39 @@ def verify_one(item):
     return "open"
 
 
-def verify_tracked():
-    path = os.path.join(ROOT, "tracked.json")
-    if not os.path.exists(path):
-        return {}
-    items = json.load(open(path))
-    res = {}
+def verify_all(cands, today):
+    """Closure check without help from Claude.
+
+    data/history.json remembers every listing ever passed on as a candidate (plus any
+    ids in tracked.json, if present). A remembered listing still in today's candidates
+    or in its source's id list is open; otherwise its family list / URL is checked.
+    Closed listings stay closed and are not re-checked."""
+    hpath = os.path.join(OUT, "history.json")
+    hist = json.load(open(hpath)) if os.path.exists(hpath) else {}
+    for c in cands:
+        h = hist.setdefault(c["id"], {"url": c.get("url") or "", "firstSeen": today})
+        h["url"] = c.get("url") or h.get("url", "")
+        h["lastListed"] = today
+        h.pop("closed", None)
+    tpath = os.path.join(ROOT, "tracked.json")
+    if os.path.exists(tpath):
+        for it in json.load(open(tpath)):
+            hist.setdefault(it["id"], {"url": it.get("url", ""), "firstSeen": today})
+    cand_ids = {c["id"] for c in cands}
+    res, todo = {}, []
+    for i, h in hist.items():
+        if h.get("closed"):
+            res[i] = "closed"
+        elif i in cand_ids:
+            res[i] = "open"
+        else:
+            todo.append({"id": i, "url": h.get("url", "")})
     with cf.ThreadPoolExecutor(6) as ex:
-        for it, st in zip(items, ex.map(verify_one, items)):
+        for it, st in zip(todo, ex.map(verify_one, todo)):
             res[it["id"]] = st
+            if st == "closed":
+                hist[it["id"]]["closed"] = today
+    json.dump(dict(sorted(hist.items())), open(hpath, "w"), indent=0)
     return res
 
 
@@ -682,7 +706,7 @@ def main():
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     json.dump(cands, open(os.path.join(OUT, "candidates.json"), "w"), indent=1)
     json.dump({k: sorted(v) for k, v in sorted(ALL_IDS.items())}, open(os.path.join(OUT, "all_ids.json"), "w"))
-    verify = verify_tracked()
+    verify = verify_all(cands, now[:10])
     json.dump({"checkedAt": now, "status": verify}, open(os.path.join(OUT, "verify.json"), "w"), indent=1)
     run = {"fetchedAt": now, "sources": len(tasks), "sourcesFailed": len(ERRORS), "candidates": len(cands),
            "errors": ERRORS, "counts": dict(sorted(COUNTS.items()))}

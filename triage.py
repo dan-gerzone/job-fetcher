@@ -6,7 +6,7 @@ exporting the tracker's "jobs" collection with ArtifactData (out_dir).
 
   triage.py summary  --data D --tracker T --reviewed R.json   # what's new / closed / changed
   triage.py show ID [ID ...] --data D                         # full detail for chosen candidates
-  triage.py tracked --tracker T > tracked.json                # open rows for the fetcher to re-check
+  triage.py tracked --tracker T > tracked.json                # optional: seed extra ids for closure checks
   triage.py reviewed ID... --reviewed R.json > merged.json     # meta/reviewed with new ids appended
 """
 import argparse
