@@ -562,15 +562,25 @@ def microsoft():
     host = "https://apply.careers.microsoft.com"
     found = {}
     reqs = [(q, "Denver, Colorado, United States") for q in m["coloradoQueries"]] + [(q, "United States") for q in m["nationalQueries"]]
+    last_err = None
     for q, loc in reqs:
         for start in range(0, 100, 10):
-            j = jget(f"{host}/api/pcsx/search?domain=microsoft.com&query={urllib.parse.quote(q)}&location={urllib.parse.quote(loc)}&start={start}&filter_include_remote=1")
+            try:
+                j = jget(f"{host}/api/pcsx/search?domain=microsoft.com&query={urllib.parse.quote(q)}&location={urllib.parse.quote(loc)}&start={start}&filter_include_remote=1")
+            except Exception as e:  # rate limited: keep what we have, move on
+                last_err = e
+                time.sleep(15)
+                break
             ps = (j.get("data") or {}).get("positions") or []
-            time.sleep(2)
+            time.sleep(3)
             for p in ps:
                 found[str(p["id"])] = p
             if len(ps) < 10:
                 break
+    if not found and last_err:
+        raise last_err
+    if last_err:
+        COUNTS["microsoft:partial"] = str(last_err)[:80]
     note_ids("msft", [f"msft-{k}" for k in found])
     COUNTS["microsoft:all"] = len(found)
     out = []
