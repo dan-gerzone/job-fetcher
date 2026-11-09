@@ -1,19 +1,24 @@
 #!/usr/bin/env python3
 """Temporary diagnostics. Writes debug/out.txt."""
-import json, os, sys, urllib.parse
+import os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import fetch as F
 OUT = []
-host = "https://apply.careers.microsoft.com"
-j = F.jget(f"{host}/api/pcsx/search?domain=microsoft.com&query=director&location=United%20States&start=0&filter_include_remote=1")
-ps = (j.get("data") or {}).get("positions") or []
-OUT.append("national director: " + json.dumps([(p.get("name"), p.get("locations", [])[:2], p.get("workLocationOption")) for p in ps])[:1500])
-if ps:
-    k = ps[0]["id"]
-    d = F.jget(f"{host}/api/pcsx/position_details?position_id={k}&domain=microsoft.com&hl=en")
-    dd = d.get("data") or {}
-    OUT.append("details top keys: " + str(list(d.keys())) + " data keys: " + str(list(dd.keys()) if isinstance(dd, dict) else type(dd)))
-    for key, v in (dd.items() if isinstance(dd, dict) else []):
-        OUT.append(f"  {key}: {str(v)[:200]!r}")
+for w in F.CFG["workday"]:
+    if w["prefix"] not in ("elv", "cen"):
+        continue
+    base = f"https://{w['host']}/wday/cxs/{w['tenant']}/{w['site']}"
+    seen = []
+    for off in range(0, 400, 20):
+        jp = F.jget(f"{base}/jobs", data={"appliedFacets": {}, "limit": 20, "offset": off, "searchText": ""}).get("jobPostings") or []
+        seen += jp
+        if len(jp) < 20: break
+    for x in seen:
+        if not F.title_ok(x.get("title")): continue
+        p = F.jget(base + x["externalPath"]).get("jobPostingInfo") or {}
+        locs = [p.get("location", "")] + list(p.get("additionalLocations") or [])
+        t = F.text_of(p.get("jobDescription"))
+        m = re.search(r".{0,60}(virtual|remote|work from home).{0,80}", t[:4000], re.I)
+        OUT.append(f"{w['prefix']} | {x['title'][:60]} | {'; '.join(locs)[:90]} | {m.group(0) if m else '-'}")
 os.makedirs("debug", exist_ok=True)
 open("debug/out.txt", "w").write("\n".join(OUT))

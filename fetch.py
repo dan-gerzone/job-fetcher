@@ -561,7 +561,7 @@ def microsoft():
         for start in range(0, 100, 10):
             j = jget(f"{host}/api/pcsx/search?domain=microsoft.com&query={urllib.parse.quote(q)}&location={urllib.parse.quote(loc)}&start={start}&filter_include_remote=1")
             ps = (j.get("data") or {}).get("positions") or []
-            time.sleep(1)
+            time.sleep(2)
             for p in ps:
                 found[str(p["id"])] = p
             if len(ps) < 10:
@@ -579,12 +579,17 @@ def microsoft():
             continue
         t = ""
         try:
+            time.sleep(2)
             d = jget(f"{host}/api/pcsx/position_details?position_id={k}&domain=microsoft.com&hl=en")
-            t = text_of(((d.get("data") or {}).get("jobDescription")) or json.dumps(d)[:8000])
+            dd = d.get("data") or {}
+            t = text_of(dd.get("jobDescription") or "")
+            ws = " ".join(dd.get("efcustomTextWorkSite") or [])
+            if ws:
+                wl = f"{wl} ({ws})" if wl else ws
         except Exception:
             pass
         out.append(cand(id=f"msft-{k}", source="microsoft", company="Microsoft", title=title, locations=locs, workplace=wl,
-                        url=f"{host}/careers?pid={k}", posted=norm_date(p.get("postedTs")), pay=pay_snips(t),
+                        url=f"{host}/careers/job/{k}", posted=norm_date(p.get("postedTs")), pay=pay_snips(t),
                         eligibility=[], excerpt=excerpt(t)))
     return out
 
