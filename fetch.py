@@ -619,6 +619,310 @@ def icims(c):
     return out
 
 
+def _sample(key, rows, title_key):
+    if rows:
+        r = rows[0]
+        COUNTS[f"{key}:sample"] = str(r.get(title_key) if isinstance(r, dict) else r)[:70]
+
+
+def paylocity(c):
+    base = "https://recruiting.paylocity.com"
+    page = http(f"{base}/recruiting/jobs/All/{c['guid']}/x", headers={"Accept": "text/html"})
+    m = re.search(r"window\.pageData\s*=\s*(\{.*?\});\s*</script>", page, re.S) or re.search(r"window\.pageData\s*=\s*(\{.*\})\s*;", page)
+    rows = (json.loads(m.group(1)) if m else {}).get("Jobs") or []
+    if not m:
+        raise RuntimeError("pageData not found")
+    fam = f"pl-{c['prefix']}"
+    note_ids("pl", [f"{fam}-{r['JobId']}" for r in rows])
+    COUNTS[f"paylocity:{c['prefix']}:all"] = len(rows)
+    _sample(f"paylocity:{c['prefix']}", rows, "JobTitle")
+    out = []
+    for r in rows:
+        if not title_ok(r.get("JobTitle")):
+            continue
+        l = r.get("JobLocation") or {}
+        locs = [r.get("LocationName") or "", ", ".join(x for x in (l.get("City"), l.get("State")) if x)]
+        remote = True if r.get("IsRemote") else None
+        if not loc_ok(locs, remote):
+            continue
+        url = f"{base}/Recruiting/Jobs/Details/{r['JobId']}"
+        t = text_of(http(url, headers={"Accept": "text/html"}))
+        i = t.find(r["JobTitle"])
+        body = t[i:] if i >= 0 else t
+        if remote:
+            locs.append("Remote")
+        out.append(cand(id=f"{fam}-{r['JobId']}", source="paylocity", company=c["company"], title=r["JobTitle"], locations=locs,
+                        url=url, posted=norm_date(r.get("PublishedDate")), pay=pay_snips(body), eligibility=elig_snips(body),
+                        excerpt=excerpt(body[:6000])))
+    return out
+
+
+def adp(c):
+    api = "https://workforcenow.adp.com/mascsr/default/careercenter/public/events/staffing/v1/job-requisitions"
+    q = f"cid={c['cid']}&ccId=19000101_000001&lang=en_US&locale=en_US"
+    rows = jget(f"{api}?{q}&$top=200").get("jobRequisitions") or []
+    fam = f"adp-{c['prefix']}"
+    note_ids("adp", [f"{fam}-{r.get('itemID')}" for r in rows])
+    COUNTS[f"adp:{c['prefix']}:all"] = len(rows)
+    _sample(f"adp:{c['prefix']}", rows, "requisitionTitle")
+    out = []
+    for r in rows:
+        title = r.get("requisitionTitle") or ""
+        if not title_ok(title):
+            continue
+        locs = []
+        for l in r.get("requisitionLocations") or []:
+            a = l.get("address") or {}
+            locs.append((l.get("nameCode") or {}).get("shortName") or "")
+            locs.append(", ".join(x for x in (a.get("cityName"), (a.get("countrySubdivisionLevel1") or {}).get("codeValue")) if x))
+        blob = json.dumps(r)
+        remote = True if re.search(r"remote|telecommut|virtual", blob, re.I) else None
+        if not loc_ok(locs, remote):
+            continue
+        try:
+            d = jget(f"{api}/{r['itemID']}?{q}")
+        except Exception:
+            d = {}
+        t = text_of(d.get("requisitionDescription") or "")
+        pay = pay_snips(t) or pay_snips(" ".join(f"${x.get('amountValue'):,.0f}" for x in [((r.get('payGradeRange') or {}).get('minimumRate') or {}), ((r.get('payGradeRange') or {}).get('maximumRate') or {})] if isinstance(x.get('amountValue'), (int, float))))
+        post = next((f.get("dateValue") for f in ((r.get("customFieldGroup") or {}).get("dateFields") or []) if (f.get("nameCode") or {}).get("codeValue") == "PostingDate"), r.get("postDate"))
+        if remote:
+            locs.append("(posting mentions remote)")
+        out.append(cand(id=f"{fam}-{r['itemID']}", source="adp", company=c["company"], title=title, locations=locs,
+                        url=f"https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid={c['cid']}&ccId=19000101_000001&jobId={r['itemID'].split('_')[0]}&lang=en_US",
+                        posted=norm_date(post), pay=pay, eligibility=elig_snips(t), excerpt=excerpt(t)))
+    return out
+
+
+def ukg(c):
+    base = f"https://recruiting2.ultipro.com/{c['board']}"
+    rows, skip = [], 0
+    while True:
+        j = jget(f"{base}/JobBoardView/LoadSearchResults", data={
+            "opportunitySearch": {"Top": 50, "Skip": skip, "QueryString": "", "OrderBy": [{"Value": "postedDateDesc", "PropertyName": "PostedDate", "Ascending": False}], "Filters": []},
+            "matchCriteria": {"PreferredJobs": [], "Educations": [], "LicenseAndCertifications": [], "Skills": [], "hasNoLicenses": False, "SkippedSkills": []}})
+        got = j.get("opportunities") or []
+        rows += got
+        skip += 50
+        if len(got) < 50 or skip > 1500:
+            break
+    fam = f"ukg-{c['prefix']}"
+    note_ids("ukg", [f"{fam}-{r['Id']}" for r in rows])
+    COUNTS[f"ukg:{c['prefix']}:all"] = len(rows)
+    out = []
+    for r in rows:
+        title = r.get("Title") or ""
+        if not title_ok(title):
+            continue
+        locs = []
+        for l in r.get("Locations") or []:
+            a = l.get("Address") or {}
+            locs.append(", ".join(x for x in (a.get("City"), (a.get("State") or {}).get("Code")) if x))
+        remote = True if (RE_REMOTE.search(title) or str(r.get("JobLocationType")) == "3") else None
+        if not loc_ok(locs, remote):
+            continue
+        url = f"{base}/OpportunityDetail?opportunityId={r['Id']}"
+        raw = http(url, headers={"Accept": "text/html"})
+        m = re.search(r'"Description"\s*:\s*"((?:[^"\\]|\\.)*)"', raw)
+        t = text_of(json.loads('"' + m.group(1) + '"')) if m else text_of(raw)
+        t = t or (r.get("BriefDescription") or "")
+        if remote:
+            locs.append("Remote")
+        out.append(cand(id=f"{fam}-{r['Id']}", source="ukg", company=c["company"], title=title, locations=locs, url=url,
+                        posted=norm_date(r.get("PostedDate")), pay=pay_snips(t), eligibility=elig_snips(t), excerpt=excerpt(t)))
+    return out
+
+
+def oracle(c):
+    api = f"https://{c['host']}/hcmRestApi/resources/latest"
+    rows = {}
+    for q in CFG["keywordQueries"]:
+        for off in range(0, 600, 200):
+            f = f"findReqs;siteNumber={c['site']},facetsList=NONE,limit=200,offset={off},keyword={urllib.parse.quote(q)},sortBy=POSTING_DATES_DESC"
+            j = jget(f"{api}/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations&finder={f}")
+            it = (j.get("items") or [{}])[0]
+            got = it.get("requisitionList") or []
+            for r in got:
+                rows[str(r["Id"])] = r
+            if len(got) < 200:
+                break
+    fam = f"or-{c['prefix']}"
+    note_ids("or", [f"{fam}-{k}" for k in rows])
+    COUNTS[f"oracle:{c['prefix']}:all"] = len(rows)
+    out = []
+    for k, r in rows.items():
+        title = r.get("Title") or ""
+        if not title_ok(title, broad=c.get("broad", False)):
+            continue
+        locs = [r.get("PrimaryLocation") or ""] + [s.get("Name") or "" for s in (r.get("secondaryLocations") or [])]
+        wt = str(r.get("WorkplaceType") or r.get("WorkplaceTypeCode") or "")
+        remote = True if (re.search(r"remote", wt, re.I) or RE_REMOTE.search(title)) else None
+        d = {}
+        try:
+            fd = urllib.parse.quote(f'ById;Id="{k}",siteNumber={c["site"]}')
+            d = (jget(f"{api}/recruitingCEJobRequisitionDetails?expand=all&onlyData=true&finder={fd}").get("items") or [{}])[0]
+        except Exception:
+            pass
+        t = text_of(" ".join(str(d.get(x) or "") for x in ("ExternalDescriptionStr", "ExternalResponsibilitiesStr", "ExternalQualificationsStr", "CorporateDescriptionStr")))
+        if remote is None and RE_DESC_REMOTE.search(t[:5000]):
+            remote = True
+        if not loc_ok(locs, remote):
+            continue
+        if remote and not RE_REMOTE.search(" ".join(locs)):
+            locs.append(f"(remote: {wt or 'per posting'})")
+        out.append(cand(id=f"{fam}-{k}", source="oracle", company=c["company"], title=title, locations=locs, workplace=wt,
+                        url=f"https://{c['host']}/hcmUI/CandidateExperience/en/sites/{c['site']}/job/{k}",
+                        posted=norm_date(r.get("PostedDate")), pay=pay_snips(t), eligibility=elig_snips(t), excerpt=excerpt(t)))
+    return out
+
+
+def breezy(c):
+    rows = jget(f"https://{c['slug']}.breezy.hr/json")
+    note_ids("bz", [f"bz-{r['id']}" for r in rows])
+    COUNTS[f"breezy:{c['slug']}:all"] = len(rows)
+    out = []
+    for r in rows:
+        if not title_ok(r.get("name")):
+            continue
+        l = r.get("location") or {}
+        locs = [l.get("name") or ""]
+        remote = True if l.get("is_remote") else None
+        if not loc_ok(locs, remote):
+            continue
+        t = text_of(http(r["url"], headers={"Accept": "text/html"}))
+        i = t.find(r["name"])
+        body = t[i:] if i >= 0 else t
+        if remote:
+            locs.append("Remote")
+        out.append(cand(id=f"bz-{r['id']}", source="breezy", company=c["company"], title=r["name"], locations=locs, url=r["url"],
+                        posted=norm_date(r.get("published_date")), pay=([r["salary"]] if r.get("salary") else pay_snips(body)),
+                        eligibility=elig_snips(body), excerpt=excerpt(body[:6000])))
+    return out
+
+
+def govjobs(c):
+    """NEOGOV (governmentjobs.com) state job board, limited to the departments in c['departments']."""
+    base = "https://www.governmentjobs.com"
+    dep = re.compile(c["departments"], re.I)
+    rows = {}
+    for q in ("director", "chief", "analytics", "data"):
+        for pg in range(1, 9):
+            page = http(f"{base}/careers/home/index?agency={c['agency']}&keyword={q}&sort=PostingDate&isDescendingSort=true&page={pg}",
+                        headers={"X-Requested-With": "XMLHttpRequest", "Accept": "text/html"})
+            items = re.split(r'<li class="list-item"', page)[1:]
+            new = 0
+            for it in items:
+                m = re.search(r'data-job-id="(\d+)"', it)
+                a = re.search(r'class="item-details-link"[^>]*?data-department-name="([^"]*)"[^>]*?href="([^"]+)"[^>]*>(.*?)</a>', it, re.S)
+                if not m or not a or m.group(1) in rows:
+                    continue
+                meta = [re.sub(r"\s+", " ", text_of(x)).strip() for x in re.findall(r"<li>(.*?)</li>", (re.search(r'<ul class="list-meta">(.*?)</ul>', it, re.S) or [None, ""])[1], re.S)]
+                rows[m.group(1)] = {"dept": html.unescape(a.group(1)), "href": a.group(2), "title": re.sub(r"\s+", " ", text_of(a.group(3))).strip(), "meta": meta}
+                new += 1
+            if not new:
+                break
+    fam = f"gj-{c['agency']}"
+    note_ids("gj", [f"{fam}-{k}" for k in rows])
+    COUNTS[f"govjobs:{c['agency']}:all"] = len(rows)
+    out = []
+    for k, r in rows.items():
+        if not dep.search(r["dept"]) or not title_ok(r["title"]):
+            continue
+        url = base + r["href"]
+        t = text_of(http(url, headers={"Accept": "text/html"}))
+        i = t.find("Department Information")
+        body = t[i:] if i >= 0 else t
+        pay = [m for m in r["meta"] if "$" in m][:1] or pay_snips(body)
+        locs = [m for m in r["meta"] if "$" not in m and not m.lower().startswith("department")][:2] or ["Colorado"]
+        if not RE_CO.search(" ".join(locs)):
+            locs.append("Colorado (state government)")
+        out.append(cand(id=f"{fam}-{k}", source="govjobs", company=f"{c['company']} - {r['dept']}", title=r["title"], locations=locs,
+                        url=url, posted="", pay=pay, eligibility=elig_snips(body), excerpt=excerpt(body[:6000])))
+    return out
+
+
+def successfactors(c):
+    """SAP SuccessFactors career sites (jobs.<company>.com/search/?q=...)."""
+    host = "https://" + c["host"]
+    rows = {}
+    for q in CFG["keywordQueries"]:
+        for start in range(0, 250, 25):
+            page = http(f"{host}/search/?q={urllib.parse.quote(q)}&sortColumn=referencedate&sortDirection=desc&startrow={start}", headers={"Accept": "text/html"})
+            trs = re.split(r'<tr class="data-row', page)[1:]
+            for tr in trs:
+                a = re.search(r'<a[^>]*href="(/job/[^"]+?/(\d+)/?)"[^>]*class="jobTitle-link"[^>]*>(.*?)</a>', tr, re.S) or \
+                    re.search(r'<a[^>]*class="jobTitle-link"[^>]*href="(/job/[^"]+?/(\d+)/?)"[^>]*>(.*?)</a>', tr, re.S)
+                if not a:
+                    continue
+                loc = re.search(r'class="jobLocation">\s*([^<]+?)\s*<', tr)
+                date = re.search(r'class="jobDate[^"]*">\s*([^<]+?)\s*<', tr)
+                shift = re.search(r'class="jobShifttype">\s*([^<]*?)\s*<', tr)
+                rows[a.group(2)] = {"href": html.unescape(a.group(1)), "title": html.unescape(text_of(a.group(3))).strip(),
+                                    "loc": html.unescape(loc.group(1)) if loc else "", "date": date.group(1) if date else "",
+                                    "shift": shift.group(1) if shift else ""}
+            if len(trs) < 25:
+                break
+    if not rows:
+        raise RuntimeError("no rows parsed")
+    fam = f"sf-{c['prefix']}"
+    note_ids("sf", [f"{fam}-{k}" for k in rows])
+    COUNTS[f"successfactors:{c['prefix']}:all"] = len(rows)
+    out = []
+    for k, r in rows.items():
+        if not title_ok(r["title"], broad=c.get("broad", False)):
+            continue
+        locs = [r["loc"]]
+        remote = True if (re.search(r"^any city|remote|virtual", r["loc"] + " " + r["shift"] + " " + r["title"], re.I)) else None
+        if remote is None and not RE_CO.search(r["loc"]):
+            continue
+        t = text_of(http(host + r["href"], headers={"Accept": "text/html"}))
+        i = t.find(r["title"])
+        body = t[i:] if i >= 0 else t
+        if remote:
+            locs.append(f"Remote/virtual ({r['shift']})" if r["shift"] else "Remote/virtual")
+        out.append(cand(id=f"{fam}-{k}", source="successfactors", company=c["company"], title=r["title"], locations=locs,
+                        url=host + r["href"], posted=norm_date(r["date"].strip()), pay=pay_snips(body),
+                        eligibility=elig_snips(body), excerpt=excerpt(body[:6000])))
+    return out
+
+
+def jibe(c):
+    """iCIMS 'Jibe' career sites (careers.<company>/api/jobs)."""
+    host = "https://" + c["host"]
+    rows, pg, total = {}, 1, None
+    while pg <= 40:
+        j = jget(f"{host}/api/jobs?page={pg}&limit=100&sortBy=posted_date&descending=true", headers={"Referer": host + "/jobs"})
+        got = j.get("jobs") or []
+        for g in got:
+            d = g.get("data") or {}
+            rows[str(d.get("req_id") or d.get("slug"))] = d
+        total = j.get("totalCount") or j.get("count") or total
+        pg += 1
+        if len(got) < 100:
+            break
+    fam = f"jb-{c['prefix']}"
+    note_ids("jb", [f"{fam}-{k}" for k in rows])
+    COUNTS[f"jibe:{c['prefix']}:all"] = len(rows)
+    out = []
+    for k, d in rows.items():
+        title = d.get("title") or ""
+        if not title_ok(title, broad=c.get("broad", False)):
+            continue
+        locs = [d.get("full_location") or d.get("location_name") or "", ", ".join(x for x in (d.get("city"), d.get("state")) if x)]
+        locs += [x.get("location_name") or "" for x in (d.get("additional_locations") or []) if isinstance(x, dict)]
+        t = text_of((d.get("description") or "") + " " + (d.get("qualifications") or "") + " " + (d.get("responsibilities") or ""))
+        tags = json.dumps([d.get(x) for x in ("location_type", "tags1", "tags2", "tags3", "tags4", "employment_type", "categories")])
+        remote = True if (re.search(r"remote|virtual|telecommut", tags + " " + title + " " + " ".join(locs), re.I) or RE_DESC_REMOTE.search(t[:5000])) else None
+        if not loc_ok(locs, remote):
+            continue
+        if remote and not RE_REMOTE.search(" ".join(locs)):
+            locs.append("(posting says remote)")
+        out.append(cand(id=f"{fam}-{k}", source="jibe", company=c["company"], title=title, locations=locs,
+                        url=f"{host}/jobs/{d.get('slug') or k}", posted=norm_date(d.get("posted_date") or d.get("create_date")),
+                        pay=pay_snips(t + " " + str(d.get("salary_value") or "")), eligibility=elig_snips(t), excerpt=excerpt(t)))
+    return out
+
+
 def uhg():
     host = "https://careers.unitedhealthgroup.com"
     rows = {}
@@ -842,7 +1146,8 @@ def verify_one(item):
     if did in ALL_IDS.get(fam, set()):
         return "open"
     FULL = {"gh": "greenhouse", "lv": "lever", "ab": "ashby", "wk": "workable", "sr": "smartrecruiters",
-            "bb": "bamboohr", "rp": "rippling", "ic": "icims"}
+            "bb": "bamboohr", "rp": "rippling", "ic": "icims", "pl": "paylocity", "adp": "adp", "ukg": "ukg",
+            "bz": "breezy", "jb": "jibe"}
     if fam in FULL:
         # full board lists: absent means closed, unless that family had a failed board
         bad = [k for k in ERRORS if k.split(":")[0] == FULL[fam]]
@@ -860,15 +1165,25 @@ def verify_one(item):
         if st == 200 and "jobPostingInfo" in body:
             return "open"
         return "closed" if st in (403, 404, 410) else "unknown"
+    if fam == "or":
+        _, pfx, rid = did.split("-", 2)
+        c = next((c for c in CFG.get("oracle", []) if c["prefix"] == pfx), None)
+        if not c:
+            return "unknown"
+        fd = urllib.parse.quote(f'ById;Id="{rid}",siteNumber={c["site"]}')
+        st, _, body = check_url(f"https://{c['host']}/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails?onlyData=true&finder={fd}")
+        if st != 200:
+            return "unknown"
+        return "open" if '"Id"' in body else "closed"
     st, final, body = check_url(url)
     if st in (404, 410):
         return "closed"
     if st != 200:
         return "unknown"
-    key = did.rsplit("-", 1)[1] if fam == "tb" else did.split("-", 1)[1]
+    key = did.rsplit("-", 1)[1] if fam in ("tb", "sf", "gj") else did.split("-", 1)[1]
     if key not in final and key not in body:
         return "closed"   # redirected to a search page
-    if re.search(r"no longer (available|accepting|open)|position has been filled|job (is )?not found|this job has expired", body, re.I):
+    if re.search(r"no longer (available|accepting|open)|position has been filled|job (is )?not found|this job has expired|job posting has expired|posting is no longer|page you (requested|are looking for) (could not|cannot|can.t) be found", body, re.I):
         return "closed"
     return "open"
 
@@ -924,6 +1239,9 @@ def main():
     tasks += [(f"bamboohr:{c['slug']}", lambda c=c: bamboohr(c)) for c in CFG.get("bamboohr", [])]
     tasks += [(f"rippling:{c['slug']}", lambda c=c: rippling(c)) for c in CFG.get("rippling", [])]
     tasks += [(f"icims:{c['slug']}", lambda c=c: icims(c)) for c in CFG.get("icims", [])]
+    for fam, fn, key in (("paylocity", paylocity, "prefix"), ("adp", adp, "prefix"), ("ukg", ukg, "prefix"), ("oracle", oracle, "prefix"),
+                         ("breezy", breezy, "slug"), ("govjobs", govjobs, "agency"), ("successfactors", successfactors, "prefix"), ("jibe", jibe, "prefix")):
+        tasks += [(f"{fam}:{c[key]}", lambda c=c, fn=fn: fn(c)) for c in CFG.get(fam, [])]
     tasks += [("uhg", uhg), ("zelis", zelis), ("amazon", amazon), ("google", google), ("microsoft", microsoft)]
     with cf.ThreadPoolExecutor(12) as ex:
         futs = {ex.submit(run_source, k, fn): k for k, fn in tasks}
