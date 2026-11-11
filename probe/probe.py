@@ -3,18 +3,20 @@
 import concurrent.futures as cf, json, os, re, ssl, urllib.request
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 CTX = ssl.create_default_context()
-WDN = [1, 2, 3, 5, 10, 12, 101, 102, 103, 104, 105, 106, 107, 108, 501, 502, 503]
+WDN = list(range(1, 13)) + list(range(100, 126)) + list(range(201, 206)) + list(range(501, 511))
 
-def get(url, data=None, timeout=12):
+def get(url, data=None, timeout=12, _retry=True):
     h = {"User-Agent": UA, "Accept": "application/json, text/plain, */*"}
     if data is not None:
-        data = json.dumps(data).encode(); h["Content-Type"] = "application/json"
+        data = json.dumps(data).encode() if not isinstance(data, bytes) else data; h["Content-Type"] = "application/json"
     try:
         with urllib.request.urlopen(urllib.request.Request(url, data=data, headers=h), timeout=timeout, context=CTX) as r:
-            return r.status, r.geturl(), r.read(400000).decode("utf-8", "replace")
+            return r.status, r.geturl(), r.read(30000000).decode("utf-8", "replace")
     except urllib.error.HTTPError as e:
         return e.code, url, ""
     except Exception as e:
+        if _retry:
+            return get(url, data, timeout, _retry=False)
         return 0, url, type(e).__name__
 
 def J(b):
@@ -85,5 +87,5 @@ out = {n: [] for n in T}
 with cf.ThreadPoolExecutor(24) as ex:
     for (n, s), h in zip(pairs, ex.map(lambda p: probe(p[1]), pairs)):
         out[n] += h
-json.dump(out, open(os.path.join(os.path.dirname(__file__), "out.json"), "w"), indent=0)
+json.dump(out, open(os.path.join(os.path.dirname(__file__), "out2.json"), "w"), indent=0)
 print(sum(1 for v in out.values() if v), "of", len(out), "with hits")

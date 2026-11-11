@@ -1,215 +1,99 @@
-# Name: slug guesses
-DaVita: davita
-UCHealth: uchealth
-CommonSpirit Health: commonspirit commonspirithealth
-Intermountain Health: imh intermountain intermountainhealth intermountainhealthcare
-Kaiser Permanente: kp kaiserpermanente kaiser
-Denver Health: denverhealth dhha
-Children's Hospital Colorado: childrenscolorado chco
+# round 2
+UCHealth: uchealth uch uchealthcareers
+CommonSpirit Health: commonspirit commonspirithealth csh chi dignityhealth
+Kaiser Permanente: kp kaiserpermanente kaiser kaiserpermanentejobs
+Children's Hospital Colorado: childrenscolorado chco childrenshospitalcolorado
 CIVHC: civhc
-Contexture: contexture contextureorg
 Colorado Access: coaccess coloradoaccess
 Colorado Health Institute: coloradohealthinstitute
 MGMA: mgma
-Personify Health: personifyhealth
-HCA Healthcare: hcahealthcare hca
-AdventHealth: adventhealth
-Banner Health: bannerhealth banner
 National Jewish Health: nationaljewish njhealth
-DispatchHealth: dispatchhealth
-Marathon Health: marathonhealth marathon-health
-Healthgrades: healthgrades
-CirrusMD: cirrusmd
-NeueHealth: neuehealth brighthealth
+DispatchHealth: dispatchhealth dispatch-health
+Healthgrades: healthgrades healthgradescareers rvohealth
 COPIC: copic callcopic
 Delta Dental of Colorado: deltadentalco ddco
 Vail Health: vailhealth
 Boulder Community Health: bch bouldercommunityhealth
-Terumo BCT: terumobct terumo
-Cochlear: cochlear
-Biodesix: biodesix
+Biodesix: biodesix biodesixinc
 Paragon 28: paragon28
-Gainwell: gainwell gainwelltechnologies
-Maximus: maximus
-Acentra Health: acentra acentrahealth
-Mathematica: mathematica mathematica-mpr mathematicampr
-Milliman: milliman
-Conduent: conduent
-Guidehouse: guidehouse
-Health Management Associates: healthmanagement hma
+Gainwell: gainwell gainwelltechnologies gainwelltech
+Maximus: maximus maximusinc
+Acentra Health: acentra acentrahealth kepro
+Mathematica: mathematica mathematica-mpr mathematicampr mathematicainc
+Milliman: milliman millimaninc
+Conduent: conduent conduentinc
 Myers and Stauffer: myersandstauffer mslc
-Public Consulting Group: pcg publicconsultinggroup pcgus
-Abt Global: abtglobal abtassociates abt
-RTI International: rti rtiinternational
-NORC: norc
-Westat: westat
-ICF: icf
-Urban Institute: urban urbaninstitute
-RAND: rand
-AIR: air americaninstitutesforresearch
-Chartis: chartis thechartisgroup
+NORC: norc norcorg
+Westat: westat westatinc
+Chartis: chartis thechartisgroup chartisgroup
 Kaufman Hall: kaufmanhall
-Huron: huron huronconsulting
-Premier Inc: premierinc premier
-Press Ganey: pressganey
-Vizient: vizient
-Cigna: cigna
-Molina Healthcare: molinahealthcare molina
-HCSC: hcsc
-BCBSA: bcbsa
-Blue Shield of California: blueshieldca blueshieldofcalifornia
-Highmark: highmarkhealth highmark
-GuideWell: guidewell floridablue
-BCBS Michigan: bcbsm
-BCBS Massachusetts: bcbsma
-Blue Cross NC: bcbsnc bluecrossnc
-Premera: premera
-Cambia: cambia cambiahealth
-CareFirst: carefirst
-Independence Blue Cross: ibx independence
-Horizon BCBS: horizonblue horizon
-Point32Health: point32health
-Devoted Health: devoted devotedhealth
-Clover Health: cloverhealth clover
-Alignment Health: alignmenthealth alignmenthealthcare
-SCAN Health Plan: scanhealthplan scan
-CareSource: caresource
-AmeriHealth Caritas: amerihealthcaritas
-Healthfirst: healthfirst
-EmblemHealth: emblemhealth
-UPMC: upmc
-Curative: curative
-Sana: sana sanabenefits
-Collective Health: collectivehealth
-Accolade: accolade
-Quantum Health: quantumhealth quantum-health
-Transcarent: transcarent
-Cotiviti: cotiviti
-Inovalon: inovalon
-Claritev: claritev multiplan
-HealthEdge: healthedge
-Waystar: waystar
-R1 RCM: r1rcm r1
-Ensemble Health Partners: ensemblehp ensemblehealthpartners
-FinThrive: finthrive
-Availity: availity
-athenahealth: athenahealth
-Veeva: veeva
-IQVIA: iqvia
-Definitive Healthcare: definitivehc definitivehealthcare
-Merative: merative
-agilon health: agilonhealth agilon
-Privia Health: priviahealth privia
-ChenMed: chenmed
-VillageMD: villagemd
-Lumeris: lumeris
+Molina Healthcare: molinahealthcare molina molinahealth
+Blue Shield of California: blueshieldca blueshieldofcalifornia bsc blueshield
+GuideWell: guidewell floridablue gwl
+BCBS Michigan: bcbsm bcbsmichigan
+Cambia: cambia cambiahealth cambiahealthsolutions
+CareFirst: carefirst carefirstbcbs
+AmeriHealth Caritas: amerihealthcaritas amerihealth
+EmblemHealth: emblemhealth emblem
+UPMC: upmc upmchealthplan
+Curative: curative curativehealth
+Accolade: accolade accoladeinc
+Quantum Health: quantumhealth quantum-health quantumhealthinc
+Transcarent: transcarent transcarenthealth
+FinThrive: finthrive finthriveinc
+Veeva: veeva veevasystems
+VillageMD: villagemd village-md villagemedical
 MedeAnalytics: medeanalytics
-Cedar Gate: cedargate cedargatetechnologies
-Tempus: tempus
-PointClickCare: pointclickcare
-WellSky: wellsky
-Netsmart: netsmart ntst
-Surescripts: surescripts
-Particle Health: particlehealth
-Doximity: doximity
-Teladoc Health: teladoc teladochealth
-Amwell: amwell
-Hinge Health: hingehealth
-Sword Health: swordhealth
-Spring Health: springhealth
-Headspace: headspace
-Carrot: carrotfertility carrot
-Progyny: progyny
-Color: color colorhealth
-Cityblock: cityblock cityblockhealth
-Waymark: waymark waymarkcare
-Unite Us: uniteus
-Findhelp: findhelp
-Thyme Care: thymecare
-Monogram Health: monogramhealth
-Somatus: somatus
-Vytalize: vytalizehealth vytalize
-Nuna: nuna
-Tuva Health: tuvahealth tuva
-Abacus Insights: abacusinsights
-Qventus: qventus
-LeanTaaS: leantaas
-Providence: providence
-Mayo Clinic: mayo mayoclinic
-Cleveland Clinic: ccf clevelandclinic
-Ascension: ascension
-Advocate Health: advocatehealth aah
-Trinity Health: trinityhealth
-Sutter Health: sutterhealth
-Geisinger: geisinger
-Mass General Brigham: massgeneralbrigham mgb
-Baylor Scott & White: bswhealth
-Tenet: tenethealth
-Medtronic: medtronic
-Stryker: stryker
-BD: bdx bd
-Boston Scientific: bostonscientific bsci
-Philips: philips
-GE HealthCare: gehc gehealthcare
-Abbott: abbott
-Baxter: baxter
-Dexcom: dexcom
-Intuitive: intuitive intuitivesurgical
-Illumina: illumina
-Hologic: hologic
-ResMed: resmed
-Insulet: insulet
-Masimo: masimo
-Edwards Lifesciences: edwards
-Zimmer Biomet: zimmerbiomet
-Tandem Diabetes: tandemdiabetes
-iRhythm: irhythm irhythmtech
-Exact Sciences: exactsciences
-Guardant Health: guardanthealth
-Natera: natera
-NCQA: ncqa
+Cedar Gate: cedargate cedargatetechnologies cedargatetech
+PointClickCare: pointclickcare pcc
+Particle Health: particlehealth particle-health
+Hinge Health: hingehealth hinge-health hinge
+Spring Health: springhealth springhealth66 spring-health
+Headspace: headspace hs headspacehealth
+Color: color colorhealth color-health
+Thyme Care: thymecare thyme-care
+Monogram Health: monogramhealth monogram-health
+Somatus: somatus somatusinc
+Vytalize: vytalizehealth vytalize vytalize-health
+Tuva Health: tuvahealth tuva tuva-health
+Providence: providence providencehealth psjhealth
+Mayo Clinic: mayo mayoclinic mayocliniccareers
+Advocate Health: advocatehealth aah advocateaurorahealth atriumhealth
+Baylor Scott & White: bswhealth bswh baylorscottandwhite
+Tenet: tenethealth tenet
+Boston Scientific: bostonscientific bsci bostonsci
+Hologic: hologic hologicinc
+Zimmer Biomet: zimmerbiomet zimmer
+Guardant Health: guardanthealth guardant
+NCQA: ncqa ncqaorg
 National Quality Forum: qualityforum nqf
 URAC: urac
-Joint Commission: jointcommission
 AcademyHealth: academyhealth
-PCORI: pcori
-KFF: kff
-RWJF: rwjf
+PCORI: pcori pcoriorg
 Commonwealth Fund: commonwealthfund
 CDC Foundation: cdcfoundation
 ASTHO: astho
 NACCHO: naccho
-APHL: aphl
-APHA: apha
-Vital Strategies: vitalstrategies
+Vital Strategies: vitalstrategies vitalstrategiesorg
 de Beaumont: debeaumont
 Public Health Institute: phi publichealthinstitute
-Task Force for Global Health: taskforce
-PATH: path
-Gates Foundation: gatesfoundation
-Chan Zuckerberg Initiative: chanzuckerberg czi
-American Hospital Association: aha
-American Medical Association: ama amaassn ama-assn
-AHIP: ahip
-AAMC: aamc
-HIMSS: himss
-AHIMA: ahima
+Chan Zuckerberg Initiative: chanzuckerberg czi chanzuckerberginitiative
+AHIP: ahip ahiporg
+HIMSS: himss himssorg
+AHIMA: ahima ahimaorg
 AMGA: amga
 ACHE: ache
-American College of Cardiology: acc
-American Heart Association: heart americanheart
-American Cancer Society: cancer americancancersociety
 NASHP: nashp
 CHCS: chcs
 NACHC: nachc
 IHI: ihi
-CAQH: caqh
+CAQH: caqh caqhorg
 Sequoia Project: sequoiaproject
-Arnold Ventures: arnoldventures
+Arnold Ventures: arnoldventures arnold-ventures
 Peterson Center on Healthcare: petersonhealthcare
 Health Care Cost Institute: healthcostinstitute hcci
-FAIR Health: fairhealth
-AAFP: aafp
-ASCO: asco
+FAIR Health: fairhealth fairhealthinc
 AAPC: aapc
 Leapfrog Group: leapfroggroup
+Veeva: veeva veevasystems
+Molina Healthcare: molinahealthcare molina molinahealth
