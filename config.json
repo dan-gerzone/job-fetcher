@@ -110,10 +110,6 @@
   {
    "account": "cirrusmd",
    "company": "CirrusMD"
-  },
-  {
-   "account": "acentra-health",
-   "company": "Acentra Health"
   }
  ],
  "workday": [
@@ -282,7 +278,8 @@
    "company": "Vizient",
    "host": "vizient.wd1.myworkdayjobs.com",
    "tenant": "vizient",
-   "site": "Vizient_Careers"
+   "site": "Vizient_Careers",
+   "broad": true
   },
   {
    "prefix": "cigna",
@@ -815,12 +812,6 @@
    "org": 21726
   },
   {
-   "prefix": "mat",
-   "company": "Mathematica",
-   "host": "careers.mathematica.org",
-   "org": 727
-  },
-  {
    "prefix": "kp",
    "company": "Kaiser Permanente",
    "host": "www.kaiserpermanentejobs.org",
@@ -865,10 +856,6 @@
   {
    "slug": "findhelp",
    "company": "Findhelp"
-  },
-  {
-   "slug": "caqh",
-   "company": "CAQH"
   }
  ],
  "icims": [
@@ -897,5 +884,15 @@
    "company": "American Heart Association",
    "broad": true
   }
+ ],
+ "broadBoards": [
+  "veeva",
+  "swordhealth",
+  "natera",
+  "pointclickcare",
+  "hinge-health",
+  "chanzuckerberginitiative",
+  "americaninstitutesforresearch",
+  "chartis"
  ]
 }

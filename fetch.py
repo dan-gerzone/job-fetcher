@@ -33,6 +33,13 @@ RE_LEVEL_G = re.compile(F["levelGoogleExtra"], re.I)
 RE_DROP = re.compile(F["dropLevel"], re.I)
 RE_EXCL = re.compile(F["excludeTitle"], re.I)
 RE_FUNC = re.compile(F.get("broadFunction", "."), re.I)
+BROAD = set(CFG.get("broadBoards", []))
+NEAR = []       # senior titles dropped by the function or location screen (for auditing the filter)
+
+
+def near(company, title, reason, locs=(), url=""):
+    if len(NEAR) < 4000:
+        NEAR.append({"company": company, "title": title, "why": reason, "locations": [l for l in locs if l][:4], "url": url})
 RE_CO = re.compile(r"\bcolorado\b|\bdenver\b|\bboulder\b|,\s*CO\b|\bCO\s*-|-CO\b|\bRemote-CO\b|Work At Home-Colorado", re.I)
 RE_REMOTE = re.compile(r"remote|work from home|work at home|telecommut|virtual|anywhere", re.I)
 RE_US_ONLY = re.compile(r"^\s*(united states( of america)?|usa?|us)\s*$", re.I)
@@ -200,7 +207,7 @@ def greenhouse(slug):
     for x in j.get("jobs", []):
         did = f"gh-{x['id']}"
         ids.append(did)
-        if not title_ok(x.get("title")):
+        if not title_ok(x.get("title"), broad=slug in BROAD):
             continue
         loc = (x.get("location") or {}).get("name", "")
         offices = [o.get("name", "") for o in x.get("offices", []) or []]
@@ -224,7 +231,7 @@ def lever(slug):
     for x in j:
         did = f"lv-{x['id']}"
         ids.append(did)
-        if not title_ok(x.get("text")):
+        if not title_ok(x.get("text"), broad=slug in BROAD):
             continue
         c = x.get("categories") or {}
         locs = c.get("allLocations") or [c.get("location", "")]
@@ -253,7 +260,7 @@ def ashby(slug):
             continue
         did = f"ab-{x['id']}"
         ids.append(did)
-        if not title_ok(x.get("title")):
+        if not title_ok(x.get("title"), broad=slug in BROAD):
             continue
         locs = [x.get("location", "")] + [l.get("location", "") for l in x.get("secondaryLocations", []) or []]
         wt = (x.get("workplaceType") or "").lower()
@@ -369,6 +376,10 @@ def workday(w):
             for off in range(20, min(j.get("total") or 0, 300), 20):
                 take(page(q, off).get("jobPostings") or [])
     pre = [x for x in listing if title_ok(x.get("title"), broad=w.get("broad", False))]
+    if w.get("broad"):
+        for x in listing:
+            if title_ok(x.get("title")) and not title_ok(x.get("title"), broad=True):
+                near(w["company"], x.get("title"), "function", [x.get("locationsText", "")], f"https://{w['host']}/{w['site']}{x['externalPath']}")
 
     def detail(x):
         j = jget(base + x["externalPath"])
@@ -396,6 +407,7 @@ def workday(w):
             if nationwide:
                 locs = locs + ["(description says remote anywhere in the US)"]
             if not loc_ok(locs, remote, w.get("stateRestrictedRemote", False) and not nationwide):
+                near(w["company"], p.get("title") or x.get("title"), "location", locs, p.get("externalUrl") or "")
                 continue
             if remote and not RE_REMOTE.search(" ".join(locs)) and not nationwide:
                 locs = locs + ["(description says remote/virtual)"]
@@ -929,6 +941,7 @@ def main():
     run = {"fetchedAt": now, "sources": len(tasks), "sourcesFailed": len(ERRORS), "candidates": len(cands),
            "errors": ERRORS, "counts": dict(sorted(COUNTS.items()))}
     json.dump(run, open(os.path.join(OUT, "run.json"), "w"), indent=1)
+    json.dump(sorted(NEAR, key=lambda n: (n["why"], n["company"], n["title"] or "")), open(os.path.join(OUT, "near_misses.json"), "w"), indent=0)
     print(f"{now}: {len(tasks)} sources, {len(ERRORS)} failed, {len(cands)} candidates")
     for k, v in ERRORS.items():
         print(f"  FAILED {k}: {v}")
