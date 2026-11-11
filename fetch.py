@@ -32,6 +32,7 @@ RE_LEVEL = re.compile(F["level"], re.I)
 RE_LEVEL_G = re.compile(F["levelGoogleExtra"], re.I)
 RE_DROP = re.compile(F["dropLevel"], re.I)
 RE_EXCL = re.compile(F["excludeTitle"], re.I)
+RE_FUNC = re.compile(F.get("broadFunction", "."), re.I)
 RE_CO = re.compile(r"\bcolorado\b|\bdenver\b|\bboulder\b|,\s*CO\b|\bCO\s*-|-CO\b|\bRemote-CO\b|Work At Home-Colorado", re.I)
 RE_REMOTE = re.compile(r"remote|work from home|work at home|telecommut|virtual|anywhere", re.I)
 RE_US_ONLY = re.compile(r"^\s*(united states( of america)?|usa?|us)\s*$", re.I)
@@ -116,8 +117,12 @@ def excerpt(t, n=1400):
     return t[:n]
 
 
-def title_ok(title, google=False):
+def title_ok(title, google=False, broad=False):
+    """broad=True: big general employers (health systems, med tech, consultancies) must
+    also have a relevant function word in the title."""
     if not title:
+        return False
+    if broad and not RE_FUNC.search(title):
         return False
     lvl = RE_LEVEL.search(title) or (google and RE_LEVEL_G.search(title))
     return bool(lvl) and not RE_DROP.search(title) and not RE_EXCL.search(title)
@@ -363,7 +368,7 @@ def workday(w):
             take(j.get("jobPostings") or [])
             for off in range(20, min(j.get("total") or 0, 300), 20):
                 take(page(q, off).get("jobPostings") or [])
-    pre = [x for x in listing if title_ok(x.get("title"))]
+    pre = [x for x in listing if title_ok(x.get("title"), broad=w.get("broad", False))]
 
     def detail(x):
         j = jget(base + x["externalPath"])
@@ -403,6 +408,202 @@ def workday(w):
     note_ids(f"wd-{w['prefix']}", ids)
     COUNTS[f"workday:{w['prefix']}:all"] = len(listing)
     COUNTS[f"workday:{w['prefix']}:total"] = total
+    return out
+
+
+def talentbrew(tb):
+    """Radancy/TalentBrew career sites (same platform as UnitedHealth Group's)."""
+    host = "https://" + tb["host"]
+    rows = {}
+    for q in CFG["talentbrewQueries"]:
+        qs = urllib.parse.urlencode({"ActiveFacetID": 0, "CurrentPage": 1, "RecordsPerPage": 100, "Distance": 50,
+                                     "RadiusUnitType": 0, "Keywords": q, "Location": "", "ShowRadius": "False",
+                                     "IsPagination": "False", "FacetType": 0, "SearchResultsModuleName": "Search Results",
+                                     "SearchFiltersModuleName": "Search Filters", "SortCriteria": 0, "SortDirection": 0,
+                                     "SearchType": 5, "OrganizationIds": tb["org"]})
+        j = jget(f"{host}/search-jobs/results?{qs}", headers={"X-Requested-With": "XMLHttpRequest"})
+        for href, inner in re.findall(r'<a[^>]+href="(/(?:[a-z]{2}/)?job/[^"]+)"[^>]*>(.*?)</a>', j.get("results", ""), re.S):
+            m = re.search(r"/(\d+)/?$", href)
+            if not m:
+                continue
+            h = re.search(r"<h[1-4][^>]*>(.*?)</h[1-4]>", inner, re.S)
+            title = re.sub(r"\s+", " ", text_of(h.group(1) if h else inner)).strip()
+            lm = re.search(r'class="[^"]*location[^"]*"[^>]*>(.*?)</', inner, re.S)
+            loc = re.sub(r"\s+", " ", text_of(lm.group(1))).strip() if lm else ""
+            if not h and not lm:
+                parts = [p.strip() for p in title.split(" | ")]
+                title, loc = parts[0], "; ".join(parts[1:])
+            rows[m.group(1)] = (href, title, loc)
+    if not rows:
+        raise RuntimeError("no results parsed")
+    fam = f"tb-{tb['prefix']}"
+    note_ids("tb", [f"{fam}-{k}" for k in rows])
+    COUNTS[f"talentbrew:{tb['prefix']}:all"] = len(rows)
+    pre = {k: v for k, v in rows.items() if title_ok(v[1], broad=tb.get("broad", False))}
+
+    def detail(k):
+        href, title, loc = pre[k]
+        raw = http(host + href)
+        raw2 = raw.encode().decode("unicode_escape", "ignore") if "\\u003c" in raw else raw
+        t = text_of(raw2)
+        posted = (re.search(r'"datePosted"\s*:\s*"([^"]+)"', raw) or [None, ""])[1]
+        locs = [loc] + [f"{a}, {b}" for a, b in re.findall(r'"addressLocality"\s*:\s*"([^"]*)"\s*,\s*"addressRegion"\s*:\s*"([^"]*)"', raw)]
+        i = t.find(title)
+        body = t[i:] if i >= 0 else t
+        remote = True if (re.search(r"TELECOMMUTE", raw) or RE_REMOTE.search(title) or RE_DESC_REMOTE.search(body[:5000])) else None
+        return k, href, title, list(dict.fromkeys(locs)), remote, body, posted
+
+    out = []
+    with cf.ThreadPoolExecutor(6) as ex:
+        for fut in [ex.submit(detail, k) for k in pre]:
+            try:
+                k, href, title, locs, remote, body, posted = fut.result()
+            except Exception:
+                continue
+            if not loc_ok(locs, remote):
+                continue
+            if remote and not RE_REMOTE.search(" ".join(locs)):
+                locs = locs + ["(posting says remote)"]
+            out.append(cand(id=f"{fam}-{k}", source=f"talentbrew-{tb['prefix']}", company=tb["company"], title=title,
+                            locations=locs, url=host + href, posted=norm_date(posted), pay=pay_snips(body),
+                            eligibility=elig_snips(body), excerpt=excerpt(body[:6000])))
+    return out
+
+
+def smartrecruiters(c):
+    slug = c["slug"]
+    api = f"https://api.smartrecruiters.com/v1/companies/{slug}/postings"
+    posts, off = [], 0
+    while True:
+        j = jget(f"{api}?limit=100&offset={off}")
+        posts += j.get("content") or []
+        off += 100
+        if off >= (j.get("totalFound") or 0) or off > 3000:
+            break
+    note_ids("sr", [f"sr-{p['id']}" for p in posts])
+    COUNTS[f"smartrecruiters:{slug}:all"] = len(posts)
+    out = []
+    for p in posts:
+        if not title_ok(p.get("name"), broad=c.get("broad", False)):
+            continue
+        l = p.get("location") or {}
+        locs = [l.get("fullLocation") or ", ".join(x for x in (l.get("city"), l.get("region"), l.get("country")) if x)]
+        remote = True if l.get("remote") else None
+        if not loc_ok(locs, remote):
+            continue
+        d = jget(f"{api}/{p['id']}")
+        sec = ((d.get("jobAd") or {}).get("sections") or {})
+        t = text_of(" ".join((sec.get(k) or {}).get("text") or "" for k in ("jobDescription", "qualifications", "additionalInformation")))
+        if remote:
+            locs.append("Remote")
+        out.append(cand(id=f"sr-{p['id']}", source="smartrecruiters", board=slug, company=c["company"], title=p["name"],
+                        locations=locs, url=d.get("postingUrl") or f"https://jobs.smartrecruiters.com/{slug}/{p['id']}",
+                        posted=norm_date(p.get("releasedDate")), pay=pay_snips(t), eligibility=elig_snips(t), excerpt=excerpt(t)))
+    return out
+
+
+def bamboohr(c):
+    slug = c["slug"]
+    base = f"https://{slug}.bamboohr.com/careers"
+    rows = jget(f"{base}/list").get("result") or []
+    note_ids("bb", [f"bb-{slug}-{r['id']}" for r in rows])
+    COUNTS[f"bamboohr:{slug}:all"] = len(rows)
+    out = []
+    for r in rows:
+        if not title_ok(r.get("jobOpeningName")):
+            continue
+        l = r.get("atsLocation") or r.get("location") or {}
+        locs = [", ".join(x for x in (l.get("city"), l.get("state") or l.get("province"), l.get("country")) if x)]
+        remote = True if (r.get("isRemote") or str(r.get("locationType")) == "1") else None
+        if str(r.get("locationType")) == "2":
+            locs.append("Hybrid")
+        if not loc_ok(locs, remote):
+            continue
+        d = (jget(f"{base}/{r['id']}/detail").get("result") or {}).get("jobOpening") or {}
+        t = text_of(d.get("description"))
+        if d.get("compensation"):
+            t = f"Compensation: {d['compensation']}. " + t
+        if remote:
+            locs.append("Remote")
+        out.append(cand(id=f"bb-{slug}-{r['id']}", source="bamboohr", board=slug, company=c["company"], title=r["jobOpeningName"],
+                        locations=locs, url=f"{base}/{r['id']}", posted=norm_date(d.get("datePosted")),
+                        pay=pay_snips(t), eligibility=elig_snips(t), excerpt=excerpt(t)))
+    return out
+
+
+def rippling(c):
+    slug = c["slug"]
+    api = f"https://api.rippling.com/platform/api/ats/v1/board/{slug}/jobs"
+    rows = jget(api)
+    if not isinstance(rows, list):
+        raise RuntimeError("unexpected response")
+    seen = {}
+    for r in rows:   # one row per location; merge
+        k = r.get("uuid") or r.get("id")
+        e = seen.setdefault(k, {"name": r.get("name"), "url": r.get("url"), "locs": []})
+        wl = r.get("workLocation")
+        e["locs"].append(wl.get("label") if isinstance(wl, dict) else str(wl or ""))
+    note_ids("rp", [f"rp-{k}" for k in seen])
+    COUNTS[f"rippling:{slug}:all"] = len(seen)
+    out = []
+    for k, e in seen.items():
+        if not title_ok(e["name"]) or not loc_ok(e["locs"], None):
+            continue
+        try:
+            d = jget(f"{api}/{k}")
+        except Exception:
+            d = {}
+        desc = d.get("description")
+        t = text_of(" ".join(str(v) for v in desc.values()) if isinstance(desc, dict) else str(desc or ""))
+        t = (t + " " + text_of(json.dumps(d.get("payRangeDetails") or ""))).strip()
+        out.append(cand(id=f"rp-{k}", source="rippling", board=slug, company=c["company"], title=e["name"], locations=e["locs"],
+                        url=e["url"] or f"https://ats.rippling.com/{slug}/jobs/{k}", posted=norm_date(d.get("createdOn")),
+                        pay=pay_snips(t), eligibility=elig_snips(t), excerpt=excerpt(t)))
+    return out
+
+
+def icims(c):
+    slug = c["slug"]
+    base = f"https://careers-{slug}.icims.com/jobs"
+    rows = {}
+    for pg in range(0, 40):
+        page = http(f"{base}/search?ss=1&in_iframe=1&pr={pg}", headers={"Accept": "text/html"})
+        ms = list(re.finditer(r'href="(https?://[^"]*?/jobs/(\d+)/[^"]*?/job)[^"]*"', page))
+        new = 0
+        for i, m in enumerate(ms):
+            k = m.group(2)
+            if k in rows:
+                continue
+            chunk = page[m.end(): ms[i + 1].start() if i + 1 < len(ms) else m.end() + 3000]
+            before = page[max(0, m.start() - 1500): m.start()]
+            tm = re.search(r"<h[1-4][^>]*>(.*?)</h[1-4]>", chunk, re.S) or re.search(r'title="\s*\d+\s*-\s*([^"]+)"', chunk)
+            title = re.sub(r"\s+", " ", text_of(tm.group(1))).strip() if tm else ""
+            ctx = re.sub(r"\s+", " ", text_of(before[-900:] + " " + chunk[:1500]))
+            lm = re.findall(r"\b[A-Z]{2}-[A-Z]{2}(?:-[A-Za-z .']+)?|\bUS-Remote\b|\bRemote\b", ctx)
+            rows[k] = (m.group(1), title, list(dict.fromkeys(lm))[:8])
+            new += 1
+        if not new:
+            break
+    if not rows:
+        raise RuntimeError("no jobs parsed")
+    fam = f"ic-{slug}"
+    note_ids("ic", [f"{fam}-{k}" for k in rows])
+    COUNTS[f"icims:{slug}:all"] = len(rows)
+    out = []
+    for k, (url, title, locs) in rows.items():
+        if not title_ok(title, broad=c.get("broad", False)):
+            continue
+        t = text_of(http(url + "?in_iframe=1", headers={"Accept": "text/html"}))
+        i = t.find(title)
+        body = t[i:] if i >= 0 else t
+        locs = list(dict.fromkeys(locs + re.findall(r"\bUS-[A-Z]{2}(?:-[A-Za-z .']+)?|\bUS-Remote\b", body[:1500])))[:10]
+        remote = True if (RE_REMOTE.search(title) or RE_REMOTE.search(" ".join(locs)) or RE_DESC_REMOTE.search(body[:5000])) else None
+        if not loc_ok(locs, remote):
+            continue
+        if remote and not RE_REMOTE.search(" ".join(locs)):
+            locs.append("(posting says remote)")
+        out.append(cand(id=f"{fam}-{k}", source="icims", board=slug, company=c["company"], title=title, locations=locs,
+                        url=url, posted="", pay=pay_snips(body), eligibility=elig_snips(body), excerpt=excerpt(body[:6000])))
     return out
 
 
@@ -628,9 +829,11 @@ def verify_one(item):
     fam = did.split("-")[0] if not did.startswith("wd-") else "-".join(did.split("-")[:2])
     if did in ALL_IDS.get(fam, set()):
         return "open"
-    if fam in ("gh", "lv", "ab", "wk"):
+    FULL = {"gh": "greenhouse", "lv": "lever", "ab": "ashby", "wk": "workable", "sr": "smartrecruiters",
+            "bb": "bamboohr", "rp": "rippling", "ic": "icims"}
+    if fam in FULL:
         # full board lists: absent means closed, unless that family had a failed board
-        bad = [k for k in ERRORS if k.split(":")[0] == {"gh": "greenhouse", "lv": "lever", "ab": "ashby", "wk": "workable"}[fam]]
+        bad = [k for k in ERRORS if k.split(":")[0] == FULL[fam]]
         return "unknown" if bad else "closed"
     if fam.startswith("wd-"):
         if fam[3:] in WD_FULL and f"workday:{fam[3:]}" not in ERRORS:
@@ -650,7 +853,7 @@ def verify_one(item):
         return "closed"
     if st != 200:
         return "unknown"
-    key = did.split("-", 1)[1]
+    key = did.rsplit("-", 1)[1] if fam == "tb" else did.split("-", 1)[1]
     if key not in final and key not in body:
         return "closed"   # redirected to a search page
     if re.search(r"no longer (available|accepting|open)|position has been filled|job (is )?not found|this job has expired", body, re.I):
@@ -704,8 +907,13 @@ def main():
     tasks += [(f"ashby:{s}", lambda s=s: ashby(s)) for s in CFG["ashby"]]
     tasks += [(f"workable:{a['account']}", lambda a=a: workable(a)) for a in CFG["workable"]]
     tasks += [(f"workday:{w['prefix']}", lambda w=w: workday(w)) for w in CFG["workday"]]
+    tasks += [(f"talentbrew:{t['prefix']}", lambda t=t: talentbrew(t)) for t in CFG.get("talentbrew", [])]
+    tasks += [(f"smartrecruiters:{c['slug']}", lambda c=c: smartrecruiters(c)) for c in CFG.get("smartrecruiters", [])]
+    tasks += [(f"bamboohr:{c['slug']}", lambda c=c: bamboohr(c)) for c in CFG.get("bamboohr", [])]
+    tasks += [(f"rippling:{c['slug']}", lambda c=c: rippling(c)) for c in CFG.get("rippling", [])]
+    tasks += [(f"icims:{c['slug']}", lambda c=c: icims(c)) for c in CFG.get("icims", [])]
     tasks += [("uhg", uhg), ("zelis", zelis), ("amazon", amazon), ("google", google), ("microsoft", microsoft)]
-    with cf.ThreadPoolExecutor(8) as ex:
+    with cf.ThreadPoolExecutor(12) as ex:
         futs = {ex.submit(run_source, k, fn): k for k, fn in tasks}
         for f in cf.as_completed(futs):
             jobs.extend(f.result())

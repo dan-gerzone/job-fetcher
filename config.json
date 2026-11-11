@@ -1,36 +1,901 @@
 {
-  "greenhouse": ["komodohealth", "datavant2", "truveta", "flatironhealth", "oscar", "garnerhealth", "coherehealth", "machinifyinc", "pathai", "omadahealth", "rightway", "strivehealth", "freenome", "elationhealth", "zocdoc", "mavenclinic", "akidolabs", "mainstreethealth", "healthie", "oshihealth", "modernhealth", "healthjoy", "cortica", "prenuvo", "healthverity", "firsthand", "sidecarhealth", "onemedical"],
-  "lever": ["arcadia", "aledade", "h1", "clarifyhealth", "ribbon", "includedhealth", "zushealth", "nomihealth", "everlywell", "ro", "lyrahealth"],
-  "ashby": ["turquoise-health", "abridge", "commure", "candidhealth", "healthgorilla", "notable", "infinitus", "tennr", "ambiencehealthcare", "headway", "grow-therapy", "pomelo-care", "cedar", "openevidence", "nirvana", "stedi", "vori", "develop-health", "finni-health", "nabla", "rula", "sprinter-health", "sondermind", "assorthealth", "virtahealth", "talkiatry", "centivo", "pearlhealth", "hellopatient", "stellar-health", "certifyos"],
-  "workable": [{"account": "innovaccer-analytics", "company": "Innovaccer"}],
-  "workday": [
-    {"prefix": "elv", "company": "Elevance Health", "host": "elevancehealth.wd1.myworkdayjobs.com", "tenant": "elevancehealth", "site": "ANT"},
-    {"prefix": "hum", "company": "Humana", "host": "humana.wd5.myworkdayjobs.com", "tenant": "humana", "site": "Humana_External_Career_Site"},
-    {"prefix": "cvs", "company": "CVS Health", "host": "cvshealth.wd1.myworkdayjobs.com", "tenant": "cvshealth", "site": "CVS_Health_Careers"},
-    {"prefix": "cen", "company": "Centene", "host": "centene.wd5.myworkdayjobs.com", "tenant": "centene", "site": "Centene_External", "stateRestrictedRemote": true},
-    {"prefix": "evo", "company": "Evolent", "host": "evolent.wd1.myworkdayjobs.com", "tenant": "evolent", "site": "External"},
-    {"prefix": "hc", "company": "Health Catalyst", "host": "healthcatalyst.wd5.myworkdayjobs.com", "tenant": "healthcatalyst", "site": "healthcatalystcareers"}
-  ],
-  "workdayQueries": ["analytics", "data", "insights", "provider data", "data product", "informatics", "reporting", "director", "vice president"],
-  "uhgQueries": ["director analytics", "director data", "vice president analytics", "vice president data", "director insights", "director product data", "provider data", "director informatics", "director reporting", "head of analytics", "value-based care analytics"],
-  "zelisQueries": ["director", "vice president", "head of", "analytics"],
-  "amazon": {
-    "nationalQueries": ["healthcare analytics", "healthcare data", "One Medical analytics", "clinical data"],
-    "coloradoQueries": ["analytics", "business intelligence", "insights", "data strategy", "product", "director", "head of"]
+ "greenhouse": [
+  "komodohealth",
+  "datavant2",
+  "truveta",
+  "flatironhealth",
+  "oscar",
+  "garnerhealth",
+  "coherehealth",
+  "machinifyinc",
+  "pathai",
+  "omadahealth",
+  "rightway",
+  "strivehealth",
+  "freenome",
+  "elationhealth",
+  "zocdoc",
+  "mavenclinic",
+  "akidolabs",
+  "mainstreethealth",
+  "healthie",
+  "oshihealth",
+  "modernhealth",
+  "healthjoy",
+  "cortica",
+  "prenuvo",
+  "healthverity",
+  "firsthand",
+  "sidecarhealth",
+  "onemedical",
+  "neuehealth",
+  "americaninstitutesforresearch",
+  "cloverhealth",
+  "collectivehealth",
+  "definitivehc",
+  "doximity",
+  "amwell",
+  "swordhealth",
+  "carrotfertility",
+  "waymark",
+  "uniteus",
+  "abacusinsights",
+  "qventus",
+  "natera",
+  "rvohealth",
+  "hs",
+  "chanzuckerberginitiative"
+ ],
+ "lever": [
+  "arcadia",
+  "aledade",
+  "h1",
+  "clarifyhealth",
+  "ribbon",
+  "includedhealth",
+  "zushealth",
+  "nomihealth",
+  "everlywell",
+  "ro",
+  "lyrahealth",
+  "sanabenefits",
+  "leantaas",
+  "quantum-health",
+  "veeva",
+  "pointclickcare"
+ ],
+ "ashby": [
+  "turquoise-health",
+  "abridge",
+  "commure",
+  "candidhealth",
+  "healthgorilla",
+  "notable",
+  "infinitus",
+  "tennr",
+  "ambiencehealthcare",
+  "headway",
+  "grow-therapy",
+  "pomelo-care",
+  "cedar",
+  "openevidence",
+  "nirvana",
+  "stedi",
+  "vori",
+  "develop-health",
+  "finni-health",
+  "nabla",
+  "rula",
+  "sprinter-health",
+  "sondermind",
+  "assorthealth",
+  "virtahealth",
+  "talkiatry",
+  "centivo",
+  "pearlhealth",
+  "hellopatient",
+  "stellar-health",
+  "certifyos",
+  "nuna",
+  "chartis",
+  "hinge-health",
+  "color-health",
+  "thyme-care"
+ ],
+ "workable": [
+  {
+   "account": "innovaccer-analytics",
+   "company": "Innovaccer"
   },
-  "google": {
-    "remoteQueries": ["health", "healthcare", "clinical", "Fitbit", "life sciences", "Google Health", "Verily"],
-    "coloradoLocations": ["Boulder, CO, USA", "Denver, CO, USA"],
-    "coloradoQueries": ["analytics", "data", "insights", "data strategy", "business intelligence", "product manager", "program manager"]
+  {
+   "account": "cirrusmd",
+   "company": "CirrusMD"
   },
-  "microsoft": {
-    "coloradoQueries": ["analytics", "data", "director", "healthcare"],
-    "nationalQueries": ["healthcare data"]
-  },
-  "filters": {
-    "level": "\\b(director|head of|head,|vp\\b|vice president|chief|group product manager|svp|evp)\\b",
-    "levelGoogleExtra": "\\b(lead|principal)\\b",
-    "dropLevel": "associate director|assistant director|associate vice president|\\bavp\\b",
-    "excludeTitle": "sales|account (exec|manag|director)|strategic accounts?|business development|partnership|contract|negotiat|marketing|recruit|legal|counsel|litigation|finance|fp&a|financial planning|accounting|controller|medical director|chief medical|\\bnurs|clinical operations|pharmac|engineer|software|security|infrastructure|data center|architect|customer success|client success|machine learning|\\bml\\b|scientist|data science|revenue|people|talent|\\bhr\\b|human resources|total rewards|tax|treasury|payroll|brand|communications|social media|creative|devops|facilities|real estate|procurement|supply chain|manufacturing|regulatory|compliance|privacy|actuar|underwrit|audit|cyber|cloud|physician|therap|psychiatr|government affairs|public affairs|state affairs|chief of staff|leave of absence|workforce management|learning & development|learning and development|clinical director|clinical training|care management|hospice|telecom|network engineering|fiber"
+  {
+   "account": "acentra-health",
+   "company": "Acentra Health"
   }
+ ],
+ "workday": [
+  {
+   "prefix": "elv",
+   "company": "Elevance Health",
+   "host": "elevancehealth.wd1.myworkdayjobs.com",
+   "tenant": "elevancehealth",
+   "site": "ANT"
+  },
+  {
+   "prefix": "hum",
+   "company": "Humana",
+   "host": "humana.wd5.myworkdayjobs.com",
+   "tenant": "humana",
+   "site": "Humana_External_Career_Site"
+  },
+  {
+   "prefix": "cvs",
+   "company": "CVS Health",
+   "host": "cvshealth.wd1.myworkdayjobs.com",
+   "tenant": "cvshealth",
+   "site": "CVS_Health_Careers"
+  },
+  {
+   "prefix": "cen",
+   "company": "Centene",
+   "host": "centene.wd5.myworkdayjobs.com",
+   "tenant": "centene",
+   "site": "Centene_External",
+   "stateRestrictedRemote": true
+  },
+  {
+   "prefix": "evo",
+   "company": "Evolent",
+   "host": "evolent.wd1.myworkdayjobs.com",
+   "tenant": "evolent",
+   "site": "External"
+  },
+  {
+   "prefix": "hc",
+   "company": "Health Catalyst",
+   "host": "healthcatalyst.wd5.myworkdayjobs.com",
+   "tenant": "healthcatalyst",
+   "site": "healthcatalystcareers"
+  },
+  {
+   "prefix": "davita",
+   "company": "DaVita",
+   "host": "davita.wd1.myworkdayjobs.com",
+   "tenant": "davita",
+   "site": "DKC_External",
+   "broad": true
+  },
+  {
+   "prefix": "imh",
+   "company": "Intermountain Health",
+   "host": "imh.wd108.myworkdayjobs.com",
+   "tenant": "imh",
+   "site": "IntermountainCareers",
+   "broad": true
+  },
+  {
+   "prefix": "denverhealth",
+   "company": "Denver Health",
+   "host": "denverhealth.wd1.myworkdayjobs.com",
+   "tenant": "denverhealth",
+   "site": "DHHA-Main",
+   "broad": true
+  },
+  {
+   "prefix": "adventhealth",
+   "company": "AdventHealth",
+   "host": "adventhealth.wd12.myworkdayjobs.com",
+   "tenant": "adventhealth",
+   "site": "AH_External_Career_Site",
+   "broad": true
+  },
+  {
+   "prefix": "bannerhealth",
+   "company": "Banner Health",
+   "host": "bannerhealth.wd108.myworkdayjobs.com",
+   "tenant": "bannerhealth",
+   "site": "Careers",
+   "broad": true
+  },
+  {
+   "prefix": "marathonhealth",
+   "company": "Marathon Health",
+   "host": "marathonhealth.wd501.myworkdayjobs.com",
+   "tenant": "marathonhealth",
+   "site": "Marathon-Health-Careers",
+   "broad": true
+  },
+  {
+   "prefix": "terumo",
+   "company": "Terumo",
+   "host": "terumo.wd3.myworkdayjobs.com",
+   "tenant": "terumo",
+   "site": "External",
+   "broad": true
+  },
+  {
+   "prefix": "cochlear",
+   "company": "Cochlear",
+   "host": "cochlear.wd3.myworkdayjobs.com",
+   "tenant": "cochlear",
+   "site": "Cochlear_Careers",
+   "broad": true
+  },
+  {
+   "prefix": "guidehouse",
+   "company": "Guidehouse",
+   "host": "guidehouse.wd1.myworkdayjobs.com",
+   "tenant": "guidehouse",
+   "site": "External",
+   "broad": true
+  },
+  {
+   "prefix": "pcg",
+   "company": "Public Consulting Group",
+   "host": "pcg.wd1.myworkdayjobs.com",
+   "tenant": "pcg",
+   "site": "PCG_External_Careers"
+  },
+  {
+   "prefix": "icf",
+   "company": "ICF",
+   "host": "icf.wd5.myworkdayjobs.com",
+   "tenant": "icf",
+   "site": "ICFExternal_Career_Site",
+   "broad": true
+  },
+  {
+   "prefix": "rand",
+   "company": "RAND",
+   "host": "rand.wd5.myworkdayjobs.com",
+   "tenant": "rand",
+   "site": "External_Career_Site",
+   "broad": true
+  },
+  {
+   "prefix": "huron",
+   "company": "Huron",
+   "host": "huron.wd1.myworkdayjobs.com",
+   "tenant": "huron",
+   "site": "huroncareers",
+   "broad": true
+  },
+  {
+   "prefix": "premierinc",
+   "company": "Premier Inc",
+   "host": "premierinc.wd1.myworkdayjobs.com",
+   "tenant": "premierinc",
+   "site": "External_Professional"
+  },
+  {
+   "prefix": "pressganey",
+   "company": "Press Ganey",
+   "host": "pressganey.wd1.myworkdayjobs.com",
+   "tenant": "pressganey",
+   "site": "Careers"
+  },
+  {
+   "prefix": "vizient",
+   "company": "Vizient",
+   "host": "vizient.wd1.myworkdayjobs.com",
+   "tenant": "vizient",
+   "site": "Vizient_Careers"
+  },
+  {
+   "prefix": "cigna",
+   "company": "Cigna / Evernorth",
+   "host": "cigna.wd5.myworkdayjobs.com",
+   "tenant": "cigna",
+   "site": "cignacareers"
+  },
+  {
+   "prefix": "hcsc",
+   "company": "HCSC",
+   "host": "hcsc.wd1.myworkdayjobs.com",
+   "tenant": "hcsc",
+   "site": "HCSC_External"
+  },
+  {
+   "prefix": "bcbsa",
+   "company": "Blue Cross Blue Shield Association",
+   "host": "bcbsa.wd1.myworkdayjobs.com",
+   "tenant": "bcbsa",
+   "site": "Careers"
+  },
+  {
+   "prefix": "highmarkhealth",
+   "company": "Highmark Health",
+   "host": "highmarkhealth.wd1.myworkdayjobs.com",
+   "tenant": "highmarkhealth",
+   "site": "highmark",
+   "broad": true
+  },
+  {
+   "prefix": "bcbsnc",
+   "company": "Blue Cross NC",
+   "host": "bcbsnc.wd5.myworkdayjobs.com",
+   "tenant": "bcbsnc",
+   "site": "BCBSNC"
+  },
+  {
+   "prefix": "premera",
+   "company": "Premera Blue Cross",
+   "host": "premera.wd5.myworkdayjobs.com",
+   "tenant": "premera",
+   "site": "Premera"
+  },
+  {
+   "prefix": "point32health",
+   "company": "Point32Health",
+   "host": "point32health.wd5.myworkdayjobs.com",
+   "tenant": "point32health",
+   "site": "THP"
+  },
+  {
+   "prefix": "devoted",
+   "company": "Devoted Health",
+   "host": "devoted.wd1.myworkdayjobs.com",
+   "tenant": "devoted",
+   "site": "Devoted"
+  },
+  {
+   "prefix": "alignmenthealthcare",
+   "company": "Alignment Health",
+   "host": "alignmenthealthcare.wd12.myworkdayjobs.com",
+   "tenant": "alignmenthealthcare",
+   "site": "ahc_external"
+  },
+  {
+   "prefix": "scanhealthplan",
+   "company": "SCAN Health Plan",
+   "host": "scanhealthplan.wd108.myworkdayjobs.com",
+   "tenant": "scanhealthplan",
+   "site": "scancareers"
+  },
+  {
+   "prefix": "caresource",
+   "company": "CareSource",
+   "host": "caresource.wd1.myworkdayjobs.com",
+   "tenant": "caresource",
+   "site": "CareSource"
+  },
+  {
+   "prefix": "healthfirst",
+   "company": "Healthfirst",
+   "host": "healthfirst.wd1.myworkdayjobs.com",
+   "tenant": "healthfirst",
+   "site": "healthfirst"
+  },
+  {
+   "prefix": "cambiahealth",
+   "company": "Cambia Health Solutions",
+   "host": "cambiahealth.wd504.myworkdayjobs.com",
+   "tenant": "cambiahealth",
+   "site": "External"
+  },
+  {
+   "prefix": "waystar",
+   "company": "Waystar",
+   "host": "waystar.wd1.myworkdayjobs.com",
+   "tenant": "waystar",
+   "site": "Waystar"
+  },
+  {
+   "prefix": "r1rcm",
+   "company": "R1 RCM",
+   "host": "r1rcm.wd1.myworkdayjobs.com",
+   "tenant": "r1rcm",
+   "site": "R1RCM",
+   "broad": true
+  },
+  {
+   "prefix": "ensemblehp",
+   "company": "Ensemble Health Partners",
+   "host": "ensemblehp.wd5.myworkdayjobs.com",
+   "tenant": "ensemblehp",
+   "site": "EnsembleHealthPartnersCareers",
+   "broad": true
+  },
+  {
+   "prefix": "availity",
+   "company": "Availity",
+   "host": "availity.wd1.myworkdayjobs.com",
+   "tenant": "availity",
+   "site": "Availity_Careers_US"
+  },
+  {
+   "prefix": "athenahealth",
+   "company": "athenahealth",
+   "host": "athenahealth.wd1.myworkdayjobs.com",
+   "tenant": "athenahealth",
+   "site": "External"
+  },
+  {
+   "prefix": "iqvia",
+   "company": "IQVIA",
+   "host": "iqvia.wd1.myworkdayjobs.com",
+   "tenant": "iqvia",
+   "site": "IQVIA",
+   "broad": true
+  },
+  {
+   "prefix": "merative",
+   "company": "Merative",
+   "host": "merative.wd12.myworkdayjobs.com",
+   "tenant": "merative",
+   "site": "External_Career_Site"
+  },
+  {
+   "prefix": "agilonhealth",
+   "company": "agilon health",
+   "host": "agilonhealth.wd1.myworkdayjobs.com",
+   "tenant": "agilonhealth",
+   "site": "External"
+  },
+  {
+   "prefix": "chenmed",
+   "company": "ChenMed",
+   "host": "chenmed.wd1.myworkdayjobs.com",
+   "tenant": "chenmed",
+   "site": "ChenMed",
+   "broad": true
+  },
+  {
+   "prefix": "lumeris",
+   "company": "Lumeris",
+   "host": "lumeris.wd1.myworkdayjobs.com",
+   "tenant": "lumeris",
+   "site": "LC"
+  },
+  {
+   "prefix": "tempus",
+   "company": "Tempus",
+   "host": "tempus.wd5.myworkdayjobs.com",
+   "tenant": "tempus",
+   "site": "Tempus_Careers",
+   "broad": true
+  },
+  {
+   "prefix": "wellsky",
+   "company": "WellSky",
+   "host": "wellsky.wd1.myworkdayjobs.com",
+   "tenant": "wellsky",
+   "site": "WellSkyCareers"
+  },
+  {
+   "prefix": "ntst",
+   "company": "Netsmart",
+   "host": "ntst.wd1.myworkdayjobs.com",
+   "tenant": "ntst",
+   "site": "Careers"
+  },
+  {
+   "prefix": "surescripts",
+   "company": "Surescripts",
+   "host": "surescripts.wd503.myworkdayjobs.com",
+   "tenant": "surescripts",
+   "site": "surescriptscareers"
+  },
+  {
+   "prefix": "teladoc",
+   "company": "Teladoc Health",
+   "host": "teladoc.wd503.myworkdayjobs.com",
+   "tenant": "teladoc",
+   "site": "teladochealth_is_hiring"
+  },
+  {
+   "prefix": "progyny",
+   "company": "Progyny",
+   "host": "progyny.wd5.myworkdayjobs.com",
+   "tenant": "progyny",
+   "site": "progyny"
+  },
+  {
+   "prefix": "cityblockhealth",
+   "company": "Cityblock Health",
+   "host": "cityblockhealth.wd1.myworkdayjobs.com",
+   "tenant": "cityblockhealth",
+   "site": "CityblockExternalCareerSite"
+  },
+  {
+   "prefix": "ccf",
+   "company": "Cleveland Clinic",
+   "host": "ccf.wd1.myworkdayjobs.com",
+   "tenant": "ccf",
+   "site": "ClevelandClinicCareers",
+   "broad": true
+  },
+  {
+   "prefix": "trinityhealth",
+   "company": "Trinity Health",
+   "host": "trinityhealth.wd1.myworkdayjobs.com",
+   "tenant": "trinityhealth",
+   "site": "Jobs",
+   "broad": true
+  },
+  {
+   "prefix": "geisinger",
+   "company": "Geisinger",
+   "host": "geisinger.wd5.myworkdayjobs.com",
+   "tenant": "geisinger",
+   "site": "GeisingerExternal",
+   "broad": true
+  },
+  {
+   "prefix": "massgeneralbrigham",
+   "company": "Mass General Brigham",
+   "host": "massgeneralbrigham.wd1.myworkdayjobs.com",
+   "tenant": "massgeneralbrigham",
+   "site": "MGBExternal",
+   "broad": true
+  },
+  {
+   "prefix": "aah",
+   "company": "Advocate Health",
+   "host": "aah.wd115.myworkdayjobs.com",
+   "tenant": "aah",
+   "site": "External",
+   "broad": true
+  },
+  {
+   "prefix": "medtronic",
+   "company": "Medtronic",
+   "host": "medtronic.wd1.myworkdayjobs.com",
+   "tenant": "medtronic",
+   "site": "MedtronicCareers",
+   "broad": true
+  },
+  {
+   "prefix": "stryker",
+   "company": "Stryker",
+   "host": "stryker.wd1.myworkdayjobs.com",
+   "tenant": "stryker",
+   "site": "StrykerCareers",
+   "broad": true
+  },
+  {
+   "prefix": "bdx",
+   "company": "BD",
+   "host": "bdx.wd1.myworkdayjobs.com",
+   "tenant": "bdx",
+   "site": "EXTERNAL_CAREER_SITE_USA",
+   "broad": true
+  },
+  {
+   "prefix": "philips",
+   "company": "Philips",
+   "host": "philips.wd3.myworkdayjobs.com",
+   "tenant": "philips",
+   "site": "jobs-and-careers",
+   "broad": true
+  },
+  {
+   "prefix": "gehc",
+   "company": "GE HealthCare",
+   "host": "gehc.wd5.myworkdayjobs.com",
+   "tenant": "gehc",
+   "site": "GEHC_ExternalSite",
+   "broad": true
+  },
+  {
+   "prefix": "abbott",
+   "company": "Abbott",
+   "host": "abbott.wd5.myworkdayjobs.com",
+   "tenant": "abbott",
+   "site": "abbottcareers",
+   "broad": true
+  },
+  {
+   "prefix": "baxter",
+   "company": "Baxter",
+   "host": "baxter.wd1.myworkdayjobs.com",
+   "tenant": "baxter",
+   "site": "baxter",
+   "broad": true
+  },
+  {
+   "prefix": "dexcom",
+   "company": "Dexcom",
+   "host": "dexcom.wd1.myworkdayjobs.com",
+   "tenant": "dexcom",
+   "site": "Dexcom",
+   "broad": true
+  },
+  {
+   "prefix": "illumina",
+   "company": "Illumina",
+   "host": "illumina.wd1.myworkdayjobs.com",
+   "tenant": "illumina",
+   "site": "illumina-careers",
+   "broad": true
+  },
+  {
+   "prefix": "resmed",
+   "company": "ResMed",
+   "host": "resmed.wd3.myworkdayjobs.com",
+   "tenant": "resmed",
+   "site": "ResMed_External_Careers",
+   "broad": true
+  },
+  {
+   "prefix": "insulet",
+   "company": "Insulet",
+   "host": "insulet.wd5.myworkdayjobs.com",
+   "tenant": "insulet",
+   "site": "insuletcareers",
+   "broad": true
+  },
+  {
+   "prefix": "edwards",
+   "company": "Edwards Lifesciences",
+   "host": "edwards.wd5.myworkdayjobs.com",
+   "tenant": "edwards",
+   "site": "EdwardsCareers",
+   "broad": true
+  },
+  {
+   "prefix": "tandemdiabetes",
+   "company": "Tandem Diabetes Care",
+   "host": "tandemdiabetes.wd12.myworkdayjobs.com",
+   "tenant": "tandemdiabetes",
+   "site": "tandemdiabetes",
+   "broad": true
+  },
+  {
+   "prefix": "irhythmtech",
+   "company": "iRhythm",
+   "host": "irhythmtech.wd5.myworkdayjobs.com",
+   "tenant": "irhythmtech",
+   "site": "iRhythm",
+   "broad": true
+  },
+  {
+   "prefix": "jointcommission",
+   "company": "The Joint Commission",
+   "host": "jointcommission.wd1.myworkdayjobs.com",
+   "tenant": "jointcommission",
+   "site": "JC"
+  },
+  {
+   "prefix": "rwjf",
+   "company": "Robert Wood Johnson Foundation",
+   "host": "rwjf.wd1.myworkdayjobs.com",
+   "tenant": "rwjf",
+   "site": "RWJF"
+  },
+  {
+   "prefix": "path",
+   "company": "PATH",
+   "host": "path.wd1.myworkdayjobs.com",
+   "tenant": "path",
+   "site": "External",
+   "broad": true
+  },
+  {
+   "prefix": "gatesfoundation",
+   "company": "Gates Foundation",
+   "host": "gatesfoundation.wd1.myworkdayjobs.com",
+   "tenant": "gatesfoundation",
+   "site": "Gates",
+   "broad": true
+  },
+  {
+   "prefix": "aha",
+   "company": "American Hospital Association",
+   "host": "aha.wd501.myworkdayjobs.com",
+   "tenant": "aha",
+   "site": "AHA"
+  },
+  {
+   "prefix": "aamc",
+   "company": "AAMC",
+   "host": "aamc.wd5.myworkdayjobs.com",
+   "tenant": "aamc",
+   "site": "AAMC"
+  },
+  {
+   "prefix": "aafp",
+   "company": "AAFP",
+   "host": "aafp.wd5.myworkdayjobs.com",
+   "tenant": "aafp",
+   "site": "AAFP_Careers"
+  },
+  {
+   "prefix": "asco",
+   "company": "ASCO",
+   "host": "asco.wd5.myworkdayjobs.com",
+   "tenant": "asco",
+   "site": "ASCO"
+  },
+  {
+   "prefix": "bcbsma",
+   "company": "Blue Cross Blue Shield of Massachusetts",
+   "host": "bcbsma.wd5.myworkdayjobs.com",
+   "tenant": "bcbsma",
+   "site": "BCBSMA"
+  }
+ ],
+ "workdayQueries": [
+  "analytics",
+  "data",
+  "insights",
+  "provider data",
+  "data product",
+  "informatics",
+  "reporting",
+  "director",
+  "vice president"
+ ],
+ "uhgQueries": [
+  "director analytics",
+  "director data",
+  "vice president analytics",
+  "vice president data",
+  "director insights",
+  "director product data",
+  "provider data",
+  "director informatics",
+  "director reporting",
+  "head of analytics",
+  "value-based care analytics"
+ ],
+ "zelisQueries": [
+  "director",
+  "vice president",
+  "head of",
+  "analytics"
+ ],
+ "amazon": {
+  "nationalQueries": [
+   "healthcare analytics",
+   "healthcare data",
+   "One Medical analytics",
+   "clinical data"
+  ],
+  "coloradoQueries": [
+   "analytics",
+   "business intelligence",
+   "insights",
+   "data strategy",
+   "product",
+   "director",
+   "head of"
+  ]
+ },
+ "google": {
+  "remoteQueries": [
+   "health",
+   "healthcare",
+   "clinical",
+   "Fitbit",
+   "life sciences",
+   "Google Health",
+   "Verily"
+  ],
+  "coloradoLocations": [
+   "Boulder, CO, USA",
+   "Denver, CO, USA"
+  ],
+  "coloradoQueries": [
+   "analytics",
+   "data",
+   "insights",
+   "data strategy",
+   "business intelligence",
+   "product manager",
+   "program manager"
+  ]
+ },
+ "microsoft": {
+  "coloradoQueries": [
+   "analytics",
+   "data",
+   "director",
+   "healthcare"
+  ],
+  "nationalQueries": [
+   "healthcare data"
+  ]
+ },
+ "filters": {
+  "level": "\\b(director|head of|head,|vp\\b|vice president|chief|group product manager|svp|evp)\\b",
+  "levelGoogleExtra": "\\b(lead|principal)\\b",
+  "dropLevel": "associate director|assistant director|associate vice president|\\bavp\\b",
+  "excludeTitle": "sales|account (exec|manag|director)|strategic accounts?|business development|partnership|contract|negotiat|marketing|recruit|legal|counsel|litigation|finance|fp&a|financial planning|accounting|controller|medical director|chief medical|\\bnurs|clinical operations|pharmac|engineer|software|security|infrastructure|data center|architect|customer success|client success|machine learning|\\bml\\b|scientist|data science|revenue|people|talent|\\bhr\\b|human resources|total rewards|tax|treasury|payroll|brand|communications|social media|creative|devops|facilities|real estate|procurement|supply chain|manufacturing|regulatory|compliance|privacy|actuar|underwrit|audit|cyber|cloud|physician|therap|psychiatr|government affairs|public affairs|state affairs|chief of staff|leave of absence|workforce management|learning & development|learning and development|clinical director|clinical training|care management|hospice|telecom|network engineering|fiber",
+  "broadFunction": "analytic|\\bdata\\b|insight|informatic|report|intelligence|\\bproduct|population health|value[- ]based|quality|network|strateg|digital|performance|outcomes|measurement|evaluation|transformation|innovation|health economics|\\bheor\\b|real[- ]world|evidence|interoperab|registry|payer|provider|medicaid|medicare|\\bai\\b"
+ },
+ "talentbrew": [
+  {
+   "prefix": "mol",
+   "company": "Molina Healthcare",
+   "host": "careers.molinahealthcare.com",
+   "org": 21726
+  },
+  {
+   "prefix": "mat",
+   "company": "Mathematica",
+   "host": "careers.mathematica.org",
+   "org": 727
+  },
+  {
+   "prefix": "kp",
+   "company": "Kaiser Permanente",
+   "host": "www.kaiserpermanentejobs.org",
+   "org": 641,
+   "broad": true
+  }
+ ],
+ "talentbrewQueries": [
+  "director",
+  "vice president",
+  "head of",
+  "analytics",
+  "data",
+  "Colorado director"
+ ],
+ "smartrecruiters": [
+  {
+   "slug": "priviahealth",
+   "company": "Privia Health"
+  },
+  {
+   "slug": "intuitive",
+   "company": "Intuitive",
+   "broad": true
+  }
+ ],
+ "bamboohr": [
+  {
+   "slug": "contexture",
+   "company": "Contexture"
+  },
+  {
+   "slug": "kff",
+   "company": "KFF"
+  },
+  {
+   "slug": "taskforce",
+   "company": "Task Force for Global Health"
+  }
+ ],
+ "rippling": [
+  {
+   "slug": "findhelp",
+   "company": "Findhelp"
+  },
+  {
+   "slug": "caqh",
+   "company": "CAQH"
+  }
+ ],
+ "icims": [
+  {
+   "slug": "healthmanagement",
+   "company": "Health Management Associates"
+  },
+  {
+   "slug": "cotiviti",
+   "company": "Cotiviti"
+  },
+  {
+   "slug": "healthedge",
+   "company": "HealthEdge"
+  },
+  {
+   "slug": "personifyhealth",
+   "company": "Personify Health"
+  },
+  {
+   "slug": "aphl",
+   "company": "APHL"
+  },
+  {
+   "slug": "heart",
+   "company": "American Heart Association",
+   "broad": true
+  }
+ ]
 }
