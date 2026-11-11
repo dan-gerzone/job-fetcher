@@ -253,57 +253,12 @@
 },
 {
 "company": "AdventHealth",
-"title": "Director of IT Service Delivery",
-"why": "function",
-"locations": [
-"ADVENTHEALTH 6061 S WILLOW"
-],
-"url": "https://adventhealth.wd12.myworkdayjobs.com/AH_External_Career_Site/job/ADVENTHEALTH-6061-S-WILLOW/Director-of-IT-Service-Delivery_R-0410773"
-},
-{
-"company": "AdventHealth",
 "title": "Director of Medical Practice Operations - Cardiology",
 "why": "function",
 "locations": [
 "ADVENTHEALTH PORT CHARLOTTE"
 ],
 "url": "https://adventhealth.wd12.myworkdayjobs.com/AH_External_Career_Site/job/ADVENTHEALTH-PORT-CHARLOTTE/Director-of-Medical-Practice-Operations_R-0370114-1"
-},
-{
-"company": "AdventHealth",
-"title": "Director of Practice Operations",
-"why": "function",
-"locations": [
-"MG AHMG CENTRAL FLORIDA"
-],
-"url": "https://adventhealth.wd12.myworkdayjobs.com/AH_External_Career_Site/job/MG-AHMG-CENTRAL-FLORIDA/Director-of-Practice-Operations_R-0401094-1"
-},
-{
-"company": "AdventHealth",
-"title": "Director of Practice Operations Pulmonology and Rheumatology",
-"why": "function",
-"locations": [
-"01 WH ADVENTHEALTH WESTHALL"
-],
-"url": "https://adventhealth.wd12.myworkdayjobs.com/AH_External_Career_Site/job/01-WH-ADVENTHEALTH-WESTHALL/Director-of-Practice-Operations-Pulmonology-and-Rheumatology_R-0404034"
-},
-{
-"company": "AdventHealth",
-"title": "Director of Practice Operations Thoracic Surgery and Interventional Pulmonology",
-"why": "function",
-"locations": [
-"01 WH ADVENTHEALTH WESTHALL"
-],
-"url": "https://adventhealth.wd12.myworkdayjobs.com/AH_External_Career_Site/job/01-WH-ADVENTHEALTH-WESTHALL/Director-of-Practice-Operations-Thoracic-Surgery-and-Interventional-Pulmonology_R-0404033"
-},
-{
-"company": "AdventHealth",
-"title": "Director of Practice Operations Vascular Surgery",
-"why": "function",
-"locations": [
-"01 WH ADVENTHEALTH WESTHALL"
-],
-"url": "https://adventhealth.wd12.myworkdayjobs.com/AH_External_Career_Site/job/01-WH-ADVENTHEALTH-WESTHALL/Director-of-Practice-Operations-Vascular-Surgery_R-0404035"
 },
 {
 "company": "AdventHealth",
@@ -556,15 +511,6 @@
 "Advocate Illinois Masonic Medical Center - 836 W Wellington Ave"
 ],
 "url": "https://aah.wd115.myworkdayjobs.com/External/job/Advocate-Illinois-Masonic-Medical-Center---836-W-Wellington-Ave/Director-Service-Line-Operations_R280294"
-},
-{
-"company": "Advocate Health",
-"title": "Director Service Line Operations- Children's Specialty GA",
-"why": "function",
-"locations": [
-"Macon, GA - 1062 Forsyth St"
-],
-"url": "https://aah.wd115.myworkdayjobs.com/External/job/Macon-GA---1062-Forsyth-St/Director-Service-Line-Operations--Children-s-Specialty-GA_R274350"
 },
 {
 "company": "Advocate Health",
@@ -1342,6 +1288,15 @@
 },
 {
 "company": "Cleveland Clinic",
+"title": "Executive Director Operations \u2013 West Palm Beach",
+"why": "function",
+"locations": [
+"Florida West Palm Beach"
+],
+"url": "https://ccf.wd1.myworkdayjobs.com/ClevelandClinicCareers/job/Florida-West-Palm-Beach/Executive-Director-Operations---West-Palm-Beach_357324"
+},
+{
+"company": "Cleveland Clinic",
 "title": "Senior Director Financial Operations",
 "why": "function",
 "locations": [
@@ -1411,15 +1366,6 @@
 "09507 - Colorado Remote"
 ],
 "url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/09507---Colorado-Remote/Director--Clinician-Experience_R0468528"
-},
-{
-"company": "DaVita",
-"title": "Director, IKC Operations",
-"why": "function",
-"locations": [
-"00200 - Heartland Division Office"
-],
-"url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/00200---Heartland-Division-Office/Director--IKC-Operations_R0465338"
 },
 {
 "company": "DaVita",
@@ -1972,6 +1918,15 @@
 },
 {
 "company": "Danaher",
+"title": "Senior Director, R&D Bangalore",
+"why": "function",
+"locations": [
+"Bangalore, Karnataka, India"
+],
+"url": "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Bangalore-Karnataka-India/Senior-Director--R-D-Bangalore_R1321796"
+},
+{
+"company": "Danaher",
 "title": "Senior Director, Reagent Operations",
 "why": "function",
 "locations": [
@@ -2077,15 +2032,6 @@
 "2 Locations"
 ],
 "url": "https://edwards.wd5.myworkdayjobs.com/EdwardsCareers/job/China-Shanghai/Director--Clinical-Affairs_Req-50829"
-},
-{
-"company": "Edwards Lifesciences",
-"title": "Director, Corporate Development",
-"why": "function",
-"locations": [
-"USA IRV-1472 Alton/DBC6-7"
-],
-"url": "https://edwards.wd5.myworkdayjobs.com/EdwardsCareers/job/USA-IRV-1472-AltonDBC6-7/Director--Corporate-Development_Req-52126"
 },
 {
 "company": "Edwards Lifesciences",
@@ -3259,6 +3205,15 @@
 },
 {
 "company": "Johnson & Johnson",
+"title": "Director, GPO & Enab Capab, Systems",
+"why": "function",
+"locations": [
+"5 Locations"
+],
+"url": "https://jj.wd5.myworkdayjobs.com/JJ/job/New-Brunswick-New-Jersey-United-States-of-America/Director--Global-Process---Capabilities_R-072494-1"
+},
+{
+"company": "Johnson & Johnson",
 "title": "Director, Global Prostate Portfolio Commercial Lead",
 "why": "function",
 "locations": [
@@ -3427,15 +3382,6 @@
 "10 Locations"
 ],
 "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Chicago-Illinois-United-States/Regional-Business-Director--Health-Systems--KAM-HS---Central-Region_R-109598-1"
-},
-{
-"company": "Johnson & Johnson",
-"title": "Regional Business Director, Oncology (West Region) RYBREVANT Franchise, Lung & Head & Neck Cancers",
-"why": "function",
-"locations": [
-"4 Locations"
-],
-"url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Los-Angeles-California-United-States-of-America/Regional-Business-Director--Oncology--West-Region--RYBREVANT-Franchise--Lung---Head---Neck-Cancers_R-100619-1"
 },
 {
 "company": "Johnson & Johnson",
@@ -4629,15 +4575,6 @@
 "2 Locations"
 ],
 "url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Budapest/Head-of-RSS-External-Collaborations-Enablement_202610-127463"
-},
-{
-"company": "Roche",
-"title": "Head of RSS Project Management & Region EMEA",
-"why": "function",
-"locations": [
-"Budapest"
-],
-"url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Budapest/Head-of-RSS-Project-Management---Region-EMEA_202610-127430"
 },
 {
 "company": "Roche",
@@ -5865,6 +5802,15 @@
 "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/MO---Florissant/Population-Health-Director--Field_R1057018"
 },
 {
+"company": "CVS Health",
+"title": "Regional Growth Director\u00a0",
+"why": "location",
+"locations": [
+"IA - Des Moines"
+],
+"url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/IA---Des-Moines/Regional-Growth-Director-_R1091966-1"
+},
+{
 "company": "Centene",
 "title": "Chief Operating Officer, Illinois Health Practice Alliance",
 "why": "location",
@@ -6064,6 +6010,15 @@
 "Madrid, Spain"
 ],
 "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Madrid-Spain/Head-of-Data-Products---Cigna-Healthcare_26012192"
+},
+{
+"company": "Cigna / Evernorth",
+"title": "Production Support Director- Hybrid",
+"why": "location",
+"locations": [
+"Bloomfield, CT"
+],
+"url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Production-Support-Director--Hybrid_26012992"
 },
 {
 "company": "Cigna / Evernorth",
@@ -6501,6 +6456,15 @@
 "IND19-01-Bengaluru-EPIP 122 (Phase II)"
 ],
 "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Senior-Director---SaaS-Analytics---AI_R4046567-1"
+},
+{
+"company": "GE HealthCare",
+"title": "Service Product Director",
+"why": "location",
+"locations": [
+"BeiJing"
+],
+"url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/BeiJing/Service-Product-Director_R4049348-2"
 },
 {
 "company": "Gates Foundation",
@@ -6976,6 +6940,15 @@
 "Bangalore, Karnataka, India"
 ],
 "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Bangalore-Karnataka-India/Director--AI---Digital-Solutions-Capabilities_R-107238"
+},
+{
+"company": "Johnson & Johnson",
+"title": "Director, APAC,  Strategic Pricing, Oncology",
+"why": "location",
+"locations": [
+"Singapore, Singapore"
+],
+"url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Singapore-Singapore/Director--APAC---Strategic-Pricing--Oncology_R-103685"
 },
 {
 "company": "Johnson & Johnson",

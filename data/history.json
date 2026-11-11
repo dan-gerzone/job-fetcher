@@ -150,7 +150,8 @@
 "gh-4421133009": {
 "url": "https://job-boards.greenhouse.io/swordhealth/jobs/4421133009",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-11"
+"lastListed": "2026-11-11",
+"closed": "2026-11-11"
 },
 "gh-4422190009": {
 "url": "https://job-boards.greenhouse.io/swordhealth/jobs/4422190009",
@@ -449,9 +450,19 @@
 "firstSeen": "2026-11-10",
 "lastListed": "2026-11-11"
 },
+"goog-137455259638211270": {
+"url": "https://www.google.com/about/careers/applications/jobs/results/137455259638211270-technical-program-manager-long-lead-equipment-strategy",
+"firstSeen": "2026-11-11",
+"lastListed": "2026-11-11"
+},
 "goog-137787645009765062": {
 "url": "https://www.google.com/about/careers/applications/jobs/results/137787645009765062-technical-program-manager-lead-network-delivery-implementation",
 "firstSeen": "2026-11-09",
+"lastListed": "2026-11-11"
+},
+"goog-77625884168594118": {
+"url": "https://www.google.com/about/careers/applications/jobs/results/77625884168594118-indiana-lead-energy-market-development",
+"firstSeen": "2026-11-11",
 "lastListed": "2026-11-11"
 },
 "goog-88315269641839302": {
@@ -1296,6 +1307,11 @@
 "firstSeen": "2026-11-11",
 "lastListed": "2026-11-11"
 },
+"wd-availity-R0008564": {
+"url": "https://availity.wd1.myworkdayjobs.com/Availity_Careers_US/job/Remote---United-States/Deputy-CISO_R0008564",
+"firstSeen": "2026-11-11",
+"lastListed": "2026-11-11"
+},
 "wd-bcbsa-JR5957": {
 "url": "https://bcbsa.wd1.myworkdayjobs.com/Careers/job/Chicago-or-Washington-DC/Head-of-Medicare-Performance-Hub_JR5957",
 "firstSeen": "2026-11-11",
@@ -1324,7 +1340,8 @@
 "wd-caresource-R13739": {
 "url": "https://caresource.wd1.myworkdayjobs.com/CareSource/job/New-York-WFH/Sr-DIrector--Market-Chief-Financial-Officer--Must-Live-in-New-York-_R13739",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-11"
+"lastListed": "2026-11-11",
+"closed": "2026-11-11"
 },
 "wd-caresource-R13752": {
 "url": "https://caresource.wd1.myworkdayjobs.com/CareSource/job/Remote/Director--Enrollment-Operations-Duals-Special-Needs-Enrollment-Experience-Required-_R13752",
@@ -1379,8 +1396,7 @@
 "wd-cigna-25009574": {
 "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/MO-St-Louis-One-Express-Way/Managing-Director--Head-of-Philippines_25009574",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-11",
-"closed": "2026-11-11"
+"lastListed": "2026-11-11"
 },
 "wd-cigna-26010573": {
 "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Madrid-Spain/Global-Head-of-Network--Chief-Network-Officer-_26010573",
@@ -1561,6 +1577,11 @@
 },
 "wd-cvs-R1097798": {
 "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/FL---Work-from-home/Lead-Director--Behavioral-Health---Specialty-Programs_R1097798",
+"firstSeen": "2026-11-11",
+"lastListed": "2026-11-11"
+},
+"wd-cvs-R1099192": {
+"url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/Field-Illinois/Lead-Director--Program-Management_R1099192",
 "firstSeen": "2026-11-11",
 "lastListed": "2026-11-11"
 },
@@ -1808,13 +1829,24 @@
 "wd-mckesson-JR0157219": {
 "url": "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-OH-Columbus/Senior-Director--AI-Enablement_JR0157219",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-11"
+"lastListed": "2026-11-11",
+"closed": "2026-11-11"
 },
 "wd-medtronic-R78737": {
 "url": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers/job/Minneapolis-Minnesota-United-States-of-America/Senior-Director--Digital-Transformation---AI-Strategy--Customer-Experience---Enablement_R78737-1",
 "firstSeen": "2026-11-11",
 "lastListed": "2026-11-11",
 "closed": "2026-11-11"
+},
+"wd-medtronic-R81619": {
+"url": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers/job/Minneapolis-Minnesota-United-States-of-America/Sr-Strategic-Planning-Program-Director---Enterprise-Tech-Strategy_R81619-1",
+"firstSeen": "2026-11-11",
+"lastListed": "2026-11-11"
+},
+"wd-medtronic-R81622": {
+"url": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers/job/Minneapolis-Minnesota-United-States-of-America/Sr-Strategic-Planning-Program-Director---Digital-Strategy---Innovation_R81622-1",
+"firstSeen": "2026-11-11",
+"lastListed": "2026-11-11"
 },
 "wd-merative-JR01744": {
 "url": "https://merative.wd12.myworkdayjobs.com/External_Career_Site/job/Remote--United-States/Director--Consulting-Services_JR01744",
