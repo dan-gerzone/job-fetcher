@@ -16,6 +16,6 @@ A Claude routine reads `data/`, judges fit and updates the job tracker.
 - **Broad employers** (health systems, med tech, consultancies) are marked `"broad": true` (or listed in `broadBoards`):
   their titles must also match `filters.broadFunction`. `data/near_misses.json` lists senior titles the function or
   location screen dropped, so the filter can be audited.
-- **Not covered yet** (job boards the fetcher can't read): UCHealth, Children's Hospital Colorado, CIVHC, Colorado Access,
-  MGMA, NCQA (Paylocity), CAQH, Gainwell (SuccessFactors), Maximus (Avature), Mathematica (blocks GitHub), Milliman,
-  Boston Scientific (Eightfold), Providence, Mayo Clinic.
+- **Not covered yet** (job boards the fetcher can't read, or that block GitHub's servers): UCHealth, Children's Hospital
+  Colorado, Colorado Access (Dayforce), Colorado Health Foundation (Paycor), DispatchHealth, CAQH, Mathematica, Maximus
+  (Avature), Westat, Conduent / MITRE / Zimmer Biomet / Guardant (Phenom), ECRI (Paycom), AHIMA, ASTHO, Vital Strategies.
