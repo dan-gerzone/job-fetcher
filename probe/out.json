@@ -1,0 +1,2671 @@
+{
+"slug": {
+"medica": [
+[
+"bamboohr",
+"medica",
+6,
+null,
+[
+"Senior Sonographer \u2013 Women's Health & Obstetr",
+"Candidate Advanced Practitioner (cAP) Sonogra",
+"Candidate Advanced Practitioner (cAP) Sonogra"
+]
+]
+],
+"healthpartners": [
+[
+"smartrecruiters",
+"healthpartners",
+7,
+"HealthPartners",
+[
+"RN Clinic Supervisor",
+"CareLine Telephone Triage RN Supervisor",
+"Nurse Supervisor, Telephone Triage Center"
+]
+]
+],
+"bcbst": [
+[
+"workday",
+"bcbst.wd1.myworkdayjobs.com",
+null,
+null,
+[
+[
+"External",
+24
+],
+[
+"ExternalBlueHorizon",
+1
+]
+]
+]
+],
+"careoregon": [
+[
+"workday",
+"careoregon.wd12.myworkdayjobs.com",
+null,
+null,
+[
+[
+"HCP",
+14
+],
+[
+"CO",
+13
+]
+]
+]
+],
+"capbluecross": [
+[
+"icims",
+"capbluecross",
+18,
+null,
+[
+"Director, Analytics and Reporting Delivery",
+"RN Care Manager",
+"Associate Producer Engagement Consultant"
+]
+]
+],
+"sentara": [
+[
+"workday",
+"sentara.wd1.myworkdayjobs.com",
+null,
+null,
+[
+[
+"SCS",
+2000
+],
+[
+"PCS",
+2
+]
+]
+]
+],
+"iehp": [
+[
+"icims",
+"iehp",
+50,
+null,
+[
+"Utilization Management Nurse, RN (Remote)",
+"Team Lead - UM Regulatory &amp; Compliance, R",
+"HEDIS Improvement Nurse Short-term"
+]
+]
+],
+"anglehealth": [
+[
+"ashby",
+"anglehealth",
+1,
+null,
+[
+"Account Manager, Eastern & Central Time Zones"
+]
+]
+],
+"gravie": [
+[
+"ashby",
+"gravie",
+20,
+null,
+[
+"Staff Platform Engineer",
+"Director, Claims Operations",
+"VP, Sales - Georgia"
+]
+]
+],
+"primetherapeutics": [
+[
+"workday",
+"primetherapeutics.wd1.myworkdayjobs.com",
+null,
+null,
+[
+[
+"PrimeTherapeuticsCareers",
+30
+]
+]
+]
+],
+"judihealth": [
+[
+"greenhouse",
+"judihealth",
+92,
+"Judi Health",
+[
+"Account Executive, PBM",
+"Account Manager, PBA",
+"Account Manager, PBM"
+]
+]
+],
+"smithrx": [
+[
+"greenhouse",
+"smithrx",
+21,
+"SmithRx",
+[
+"Account Executive - Pharmacy Benefits",
+"Bilingual Member Support Specialist (Spanish)",
+"Bilingual Patient Access Specialist (Inbound)"
+]
+]
+],
+"navitus": [
+[
+"icims",
+"navitus",
+50,
+null,
+[
+"Bilingual (Spanish) Telehealth Pharmacist",
+"Lead, Software Development AI Practice",
+"Executive Assistant II"
+]
+]
+],
+"crossoverhealth": [
+[
+"workday",
+"crossoverhealth.wd1.myworkdayjobs.com",
+null,
+null,
+[
+[
+"Careers",
+61
+]
+]
+]
+],
+"lightbeamhealth": [
+[
+"bamboohr",
+"lightbeamhealth",
+1,
+null,
+[
+"Office Administrative Assistant"
+]
+]
+],
+"upwardhealth": [
+[
+"greenhouse",
+"upwardhealth",
+40,
+"Upward Health",
+[
+"Care Specialist",
+"Care Specialist",
+"Care Specialist"
+]
+]
+],
+"curanahealth": [
+[
+"icims",
+"curanahealth",
+50,
+null,
+[
+"Physician - $50k Sign-on Bonus",
+"Nurse Practitioner or Physician Assistant",
+"Nurse Practitioner or Physician Assistant"
+]
+]
+],
+"belonghealth": [
+[
+"greenhouse",
+"belonghealth",
+3,
+"Belong Health",
+[
+"Director of Growth",
+"Market Lead, Network Operations",
+"Start Your Journey"
+]
+]
+],
+"guidehealth": [
+[
+"smartrecruiters",
+"guidehealth",
+47,
+"Guidehealth",
+[
+"Retinal Camera Operator - Eye Exam Specialist",
+"RN Case Manager - Remote",
+"Remote Clinical Pharmacist \u2013 HEDIS Medication"
+]
+]
+],
+"evergreennephrology": [
+[
+"greenhouse",
+"evergreennephrology",
+5,
+"Evergreen Nephrology",
+[
+"Care Coordinator",
+"Pharmacy Care Coordinator (Contract to Perm)",
+"Pharmacy Care Coordinator, MA (Contract to Pe"
+]
+]
+],
+"interwellhealth": [
+[
+"greenhouse",
+"interwellhealth",
+9,
+"Interwell Health",
+[
+"Customer Support Manager, Provider Enablement",
+"Machine Learning Engineer",
+"Renal Care Coordinator"
+]
+]
+],
+"oneoncology": [
+[
+"greenhouse",
+"oneoncology",
+163,
+"OneOncology",
+[
+"Advanced Practice Provider - Arizona Blood & ",
+"Advanced Practice Provider - Arizona Urology ",
+"Advanced Practice Provider - Beacon Clinic"
+]
+],
+[
+"workday",
+"oneoncology.wd1.myworkdayjobs.com",
+null,
+null,
+[
+[
+"TNONC",
+115
+],
+[
+"CCI",
+65
+],
+[
+"OneOncology",
+58
+],
+[
+"NYCBS",
+56
+],
+[
+"CHC",
+52
+],
+[
+"SMS",
+52
+]
+]
+]
+],
+"innovage": [
+[
+"icims",
+"innovage",
+50,
+null,
+[
+"Healthcare Sales Representative",
+"Clinic RN",
+"Eligibility &amp; Financial Redetermination R"
+]
+]
+],
+"serifhealth": [
+[
+"ashby",
+"serifhealth",
+3,
+null,
+[
+"GTM Engineer",
+"Senior Fullstack (VueJS/Golang) Engineer",
+"Senior Fullstack (VueJS/Golang) Engineer - Em"
+]
+]
+],
+"ursahealth": [
+[
+"rippling",
+"ursahealth",
+1,
+null,
+[
+"Data Integration Engineer"
+]
+]
+],
+"hhaexchange": [
+[
+"lever",
+"hhaexchange",
+27,
+null,
+[
+"Account Manager",
+"Associate Customer Success Manager",
+"Billing Specialist"
+]
+]
+],
+"softheon": [
+[
+"workable",
+"softheon",
+1,
+"Softheon",
+[
+"Network Manager"
+]
+]
+],
+"intersystems": [
+[
+"greenhouse",
+"intersystems",
+88,
+"InterSystems",
+[
+"Account Executive, Health Plans",
+"Administrative Assistant",
+"Application Engineer"
+]
+]
+],
+"redoxengine": [
+[
+"lever",
+"redoxengine",
+3,
+null,
+[
+"Senior Commercial Counsel",
+"Senior Integration Coordinator",
+"Staff Platform Engineer"
+]
+]
+],
+"redox": [
+[
+"workable",
+"redox",
+36,
+"Redox",
+[
+"Account Manager - Havelock North",
+"Account Manager Water Care - Richlands, QLD",
+"Despatch Officer - Dry Creek, Adelaide"
+]
+]
+],
+"1uphealth": [
+[
+"ashby",
+"1uphealth",
+2,
+null,
+[
+"Director, Product Innovation",
+"Staff DevOps Engineer (Platform)"
+]
+]
+],
+"smiledigitalhealth": [
+[
+"lever",
+"smiledigitalhealth",
+6,
+null,
+[
+"Azure Platform Engineer (Remote Ontario)",
+"Senior Cloud Engineer, Automation (Remote Ont",
+"Senior Cloud Security Engineer (Remote Ontari"
+]
+]
+],
+"moxehealth": [
+[
+"greenhouse",
+"moxehealth",
+2,
+"Moxe",
+[
+"Director of Payer Sales",
+"Director of Provider Sales"
+]
+]
+],
+"veradigm": [
+[
+"workday",
+"veradigm.wd12.myworkdayjobs.com",
+null,
+null,
+[
+[
+"VR",
+106
+]
+]
+]
+],
+"nextgen": [
+[
+"smartrecruiters",
+"nextgen",
+7,
+"NextGen",
+[
+"Contract Administrator",
+"Security Guard Part Time & On-Call",
+"Fire Sprinkler Service Technician"
+]
+],
+[
+"workday",
+"nextgen.wd5.myworkdayjobs.com",
+null,
+null,
+[
+[
+"NextGen_Careers",
+32
+]
+]
+]
+],
+"canvasmedical": [
+[
+"lever",
+"canvasmedical",
+6,
+null,
+[
+"Account Executive",
+"Applied AI Operations Lead",
+"Applied AI Software Engineer"
+]
+]
+],
+"modmed": [
+[
+"workday",
+"modmed.wd501.myworkdayjobs.com",
+null,
+null,
+[
+[
+"ModMed12",
+89
+],
+[
+"Confidential12",
+5
+],
+[
+"India_Career_Site",
+4
+]
+]
+]
+],
+"tebra": [
+[
+"greenhouse",
+"tebra",
+11,
+"Tebra",
+[
+"Account Executive, Growth",
+"Data Engineer",
+"Loyalty Specialist"
+]
+]
+],
+"phreesia": [
+[
+"workday",
+"phreesia.wd1.myworkdayjobs.com",
+null,
+null,
+[
+[
+"Phreesia",
+8
+],
+[
+"PhreesiaCanada",
+6
+]
+]
+]
+],
+"lumahealth": [
+[
+"greenhouse",
+"lumahealth",
+3,
+"Luma Health",
+[
+"Sales Development Representative",
+"Sales Engineer (AI)",
+"Sr. Customer Success Executive"
+]
+]
+],
+"artera": [
+[
+"lever",
+"artera",
+7,
+null,
+[
+"Chief Medical Officer (CMO)",
+"Machine Learning Scientist, Computational Pat",
+"Sales Account Executive (Oregon)"
+]
+]
+],
+"symplr": [
+[
+"icims",
+"symplr",
+8,
+null,
+[
+"Solution Executive - CVO",
+"PES Account Specialist",
+"Payor Enrollment Specialist"
+]
+]
+],
+"qgenda": [
+[
+"greenhouse",
+"qgenda",
+7,
+"QGenda",
+[
+"Customer Success Executive",
+"Customer Support Specialist",
+"Implementation Consultant, Scheduling"
+]
+]
+],
+"tegria": [
+[
+"workday",
+"tegria.wd12.myworkdayjobs.com",
+null,
+null,
+[
+[
+"EXT",
+9
+]
+]
+]
+],
+"avalere": [
+[
+"icims",
+"avalere",
+1,
+null,
+[
+"Test Job"
+]
+]
+],
+"arine": [
+[
+"rippling",
+"arine",
+14,
+null,
+[
+"AI Engineering Intern ",
+"Bilingual Clinical Pharmacist (Temp-to-Hire)",
+"Bilingual Clinical Support Specialist (Temp-t"
+]
+]
+],
+"akasa": [
+[
+"ashby",
+"akasa",
+9,
+null,
+[
+"Sr. Machine Learning Engineer ",
+"Clinical Database, SME - Strategy (CDI Specia",
+"Sr. Product Manager"
+]
+]
+],
+"corrohealth": [
+[
+"workday",
+"corrohealth.wd1.myworkdayjobs.com",
+null,
+null,
+[
+[
+"CorroHealthIndia",
+151
+],
+[
+"Corro",
+31
+],
+[
+"Virtix",
+12
+]
+]
+]
+],
+"suki": [
+[
+"greenhouse",
+"suki",
+9,
+"Suki",
+[
+"Cloud & AI Security Engineer III",
+"Director, Growth Marketing",
+"IT Engineer"
+]
+]
+],
+"concertai": [
+[
+"greenhouse",
+"concertai",
+13,
+"ConcertAI",
+[
+"General Application: Don't see what you're lo",
+"Lead Project Manager, Implementations",
+"Principal Solution Consultant, Market Access "
+]
+]
+],
+"veranahealth": [
+[
+"greenhouse",
+"veranahealth",
+6,
+"Verana Health",
+[
+"Director of Business Development",
+"Knoxville Office Manager (Part-Time)",
+"Practice Experience Manager "
+]
+]
+],
+"evidation": [
+[
+"smartrecruiters",
+"evidation",
+8,
+"Evidation",
+[
+"Technical Recruiter",
+"Systems Administrator",
+"Product Designer"
+]
+],
+[
+"rippling",
+"evidation",
+3,
+null,
+[
+"Senior/Lead Product Manager",
+"Sr. Staff / Staff / Senior Data Engineer",
+"Sr. Staff / Staff / Senior Engineer - Full St"
+]
+]
+],
+"eonhealth": [
+[
+"bamboohr",
+"eonhealth",
+14,
+null,
+[
+"Principal Software Engineer",
+"Technical Implementation Engineer",
+"Software Quality Assurance Engineer"
+]
+]
+],
+"hellobrightline": [
+[
+"ashby",
+"hellobrightline",
+10,
+null,
+[
+"Licensed Clinical Therapist (New York/ Hybrid",
+"Licensed Clinical Psychologist (New York/ On ",
+"Psychiatric Nurse Practitioner (PMHNP-BC) Tal"
+]
+]
+],
+"twochairs": [
+[
+"greenhouse",
+"twochairs",
+28,
+"Two Chairs",
+[
+"Client Outreach Specialist",
+"Client Solutions Director ",
+"Corporate FP&A Manager"
+]
+]
+],
+"brightside": [
+[
+"rippling",
+"brightside",
+1,
+null,
+[
+"Future Opportunities at Brightside"
+]
+]
+],
+"charliehealth": [
+[
+"greenhouse",
+"charliehealth",
+281,
+"Charlie Health",
+[
+"Admissions Coordinator - Spanish Speaking",
+"Care Coach (Part-Time)",
+"Care Experience Specialist"
+]
+]
+],
+"twinhealth": [
+[
+"greenhouse",
+"twinhealth",
+42,
+"Twin Health",
+[
+"Bilingual Coach (English/Spanish, PST/MST)",
+"Client Growth & Success Manager",
+"Client Growth & Success, Principal Manager\u2013 E"
+]
+]
+],
+"goodrx": [
+[
+"ashby",
+"goodrx",
+9,
+null,
+[
+"Test_Scrum Master  ",
+"Test_Insight Coordinator ",
+"Head of Test (TEST)"
+]
+],
+[
+"workday",
+"goodrx.wd1.myworkdayjobs.com",
+null,
+null,
+[
+[
+"Careers",
+7
+]
+]
+]
+],
+"blinkhealth": [
+[
+"greenhouse",
+"blinkhealth",
+79,
+"Blink Health",
+[
+" Bilingual Customer Support Specialist (Onsit",
+"Bilingual Customer Support Specialist | Onsit",
+" Call Center Specialist | Onsite- Pittsburgh"
+]
+]
+],
+"wellthy": [
+[
+"greenhouse",
+"wellthy",
+16,
+"Wellthy",
+[
+"Analytics Engineer",
+"Backup Care Manager",
+"Care Adviser, Medical/Mental Health"
+]
+]
+],
+"jj": [
+[
+"workday",
+"jj.wd5.myworkdayjobs.com",
+null,
+null,
+[
+[
+"JJ",
+1763
+],
+[
+"DisplacedEmployees",
+667
+],
+[
+"NonCompetetiveHiring",
+68
+],
+[
+"BorderUnionHiring",
+3
+]
+]
+]
+],
+"olympus": [
+[
+"ashby",
+"olympus",
+2,
+null,
+[
+"Founders Associate",
+"Founding Product Engineer"
+]
+]
+],
+"smithnephew": [
+[
+"workday",
+"smithnephew.wd5.myworkdayjobs.com",
+null,
+null,
+[
+[
+"External",
+358
+]
+]
+]
+],
+"labcorp": [
+[
+"workday",
+"labcorp.wd1.myworkdayjobs.com",
+null,
+null,
+[
+[
+"External",
+1762
+]
+]
+]
+],
+"agilent": [
+[
+"workday",
+"agilent.wd5.myworkdayjobs.com",
+null,
+null,
+[
+[
+"Agilent_Careers",
+357
+],
+[
+"Agilent_Student_Careers",
+29
+]
+]
+]
+],
+"danaher": [
+[
+"workday",
+"danaher.wd1.myworkdayjobs.com",
+null,
+null,
+[
+[
+"DanaherJobs",
+1469
+]
+]
+]
+],
+"cardinalhealth": [
+[
+"workday",
+"cardinalhealth.wd1.myworkdayjobs.com",
+null,
+null,
+[
+[
+"EXT",
+849
+],
+[
+"Navista",
+33
+],
+[
+"Contractor",
+10
+],
+[
+"EXT_GLOBAL",
+5
+]
+]
+]
+],
+"mckesson": [
+[
+"workday",
+"mckesson.wd3.myworkdayjobs.com",
+null,
+null,
+[
+[
+"External_Careers",
+668
+],
+[
+"CoverMyMeds_External_Careers",
+20
+],
+[
+"SCRI_Careers",
+16
+],
+[
+"Acquisition_Campus",
+2
+],
+[
+"rxsscareers",
+2
+]
+]
+]
+],
+"cencora": [
+[
+"smartrecruiters",
+"cencora",
+4,
+"Cencora",
+[
+"Warehouse Associate",
+"Sr Warehouse Associate Days [Evergreen]",
+"Warehouse Associate Nights [Evergreen]"
+]
+]
+],
+"zoll": [
+[
+"workday",
+"zoll.wd5.myworkdayjobs.com",
+null,
+null,
+[
+[
+"ZOLLMedicalCorp",
+257
+]
+]
+]
+],
+"enovis": [
+[
+"workday",
+"enovis.wd5.myworkdayjobs.com",
+null,
+null,
+[
+[
+"enovis",
+165
+]
+]
+]
+],
+"integralife": [
+[
+"workday",
+"integralife.wd1.myworkdayjobs.com",
+null,
+null,
+[
+[
+"Careers",
+152
+]
+]
+]
+],
+"merit": [
+[
+"workday",
+"merit.wd503.myworkdayjobs.com",
+null,
+null,
+[
+[
+"Merit",
+99
+]
+]
+]
+],
+"alcon": [
+[
+"workday",
+"alcon.wd5.myworkdayjobs.com",
+null,
+null,
+[
+[
+"careers_alcon",
+330
+]
+]
+]
+],
+"butterflynetwork": [
+[
+"greenhouse",
+"butterflynetwork",
+18,
+"Butterfly Network",
+[
+"Clinical Sales Exec - East",
+"Clinical Sales Exec - West",
+"Distributor & Global Health Partnerships Mana"
+]
+]
+],
+"globusmedical": [
+[
+"workday",
+"globusmedical.wd5.myworkdayjobs.com",
+null,
+null,
+[
+[
+"GMED_Careers",
+334
+],
+[
+"BMG_Careers",
+36
+],
+[
+"NCS_Careers",
+30
+],
+[
+"NVRO_Careers",
+11
+],
+[
+"BBA_Careers",
+6
+],
+[
+"NML_Careers",
+5
+]
+]
+]
+],
+"roche": [
+[
+"workday",
+"roche.wd3.myworkdayjobs.com",
+null,
+null,
+[
+[
+"roche-ext",
+1224
+],
+[
+"ROG-A2O-GENE",
+232
+],
+[
+"mysugr-ext",
+9
+]
+]
+]
+],
+"gilead": [
+[
+"workday",
+"gilead.wd1.myworkdayjobs.com",
+null,
+null,
+[
+[
+"gileadcareers",
+429
+],
+[
+"gileadhotjobcareers",
+211
+],
+[
+"kitepharmacareers",
+56
+]
+]
+]
+],
+"vumc": [
+[
+"workday",
+"vumc.wd1.myworkdayjobs.com",
+null,
+null,
+[
+[
+"vumccareers",
+954
+]
+]
+]
+],
+"ochsner": [
+[
+"workday",
+"ochsner.wd1.myworkdayjobs.com",
+null,
+null,
+[
+[
+"Ochsner",
+1821
+],
+[
+"OchsnerPhysician",
+336
+],
+[
+"OchsnerLSUHealthSystemNL",
+230
+],
+[
+"OchsnerLeadership",
+28
+]
+]
+]
+],
+"memorialhermann": [
+[
+"workday",
+"memorialhermann.wd5.myworkdayjobs.com",
+null,
+null,
+[
+[
+"external",
+702
+]
+]
+]
+],
+"stanfordhealthcare": [
+[
+"bamboohr",
+"stanfordhealthcare",
+3,
+null,
+[
+"Primary Care - Family Medicine or Internal Me",
+"Otolaryngology Physician (ENT)  MMC (Menlo Me",
+"Part-Time Primary Care Internal Medicine Phys"
+]
+]
+],
+"csmc": [
+[
+"bamboohr",
+"csmc",
+9,
+null,
+[
+"Head of Government Relations",
+"Geophysicist ",
+"Director/Vice President, Nuclear Engineering "
+]
+]
+],
+"multicare": [
+[
+"workday",
+"multicare.wd1.myworkdayjobs.com",
+null,
+null,
+[
+[
+"multicare",
+1415
+]
+]
+]
+],
+"allina": [
+[
+"workday",
+"allina.wd5.myworkdayjobs.com",
+null,
+null,
+[
+[
+"External",
+804
+]
+]
+]
+],
+"mercy": [
+[
+"workday",
+"mercy.wd1.myworkdayjobs.com",
+null,
+null,
+[
+[
+"mercycareers",
+2000
+]
+]
+]
+],
+"rush": [
+[
+"bamboohr",
+"rush",
+6,
+null,
+[
+"General Application",
+"Master Electrician",
+"Landscaping Technician"
+]
+]
+],
+"uhhospitals": [
+[
+"bamboohr",
+"uhhospitals",
+1,
+null,
+[
+"Test Posting"
+]
+]
+],
+"pennmedicine": [
+[
+"smartrecruiters",
+"pennmedicine",
+7,
+"Penn Medicine",
+[
+"Sales Representative",
+"Customer Service Representative",
+"Warehouse Associate"
+]
+]
+],
+"jefferson": [
+[
+"workday",
+"jefferson.wd5.myworkdayjobs.com",
+null,
+null,
+[
+[
+"External",
+30
+]
+]
+]
+],
+"christianacare": [
+[
+"workday",
+"christianacare.wd5.myworkdayjobs.com",
+null,
+null,
+[
+[
+"CCHS",
+345
+]
+]
+]
+],
+"wellstar": [
+[
+"workday",
+"wellstar.wd1.myworkdayjobs.com",
+null,
+null,
+[
+[
+"wellstarcareers",
+1085
+],
+[
+"wellstarprovidercareers",
+204
+]
+]
+]
+],
+"piedmont": [
+[
+"icims",
+"piedmont",
+50,
+null,
+[
+"RN - Emergency Department, Days",
+"RN - Emergency Department, Evenings",
+"Coordinator - Inpatient Rehab Unit, PRN, Days"
+]
+]
+],
+"bilh": [
+[
+"workday",
+"bilh.wd1.myworkdayjobs.com",
+null,
+null,
+[
+[
+"External",
+2000
+]
+]
+]
+],
+"brookings": [
+[
+"lever",
+"brookings",
+6,
+null,
+[
+"Account Manager",
+"Financial Analyst",
+"Research Assistant"
+]
+],
+[
+"icims",
+"brookings",
+10,
+null,
+[
+"Research Assistant, Economic Studies (Job ID:",
+"Board Relations Coordinator (Job ID: 2026-392",
+"Director, Individual Giving (Job ID: 2026-384"
+]
+]
+],
+"pewtrusts": [
+[
+"workday",
+"pewtrusts.wd5.myworkdayjobs.com",
+null,
+null,
+[
+[
+"TrustsExternal",
+17
+],
+[
+"CenterExternal",
+3
+]
+]
+]
+],
+"altarum": [
+[
+"lever",
+"altarum",
+6,
+null,
+[
+"Paralegal",
+"Security Compliance Engineer",
+"Senior Behavioral Health Training Specialist "
+]
+]
+],
+"leidos": [
+[
+"bamboohr",
+"leidos",
+5,
+null,
+[
+"IT Security Engineer",
+"General Application",
+"Software Engineer"
+]
+],
+[
+"workday",
+"leidos.wd5.myworkdayjobs.com",
+null,
+null,
+[
+[
+"External",
+2000
+]
+]
+]
+],
+"navapbc": [
+[
+"greenhouse",
+"navapbc",
+21,
+"Nava PBC",
+[
+"1099 Workday Administrator | Integrations, St",
+"1099 Workday Administrator | Payroll, Benefit",
+"Capture Engineer"
+]
+]
+],
+"bellese": [
+[
+"lever",
+"bellese",
+9,
+null,
+[
+"Engineer II, Full Stack",
+"Engineering Manager",
+"Growth Solution Architect"
+]
+]
+],
+"agilesix": [
+[
+"greenhouse",
+"agilesix",
+1,
+"Agile Six Applications",
+[
+"Director, CMS & HHS Business Development "
+]
+]
+],
+"civicactions": [
+[
+"greenhouse",
+"civicactions",
+1,
+"CivicActions",
+[
+" Strategic Partnerships Lead - GovCon Busines"
+]
+]
+],
+"codeforamerica": [
+[
+"greenhouse",
+"codeforamerica",
+10,
+"Code for America",
+[
+"Associate Director, Government Partnerships",
+"Director, Product Marketing",
+"Engineering Manager "
+]
+]
+],
+"resolvetosavelives": [
+[
+"greenhouse",
+"resolvetosavelives",
+5,
+"Resolve To Save Lives",
+[
+"Director, Maternal & Reproductive Health ",
+"Finance and Operations Manager (Changsha, Hun",
+"Legal Associate"
+]
+]
+],
+"ashp": [
+[
+"icims",
+"ashp",
+7,
+null,
+[
+"Archivist",
+"Senior Manager, Advocacy Content Development",
+"Contract Lead Surveyor"
+]
+]
+],
+"aap": [
+[
+"bamboohr",
+"aap",
+5,
+null,
+[
+"Receiving Assistant",
+"Order Processor",
+"Member Support Representative"
+]
+]
+],
+"acog": [
+[
+"greenhouse",
+"acog",
+14,
+"American College of Obstetricians and Gynecologists",
+[
+"Accounts Payable Specialist, Financial Servic",
+"Advocacy Engagement Manager",
+"Business Analyst"
+]
+]
+],
+"cff": [
+[
+"workday",
+"cff.wd504.myworkdayjobs.com",
+null,
+null,
+[
+[
+"explore-career-opportunities",
+12
+]
+]
+]
+],
+"sts": [
+[
+"greenhouse",
+"sts",
+2,
+"Steve Tate and Son Plumbing",
+[
+"Utility Foreman",
+"Utility Mechanic"
+]
+]
+],
+"rti": [
+[
+"greenhouse",
+"rti",
+10,
+"Real-Time Innovations",
+[
+"Embedded Lab Engineer",
+"Field Application Engineer",
+"Marketing Events Manager"
+]
+]
+]
+},
+"sniff": {
+"uchealth.org": {
+"ats": [],
+"pages": [
+"https://www.uchealth.org -> https://www.uchealth.org"
+]
+},
+"childrenscolorado.org": {
+"ats": [],
+"pages": [
+"https://www.childrenscolorado.org/careers -> https://www.childrenscolorado.org/careers",
+"https://www.childrenscolorado.org/about/careers -> https://www.childrenscolorado.org/careers/",
+"https://www.childrenscolorado.org/careers/ -> https://www.childrenscolorado.org/careers/",
+"https://www.childrenscolorado.org -> https://www.childrenscolorado.org"
+]
+},
+"civhc.org": {
+"ats": [
+"https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d203d09b-4ff6-4f17-b8bb-e46f24573365&amp"
+],
+"pages": [
+"https://www.civhc.org/careers -> https://civhc.org/about-us/careers/",
+"https://www.civhc.org/about/careers -> https://civhc.org/about-us/careers/",
+"https://www.civhc.org/about-us/careers -> https://civhc.org/about-us/careers/",
+"https://www.civhc.org/careers/ -> https://civhc.org/about-us/careers/"
+]
+},
+"coaccess.com": {
+"ats": [
+"https://jobs.dayforcehcm.com/en-US/coaccess/CANDIDATEPORTAL",
+"https://usr58.dayforcehcm.com/CandidatePortal/en-US/coaccess"
+],
+"pages": [
+"https://www.coaccess.com/careers -> http://www.coaccess.com/about/careers/",
+"https://www.coaccess.com/about/careers -> https://www.coaccess.com/about/careers/",
+"https://www.coaccess.com/careers/ -> http://www.coaccess.com/about/careers/",
+"https://www.coaccess.com -> https://www.coaccess.com"
+]
+},
+"mgma.com": {
+"ats": [
+"https://recruiting.paylocity.com/recruiting/jobs/All/deaaa457-a0ad-40a9-947c-5e028d563548/MGMA-ACMPE"
+],
+"pages": [
+"https://www.mgma.com/careers -> https://www.mgma.com/career-center",
+"https://www.mgma.com/about/careers -> https://www.mgma.com/work-with-us",
+"https://www.mgma.com/careers/ -> https://www.mgma.com/career-center",
+"https://www.mgma.com -> https://www.mgma.com"
+]
+},
+"ncqa.org": {
+"ats": [
+"https://recruiting.paylocity.com/recruiting/jobs/All/e17d268e-1abe-4e11-8fa8-bc9215bce4c0/National-Committee-for-Quality-Assurance"
+],
+"pages": [
+"https://www.ncqa.org/careers -> https://www.ncqa.org/about-ncqa/careers/",
+"https://www.ncqa.org/careers/ -> https://www.ncqa.org/about-ncqa/careers/",
+"https://www.ncqa.org/jobs -> https://www.ncqa.org/about-ncqa/careers/",
+"https://www.ncqa.org -> https://www.ncqa.org"
+]
+},
+"caqh.org": {
+"ats": [
+"https://ats.rippling.com/dataspring/jobs"
+],
+"pages": [
+"https://www.caqh.org/careers -> https://www.dataspring.com/careers",
+"https://www.caqh.org/about/careers -> https://www.dataspring.com/careers",
+"https://www.caqh.org/careers/ -> https://www.dataspring.com/careers",
+"https://www.caqh.org -> https://www.dataspring.com/"
+]
+},
+"gainwelltechnologies.com": {
+"ats": [
+"SFRMK https://jobs.gainwelltechnologies.com",
+"https://rmkcdn.successfactors.com/9645d618/99e975ae-0471-45b4-baac-e.jpg"
+],
+"pages": [
+"https://www.gainwelltechnologies.com/careers -> https://www.gainwelltechnologies.com/careers/",
+"https://www.gainwelltechnologies.com/about/careers -> https://www.gainwelltechnologies.com/careers/",
+"https://www.gainwelltechnologies.com/about-us/careers -> https://www.gainwelltechnologies.com/careers/",
+"https://www.gainwelltechnologies.com/careers/ -> https://www.gainwelltechnologies.com/careers/"
+]
+},
+"maximus.com": {
+"ats": [
+"REDIRECT https://maximus.avature.net/careers/USHome",
+"https://maximus.avature.net/USTalentCommunity",
+"https://maximus.avature.net/careers",
+"https://maximus.avature.net/careers/Job-Search_US",
+"https://maximus.avature.net/careers/Job-Search_US?listFilterMode=true&amp",
+"https://maximus.avature.net/careers/Login",
+"https://maximus.avature.net/careers/USHome",
+"https://maximus.avature.net/eventslisting",
+"https://maximus.avature.net/portal/4/images/logo--small.svg",
+"https://maximus.avature.net/portal/4/images/logo--small.svg&quot"
+],
+"pages": [
+"https://www.maximus.com/careers -> https://maximus.avature.net/careers/USHome",
+"https://www.maximus.com -> https://maximus.com/"
+]
+},
+"acentra.com": {
+"ats": [
+"JIBE https://careers.acentra.com/us/jobs",
+"https://acentra.icims.com/icims2/servlet/icims2?module=AppInert&action=download&id=530474&hashed=-572425835",
+"https://incareers-acentra.icims.com/",
+"https://www.icims.com/legal/privacy-notice-website",
+"https://www.icims.com/legal/privacy-notice-website/"
+],
+"pages": [
+"https://www.acentra.com/careers -> https://acentra.com/careers/",
+"https://www.acentra.com/careers/ -> https://acentra.com/careers/",
+"https://www.acentra.com -> https://acentra.com/",
+"https://careers.acentra.com -> https://careers.acentra.com/us/jobs"
+]
+},
+"milliman.com": {
+"ats": [
+"https://recruiting2.ultipro.com/MIL1017/JobBoard/f54234e9-dfde-b183-fd20-4fbdb19cba7a",
+"https://recruiting2.ultipro.com/MIL1017/JobBoard/f54234e9-dfde-b183-fd20-4fbdb19cba7a/",
+"https://recruiting2.ultipro.com/MIL1017/JobBoard/f54234e9-dfde-b183-fd20-4fbdb19cba7a/?q=",
+"https://recruiting2.ultipro.com/MIL1017/JobBoard/f54234e9-dfde-b183-fd20-4fbdb19cba7a/?q=&amp",
+"https://recruiting2.ultipro.com/MIL1017/JobBoard/f54234e9-dfde-b183-fd20-4fbdb19cba7a/?q=Minneapolis"
+],
+"pages": [
+"https://www.milliman.com/careers -> https://careers.milliman.com/en",
+"https://www.milliman.com -> https://us.milliman.com/en/",
+"https://careers.milliman.com -> https://careers.milliman.com/en"
+]
+},
+"providence.org": {
+"ats": [],
+"pages": [
+"https://www.providence.org -> https://www.providence.org"
+]
+},
+"coloradohealth.org": {
+"ats": [
+"https://recruitingbypaycor.com/career/",
+"https://recruitingbypaycor.com/career/CareerHome.action?clientId=8aa005063388231001338fa23a750023",
+"https://recruitingbypaycor.com/career/CareerHomeSearch.action",
+"https://recruitingbypaycor.com/career/css/careerv3/newton.css",
+"https://recruitingbypaycor.com/career/js/careerv3/sessionStore.js",
+"https://recruitingbypaycor.com/career/node_modules/jquery/dist/jquery.min.js",
+"https://recruitingbypaycor.com/career/node_modules/urijs/src/URI.min.js"
+],
+"pages": [
+"https://www.coloradohealth.org/careers/ -> https://recruitingbypaycor.com/career/CareerHome.action?clientId=8aa005063388231001338fa23a750023",
+"https://www.coloradohealth.org/jobs -> https://recruitingbypaycor.com/career/CareerHome.action?clientId=8aa005063388231001338fa23a750023",
+"https://www.coloradohealth.org -> https://coloradohealth.org/"
+]
+},
+"connectforhealthco.com": {
+"ats": [],
+"pages": [
+"https://www.connectforhealthco.com -> https://connectforhealthco.com/"
+]
+},
+"innovage.com": {
+"ats": [
+"JIBE https://careers.innovage.com",
+"JIBE https://careers.innovage.com/",
+"https://careers-innovage.icims.com/jobs/login?loginOnly=1&amp",
+"https://careers-innovage.icims.com/jobs/login?loginOnly=1&redirect=&in_iframe=1&hashed=-625917650",
+"https://innovage.icims.com/icims2/servlet/icims2?module=AppInert&action=download&id=48&hashed=-2004601161",
+"https://innovage.jibeapply.com&quot",
+"https://innovage.qa.jibeapply.com&quot",
+"https://innovage.staging.jibeapply.com&quot",
+"https://www.icims.com/legal/privacy-notice-website",
+"https://www.icims.com/legal/privacy-notice-website/"
+],
+"pages": [
+"https://www.innovage.com/careers -> https://careers.innovage.com/",
+"https://www.innovage.com/careers/ -> https://careers.innovage.com/",
+"https://www.innovage.com -> https://www.innovage.com",
+"https://careers.innovage.com -> https://careers.innovage.com"
+]
+},
+"pinnacol.com": {
+"ats": [
+"https://boards-api.greenhouse.io/v1/boards/pinnacolassurance/departments",
+"https://boards.greenhouse.io/pinnacolassurance#.WQEvSPnyupq"
+],
+"pages": [
+"https://www.pinnacol.com/careers -> https://www.pinnacol.com/careers",
+"https://www.pinnacol.com/careers/ -> https://www.pinnacol.com/careers",
+"https://www.pinnacol.com -> https://www.pinnacol.com"
+]
+},
+"cha.com": {
+"ats": [],
+"pages": [
+"https://www.cha.com/careers -> https://cha.com/about-us/careers-at-cha/",
+"https://www.cha.com/about/careers -> https://cha.com/about-us/careers-at-cha/",
+"https://www.cha.com/about-us/careers -> https://cha.com/about-us/careers-at-cha/",
+"https://www.cha.com/careers/ -> https://cha.com/about-us/careers-at-cha/"
+]
+},
+"coloradohealthinstitute.org": {
+"ats": [],
+"pages": [
+"https://www.coloradohealthinstitute.org/careers -> https://www.coloradohealthinstitute.org/about/careers",
+"https://www.coloradohealthinstitute.org/about/careers -> https://www.coloradohealthinstitute.org/about/careers",
+"https://www.coloradohealthinstitute.org/careers/ -> https://www.coloradohealthinstitute.org/about/careers",
+"https://www.coloradohealthinstitute.org -> https://www.coloradohealthinstitute.org"
+]
+},
+"nationaljewish.org": {
+"ats": [],
+"pages": [
+"https://www.nationaljewish.org -> https://www.nationaljewish.org/home"
+]
+},
+"dispatchhealth.com": {
+"ats": [
+"JIBE https://careers.dispatchhealth.com",
+"JIBE https://careers.dispatchhealth.com/",
+"https://dispatchhealth.jibeapply.com/LandingPage/talentcommunity/form"
+],
+"pages": [
+"https://www.dispatchhealth.com/careers -> https://careers.dispatchhealth.com/",
+"https://www.dispatchhealth.com/careers/ -> https://careers.dispatchhealth.com/",
+"https://www.dispatchhealth.com -> https://www.dispatchhealth.com",
+"https://careers.dispatchhealth.com -> https://careers.dispatchhealth.com"
+]
+},
+"copic.com": {
+"ats": [],
+"pages": [
+"https://www.copic.com/careers -> https://www.copic.com/careers/",
+"https://www.copic.com/about/careers -> https://www.copic.com/careers/",
+"https://www.copic.com/about-us/careers -> https://www.copic.com/careers/",
+"https://www.copic.com/careers/ -> https://www.copic.com/careers/"
+]
+},
+"academyhealth.org": {
+"ats": [],
+"pages": []
+},
+"pcori.org": {
+"ats": [
+"https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=8eb0f259-f0ed-4366-8525-92ace3cd3304&amp"
+],
+"pages": [
+"https://www.pcori.org/careers -> https://www.pcori.org/about/careers-pcori"
+]
+},
+"commonwealthfund.org": {
+"ats": [],
+"pages": [
+"https://www.commonwealthfund.org/about-us/careers -> https://www.commonwealthfund.org/about-us/job-opportunities",
+"https://www.commonwealthfund.org -> https://www.commonwealthfund.org"
+]
+},
+"cdcfoundation.org": {
+"ats": [
+"https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?lang=en_US&amp"
+],
+"pages": [
+"https://www.cdcfoundation.org/jobs -> https://www.cdcfoundation.org/jobs",
+"https://www.cdcfoundation.org -> https://www.cdcfoundation.org"
+]
+},
+"astho.org": {
+"ats": [
+"https://astho.hrmdirect.com/employment/job-openings.php?search=true&amp"
+],
+"pages": [
+"https://www.astho.org/careers -> https://www.astho.org/about/careers/",
+"https://www.astho.org/about/careers -> https://www.astho.org/about/careers",
+"https://www.astho.org/careers/ -> https://www.astho.org/about/careers/",
+"https://www.astho.org/jobs -> https://www.astho.org/about/careers/"
+]
+},
+"naccho.org": {
+"ats": [],
+"pages": [
+"https://www.naccho.org/careers -> https://www.naccho.org/about/work-with-us",
+"https://www.naccho.org/careers/ -> https://www.naccho.org/about/work-with-us",
+"https://www.naccho.org/about/work-with-us -> https://www.naccho.org/about/work-with-us",
+"https://www.naccho.org -> https://www.naccho.org"
+]
+},
+"vitalstrategies.org": {
+"ats": [
+"https://phg.tbe.taleo.net/phg01/ats/careers/v2/jobSearch?org=VITASTRA&#038"
+],
+"pages": [
+"https://www.vitalstrategies.org/careers -> https://www.vitalstrategies.org/get-involved/careers/",
+"https://www.vitalstrategies.org/about-us/careers -> https://www.vitalstrategies.org/get-involved/careers/",
+"https://www.vitalstrategies.org/careers/ -> https://www.vitalstrategies.org/get-involved/careers/",
+"https://www.vitalstrategies.org -> https://www.vitalstrategies.org"
+]
+},
+"debeaumont.org": {
+"ats": [],
+"pages": [
+"https://www.debeaumont.org/jobs -> https://debeaumont.org/about-us/job-opportunities/",
+"https://www.debeaumont.org -> https://debeaumont.org/"
+]
+},
+"phi.org": {
+"ats": [],
+"pages": [
+"https://www.phi.org/jobs -> https://www.phi.org/employment/",
+"https://www.phi.org -> https://www.phi.org"
+]
+},
+"ahip.org": {
+"ats": [],
+"pages": [
+"https://www.ahip.org -> https://www.ahip.org"
+]
+},
+"himss.org": {
+"ats": [],
+"pages": []
+},
+"ahima.org": {
+"ats": [
+"https://ahima.isolvedhire.com"
+],
+"pages": [
+"https://www.ahima.org/careers -> https://www.ahima.org/careers",
+"https://www.ahima.org/careers/ -> https://www.ahima.org/careers/",
+"https://www.ahima.org -> https://www.ahima.org",
+"https://careers.ahima.org -> https://careers.ahima.org"
+]
+},
+"amga.org": {
+"ats": [],
+"pages": [
+"https://www.amga.org -> https://amga.org/",
+"https://careers.amga.org -> https://careers.amga.org"
+]
+},
+"ache.org": {
+"ats": [],
+"pages": [
+"https://www.ache.org -> https://www.ache.org"
+]
+},
+"nashp.org": {
+"ats": [
+"https://pewtrusts.wd5.myworkdayjobs.com/en-US/trustsexternal/job/Washington-DC-901-E/Manager--State-Technical-Assistance--Substance-Use-Prevention-and",
+"https://pewtrusts.wd5.myworkdayjobs.com/en-US/trustsexternal/job/Washington-DC-901-E/Officer--State-Policy--Safer-Chemicals-Project_R003272?applicant_",
+"https://pewtrusts.wd5.myworkdayjobs.com/en-US/trustsexternal/job/Washington-DC-901-E/Senior-Associate--State-Technical-Assistance--Substance-Use-Preve",
+"https://phf.tbe.taleo.net/phf03/ats/careers/v2/viewRequisition?org=MACPAC&amp"
+],
+"pages": [
+"https://www.nashp.org/careers -> https://nashp.org/careers/",
+"https://www.nashp.org/about/careers -> https://nashp.org/careers/",
+"https://www.nashp.org/about-us/careers -> https://nashp.org/careers/",
+"https://www.nashp.org/careers/ -> https://nashp.org/careers/"
+]
+},
+"chcs.org": {
+"ats": [
+"https://static.workforcenow.adp.com/mas/mdf-components/26.37.25/adpComponents.js",
+"https://static.workforcenow.adp.com/mas/mdf-components/26.37.25/mdfComponents.js",
+"https://static.workforcenow.adp.com/mas/mdf-components/26.37.25/styles/mdfComponents.css",
+"https://static.workforcenow.adp.com/mas/mdf-components/26.37.25/vendorComponents.js",
+"https://static.workforcenow.adp.com/mas/mdf-wc/dist/config/wfn-config-1.35.8.js",
+"https://static.workforcenow.adp.com/mas/mdf/26.37.22/mdfCore.js",
+"https://static.workforcenow.adp.com/mas/mdf/26.37.22/styles/fonts.css",
+"https://static.workforcenow.adp.com/mas/mdf/26.37.22/styles/mdfCore.css",
+"https://static.workforcenow.adp.com/mas/mdf/26.37.22/vendorCore.js",
+"https://support.adp.com/pub/paas/login_page/common/en_US/empl/netscr/base/logon/wfn_req.htm",
+"https://web-components-assets.synerg.dit.paascloud.oneadp.com",
+"https://web-components-assets.synerg.dit.paascloud.oneadp.com/config/synerg-config-5.56.0.js",
+"https://web-components-assets.synerg.dit.paascloud.oneadp.com/features/config/synerg-config-5.56.0.js",
+"https://web-components-assets.synerg.dit.paascloud.oneadp.com/sdfx/config/sdfx-config-5.56.0.js"
+],
+"pages": [
+"https://www.chcs.org/careers -> https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=ac7a6c32-727a-44e5-8d60-5a1",
+"https://www.chcs.org -> https://www.chcs.org"
+]
+},
+"nachc.org": {
+"ats": [],
+"pages": [
+"https://www.nachc.org/jobs -> https://www.nachc.org/career-center/",
+"https://www.nachc.org -> https://www.nachc.org"
+]
+},
+"ihi.org": {
+"ats": [],
+"pages": [
+"https://www.ihi.org/about/careers -> https://www.ihi.org/about/careers",
+"https://www.ihi.org -> https://www.ihi.org"
+]
+},
+"sequoiaproject.org": {
+"ats": [
+"https://the-sequoia-project.breezy.hr/p/826e4a513b37-policy-manager/apply",
+"https://the-sequoia-project.breezy.hr/p/93dee14773ed-senior-advisor-interoperability-policy"
+],
+"pages": [
+"https://www.sequoiaproject.org/careers -> https://sequoiaproject.org/careers/",
+"https://www.sequoiaproject.org/about/careers -> https://sequoiaproject.org/careers/",
+"https://www.sequoiaproject.org/about-us/careers -> https://sequoiaproject.org/careers/",
+"https://www.sequoiaproject.org/careers/ -> https://sequoiaproject.org/careers/"
+]
+},
+"arnoldventures.org": {
+"ats": [
+"https://recruiting.paylocity.com/Recruiting/PublicLeads/New/17519654-d224-4f10-9a5f-2b7ad3cd5a77"
+],
+"pages": [
+"https://www.arnoldventures.org/careers -> https://www.arnoldventures.org/careers",
+"https://www.arnoldventures.org/careers/ -> https://www.arnoldventures.org/careers/",
+"https://www.arnoldventures.org -> https://www.arnoldventures.org"
+]
+},
+"healthcostinstitute.org": {
+"ats": [],
+"pages": [
+"https://www.healthcostinstitute.org/careers -> https://healthcostinstitute.org/careers-with-hcci/",
+"https://www.healthcostinstitute.org/about/careers -> https://healthcostinstitute.org/careers-with-hcci/",
+"https://www.healthcostinstitute.org/about-us/careers -> https://healthcostinstitute.org/careers-with-hcci/",
+"https://www.healthcostinstitute.org/careers/ -> https://healthcostinstitute.org/careers-with-hcci/"
+]
+},
+"fairhealth.org": {
+"ats": [],
+"pages": [
+"https://www.fairhealth.org/careers -> https://www.fairhealth.org/careers",
+"https://www.fairhealth.org/careers/ -> https://www.fairhealth.org/careers",
+"https://www.fairhealth.org -> https://www.fairhealth.org"
+]
+},
+"qualityforum.org": {
+"ats": [
+"https://jointcommission.wd1.myworkdayjobs.com/JC"
+],
+"pages": [
+"https://www.qualityforum.org/careers -> https://www.qualityforum.org/en-us/careers",
+"https://www.qualityforum.org/careers/ -> https://www.qualityforum.org/en-us/careers",
+"https://www.qualityforum.org -> https://www.qualityforum.org/en-us",
+"https://careers.qualityforum.org -> https://careers.qualityforum.org"
+]
+},
+"urac.org": {
+"ats": [],
+"pages": []
+},
+"norc.org": {
+"ats": [],
+"pages": [
+"https://www.norc.org -> https://www.norc.org",
+"https://careers.norc.org -> https://careers.norc.org/en-us/listing/"
+]
+},
+"westat.com": {
+"ats": [
+"https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=82&amp"
+],
+"pages": [
+"https://www.westat.com/careers -> https://www.westat.com/careers/",
+"https://www.westat.com/about/careers -> https://www.westat.com/careers/",
+"https://www.westat.com/about-us/careers -> https://www.westat.com/careers/",
+"https://www.westat.com/careers/ -> https://www.westat.com/careers/"
+]
+},
+"rti.org": {
+"ats": [
+"JIBE https://careers.rti.org/careers-home",
+"https://globalcareers-rtiinc.icims.com/jobs/dashboard",
+"https://globalcareers-rtiinc.icims.com/jobs/logout",
+"https://myjobs.adp.com/rti",
+"https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fmyjobs.adp.com%2Frti%2Fcx&amp",
+"https://rtihs-rtiinc.icims.com/jobs",
+"https://rtiinc.jibeapply.com/rti-consultants/talentcommunity/form",
+"https://uscareers-rtiinc.icims.com/jobs/dashboard",
+"https://uscareers-rtiinc.icims.com/jobs/logout",
+"https://www.icims.com/legal/privacy-notice-website",
+"https://www.icims.com/legal/privacy-notice-website/"
+],
+"pages": [
+"https://www.rti.org/careers -> https://www.rti.org/careers",
+"https://www.rti.org/careers/ -> https://www.rti.org/careers",
+"https://www.rti.org -> https://www.rti.org",
+"https://careers.rti.org -> https://careers.rti.org/careers-home"
+]
+},
+"urban.org": {
+"ats": [
+"https://urban.wd115.myworkdayjobs.com/Urban-Careers/"
+],
+"pages": [
+"https://www.urban.org/careers -> https://www.urban.org/about/careers",
+"https://www.urban.org/about/careers -> https://www.urban.org/about/careers",
+"https://www.urban.org/careers/ -> https://www.urban.org/about/careers",
+"https://www.urban.org -> https://www.urban.org"
+]
+},
+"abtglobal.com": {
+"ats": [
+"https://egpy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/JoinAbt/requisitions",
+"https://egpy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/JoinAbt/requisitions?lastSelectedFacet=POSTING_DATES&amp",
+"https://egpy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/JoinAbt/tc-join?lastSelectedFacet=POSTING_DATES&amp"
+],
+"pages": [
+"https://www.abtglobal.com/careers -> https://www.abtglobal.com/careers",
+"https://www.abtglobal.com/about/careers -> https://www.abtglobal.com/search?key=about%20careers",
+"https://www.abtglobal.com/about-us/careers -> https://www.abtglobal.com/search?key=about%20us%20careers",
+"https://www.abtglobal.com/careers/ -> https://www.abtglobal.com/careers"
+]
+},
+"conduent.com": {
+"ats": [
+"PHENOM https://careers.conduent.com/us/en",
+"https://assets.phenompeople.com/CareerConnectResources/common/assets/images/gray.png",
+"https://assets.phenompeople.com/CareerConnectResources/pp/COJCONUS/images/Wave-Large-1748970947166.png",
+"https://assets.phenompeople.com/CareerConnectResources/pp/COJCONUS/images/transparent-1748971833174.png",
+"https://cdn-bot.phenompeople.com/txm-bot/prod/prod.js",
+"https://cdn-prod-static.phenompeople.com/CareerConnectResources/COMMON/js/applyStudioBundles/uex/V1/apply-utils.umd.min.js",
+"https://cdn.phenompeople.com/CareerConnectResources",
+"https://cdn.phenompeople.com/CareerConnectResources/CANVUS/canvas/icons/system-icons-1792587920521.svg",
+"https://cdn.phenompeople.com/CareerConnectResources/COJCONUS/canvas/common/canvas-global-branding1785874865046.css",
+"https://cdn.phenompeople.com/CareerConnectResources/COJCONUS/canvas/default/common/fontfaces/fontface-1785865391474.css",
+"https://cdn.phenompeople.com/CareerConnectResources/COJCONUS/canvas/dstenantcss/main1785758083398.css",
+"https://cdn.phenompeople.com/CareerConnectResources/COJCONUS/canvas/icons/default/custom-icons-1785865389991.svg",
+"https://cdn.phenompeople.com/CareerConnectResources/COJCONUS/en_us/desktop/assets/images/favicon.ico",
+"https://cdn.phenompeople.com/CareerConnectResources/COJCONUS/en_us/desktop/assets/images/h/apple-touch-icon.png"
+],
+"pages": [
+"https://www.conduent.com/careers -> https://careers.conduent.com/us/en",
+"https://www.conduent.com/careers/ -> https://www.conduent.com/jobs",
+"https://www.conduent.com/jobs -> https://www.conduent.com/jobs",
+"https://www.conduent.com/about/work-with-us -> https://www.conduent.com/about/work-with-us"
+]
+},
+"mslc.com": {
+"ats": [],
+"pages": [
+"https://www.mslc.com -> https://www.mslc.com"
+]
+},
+"kaufmanhall.com": {
+"ats": [
+"https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Chicago-IL-60607/Kaufman-Hall--Financial-Planning---Consulting_33267R-1",
+"https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Chicago-IL-60607/Kaufman-Hall--Real-Estate-Capital-Markets---Consulting_33279R",
+"https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Chicago-IL-60607/Total-Revenue_32408R",
+"https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Virtual-Office/Assistant-Vice-President--Healthcare-Data---AI_35684R",
+"https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Virtual-Office/Assistant-Vice-President--Healthcare-Insights_35685R",
+"https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Virtual-Office/Capital-Equipment-Finance-Advisory_32402R",
+"https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Virtual-Office/Claro-CDI---Inpatient--Outpatient--Professional-Fee_32406R",
+"https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Virtual-Office/Clinical---Operations-Improvement_34986R",
+"https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Virtual-Office/Data-Science---Analytics_32398R",
+"https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Virtual-Office/Education-Services_32410R",
+"https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Virtual-Office/Kaufman-Hall--Strategy---Business-Transformation---Consulting_34987R",
+"https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Virtual-Office/Mergers---Acquisitions_31839R",
+"https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Virtual-Office/Physician-Enterprise_32397R",
+"https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Virtual-Office/Revenue-Cycle_32409R"
+],
+"pages": [
+"https://www.kaufmanhall.com/careers -> https://www.kaufmanhall.com/about-us/careers",
+"https://www.kaufmanhall.com/about/careers -> https://www.kaufmanhall.com/about-us/careers",
+"https://www.kaufmanhall.com/about-us/careers -> https://www.kaufmanhall.com/about-us/careers",
+"https://www.kaufmanhall.com/careers/ -> https://www.kaufmanhall.com/about-us/careers"
+]
+},
+"springhealth.com": {
+"ats": [],
+"pages": [
+"https://www.springhealth.com/careers -> https://www.springhealth.com/careers",
+"https://www.springhealth.com/careers/ -> https://www.springhealth.com/careers",
+"https://www.springhealth.com -> https://www.springhealth.com",
+"https://careers.springhealth.com -> https://careers.springhealth.com"
+]
+},
+"transcarent.com": {
+"ats": [],
+"pages": [
+"https://www.transcarent.com/careers -> https://transcarent.com/careers",
+"https://www.transcarent.com/careers/ -> https://transcarent.com/careers",
+"https://www.transcarent.com -> https://transcarent.com/"
+]
+},
+"accolade.com": {
+"ats": [],
+"pages": [
+"https://www.accolade.com/careers -> https://transcarent.com/careers",
+"https://www.accolade.com/careers/ -> https://transcarent.com/careers",
+"https://www.accolade.com -> https://www.accolade.com/members",
+"https://careers.accolade.com -> https://transcarent.com/careers"
+]
+},
+"bcbsm.com": {
+"ats": [
+"https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/"
+],
+"pages": [
+"https://www.bcbsm.com/careers -> https://www.bcbsm.com/careers/index/",
+"https://www.bcbsm.com/about-us/careers -> https://www.bcbsm.com/about-us/careers/",
+"https://www.bcbsm.com/careers/ -> https://www.bcbsm.com/careers/index/",
+"https://www.bcbsm.com -> https://www.bcbsm.com"
+]
+},
+"carefirst.com": {
+"ats": [],
+"pages": [
+"https://www.carefirst.com/careers -> https://www.carefirst.com/careers/",
+"https://www.carefirst.com/careers/ -> https://www.carefirst.com/careers/"
+]
+},
+"guidewell.com": {
+"ats": [
+"REDIRECT https://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/",
+"https://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com",
+"https://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1",
+"https://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/pages/1001",
+"https://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/pages/2002",
+"https://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/pages/2003",
+"https://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/pages/55002",
+"https://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/pages/55003",
+"https://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?mode=location"
+],
+"pages": [
+"https://www.guidewell.com -> https://www.guidewell.com",
+"https://careers.guidewell.com -> https://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/",
+"https://jobs.guidewell.com -> https://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/"
+]
+},
+"blueshieldca.com": {
+"ats": [
+"https://ecge.fa.us2.oraclecloud.com/",
+"https://ecge.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003",
+"https://ecge.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/?utm_medium=jobshare"
+],
+"pages": [
+"https://www.blueshieldca.com/careers -> https://careers.blueshieldca.com/",
+"https://www.blueshieldca.com/about/careers -> https://www.blueshieldca.com/bsca/bsc/public/member/mp/contentpages/!ut/p/z1/nZHLbsIwEEV_pSxYW",
+"https://www.blueshieldca.com/about-us/careers -> https://www.blueshieldca.com/bsca/bsc/public/member/mp/contentpages/!ut/p/z1/nZHLbsIwEEV_pS",
+"https://www.blueshieldca.com/careers/ -> https://careers.blueshieldca.com/"
+]
+},
+"emblemhealth.com": {
+"ats": [
+"https://cognizanthc.taleo.net"
+],
+"pages": [
+"https://www.emblemhealth.com/careers -> https://www.emblemhealth.com/careers",
+"https://www.emblemhealth.com/about/careers -> https://www.emblemhealth.com/careers",
+"https://www.emblemhealth.com/careers/ -> https://www.emblemhealth.com/careers",
+"https://www.emblemhealth.com -> https://www.emblemhealth.com"
+]
+},
+"upmc.com": {
+"ats": [
+"https://gohealthuc.wd12.myworkdayjobs.com/External?q=UPMC&amp"
+],
+"pages": [
+"https://www.upmc.com/careers -> https://www.upmc.com/careers",
+"https://www.upmc.com/careers/ -> https://www.upmc.com/careers/",
+"https://www.upmc.com -> https://www.upmc.com",
+"https://careers.upmc.com -> https://careers.upmc.com"
+]
+},
+"hologic.com": {
+"ats": [],
+"pages": [
+"https://www.hologic.com/careers -> https://careers.hologic.com/",
+"https://www.hologic.com/careers/ -> https://careers.hologic.com/",
+"https://www.hologic.com/join-our-team -> https://careers.hologic.com/",
+"https://www.hologic.com -> https://www.hologic.com"
+]
+},
+"zimmerbiomet.com": {
+"ats": [
+"PHENOM https://careers.zimmerbiomet.com/us/en",
+"https://assets.phenompeople.com/CareerConnectResources/common/assets/images/gray.png",
+"https://assets.phenompeople.com/CareerConnectResources/common/assets/images/image-placeholders/quote3.png",
+"https://assets.phenompeople.com/CareerConnectResources/common/assets/images/image-placeholders/video_play.png",
+"https://assets.phenompeople.com/CareerConnectResources/pp/ZBUZBRUS/images/ZB_Map_Updated-1702419611987.png",
+"https://assets.phenompeople.com/CareerConnectResources/pp/ZBUZBRUS/images/cropChild-2jK1m-1694806443601.png",
+"https://cdn-bot.phenompeople.com/txm-bot/prod/prod.js",
+"https://cdn-prod-static.phenompeople.com/CareerConnectResources/COMMON/js/applyStudioBundles/uex/V1/apply-utils.umd.min.js",
+"https://cdn.phenompeople.com/CareerConnectResources",
+"https://cdn.phenompeople.com/CareerConnectResources/CANVUS/canvas/icons/system-icons-1792587920521.svg",
+"https://cdn.phenompeople.com/CareerConnectResources/ZBUZBRUS/canvas/assets/css/default/canvas-site-custom-styles-1793301040451.css",
+"https://cdn.phenompeople.com/CareerConnectResources/ZBUZBRUS/canvas/default/common/canvas-global-branding1793264452060.css",
+"https://cdn.phenompeople.com/CareerConnectResources/ZBUZBRUS/canvas/default/common/fontfaces/fontface-1793264451829.css",
+"https://cdn.phenompeople.com/CareerConnectResources/ZBUZBRUS/canvas/dstenantcss/main1770278834037.css"
+],
+"pages": [
+"https://www.zimmerbiomet.com/careers -> https://careers.zimmerbiomet.com/us/en",
+"https://www.zimmerbiomet.com/careers/ -> https://careers.zimmerbiomet.com/us/en",
+"https://www.zimmerbiomet.com -> https://www.zimmerbiomet.com/en",
+"https://careers.zimmerbiomet.com -> https://careers.zimmerbiomet.com/us/en"
+]
+},
+"guardanthealth.com": {
+"ats": [
+"PHENOM https://www.guardanthealth.com/careers/"
+],
+"pages": [
+"https://www.guardanthealth.com/careers -> https://www.guardanthealth.com/careers/",
+"https://www.guardanthealth.com/about-us/careers -> https://www.guardanthealth.com/careers/",
+"https://www.guardanthealth.com/careers/ -> https://www.guardanthealth.com/careers/",
+"https://www.guardanthealth.com/jobs -> https://www.guardanthealth.com/careers/jobs/"
+]
+},
+"mitre.org": {
+"ats": [
+"PHENOM https://careers.mitre.org/us/en",
+"https://assets.phenompeople.com",
+"https://assets.phenompeople.com/CareerConnectResources/common/assets/images/gray.png",
+"https://assets.phenompeople.com/CareerConnectResources/pp/pcs/common/osano.css",
+"https://cdn-prod-static.phenompeople.com/CareerConnectResources/COMMON/js/applyStudioBundles/uex/V1/apply-utils.umd.min.js",
+"https://cdn.phenompeople.com",
+"https://cdn.phenompeople.com/CareerConnectResources",
+"https://cdn.phenompeople.com/CareerConnectResources/MITRUS/en_us/desktop/assets/images/favicon.ico",
+"https://cdn.phenompeople.com/CareerConnectResources/MITRUS/en_us/desktop/assets/images/h/apple-touch-icon.png",
+"https://cdn.phenompeople.com/CareerConnectResources/MITRUS/en_us/desktop/assets/images/l/apple-touch-icon-precomposed.png",
+"https://cdn.phenompeople.com/CareerConnectResources/MITRUS/en_us/desktop/assets/images/l/apple-touch-icon.png",
+"https://cdn.phenompeople.com/CareerConnectResources/MITRUS/en_us/desktop/assets/images/l/splash.png",
+"https://cdn.phenompeople.com/CareerConnectResources/MITRUS/en_us/desktop/assets/images/m/apple-touch-icon.png",
+"https://cdn.phenompeople.com/CareerConnectResources/MITRUS/en_us/desktop/assets/images/v-1777304295410-default_profile.png"
+],
+"pages": [
+"https://careers.mitre.org -> https://careers.mitre.org/us/en"
+]
+},
+"acumenllc.com": {
+"ats": [
+"https://api.lever.co/v0/postings/acumenllc?mode=json&group=team"
+],
+"pages": [
+"https://www.acumenllc.com/careers -> https://www.acumenllc.com/careers",
+"https://www.acumenllc.com/careers/ -> https://www.acumenllc.com/careers",
+"https://www.acumenllc.com -> https://www.acumenllc.com"
+]
+},
+"altarum.org": {
+"ats": [
+"https://jobs.lever.co/altarum/"
+],
+"pages": [
+"https://www.altarum.org/careers -> https://www.altarum.org/careers",
+"https://www.altarum.org/about/careers -> https://www.altarum.org/careers",
+"https://www.altarum.org/about-us/careers -> https://www.altarum.org/careers",
+"https://www.altarum.org/careers/ -> https://www.altarum.org:443/careers"
+]
+},
+"ecri.org": {
+"ats": [
+"https://portal-applicant-tracking.us-cent.paycomonline.net/career-portal/sprawl.json",
+"https://www.paycomonline.net/v4/ats/web.php/application/style/logo/A2203B23CA790E25E77436AD7A6384DC?clientkey=A2203B23CA790E25E77436AD7A6384DC",
+"https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=A2203B23CA790E25E77436AD7A6384DC",
+"https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=C58BBB9614530727D8D9D756DDF51F1F",
+"https://www.paycomonline.net/v4/ats/web.php/portal/A2203B23CA790E25E77436AD7A6384DC/career-page"
+],
+"pages": [
+"https://www.ecri.org/careers -> https://home.ecri.org/pages/ecri-careers-center",
+"https://www.ecri.org/about/careers -> https://home.ecri.org/pages/ecri-about-us",
+"https://www.ecri.org/careers/ -> https://home.ecri.org/pages/ecri-careers-center",
+"https://www.ecri.org/about/work-with-us -> https://home.ecri.org/pages/ecri-about-us"
+]
+},
+"solventum.com": {
+"ats": [],
+"pages": [
+"https://www.solventum.com -> https://www.solventum.com/en-us/home/"
+]
+},
+"mathematica.org": {
+"ats": [
+"https://us.api.csod.com/"
+],
+"pages": [
+"https://www.mathematica.org -> https://www.mathematica.org",
+"https://careers.mathematica.org -> https://mathematica.csod.com/ux/ats/careersite/4/home"
+]
+},
+"deltadentalco.com": {
+"ats": [
+"https://recruiting2.ultipro.com/ENS1001ENINV/JobBoard/6c6864f0-3e3c-4843-a21f-cd2ef5956a81"
+],
+"pages": [
+"https://www.deltadentalco.com/about-us/careers -> https://www.deltadentalco.com/about-us/careers",
+"https://www.deltadentalco.com -> https://www.deltadentalco.com"
+]
+},
+"vailhealth.org": {
+"ats": [],
+"pages": [
+"https://www.vailhealth.org/careers -> https://www.vailhealth.org/careers/",
+"https://www.vailhealth.org/careers/ -> https://www.vailhealth.org/careers/",
+"https://www.vailhealth.org/jobs -> https://www.vailhealth.org/careers/jobs/",
+"https://www.vailhealth.org -> https://www.vailhealth.org"
+]
+},
+"bch.org": {
+"ats": [],
+"pages": []
+},
+"kaiserpermanente.org": {
+"ats": [
+"TALENTBREW https://www.kaiserpermanentejobs.org/ org=['641']",
+"TALENTBREW https://www.kaiserpermanentejobs.org/?kp_shortcut_referrer=kp.org/careers org=['641']",
+"https://kp.avature.net/TalentNetwork",
+"https://kp.taleo.net/careersection/external/mysubmissions.ftl?lang=en"
+],
+"pages": [
+"https://www.kaiserpermanente.org/careers -> https://www.kaiserpermanentejobs.org/?kp_shortcut_referrer=kp.org/careers",
+"https://www.kaiserpermanente.org/about/careers -> https://healthy.kaiserpermanente.org/front-door",
+"https://www.kaiserpermanente.org/about-us/careers -> https://healthy.kaiserpermanente.org/front-door",
+"https://www.kaiserpermanente.org/careers/ -> https://www.kaiserpermanentejobs.org/?kp_shortcut_referrer=kp.org/careers"
+]
+},
+"commonspirit.org": {
+"ats": [
+"TALENTBREW https://www.commonspirit.careers/ org=[]",
+"TALENTBREW https://www.commonspirit.careers/search-jobs?acm=ALL&alrpm=6252001-5551752,62520 org=['35300']",
+"https://careers-commonspirit.icims.com/connect",
+"https://careers-commonspirit.icims.com/connect?_gl=1",
+"https://careers-commonspirit.icims.com/jobs/login?loginOnly=1&redirect=&hashed=-435626305&_gl=1"
+],
+"pages": [
+"https://www.commonspirit.org/careers -> https://www.commonspirit.careers/",
+"https://www.commonspirit.org/careers/ -> https://www.commonspirit.careers/",
+"https://www.commonspirit.org -> https://www.commonspirit.org",
+"https://careers.commonspirit.org -> https://www.commonspirit.careers/search-jobs?acm=ALL&alrpm=6252001-5551752,6252001-5417618,6252001-55091"
+]
+},
+"mayoclinic.org": {
+"ats": [
+"TALENTBREW https://careers.mayoclinic.org/careers org=[]",
+"TALENTBREW https://jobs.mayoclinic.org org=[]",
+"https://app.eightfold.ai&#34",
+"https://app.eightfold.ai/events/open?domain=mc.org",
+"https://eightfold.ai/privacy-policy/&#34",
+"https://eightfold.ai/privacy-policy/&#39",
+"https://fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com/fndSetup/faces/deeplink?objType=IRC_RECRUITING&action=ICE_JOB_SEARCH_RESP",
+"https://fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/",
+"https://fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/",
+"https://fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003",
+"https://fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/",
+"https://fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/",
+"https://fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Mayo-UK",
+"https://fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Mayo-US"
+],
+"pages": [
+"https://careers.mayoclinic.org -> https://careers.mayoclinic.org/careers",
+"https://jobs.mayoclinic.org -> https://jobs.mayoclinic.org"
+]
+},
+"bostonscientific.com": {
+"ats": [
+"SFRMK https://jobs.bostonscientific.com",
+"https://bostonscientific.eightfold.ai/careers",
+"https://bostonscientific.eightfold.ai/careers&#34",
+"https://bostonscientific.eightfold.ai/careers/join?domain=bostonscientific.com",
+"https://bostonscientific.eightfold.ai/careers/join?domain=bostonscientific.com&#34",
+"https://career4.successfactors.com",
+"https://career4.successfactors.com/career?site=&amp",
+"https://performancemanager4.successfactors.com/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery-migrate.js",
+"https://performancemanager4.successfactors.com/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js",
+"https://rmkcdn.successfactors.com/428db3e2/224c42eb-d46a-4ea6-81f4-5.jpg"
+],
+"pages": [
+"https://www.bostonscientific.com/careers -> https://www.bostonscientific.com/en-US/careers.html",
+"https://www.bostonscientific.com/careers/ -> https://www.bostonscientific.com/en-US/careers.html",
+"https://www.bostonscientific.com -> https://www.bostonscientific.com/en-US/home.html",
+"https://jobs.bostonscientific.com -> https://jobs.bostonscientific.com"
+]
+},
+"leapfroggroup.org": {
+"ats": [],
+"pages": [
+"https://www.leapfroggroup.org/careers -> https://www.leapfroggroup.org/about/careers",
+"https://www.leapfroggroup.org/about/careers -> https://www.leapfroggroup.org/about/careers",
+"https://www.leapfroggroup.org/careers/ -> https://www.leapfroggroup.org/about/careers",
+"https://www.leapfroggroup.org -> https://www.leapfroggroup.org"
+]
+},
+"aapc.com": {
+"ats": [],
+"pages": [
+"https://www.aapc.com/about-us/careers -> https://www.aapc.com/about-us/careers",
+"https://www.aapc.com -> https://www.aapc.com"
+]
+},
+"petersonhealthcare.org": {
+"ats": [],
+"pages": [
+"https://www.petersonhealthcare.org/careers -> https://www.petersonhealthcare.org/careers/",
+"https://www.petersonhealthcare.org/about/careers -> https://www.petersonhealthcare.org/careers/",
+"https://www.petersonhealthcare.org/about-us/careers -> https://www.petersonhealthcare.org/careers/",
+"https://www.petersonhealthcare.org/careers/ -> https://www.petersonhealthcare.org/careers/"
+]
+}
+},
+"special": {
+"jibe_uchealth": [
+403,
+"https://careers.uchealth.org/api/jobs?limit=3&page=1&keywords=director",
+""
+],
+"eightfold_bsci": [
+200,
+"https://bostonscientific.eightfold.ai/api/pcsx/search?domain=bostonscientific.com&query=director&location=United%20State",
+"{\"status\": 200, \"error\": {\"message\": \"\", \"body\": \"\"}, \"data\": {\"positions\": [{\"id\": 563602813895172, \"displayJobId\": \"637422\", \"name\": \"Director, Data & AI Portfolio\", \"locations\": [\"Marlborough US-MA, United States | US-MA-Marlborough, US-MN-Arden Hills\"], \"standardizedLocations\": [\"Arden Hills, MN, US\"], \"postedTs\": 1793810458, \"solrScore\": null, \"stars\": 0, \"department\": \"Information Technology\", \"creationTs\": 1793722864, \"isHot\": 0, \"workLocationOption\": \"onsite\", \"locationFlexibility\": null, \"atsJobId\": \"637422\", \"positionUrl\": \"/careers/job/563602813895172\"}, {\"id\": 563602813905205, \"displayJobId\": \"637543\", \"name\": \"Distribution Director\", \"locations\": [\"Spencer US-IN, United States |"
+],
+"eightfold_bsci_old": [
+403,
+"https://bostonscientific.eightfold.ai/api/apply/v2/jobs?domain=bostonscientific.com&query=director&num=3",
+""
+],
+"sf_gainwell": [
+200,
+"https://jobs.gainwelltechnologies.com/search/?q=director&startrow=0",
+"<!DOCTYPE html> <html class=\"html5\" xml:lang=\"en-US\" lang=\"en-US\" xmlns=\"http://www.w3.org/1999/xhtml\"> <head> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" /> <meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\" /> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /> <script type=\"text/javascript\" class=\"keepscript\"> (function(w, d, s, l, i){ w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagm"
+],
+"sf_gainwell_rows": [
+[
+"/job/Any-city-Director%2C-Pharmacy-Strategy-MO-99999/1417186800/",
+"Director, Pharmacy Strategy"
+],
+[
+"/job/Any-city-Transformation-Director-%28Testing-&amp;-Quality-Services%29-TX-99999/1406346500/",
+"Transformation Director (Testing &amp; Quality Services)"
+],
+[
+"/job/Any-city-Director%2C-Client-Delivery-Leader-SC-99999/1415297500/",
+"Director, Client Delivery Leader"
+],
+[
+"/job/Any-city-Senior-Director%2C-Information-Security-Delivery-Sector-Lead-TX-99999/1335417600/",
+"Senior Director, Information Security Delivery - Sector Lead"
+],
+"\t",
+"Any city, MO, US, 99999\n            \n        ",
+"Any city, MO, US, 99999\n            \n        ",
+"Any city, TX, US, 99999\n            \n        "
+],
+"paylocity_ncqa_detail": [
+200,
+"https://recruiting.paylocity.com/Recruiting/Jobs/JobNotFound",
+" <!DOCTYPE html> <html> <head> <script> window.dataLayer = [{\"recruiting_module_number\":null,\"global_environment\":\"PRODPROD\",\"product_type\":\"Talent\",\"product_type_detail\":\"Recruiting\",\"platform\":\"web\",\"version\":\"26.11.1.55\"}]; //<!-- Google Tag Manager (Paylo) --> (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-NXMFCP7'); //<!--End Google Tag Manager(Paylo)-- > //<!-- Google Tag Manager (Recruiting) --> (function("
+],
+"paylocity_ncqa_guid": [],
+"rippling_caqh": [
+404,
+"https://api.rippling.com/platform/api/ats/v1/board/caqh/jobs",
+""
+],
+"rippling_CAQH": [
+404,
+"https://api.rippling.com/platform/api/ats/v1/board/CAQH/jobs",
+""
+],
+"rippling_caqh-careers": [
+404,
+"https://api.rippling.com/platform/api/ats/v1/board/caqh-careers/jobs",
+""
+],
+"rippling_caqh-inc": [
+404,
+"https://api.rippling.com/platform/api/ats/v1/board/caqh-inc/jobs",
+""
+],
+"rippling_caqh_page": [
+404,
+"https://ats.rippling.com/caqh/jobs",
+""
+],
+"rippling_caqh_hints": [],
+"tb_mathematica": [
+403,
+"https://careers.mathematica.org/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=5&Keywords=director&Sea",
+""
+],
+"govjobs_co": [
+200,
+"https://www.governmentjobs.com/careers/home/index?agency=colorado&keyword=director&sort=PostingDate&isDescendingSort=tru",
+" <div class=\"listing-title\"> <span class=\"job-postings-search-result\"> <div class=\"job-postings-number-container\"> <span id=\"job-postings-number\">30</span> Job Postings found </div> </span> <div class=\"powered-by-logo\"> <img src=\"/Content/Images/powered-by-neogov.png\" alt=\"powered by NEOGOV\" /> </div> </div> <ul class=\"unstyled search-results-listing-container job-listing-container hidden\"> <li class=\"list-item\" data-job-id=\"5502903\"> <h3 class=\"job-item-link-container\"> <a aria-label=\"Director of Technology (Remote from anywhere in CO) New Job Link will be opened in a flyout.\" class=\"item-details-link\" data-department-name=\"Governor&#39;s Office of Information Technology\" href=\"/careers/col"
+],
+"chco": [
+200,
+"https://www.childrenscolorado.org/careers/job-search/?keyword=director",
+"<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Search Open Jobs | Children&#x27;s Hospital Colorado</title> <meta name=\"title\" content=\"Search Open Jobs\" /> <meta name=\"description\" content=\"Search for open positions at Children's Hospital Colorado and start your career in pediatric healthcare. \" /> <meta property=\"og:title\" content=\"Come Write Your Story With Us. View Open Positions Now. \" /> <meta property=\"og:description\" content=\"Search job openings at Children\u2019s Hospital Colorado \" /> <meta property=\"og:image\" content=\"/globalassets/locations/anschutz-hero.jpg.jpg?v=49e2b0&rxy=0.66,0.42\" /> <meta"
+]
+}
+}
