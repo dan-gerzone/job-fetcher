@@ -94,31 +94,35 @@ def sniff(domain):
 
 def special():
     out = {}
-    def rec(name, url, **kw):
-        st, fin, b = get(url, timeout=20, **kw)
-        out[name] = [st, fin[:120], re.sub(r"\s+", " ", b)[:700]]
+    def rec(name, url, n=1400, find=None, **kw):
+        st, fin, b = get(url, timeout=25, **kw)
+        i = b.find(find) if find else 0
+        out[name] = [st, fin[:200], len(b), re.sub(r"\s+", " ", b[max(0, i - 100):])[:n]]
         return b
-    rec("jibe_uchealth", "https://careers.uchealth.org/api/jobs?limit=3&page=1&keywords=director")
-    rec("eightfold_bsci", "https://bostonscientific.eightfold.ai/api/pcsx/search?domain=bostonscientific.com&query=director&location=United%20States&start=0")
-    rec("eightfold_bsci_old", "https://bostonscientific.eightfold.ai/api/apply/v2/jobs?domain=bostonscientific.com&query=director&num=3")
-    b = rec("sf_gainwell", "https://jobs.gainwelltechnologies.com/search/?q=director&startrow=0")
-    out["sf_gainwell_rows"] = re.findall(r'<a[^>]+class="jobTitle-link"[^>]*href="([^"]+)"[^>]*>([^<]+)</a>', b)[:4] + re.findall(r'class="jobLocation"[^>]*>\s*([^<]+)', b)[:4]
-    b = rec("paylocity_ncqa_detail", "https://recruiting.paylocity.com/Recruiting/Jobs/Details/3807086")
-    g = re.findall(r"/[Rr]ecruiting/[Jj]obs/All/([0-9a-fA-F-]{36})", b)
-    out["paylocity_ncqa_guid"] = g[:2]
-    if g:
-        b2 = rec("paylocity_ncqa_list", f"https://recruiting.paylocity.com/recruiting/jobs/All/{g[0]}/x")
-        m = re.search(r"window\.pageData\s*=\s*(\{.*?\});", b2, re.S)
-        j = J(m.group(1)) if m else None
-        out["paylocity_ncqa_jobs"] = [len((j or {}).get("Jobs") or []), json.dumps(((j or {}).get("Jobs") or [None])[0])[:700]]
-    for s in ("caqh", "CAQH", "caqh-careers", "caqh-inc"):
-        rec(f"rippling_{s}", f"https://api.rippling.com/platform/api/ats/v1/board/{s}/jobs")
-    b = rec("rippling_caqh_page", "https://ats.rippling.com/caqh/jobs")
-    out["rippling_caqh_hints"] = sorted(set(re.findall(r'"(?:boardSlug|slug|board)"\s*:\s*"([^"]+)"', b)))[:6] + re.findall(r"https://[a-z.]*rippling\.com/[A-Za-z0-9/_.-]*api[A-Za-z0-9/_.-]*", b)[:6]
-    rec("tb_mathematica", "https://careers.mathematica.org/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=5&Keywords=director&SearchResultsModuleName=Search+Results&SearchFiltersModuleName=Search+Filters&SearchType=5&OrganizationIds=727",
-        headers={"X-Requested-With": "XMLHttpRequest", "Referer": "https://careers.mathematica.org/search-jobs"})
-    rec("govjobs_co", "https://www.governmentjobs.com/careers/home/index?agency=colorado&keyword=director&sort=PostingDate&isDescendingSort=true", headers={"X-Requested-With": "XMLHttpRequest"})
-    rec("chco", "https://www.childrenscolorado.org/careers/job-search/?keyword=director")
+    for nm, g in (("ncqa", "e17d268e-1abe-4e11-8fa8-bc9215bce4c0"), ("mgma", "deaaa457-a0ad-40a9-947c-5e028d563548")):
+        rec(f"paylocity_{nm}", f"https://recruiting.paylocity.com/recruiting/jobs/All/{g}/x", find="window.pageData")
+    for nm, cid in (("civhc", "d203d09b-4ff6-4f17-b8bb-e46f24573365"), ("pcori", "8eb0f259-f0ed-4366-8525-92ace3cd3304")):
+        rec(f"adp_{nm}", f"https://workforcenow.adp.com/mascsr/default/careercenter/public/events/staffing/v1/job-requisitions?cid={cid}&timeStamp=1&lang=en_US&ccId=19000101_000001&locale=en_US&$top=50")
+        rec(f"adp_{nm}_noccid", f"https://workforcenow.adp.com/mascsr/default/careercenter/public/events/staffing/v1/job-requisitions?cid={cid}&lang=en_US&locale=en_US&$top=50", n=500)
+    st, fin, b = get("https://www.chcs.org/careers"); out["chcs_final"] = fin
+    st, fin, b = get("https://www.cdcfoundation.org/jobs"); out["cdcf_adp"] = re.findall(r"workforcenow\.adp\.com[^\"' ]+", b)[:3]
+    for nm, u in (("milliman", "https://recruiting2.ultipro.com/MIL1017/JobBoard/f54234e9-dfde-b183-fd20-4fbdb19cba7a"), ("ddco", "https://recruiting2.ultipro.com/ENS1001ENINV/JobBoard/6c6864f0-3e3c-4843-a21f-cd2ef5956a81")):
+        rec(f"ukg_{nm}", u + "/JobBoardView/LoadSearchResults", data={"opportunitySearch": {"Top": 3, "Skip": 0, "QueryString": "", "OrderBy": [{"Value": "postedDateDesc", "PropertyName": "PostedDate", "Ascending": False}], "Filters": []}, "matchCriteria": {"PreferredJobs": [], "Educations": [], "LicenseAndCertifications": [], "Skills": [], "hasNoLicenses": False, "SkippedSkills": []}}, n=2200)
+    for nm, host, site in (("bsca", "ecge.fa.us2.oraclecloud.com", "CX_1003"), ("bcbsm", "ejko.fa.us2.oraclecloud.com", "CX_3"), ("guidewell", "fa-etum-saasfaprod1.fa.ocs.oraclecloud.com", "CX_1"), ("abt", "egpy.fa.us2.oraclecloud.com", "JoinAbt"), ("mayo", "fa-euwp-saasfaprod1.fa.ocs.oraclecloud.com", "CX_1")):
+        rec(f"oracle_{nm}", f"https://{host}/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations&finder=findReqs;siteNumber={site},facetsList=NONE,limit=3,keyword=director,sortBy=POSTING_DATES_DESC", n=1800 if nm == "bsca" else 500)
+    b = rec("oracle_bsca_detail_hint", "https://ecge.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails?expand=all&onlyData=true&finder=ById;Id=%221%22,siteNumber=CX_1003", n=300)
+    rec("breezy_sequoia", "https://the-sequoia-project.breezy.hr/json", n=900)
+    rec("govjobs_co", "https://www.governmentjobs.com/careers/home/index?agency=colorado&keyword=director&sort=PostingDate&isDescendingSort=true", n=2600, find='<li class="list-item', headers={"X-Requested-With": "XMLHttpRequest"})
+    rec("sf_gainwell", "https://jobs.gainwelltechnologies.com/search/?q=director&startrow=0", n=1800, find='class="jobTitle-link"')
+    rec("sf_bsci", "https://jobs.bostonscientific.com/search/?q=director&startrow=0", n=600, find='class="jobTitle-link"')
+    rec("tb_commonspirit", "https://www.commonspirit.careers/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=5&Keywords=director+analytics&SearchResultsModuleName=Search+Results&SearchFiltersModuleName=Search+Filters&SearchType=5&OrganizationIds=35300", n=1500, headers={"X-Requested-With": "XMLHttpRequest"})
+    for nm, h in (("dispatch", "careers.dispatchhealth.com"), ("innovage", "careers.innovage.com"), ("rti", "careers.rti.org"), ("acentra", "careers.acentra.com"), ("uchealth", "careers.uchealth.org")):
+        rec(f"jibe_{nm}", f"https://{h}/api/jobs?page=1&limit=3&keywords=director", n=1500 if nm == "rti" else 500, headers={"Referer": f"https://{h}/jobs"})
+    rec("dayforce_coaccess", "https://jobs.dayforcehcm.com/api/geo/coaccess/jobposting/search", n=600, data={"clientNamespace": "coaccess", "jobBoardCode": "CANDIDATEPORTAL", "cultureCode": "en-US", "distanceUnit": 0, "paginationStart": 0})
+    rec("dayforce_coaccess_page", "https://jobs.dayforcehcm.com/en-US/coaccess/CANDIDATEPORTAL", n=900, find="__NEXT_DATA__")
+    rec("paycor_chf", "https://recruitingbypaycor.com/career/CareerHome.action?clientId=8aa005063388231001338fa23a750023", n=1500, find="gnewtonJobLink")
+    rec("uchealth_page", "https://careers.uchealth.org/jobs?keywords=director", n=900, find="api")
+    rec("eightfold_mayo", "https://jobs.mayoclinic.org/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=5&Keywords=director+analytics&SearchType=5", n=700, headers={"X-Requested-With": "XMLHttpRequest"})
     return out
 
 slugs = open(os.path.join(HERE, "targets.txt")).read().split()
@@ -128,10 +132,5 @@ try:
     out["special"] = special()
 except Exception as e:
     out["special"] = {"error": str(e)}
-with cf.ThreadPoolExecutor(40) as ex:
-    for s, h in zip(slugs, ex.map(probe, slugs)):
-        if h: out["slug"][s] = h
-    for d, r in zip(domains, ex.map(sniff, domains)):
-        out["sniff"][d] = r
 json.dump(out, open(os.path.join(HERE, "out.json"), "w"), indent=0)
 print(len(out["slug"]), "slug hits of", len(slugs))
