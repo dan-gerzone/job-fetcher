@@ -235,6 +235,15 @@
 },
 {
 "company": "AdventHealth",
+"title": "Director Imaging Services",
+"why": "function",
+"locations": [
+"ADVENTHEALTH CENTRAL TEXAS"
+],
+"url": "https://adventhealth.wd12.myworkdayjobs.com/AH_External_Career_Site/job/ADVENTHEALTH-CENTRAL-TEXAS/Director-Imaging-Services_R-0413502"
+},
+{
+"company": "AdventHealth",
 "title": "Director of Cardiology Services",
 "why": "function",
 "locations": [
@@ -604,6 +613,15 @@
 },
 {
 "company": "Advocate Health",
+"title": "Director, NC/GA Division - Advanced Lung Programs",
+"why": "function",
+"locations": [
+"Charlotte, NC - 1237 Harding Pl"
+],
+"url": "https://aah.wd115.myworkdayjobs.com/External/job/Charlotte-NC---1237-Harding-Pl/Director--NC-GA-Division---Advanced-Lung-Programs_R277618-1"
+},
+{
+"company": "Advocate Health",
 "title": "Director, Oncology Clinical Trials",
 "why": "function",
 "locations": [
@@ -691,6 +709,15 @@
 "US-CA-Pacheco-Berry Drive"
 ],
 "url": "https://agilent.wd5.myworkdayjobs.com/Agilent_Careers/job/US-CA-Pacheco-Berry-Drive/Director-Reagent-Research-and-Development_4039729"
+},
+{
+"company": "Agilent",
+"title": "Director, Automation Enablement",
+"why": "function",
+"locations": [
+"US-CA-Santa Clara"
+],
+"url": "https://agilent.wd5.myworkdayjobs.com/Agilent_Careers/job/US-CA-Santa-Clara/Director--Automation-Enablement_4040822"
 },
 {
 "company": "Agilent",
@@ -913,9 +940,9 @@
 "title": "Director Perioperative Services",
 "why": "function",
 "locations": [
-"BUMC Tucson (1625 N Campbell Ave)"
+"2 Locations"
 ],
-"url": "https://bannerhealth.wd108.myworkdayjobs.com/Careers/job/BUMC-Tucson-1625-N-Campbell-Ave/Director-Perioperative-Services_R4455592"
+"url": "https://bannerhealth.wd108.myworkdayjobs.com/Careers/job/BUMC-Tucson-1625-N-Campbell-Ave/Director-Perioperative-Services_R4460660"
 },
 {
 "company": "Banner Health",
@@ -1366,6 +1393,15 @@
 "09507 - Colorado Remote"
 ],
 "url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/09507---Colorado-Remote/Director--Clinician-Experience_R0468528"
+},
+{
+"company": "DaVita",
+"title": "Director, IKC Operations",
+"why": "function",
+"locations": [
+"00200 - Heartland Division Office"
+],
+"url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/00200---Heartland-Division-Office/Director--IKC-Operations_R0465338"
 },
 {
 "company": "DaVita",
@@ -2206,15 +2242,6 @@
 },
 {
 "company": "Ensemble Health Partners",
-"title": "Director, Project Management",
-"why": "function",
-"locations": [
-"Remote - Nationwide"
-],
-"url": "https://ensemblehp.wd5.myworkdayjobs.com/EnsembleHealthPartnersCareers/job/Remote---Nationwide/Director--Project-Management_R048342"
-},
-{
-"company": "Ensemble Health Partners",
 "title": "Head of Operator Engagement",
 "why": "function",
 "locations": [
@@ -2338,6 +2365,15 @@
 "Salt Lake City"
 ],
 "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Salt-Lake-City/Senior-Director-SI-Service_R4045988-1"
+},
+{
+"company": "GE HealthCare",
+"title": "Service Director",
+"why": "function",
+"locations": [
+"Remote"
+],
+"url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Remote/Service-Director_R4049188-1"
 },
 {
 "company": "GE HealthCare",
@@ -2518,15 +2554,6 @@
 "US - GA, Atlanta"
 ],
 "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---GA-Atlanta/Federal-Health-Advisory-Director_39222"
-},
-{
-"company": "Guidehouse",
-"title": "Platform Director",
-"why": "function",
-"locations": [
-"US - VA, McLean"
-],
-"url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-McLean/Platform-Director_40122"
 },
 {
 "company": "Guidehouse",
@@ -2872,15 +2899,6 @@
 },
 {
 "company": "IQVIA",
-"title": "Associate Site Activation Director",
-"why": "function",
-"locations": [
-"Durham, North Carolina, United States of America"
-],
-"url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Durham-North-Carolina-United-States-of-America/Associate-Site-Activation-Director_R1570736-1"
-},
-{
-"company": "IQVIA",
 "title": "Biostatistics Director- Global BIOS",
 "why": "function",
 "locations": [
@@ -2995,6 +3013,15 @@
 "5 Locations"
 ],
 "url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Dallas-TX/Regional-Account-Director-Oncology_R1579067"
+},
+{
+"company": "IQVIA",
+"title": "Regional Business Director-Oncology West",
+"why": "function",
+"locations": [
+"Denver , Colorado, United States"
+],
+"url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Denver--Colorado-United-States/Regional-Business-Director-Oncology-West_R1579463"
 },
 {
 "company": "IQVIA",
@@ -3139,6 +3166,24 @@
 "CH-xx-Le Locle-191-Facility"
 ],
 "url": "https://integralife.wd1.myworkdayjobs.com/Careers/job/CH-xx-Le-Locle-191-Facility/Senior-Director--Plant-Manager_JR-6594"
+},
+{
+"company": "Integra LifeSciences",
+"title": "Senior Director, R&D Shared Services",
+"why": "function",
+"locations": [
+"US-NJ-Princeton-100-Headquarters"
+],
+"url": "https://integralife.wd1.myworkdayjobs.com/Careers/job/US-NJ-Princeton-100-Headquarters/Senior-Director--R-D-Shared-Services_JR-6862"
+},
+{
+"company": "Integra LifeSciences",
+"title": "Vice President, R&D Program Management",
+"why": "function",
+"locations": [
+"US-NJ-Princeton-100-Headquarters"
+],
+"url": "https://integralife.wd1.myworkdayjobs.com/Careers/job/US-NJ-Princeton-100-Headquarters/Vice-President--R-D-Program-Management_JR-6863"
 },
 {
 "company": "Intermountain Health",
@@ -3382,15 +3427,6 @@
 "10 Locations"
 ],
 "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Chicago-Illinois-United-States/Regional-Business-Director--Health-Systems--KAM-HS---Central-Region_R-109598-1"
-},
-{
-"company": "Johnson & Johnson",
-"title": "Senior Director, CS&E",
-"why": "function",
-"locations": [
-"Raritan, New Jersey, United States of America"
-],
-"url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/Senior-Director--CS-E_R-108493-1"
 },
 {
 "company": "Johnson & Johnson",
@@ -3880,15 +3916,6 @@
 },
 {
 "company": "McKesson",
-"title": "Director, McKesson Ventures Platform",
-"why": "function",
-"locations": [
-"USA, CA, San Francisco"
-],
-"url": "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-CA-San-Francisco/Director--McKesson-Ventures-Platform_JR0153131"
-},
-{
-"company": "McKesson",
 "title": "Director, Patient Support Program Operations",
 "why": "function",
 "locations": [
@@ -4244,6 +4271,13 @@
 "Mercy Virtual Care Center"
 ],
 "url": "https://mercy.wd1.myworkdayjobs.com/mercycareers/job/Mercy-Virtual-Care-Center/Executive-Director-Clinical-Care-Integration_JR275013"
+},
+{
+"company": "MultiCare",
+"title": "Director Construction Project Delivery",
+"why": "function",
+"locations": [],
+"url": "https://multicare.wd1.myworkdayjobs.com/multicare/job/Tacoma-Washington/Director-Construction-Project-Delivery_JR86854"
 },
 {
 "company": "MultiCare",
@@ -4911,15 +4945,6 @@
 },
 {
 "company": "Trinity Health",
-"title": "Regional Service Line Director - Oncology Services",
-"why": "function",
-"locations": [
-"Grand Rapids, Michigan"
-],
-"url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Grand-Rapids-Michigan/Director---Oncology-Clinical-Services_00689745"
-},
-{
-"company": "Trinity Health",
 "title": "Vice President, Chief Development Officer (CDO) - Loyola Medicine (IL/IN)",
 "why": "function",
 "locations": [
@@ -4980,6 +5005,15 @@
 "Lebanon, TN"
 ],
 "url": "https://vumc.wd1.myworkdayjobs.com/vumccareers/job/Lebanon-TN/Magnet-Program-Director---Vanderbilt-Wilson-County-Hospital_R-69325"
+},
+{
+"company": "Vizient",
+"title": "Category Management Director",
+"why": "function",
+"locations": [
+"5 Locations"
+],
+"url": "https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/NC-Charlotte/Category-Management-Director_36119R"
 },
 {
 "company": "Vizient",
@@ -5118,6 +5152,24 @@
 },
 {
 "company": "Vizient",
+"title": "Sourcing Director, Clinical",
+"why": "function",
+"locations": [
+"5 Locations"
+],
+"url": "https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Irving-TX-75062-Vizient-Corporate-HQ/Sourcing-Director--Clinical_36124R-1"
+},
+{
+"company": "Vizient",
+"title": "Sourcing Director, Non-Clinical",
+"why": "function",
+"locations": [
+"5 Locations"
+],
+"url": "https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Irving-TX-75062-Vizient-Corporate-HQ/Sourcing-Director--Non-Clinical_36139R"
+},
+{
+"company": "Vizient",
 "title": "Sourcing Program Services Director, Vizient Reserve",
 "why": "function",
 "locations": [
@@ -5181,6 +5233,15 @@
 },
 {
 "company": "Wellstar",
+"title": "Director,  Clinical & Rev Cycle Apps",
+"why": "function",
+"locations": [
+"VIRTUAL-GA"
+],
+"url": "https://wellstar.wd1.myworkdayjobs.com/wellstarcareers/job/VIRTUAL-GA/Director---Clinical---Rev-Cycle-Apps_JR-79547"
+},
+{
+"company": "Wellstar",
 "title": "Director,  Construction",
 "why": "function",
 "locations": [
@@ -5241,6 +5302,15 @@
 "Chelmsford, MA"
 ],
 "url": "https://zoll.wd5.myworkdayjobs.com/ZOLLMedicalCorp/job/Chelmsford-MA/Director--Global-Planning-and-SIOP_R20635"
+},
+{
+"company": "ZOLL Medical",
+"title": "Director, North America Distribution and Logistics",
+"why": "function",
+"locations": [
+"US MA Wilmington"
+],
+"url": "https://zoll.wd5.myworkdayjobs.com/ZOLLMedicalCorp/job/US-MA-Wilmington/Director--North-America-Distribution-and-Logistics_R20830"
 },
 {
 "company": "ZOLL Medical",
@@ -5599,6 +5669,15 @@
 "Banner Health Corp Phoenix (2901 N Central Ave)"
 ],
 "url": "https://bannerhealth.wd108.myworkdayjobs.com/Careers/job/Banner-Health-Corp-Phoenix-2901-N-Central-Ave/VP--Government-Health-Programs--Banner-Plans---Networks_R4453396"
+},
+{
+"company": "Baxter",
+"title": "Sr. Director, Product Management - Connected Care Group",
+"why": "location",
+"locations": [
+"Deerfield, Illinois"
+],
+"url": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Deerfield-Illinois/Sr-Director--Product-Management---Connected-Care-Group_JR-212959"
 },
 {
 "company": "Baxter",
@@ -6104,15 +6183,6 @@
 },
 {
 "company": "DaVita",
-"title": "Director of Strategy",
-"why": "location",
-"locations": [
-"02941 - Team Avanti Group Office"
-],
-"url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/02941---Team-Avanti-Group-Office/Strategy-Director_R0476256"
-},
-{
-"company": "DaVita",
 "title": "Sr Director, Patient Engagement (Clinical Transformation)",
 "why": "location",
 "locations": [
@@ -6404,6 +6474,15 @@
 },
 {
 "company": "Elevance Health",
+"title": "Strategy & Program Development Director - Payment Integrity Strategy & Planning",
+"why": "location",
+"locations": [
+"KY-LOUISVILLE, 3195 TERRA CROSSING BLVD, STE 202, 204, 300, 302, 304 & 306"
+],
+"url": "https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/KY-LOUISVILLE-3195-TERRA-CROSSING-BLVD-STE-202-204-300-302-304--306/Strategy---Program-Development-Director---Payment-Integrity-Strategy---Planning_JR210990"
+},
+{
+"company": "Elevance Health",
 "title": "Trade Director CarelonRx",
 "why": "location",
 "locations": [
@@ -6592,36 +6671,12 @@
 },
 {
 "company": "Humana",
-"title": "Director, Core Admin, Claims & Medicare",
-"why": "location",
-"locations": [
-"Louisville, KY",
-"New York, NY",
-"Boston, MA",
-"Dallas, TX"
-],
-"url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Louisville-KY/Director--Core-Admin--Claims---Medicare_R-432340-1"
-},
-{
-"company": "Humana",
 "title": "Director, Enterprise Transformation",
 "why": "location",
 "locations": [
 "Arlington, VA"
 ],
 "url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Arlington-VA/Director--Enterprise-Transformation_R-431136"
-},
-{
-"company": "Humana",
-"title": "Director, Member Services, Medicaid",
-"why": "location",
-"locations": [
-"Louisville, KY",
-"New York, NY",
-"Boston, MA",
-"Dallas, TX"
-],
-"url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Louisville-KY/Director--Member-Services--Medicaid_R-432343-1"
 },
 {
 "company": "Humana",
@@ -6899,6 +6954,15 @@
 "US-UT-West Valley-106-Facility"
 ],
 "url": "https://integralife.wd1.myworkdayjobs.com/Careers/job/US-NJ-Princeton-100-Headquarters/Director--Quality-Microbiology_JR-6219"
+},
+{
+"company": "Integra LifeSciences",
+"title": "Director, R&D Operations, AI & Digital Enablement",
+"why": "location",
+"locations": [
+"US-NJ-Princeton-100-Headquarters"
+],
+"url": "https://integralife.wd1.myworkdayjobs.com/Careers/job/US-NJ-Princeton-100-Headquarters/Director--R-D-Operations--AI---Digital-Enablement_JR-6865"
 },
 {
 "company": "Integra LifeSciences",
@@ -7496,6 +7560,15 @@
 },
 {
 "company": "Prime Therapeutics",
+"title": "Director Client Financial Strategy - Remote",
+"why": "location",
+"locations": [
+"Home"
+],
+"url": "https://primetherapeutics.wd1.myworkdayjobs.com/PrimeTherapeuticsCareers/job/Home/Director-Client-Financial-Strategy---Remote_R-17491-1"
+},
+{
+"company": "Prime Therapeutics",
 "title": "Director, Clinical Strategy and Integrated Specialty Solutions - Remote",
 "why": "location",
 "locations": [
@@ -7750,6 +7823,15 @@
 "Chicago, IL 60607"
 ],
 "url": "https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Chicago-IL-60607/Director-Data-Solutions_34811R"
+},
+{
+"company": "Vizient",
+"title": "Director, AI Enablement",
+"why": "location",
+"locations": [
+"Edina, MN 55435"
+],
+"url": "https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Edina-MN-55435/Director--AI-Enablement_35558R"
 },
 {
 "company": "Vizient",
