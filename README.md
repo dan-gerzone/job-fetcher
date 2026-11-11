@@ -5,7 +5,9 @@ Workday (Elevance, Humana, CVS, Centene, Evolent, Health Catalyst), UnitedHealth
 Zelis, Amazon, Google and Microsoft, and writes a pre-filtered candidate list to `data/`.
 A Claude routine reads `data/`, judges fit and updates the job tracker.
 
-- **Runs:** three times a day (07:17, 11:17, 15:17 UTC; GitHub often starts them late), or on demand (Actions tab → "Fetch job listings" → Run workflow).
+- **Runs:** daily at 10:50am Denver, started by an outside scheduler (cron-job.org, using a fine-grained token
+  limited to Actions on this repo; renew it yearly). GitHub's own runs at 07:17, 11:17 and 15:17 UTC are a backup; GitHub often
+  starts those late or skips them, or on demand (Actions tab → "Fetch job listings" → Run workflow).
 - **Add a company:** add its board slug to the right list in `config.json`
   (Greenhouse / Lever / Ashby), or a new entry under `workday`. No code changes needed.
 - **Tune the title filter:** edit the regexes under `filters` in `config.json`.
