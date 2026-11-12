@@ -53,7 +53,8 @@
 "ab-5cc17634-8483-4fa9-824e-1c76b19084db": {
 "url": "https://jobs.ashbyhq.com/pomelo-care/5cc17634-8483-4fa9-824e-1c76b19084db",
 "firstSeen": "2026-11-09",
-"lastListed": "2026-11-12"
+"lastListed": "2026-11-12",
+"closed": "2026-11-12"
 },
 "ab-5fcd24d9-f273-4f76-a9a7-9bf718121b66": {
 "url": "https://jobs.ashbyhq.com/1uphealth/5fcd24d9-f273-4f76-a9a7-9bf718121b66",
@@ -755,6 +756,11 @@
 "firstSeen": "2026-11-11",
 "lastListed": "2026-11-12"
 },
+"lv-86c92349-7318-4f86-9b59-4f73a640a915": {
+"url": "https://jobs.lever.co/redoxengine/86c92349-7318-4f86-9b59-4f73a640a915",
+"firstSeen": "2026-11-12",
+"lastListed": "2026-11-12"
+},
 "lv-894ccc47-f430-4391-8dc1-063079c602db": {
 "url": "https://jobs.lever.co/arcadia/894ccc47-f430-4391-8dc1-063079c602db",
 "firstSeen": "2026-11-09",
@@ -1230,6 +1236,11 @@
 "firstSeen": "2026-11-12",
 "lastListed": "2026-11-12"
 },
+"uhg-103220975856": {
+"url": "https://careers.unitedhealthgroup.com/job/eden-prairie/director-gtm-portfolio-commercialization-pricing-strategy/34088/103220975856",
+"firstSeen": "2026-11-12",
+"lastListed": "2026-11-12"
+},
 "uhg-97483656928": {
 "url": "https://careers.unitedhealthgroup.com/job/boise/director-provider-relations-and-network-management-remote-in-id/34088/97483656928",
 "firstSeen": "2026-11-09",
@@ -1633,9 +1644,19 @@
 "firstSeen": "2026-11-09",
 "lastListed": "2026-11-12"
 },
+"wd-cvs-R1094363": {
+"url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Work-from-home/Lead-Director--ABX-Performance---Value-Realization_R1094363",
+"firstSeen": "2026-11-12",
+"lastListed": "2026-11-12"
+},
 "wd-cvs-R1094373": {
 "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Executive-Director--Claims---Payment-Integrity-Strategy_R1094373-1",
 "firstSeen": "2026-11-11",
+"lastListed": "2026-11-12"
+},
+"wd-cvs-R1094816": {
+"url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Executive-Director--Head-of-Learning-Strategy--Design---Learner-Experience_R1094816-1",
+"firstSeen": "2026-11-12",
 "lastListed": "2026-11-12"
 },
 "wd-cvs-R1095832": {
@@ -1740,10 +1761,16 @@
 "lastListed": "2026-11-11",
 "closed": "2026-11-12"
 },
+"wd-ensemblehp-R054406": {
+"url": "https://ensemblehp.wd5.myworkdayjobs.com/EnsembleHealthPartnersCareers/job/Remote---Nationwide/Director--Virtual-Utilization-Review_R054406-1",
+"firstSeen": "2026-11-12",
+"lastListed": "2026-11-12"
+},
 "wd-evo-JR-916784": {
 "url": "https://evolent.wd1.myworkdayjobs.com/External/job/Work-at-Home/Director--Strategic-Initiatives--AI-Platform-_JR-916784-1",
 "firstSeen": "2026-11-09",
-"lastListed": "2026-11-12"
+"lastListed": "2026-11-12",
+"closed": "2026-11-12"
 },
 "wd-evo-JR-917014": {
 "url": "https://evolent.wd1.myworkdayjobs.com/External/job/Work-at-Home/Director--Oncology-Performance-Solutions_JR-917014-1",

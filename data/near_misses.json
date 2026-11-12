@@ -64,15 +64,6 @@
 },
 {
 "company": "Abbott",
-"title": "Director Medical Development, MRD Breast Portfolio",
-"why": "function",
-"locations": [
-"2 Locations"
-],
-"url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---California---San-Diego/Director-Medical-Development--MRD-Breast-Portfolio_35000039"
-},
-{
-"company": "Abbott",
 "title": "Director, Customer Service",
 "why": "function",
 "locations": [
@@ -475,15 +466,6 @@
 "5 Locations"
 ],
 "url": "https://aah.wd115.myworkdayjobs.com/External/job/Advocate-Lutheran-General-Hospital---1775-Dempster-St/Director-Invasive-Cardiology-North-Area_R280884"
-},
-{
-"company": "Advocate Health",
-"title": "Director Patient Care Rehab",
-"why": "function",
-"locations": [
-"Navicent Rehabilitation Hospital - 3351 Northside Dr, Macon, GA"
-],
-"url": "https://aah.wd115.myworkdayjobs.com/External/job/Navicent-Rehabilitation-Hospital---3351-Northside-Dr-Macon-GA/Director-Patient-Care-Rehab_R273122"
 },
 {
 "company": "Advocate Health",
@@ -1387,6 +1369,15 @@
 },
 {
 "company": "DaVita",
+"title": "Director, IKC Operations",
+"why": "function",
+"locations": [
+"00200 - Heartland Division Office"
+],
+"url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/00200---Heartland-Division-Office/Director--IKC-Operations_R0465338"
+},
+{
+"company": "DaVita",
 "title": "Director, Program Management (IKC)",
 "why": "function",
 "locations": [
@@ -1429,15 +1420,6 @@
 "03835 - Pinnacle Division Office"
 ],
 "url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/03835---Pinnacle-Division-Office/Division-Director--Home_R0478964"
-},
-{
-"company": "DaVita",
-"title": "Division Director, Home",
-"why": "function",
-"locations": [
-"04292 - ORCA Division Office"
-],
-"url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/04292---ORCA-Division-Office/Division-Director--Home_R0440949"
 },
 {
 "company": "DaVita",
@@ -2086,15 +2068,6 @@
 "2 Locations"
 ],
 "url": "https://edwards.wd5.myworkdayjobs.com/EdwardsCareers/job/China-Shanghai/Senior-Director--Medical-Affairs--GC_Req-51448"
-},
-{
-"company": "Edwards Lifesciences",
-"title": "Senior Director, Plant Operations",
-"why": "function",
-"locations": [
-"USA - Utah \u2013 Salt Lake City"
-],
-"url": "https://edwards.wd5.myworkdayjobs.com/EdwardsCareers/job/USA---Utah--Salt-Lake-City/Senior-Director--Plant-Operations_Req-48181"
 },
 {
 "company": "Enovis",
@@ -2833,15 +2806,6 @@
 "Singapore"
 ],
 "url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Singapore/Assoc-Director-Director--Lab-Operations_R1569113"
-},
-{
-"company": "IQVIA",
-"title": "Associate Medical Safety Director",
-"why": "function",
-"locations": [
-"4 Locations"
-],
-"url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/So-Paulo-Brazil/Associate-Medical-Safety-Director_R1534920"
 },
 {
 "company": "IQVIA",
@@ -3787,6 +3751,15 @@
 "Cambridge-MA"
 ],
 "url": "https://massgeneralbrigham.wd1.myworkdayjobs.com/MGBExternal/job/Cambridge-MA/Director-Case-Management---Social-Work_RQ4084783"
+},
+{
+"company": "Mass General Brigham",
+"title": "Director, A Positive Place",
+"why": "function",
+"locations": [
+"Northampton-MA"
+],
+"url": "https://massgeneralbrigham.wd1.myworkdayjobs.com/MGBExternal/job/Northampton-MA/Director--A-Positive-Place_RQ4083380-1"
 },
 {
 "company": "Mass General Brigham",
@@ -4893,15 +4866,6 @@
 },
 {
 "company": "Trinity Health",
-"title": "Executive Director - Baton Rouge, LA",
-"why": "function",
-"locations": [
-"2 Locations"
-],
-"url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Livonia-Michigan/Executive-Director_00691324"
-},
-{
-"company": "Trinity Health",
 "title": "Executive Director Clinical Ops Inpatient",
 "why": "function",
 "locations": [
@@ -5454,6 +5418,15 @@
 "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Singapore/Head-of-Digital-and-Media_31162792"
 },
 {
+"company": "Abbott",
+"title": "IT Director, Data Product Management & Governance",
+"why": "location",
+"locations": [
+"United States - Illinois - Waukegan"
+],
+"url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---Illinois---Waukegan/IT-Director--Data-Product-Management---Governance_31167050-1"
+},
+{
 "company": "AdventHealth",
 "title": "Chief Data and Insights Officer",
 "why": "location",
@@ -5964,6 +5937,16 @@
 "Remote-NJ"
 ],
 "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-NY/Senior-Director--Provider-Network-Performance_1672785"
+},
+{
+"company": "Centene",
+"title": "Senior Director, Strategic Initiatives",
+"why": "location",
+"locations": [
+"Remote-MO",
+"Remote-FL"
+],
+"url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Senior-Director--Strategic-Initiatives_1672642"
 },
 {
 "company": "Centene",
