@@ -309,7 +309,8 @@
 "gh-7952112": {
 "url": "https://oscarhealth.com/careers/jobs?gh_jid=7952112",
 "firstSeen": "2026-11-09",
-"lastListed": "2026-11-12"
+"lastListed": "2026-11-12",
+"closed": "2026-11-12"
 },
 "gh-7980746": {
 "url": "https://oscarhealth.com/careers/jobs?gh_jid=7980746",
@@ -370,6 +371,11 @@
 "gh-8356762": {
 "url": "https://oscarhealth.com/careers/jobs?gh_jid=8356762",
 "firstSeen": "2026-11-09",
+"lastListed": "2026-11-12"
+},
+"gh-8383424": {
+"url": "https://job-boards.greenhouse.io/cloverhealth/jobs/8383424",
+"firstSeen": "2026-11-12",
 "lastListed": "2026-11-12"
 },
 "gh-8562010002": {
@@ -1112,7 +1118,8 @@
 "uhg-102207980656": {
 "url": "https://careers.unitedhealthgroup.com/job/eden-prairie/director-product-management-notional-products-remote/34088/102207980656",
 "firstSeen": "2026-11-09",
-"lastListed": "2026-11-12"
+"lastListed": "2026-11-12",
+"closed": "2026-11-12"
 },
 "uhg-102340542720": {
 "url": "https://careers.unitedhealthgroup.com/job/minnetonka/director-operational-excellence-uhc-data-and-analytics-remote/34088/102340542720",
@@ -1203,6 +1210,11 @@
 },
 "uhg-103203151344": {
 "url": "https://careers.unitedhealthgroup.com/job/eden-prairie/vp-enterprise-growth-oi-provider-market/34088/103203151344",
+"firstSeen": "2026-11-12",
+"lastListed": "2026-11-12"
+},
+"uhg-103211516304": {
+"url": "https://careers.unitedhealthgroup.com/job/eden-prairie/senior-director-strategy-and-transformation-integrated-specialty-care-remote/34088/103211516304",
 "firstSeen": "2026-11-12",
 "lastListed": "2026-11-12"
 },
@@ -1477,6 +1489,11 @@
 "wd-cvs-R1052037": {
 "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Work-from-home/Medicare-Claims-Technology-Product-Management-Director_R1052037-1",
 "firstSeen": "2026-11-09",
+"lastListed": "2026-11-12"
+},
+"wd-cvs-R1053176": {
+"url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/Hartford-Farmington-Ave-Atrium/Executive-Director--Medicaid-Performance-Management_R1053176-1",
+"firstSeen": "2026-11-12",
 "lastListed": "2026-11-12"
 },
 "wd-cvs-R1054418": {
@@ -1870,6 +1887,11 @@
 "wd-mckesson-JR0151164": {
 "url": "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-TX-Irving/Director--Segment-Strategy--Pharmaceutical-_JR0151164",
 "firstSeen": "2026-11-11",
+"lastListed": "2026-11-12"
+},
+"wd-mckesson-JR0156750": {
+"url": "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-MA-Remote/Director--Pharma-Strategy-and-Competitive-Intelligence_JR0156750",
+"firstSeen": "2026-11-12",
 "lastListed": "2026-11-12"
 },
 "wd-mckesson-JR0157050": {

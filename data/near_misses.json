@@ -406,15 +406,6 @@
 },
 {
 "company": "Advocate Health",
-"title": "Area Vice President Clinical Delivery Service Line Administration- Children's Service Line",
-"why": "function",
-"locations": [
-"Charlotte, NC - 2709 Water Ridge Pkwy"
-],
-"url": "https://aah.wd115.myworkdayjobs.com/External/job/Charlotte-NC---2709-Water-Ridge-Pkwy/Area-Vice-President-Clinical-Delivery-Service-Line-Administration--Children-s-Service-Line_R274347"
-},
-{
-"company": "Advocate Health",
 "title": "Area Vice President, Anesthesia",
 "why": "function",
 "locations": [
@@ -1117,6 +1108,15 @@
 },
 {
 "company": "Beth Israel Lahey Health",
+"title": "Executive Director, Case Management",
+"why": "function",
+"locations": [
+"Beth Israel Lahey Health"
+],
+"url": "https://bilh.wd1.myworkdayjobs.com/External/job/Beth-Israel-Lahey-Health/Executive-Director--Case-Management_JR106045"
+},
+{
+"company": "Beth Israel Lahey Health",
 "title": "Executive Director, Patient Access",
 "why": "function",
 "locations": [
@@ -1384,15 +1384,6 @@
 "09507 - Colorado Remote"
 ],
 "url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/09507---Colorado-Remote/Director--Clinician-Experience_R0468528"
-},
-{
-"company": "DaVita",
-"title": "Director, IKC Operations",
-"why": "function",
-"locations": [
-"00200 - Heartland Division Office"
-],
-"url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/00200---Heartland-Division-Office/Director--IKC-Operations_R0465338"
 },
 {
 "company": "DaVita",
@@ -2080,15 +2071,6 @@
 },
 {
 "company": "Edwards Lifesciences",
-"title": "Senior Director, Clinical Affairs",
-"why": "function",
-"locations": [
-"USA - California \u2013 Irvine"
-],
-"url": "https://edwards.wd5.myworkdayjobs.com/EdwardsCareers/job/USA---California--Irvine/Senior-Director--Clinical-Affairs_Req-49649"
-},
-{
-"company": "Edwards Lifesciences",
 "title": "Senior Director, Medical Affairs",
 "why": "function",
 "locations": [
@@ -2359,15 +2341,6 @@
 },
 {
 "company": "GE HealthCare",
-"title": "Head of Radiopharma Tech Transfer & CMOs, R&D CMC",
-"why": "function",
-"locations": [
-"13 Locations"
-],
-"url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Remote/Head-of-Radiopharma-Tech-Transfer---CMOs--R-D-CMC_R4048117-2"
-},
-{
-"company": "GE HealthCare",
 "title": "International Head of Radiopharma Commercial",
 "why": "function",
 "locations": [
@@ -2401,15 +2374,6 @@
 "Remote"
 ],
 "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Remote/Service-Director_R4049188-1"
-},
-{
-"company": "GE HealthCare",
-"title": "Sr Director - Program Management",
-"why": "function",
-"locations": [
-"4 Locations"
-],
-"url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Waukesha/Sr-Director---Program-Management_R4048786-1"
 },
 {
 "company": "GE HealthCare",
@@ -3979,13 +3943,6 @@
 },
 {
 "company": "McKesson",
-"title": "Senior Director, Change Management",
-"why": "function",
-"locations": [],
-"url": "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/Senior-Director--Change-Management_JR0156510"
-},
-{
-"company": "McKesson",
 "title": "Senior Director, Database & Operations",
 "why": "function",
 "locations": [
@@ -5403,6 +5360,15 @@
 "United States - California - Pleasanton"
 ],
 "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---California---Pleasanton/Director-Product---Design_31163866-1"
+},
+{
+"company": "Abbott",
+"title": "Director Product Development",
+"why": "location",
+"locations": [
+"United States - Minnesota - Plymouth"
+],
+"url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---Minnesota---Plymouth/Director-Product-Development_31166803-2"
 },
 {
 "company": "Abbott",
@@ -7010,6 +6976,15 @@
 "url": "https://integralife.wd1.myworkdayjobs.com/Careers/job/US-NJ-Princeton-100-Headquarters/Vice-President--Corporate-Quality-Systems_JR-6493"
 },
 {
+"company": "Intermountain Health",
+"title": "Group Product Manager - Clinical Analytics",
+"why": "location",
+"locations": [
+"SelectHealth - Murray"
+],
+"url": "https://imh.wd108.myworkdayjobs.com/IntermountainCareers/job/SelectHealth---Murray/Group-Product-Manager---Clinical-Analytics_R182273"
+},
+{
 "company": "Johnson & Johnson",
 "title": "Director Medical Affairs Strategic Markets EMEA \u2013 Electrophysiology (m/f/d)",
 "why": "location",
@@ -7474,6 +7449,16 @@
 "CAN, ON, Mississauga"
 ],
 "url": "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/CAN-ON-Mississauga/Sr-Director--Network-Operations_JR0148139"
+},
+{
+"company": "McKesson",
+"title": "Sr. Director, Strategic Planning",
+"why": "location",
+"locations": [
+"USA, TX, Irving",
+"USA, GA, Alpharetta"
+],
+"url": "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-TX-Irving/Sr-Director--Strategic-Planning_JR0157469"
 },
 {
 "company": "Medtronic",
