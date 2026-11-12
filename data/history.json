@@ -83,7 +83,8 @@
 "ab-9c6d5100-60c7-4486-8612-3597a0ed5c50": {
 "url": "https://jobs.ashbyhq.com/turquoise-health/9c6d5100-60c7-4486-8612-3597a0ed5c50",
 "firstSeen": "2026-11-09",
-"lastListed": "2026-11-12"
+"lastListed": "2026-11-12",
+"closed": "2026-11-12"
 },
 "ab-a6518f83-b49b-4601-98e9-ddf15e86e587": {
 "url": "https://jobs.ashbyhq.com/rula/a6518f83-b49b-4601-98e9-ddf15e86e587",
@@ -222,7 +223,8 @@
 "gh-5400232008": {
 "url": "https://job-boards.greenhouse.io/judihealth/jobs/5400232008",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-12"
+"lastListed": "2026-11-12",
+"closed": "2026-11-12"
 },
 "gh-5418964008": {
 "url": "https://www.datavant.com/about/careers/open-roles/job?gh_jid=5418964008",
@@ -371,6 +373,11 @@
 "gh-8356762": {
 "url": "https://oscarhealth.com/careers/jobs?gh_jid=8356762",
 "firstSeen": "2026-11-09",
+"lastListed": "2026-11-12"
+},
+"gh-8367732": {
+"url": "https://job-boards.greenhouse.io/omadahealth/jobs/8367732",
+"firstSeen": "2026-11-12",
 "lastListed": "2026-11-12"
 },
 "gh-8383424": {
@@ -1218,6 +1225,11 @@
 "firstSeen": "2026-11-12",
 "lastListed": "2026-11-12"
 },
+"uhg-103216188096": {
+"url": "https://careers.unitedhealthgroup.com/job/eden-prairie/director-of-technology-remote/34088/103216188096",
+"firstSeen": "2026-11-12",
+"lastListed": "2026-11-12"
+},
 "uhg-97483656928": {
 "url": "https://careers.unitedhealthgroup.com/job/boise/director-provider-relations-and-network-management-remote-in-id/34088/97483656928",
 "firstSeen": "2026-11-09",
@@ -1459,6 +1471,11 @@
 "wd-cvs-R0957754": {
 "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/Hartford-Farmington-Ave-Rogers/Executive-Director--Business-Transformation--Meritain-Health_R0957754-1",
 "firstSeen": "2026-11-09",
+"lastListed": "2026-11-12"
+},
+"wd-cvs-R0985760": {
+"url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Vice-President--Corporate-Development_R0985760",
+"firstSeen": "2026-11-12",
 "lastListed": "2026-11-12"
 },
 "wd-cvs-R0991118": {
