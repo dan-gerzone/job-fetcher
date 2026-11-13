@@ -147,7 +147,8 @@
 "gh-4402286009": {
 "url": "https://job-boards.greenhouse.io/swordhealth/jobs/4402286009",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-13"
+"lastListed": "2026-11-13",
+"closed": "2026-11-13"
 },
 "gh-4421133009": {
 "url": "https://job-boards.greenhouse.io/swordhealth/jobs/4421133009",
@@ -293,7 +294,8 @@
 "gh-6212551004": {
 "url": "https://job-boards.greenhouse.io/twinhealth/jobs/6212551004",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-13"
+"lastListed": "2026-11-13",
+"closed": "2026-11-13"
 },
 "gh-6216503004": {
 "url": "https://job-boards.greenhouse.io/natera/jobs/6216503004",
@@ -415,7 +417,8 @@
 "gh-8805737002": {
 "url": "https://job-boards.greenhouse.io/smithrx/jobs/8805737002",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-13"
+"lastListed": "2026-11-13",
+"closed": "2026-11-13"
 },
 "gh-8807058002": {
 "url": "https://job-boards.greenhouse.io/healthjoy/jobs/8807058002",
@@ -570,6 +573,11 @@
 "ic-navitus-6921": {
 "url": "https://careers-navitus.icims.com/jobs/6921/director%2c-analytics-and-data/job",
 "firstSeen": "2026-11-11",
+"lastListed": "2026-11-13"
+},
+"ic-navitus-6964": {
+"url": "https://careers-navitus.icims.com/jobs/6964/sr.-director%2c-product-operations-%26-governance/job",
+"firstSeen": "2026-11-13",
 "lastListed": "2026-11-13"
 },
 "ic-personifyhealth-4881": {
@@ -962,6 +970,11 @@
 "firstSeen": "2026-11-11",
 "lastListed": "2026-11-13"
 },
+"or-bsca-20262364": {
+"url": "https://ecge.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/20262364",
+"firstSeen": "2026-11-13",
+"lastListed": "2026-11-13"
+},
 "or-guidewell-42222": {
 "url": "https://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/42222",
 "firstSeen": "2026-11-11",
@@ -1110,7 +1123,8 @@
 "uhg-101629850912": {
 "url": "https://careers.unitedhealthgroup.com/job/eden-prairie/director-client-management-and-strategy-behavioral-health/34088/101629850912",
 "firstSeen": "2026-11-09",
-"lastListed": "2026-11-13"
+"lastListed": "2026-11-13",
+"closed": "2026-11-13"
 },
 "uhg-101745360432": {
 "url": "https://careers.unitedhealthgroup.com/job/eden-prairie/director-ai-innovation-and-strategy-life-sciences-remote/34088/101745360432",
@@ -1308,6 +1322,12 @@
 "wd-agilonhealth-R003689": {
 "url": "https://agilonhealth.wd1.myworkdayjobs.com/External/job/Remote---USA/Regional-Director--Operations_R003689",
 "firstSeen": "2026-11-11",
+"lastListed": "2026-11-13",
+"closed": "2026-11-13"
+},
+"wd-agilonhealth-R003693": {
+"url": "https://agilonhealth.wd1.myworkdayjobs.com/External/job/Remote---USA/Director--Quality-Performance-Operations_R003693",
+"firstSeen": "2026-11-13",
 "lastListed": "2026-11-13"
 },
 "wd-alignmenthealthcare-R2434": {
@@ -1427,6 +1447,11 @@
 "firstSeen": "2026-11-11",
 "lastListed": "2026-11-13"
 },
+"wd-caresource-R14591": {
+"url": "https://caresource.wd1.myworkdayjobs.com/CareSource/job/Remote/SVP--Customer-Experience-and-Service-Operations_R14591",
+"firstSeen": "2026-11-13",
+"lastListed": "2026-11-13"
+},
 "wd-cen-1658268": {
 "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Senior-Director--Third-Party-Risk-Management_1658268",
 "firstSeen": "2026-11-09",
@@ -1541,7 +1566,8 @@
 "wd-cvs-R1052037": {
 "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Work-from-home/Medicare-Claims-Technology-Product-Management-Director_R1052037-1",
 "firstSeen": "2026-11-09",
-"lastListed": "2026-11-13"
+"lastListed": "2026-11-13",
+"closed": "2026-11-13"
 },
 "wd-cvs-R1053176": {
 "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/Hartford-Farmington-Ave-Atrium/Executive-Director--Medicaid-Performance-Management_R1053176-1",
@@ -1693,6 +1719,11 @@
 "firstSeen": "2026-11-12",
 "lastListed": "2026-11-13"
 },
+"wd-cvs-R1095361": {
+"url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/RI---Woonsocket/Executive-Director--Colleague-Voice_R1095361",
+"firstSeen": "2026-11-13",
+"lastListed": "2026-11-13"
+},
 "wd-cvs-R1095832": {
 "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/VP--Operations-Enablement---Aetna_R1095832",
 "firstSeen": "2026-11-09",
@@ -1712,7 +1743,8 @@
 "wd-cvs-R1099192": {
 "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/Field-Illinois/Lead-Director--Program-Management_R1099192",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-13"
+"lastListed": "2026-11-13",
+"closed": "2026-11-13"
 },
 "wd-cvs-R1100154": {
 "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/RI---Woonsocket/Executive-Director--Enterprise-Data-Platform-Product-and-Operations_R1100154",
@@ -1800,6 +1832,11 @@
 "firstSeen": "2026-11-11",
 "lastListed": "2026-11-11",
 "closed": "2026-11-12"
+},
+"wd-devoted-R3901": {
+"url": "https://devoted.wd1.myworkdayjobs.com/Devoted/job/Remote-USA/Director--Member-Lifecycle-and-Personalization_R3901",
+"firstSeen": "2026-11-13",
+"lastListed": "2026-11-13"
 },
 "wd-ensemblehp-R054406": {
 "url": "https://ensemblehp.wd5.myworkdayjobs.com/EnsembleHealthPartnersCareers/job/Remote---Nationwide/Director--Virtual-Utilization-Review_R054406-1",
@@ -1908,6 +1945,11 @@
 "wd-huron-JR-0015749": {
 "url": "https://huron.wd1.myworkdayjobs.com/huroncareers/job/New-York---1166-Ave-of-Americas/Consulting-Director---Innosight-Healthcare-Provider-Strategy---Innovation_JR-0015749",
 "firstSeen": "2026-11-11",
+"lastListed": "2026-11-13"
+},
+"wd-huron-JR-0016154": {
+"url": "https://huron.wd1.myworkdayjobs.com/huroncareers/job/Chicago---550-Van-Buren/Digital-Senior-Director---Data---Analytics--Financial-Services_JR-0016154",
+"firstSeen": "2026-11-13",
 "lastListed": "2026-11-13"
 },
 "wd-huron-JR-0016592": {
