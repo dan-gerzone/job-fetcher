@@ -1387,15 +1387,6 @@
 },
 {
 "company": "DaVita",
-"title": "Director, Clinical Services, Hospital Services",
-"why": "function",
-"locations": [
-"7 Locations"
-],
-"url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/09538---North-Carolina-Remote/Director--Clinical-Services--Hospital-Services_R0459293"
-},
-{
-"company": "DaVita",
 "title": "Director, Clinician Experience",
 "why": "function",
 "locations": [
@@ -2390,6 +2381,15 @@
 "Seattle, WA"
 ],
 "url": "https://gatesfoundation.wd1.myworkdayjobs.com/Gates/job/Seattle-WA/Deputy-Director--Campaign-Planning---Channels-Management_B021811-1"
+},
+{
+"company": "Gates Foundation",
+"title": "Deputy Director, Family Health",
+"why": "function",
+"locations": [
+"New Delhi, India"
+],
+"url": "https://gatesfoundation.wd1.myworkdayjobs.com/Gates/job/New-Delhi-India/Deputy-Director--Family-Health_B021858"
 },
 {
 "company": "Gates Foundation",
@@ -3812,15 +3812,6 @@
 "Dover-NH"
 ],
 "url": "https://massgeneralbrigham.wd1.myworkdayjobs.com/MGBExternal/job/Dover-NH/Director---Physics-and-Dosimetry_RQ4069192-2"
-},
-{
-"company": "Mass General Brigham",
-"title": "Director Case Management & Social Work",
-"why": "function",
-"locations": [
-"Cambridge-MA"
-],
-"url": "https://massgeneralbrigham.wd1.myworkdayjobs.com/MGBExternal/job/Cambridge-MA/Director-Case-Management---Social-Work_RQ4084783"
 },
 {
 "company": "Mass General Brigham",
@@ -7583,6 +7574,15 @@
 "url": "https://memorialhermann.wd5.myworkdayjobs.com/external/job/Home-Office---TX/Director--System-Quality-Analytics_100187804"
 },
 {
+"company": "Memorial Hermann",
+"title": "VP, Innovation and AI",
+"why": "location",
+"locations": [
+"Medical Plaza North"
+],
+"url": "https://memorialhermann.wd5.myworkdayjobs.com/external/job/Medical-Plaza-North/VP--Innovation-and-AI_100189477"
+},
+{
 "company": "Mercy",
 "title": "Director Managed Care - Value Based Initiatives",
 "why": "location",
@@ -7817,6 +7817,15 @@
 "Long Beach Office 3800"
 ],
 "url": "https://scanhealthplan.wd108.myworkdayjobs.com/scancareers/job/Long-Beach-Office-3800/Vice-President--Claims-and-Provider-Operations_JR3479"
+},
+{
+"company": "Smith+Nephew",
+"title": "Director, Clinical Data Analytics",
+"why": "location",
+"locations": [
+"Fort Worth"
+],
+"url": "https://smithnephew.wd5.myworkdayjobs.com/External/job/Fort-Worth/Director--Clinical-Data-Analytics_R93025"
 },
 {
 "company": "Smith+Nephew",
