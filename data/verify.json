@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-15T14:50:28Z",
+ "checkedAt": "2026-11-15T17:48:58Z",
  "status": {
   "ab-08356b9a-4357-44c3-b5d4-b27e42e95e6b": "open",
   "ab-21b81f7f-85eb-4943-9448-834684572044": "open",
@@ -309,6 +309,7 @@
   "wd-cvs-R1072951": "closed",
   "wd-cvs-R1078091": "open",
   "wd-cvs-R1080298": "closed",
+  "wd-cvs-R1080763": "closed",
   "wd-cvs-R1080859": "open",
   "wd-cvs-R1081048": "open",
   "wd-cvs-R1083071": "open",
@@ -442,7 +443,6 @@
   "lv-8cca966d-9d70-49be-a4f9-7a6fcaf48798": "open",
   "lv-ca586031-728e-401d-a9e6-bcab53e239a2": "open",
   "lv-cf6ffe0a-934e-4c07-bb04-22e7b5c98a4f": "open",
-  "wd-cvs-R1080763": "closed",
   "wd-mckesson-JR0157050": "open",
   "wd-nextgen-R-101833": "open",
   "wd-vizient-33884R": "open",
