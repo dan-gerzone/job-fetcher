@@ -138,6 +138,11 @@
 "firstSeen": "2026-11-11",
 "lastListed": "2026-11-16"
 },
+"ab-ff432302-96a6-467e-b65b-e07249ee336f": {
+"url": "https://jobs.ashbyhq.com/chartis/ff432302-96a6-467e-b65b-e07249ee336f",
+"firstSeen": "2026-11-16",
+"lastListed": "2026-11-16"
+},
 "ab-ff567067-8918-4d4d-8441-1eae3f870c05": {
 "url": "https://jobs.ashbyhq.com/Abridge/ff567067-8918-4d4d-8441-1eae3f870c05",
 "firstSeen": "2026-11-09",
@@ -604,7 +609,8 @@
 "jb-acentra-7396": {
 "url": "https://careers.acentra.com/jobs/7396",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-16"
+"lastListed": "2026-11-16",
+"closed": "2026-11-16"
 },
 "jb-innovage-7168": {
 "url": "https://careers.innovage.com/jobs/7168",
@@ -704,6 +710,11 @@
 "lv-4fb7632b-ff05-4a77-a1ae-b8bc8b241587": {
 "url": "https://jobs.lever.co/aledade/4fb7632b-ff05-4a77-a1ae-b8bc8b241587",
 "firstSeen": "2026-11-14",
+"lastListed": "2026-11-16"
+},
+"lv-509eb000-8aa0-4cea-925d-0ad743225227": {
+"url": "https://jobs.lever.co/quantum-health/509eb000-8aa0-4cea-925d-0ad743225227",
+"firstSeen": "2026-11-16",
 "lastListed": "2026-11-16"
 },
 "lv-5252c7ed-1285-4869-92cb-3509dd98a9ac": {
@@ -954,7 +965,8 @@
 "lv-dc8b8817-5c73-4df0-bd76-653e4d02c2b2": {
 "url": "https://jobs.lever.co/quantum-health/dc8b8817-5c73-4df0-bd76-653e4d02c2b2",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-16"
+"lastListed": "2026-11-16",
+"closed": "2026-11-16"
 },
 "lv-ddad0cc6-1967-458c-a868-e14116ee139c": {
 "url": "https://jobs.lever.co/veeva/ddad0cc6-1967-458c-a868-e14116ee139c",
@@ -1458,8 +1470,7 @@
 "wd-bdx-R-558443": {
 "url": "https://bdx.wd1.myworkdayjobs.com/EXTERNAL_CAREER_SITE_USA/job/USA-NJ---Franklin-Lakes/GVP---GPO-Strategy-and-Health-Systems_R-558443",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-12",
-"closed": "2026-11-13"
+"lastListed": "2026-11-16"
 },
 "wd-cardinalhealth-20190859": {
 "url": "https://cardinalhealth.wd1.myworkdayjobs.com/EXT/job/US-Nationwide-FIELD/Director--AI-Strategy---Business-Transformation_20190859",
@@ -1505,6 +1516,16 @@
 "wd-cen-1658268": {
 "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Senior-Director--Third-Party-Risk-Management_1658268",
 "firstSeen": "2026-11-09",
+"lastListed": "2026-11-16"
+},
+"wd-cen-1665336": {
+"url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Director--Integrated-Communication-Services-Process-Owner_1665336",
+"firstSeen": "2026-11-16",
+"lastListed": "2026-11-16"
+},
+"wd-cen-1669598": {
+"url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Director--Process-Owner_1669598",
+"firstSeen": "2026-11-16",
 "lastListed": "2026-11-16"
 },
 "wd-cen-1670357": {
@@ -1737,6 +1758,11 @@
 "lastListed": "2026-11-15",
 "closed": "2026-11-16"
 },
+"wd-cvs-R1089010": {
+"url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/Field-California/National-Accounts-Vice-President-of-Client-Management---West-Coast_R1089010",
+"firstSeen": "2026-11-16",
+"lastListed": "2026-11-16"
+},
 "wd-cvs-R1089129": {
 "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/VP--Medicare-Product---Aetna_R1089129-1",
 "firstSeen": "2026-11-09",
@@ -1766,8 +1792,7 @@
 "wd-cvs-R1094373": {
 "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Executive-Director--Claims---Payment-Integrity-Strategy_R1094373-1",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-15",
-"closed": "2026-11-16"
+"lastListed": "2026-11-16"
 },
 "wd-cvs-R1094377": {
 "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Work-from-home/Lead-Director--Capital-Planning---Portfolio-Governance_R1094377",
@@ -1977,7 +2002,8 @@
 "wd-hum-R-431337": {
 "url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/DFW-Airport-TX/VP--Data-Strategy---Governance_R-431337",
 "firstSeen": "2026-11-09",
-"lastListed": "2026-11-16"
+"lastListed": "2026-11-16",
+"closed": "2026-11-16"
 },
 "wd-hum-R-432161": {
 "url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Remote-New-York/Director--Supplemental-Benefits-Strategy---Transformation_R-432161",
@@ -1987,8 +2013,7 @@
 "wd-hum-R-433818": {
 "url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Remote-Nationwide/Director--Corporate-Strategy_R-433818",
 "firstSeen": "2026-11-14",
-"lastListed": "2026-11-15",
-"closed": "2026-11-16"
+"lastListed": "2026-11-16"
 },
 "wd-hum-R-434432": {
 "url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Remote-Nationwide/Director--Data-Quality---Integrity--Provider-Network-Operations-_R-434432",
@@ -2071,7 +2096,8 @@
 "wd-leidos-R-00196598": {
 "url": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Director--Network-Product-Management_R-00196598",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-16"
+"lastListed": "2026-11-16",
+"closed": "2026-11-16"
 },
 "wd-lumeris-R0007078": {
 "url": "https://lumeris.wd1.myworkdayjobs.com/LC/job/Remote-USA/CX-Strategy-Director_R0007078",
@@ -2231,11 +2257,17 @@
 "wd-r1rcm-R260000006377": {
 "url": "https://r1rcm.wd1.myworkdayjobs.com/R1RCM/job/Remote-USA/Vice-President--Self-Pay-Performance---Client-Strategy_R260000006377",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-16"
+"lastListed": "2026-11-16",
+"closed": "2026-11-16"
 },
 "wd-r1rcm-R260000007462": {
 "url": "https://r1rcm.wd1.myworkdayjobs.com/R1RCM/job/Remote-USA/VP--Data-Integration_R260000007462",
 "firstSeen": "2026-11-11",
+"lastListed": "2026-11-16"
+},
+"wd-r1rcm-R260000008067": {
+"url": "https://r1rcm.wd1.myworkdayjobs.com/R1RCM/job/Remote-USA/VP--Client-Strategy---Performance_R260000008067",
+"firstSeen": "2026-11-16",
 "lastListed": "2026-11-16"
 },
 "wd-smithnephew-R93126": {
@@ -2248,6 +2280,11 @@
 "firstSeen": "2026-11-11",
 "lastListed": "2026-11-16"
 },
+"wd-tegria-JR1521": {
+"url": "https://tegria.wd12.myworkdayjobs.com/EXT/job/Director--Enterprise-Systems_JR1521",
+"firstSeen": "2026-11-16",
+"lastListed": "2026-11-16"
+},
 "wd-teladoc-JR21357": {
 "url": "https://teladoc.wd503.myworkdayjobs.com/teladochealth_is_hiring/job/USA---Any-Location-Remote/Head-of-Cardiometabolic-Solutions_JR21357",
 "firstSeen": "2026-11-16",
@@ -2256,7 +2293,8 @@
 "wd-tempus-JR202601135": {
 "url": "https://tempus.wd5.myworkdayjobs.com/Tempus_Careers/job/New-York-City/Director--Strategy---Operations---Life-Sciences-AI-Products_JR202601135",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-16"
+"lastListed": "2026-11-16",
+"closed": "2026-11-16"
 },
 "wd-urban-R-801661": {
 "url": "https://urban.wd115.myworkdayjobs.com/Urban-Careers/job/The-Urban-Institute-DC/Senior-Director--AI-Studio_R-801661",
