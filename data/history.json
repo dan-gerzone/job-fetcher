@@ -69,7 +69,8 @@
 "ab-79cf5ff2-a07f-43a9-8096-6abeb1117e74": {
 "url": "https://jobs.ashbyhq.com/Abridge/79cf5ff2-a07f-43a9-8096-6abeb1117e74",
 "firstSeen": "2026-11-09",
-"lastListed": "2026-11-16"
+"lastListed": "2026-11-16",
+"closed": "2026-11-16"
 },
 "ab-8549f09e-5691-4545-a0c3-172a49ffaae1": {
 "url": "https://jobs.ashbyhq.com/certifyos/8549f09e-5691-4545-a0c3-172a49ffaae1",
@@ -965,8 +966,7 @@
 "lv-dc8b8817-5c73-4df0-bd76-653e4d02c2b2": {
 "url": "https://jobs.lever.co/quantum-health/dc8b8817-5c73-4df0-bd76-653e4d02c2b2",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-16",
-"closed": "2026-11-16"
+"lastListed": "2026-11-16"
 },
 "lv-ddad0cc6-1967-458c-a868-e14116ee139c": {
 "url": "https://jobs.lever.co/veeva/ddad0cc6-1967-458c-a868-e14116ee139c",
@@ -1098,7 +1098,8 @@
 "uhg-100399421088": {
 "url": "https://careers.unitedhealthgroup.com/job/eden-prairie/sr-director-compensation-optum-health-remote/34088/100399421088",
 "firstSeen": "2026-11-09",
-"lastListed": "2026-11-16"
+"lastListed": "2026-11-16",
+"closed": "2026-11-16"
 },
 "uhg-100993181856": {
 "url": "https://careers.unitedhealthgroup.com/job/draper/director-rebate-strategy-and-operations-remote/34088/100993181856",
@@ -1303,6 +1304,11 @@
 "firstSeen": "2026-11-16",
 "lastListed": "2026-11-16"
 },
+"uhg-103399106112": {
+"url": "https://careers.unitedhealthgroup.com/job/minnetonka/director-ai-and-product-intelligence-strategy/34088/103399106112",
+"firstSeen": "2026-11-16",
+"lastListed": "2026-11-16"
+},
 "uhg-97483656928": {
 "url": "https://careers.unitedhealthgroup.com/job/boise/director-provider-relations-and-network-management-remote-in-id/34088/97483656928",
 "firstSeen": "2026-11-09",
@@ -1503,6 +1509,11 @@
 "firstSeen": "2026-11-11",
 "lastListed": "2026-11-16"
 },
+"wd-caresource-R14584": {
+"url": "https://caresource.wd1.myworkdayjobs.com/CareSource/job/Remote/Director--Integrated-Care-Program-Management---Operations_R14584",
+"firstSeen": "2026-11-16",
+"lastListed": "2026-11-16"
+},
 "wd-caresource-R14591": {
 "url": "https://caresource.wd1.myworkdayjobs.com/CareSource/job/Remote/SVP--Customer-Experience-and-Service-Operations_R14591",
 "firstSeen": "2026-11-13",
@@ -1521,12 +1532,14 @@
 "wd-cen-1665336": {
 "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Director--Integrated-Communication-Services-Process-Owner_1665336",
 "firstSeen": "2026-11-16",
-"lastListed": "2026-11-16"
+"lastListed": "2026-11-16",
+"closed": "2026-11-16"
 },
 "wd-cen-1669598": {
 "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Director--Process-Owner_1669598",
 "firstSeen": "2026-11-16",
-"lastListed": "2026-11-16"
+"lastListed": "2026-11-16",
+"closed": "2026-11-16"
 },
 "wd-cen-1670357": {
 "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Director--AI-Vendor-Integrations---Standards_1670357",
@@ -1792,7 +1805,8 @@
 "wd-cvs-R1094373": {
 "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Executive-Director--Claims---Payment-Integrity-Strategy_R1094373-1",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-16"
+"lastListed": "2026-11-16",
+"closed": "2026-11-16"
 },
 "wd-cvs-R1094377": {
 "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Work-from-home/Lead-Director--Capital-Planning---Portfolio-Governance_R1094377",
@@ -1802,7 +1816,8 @@
 "wd-cvs-R1094816": {
 "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Executive-Director--Head-of-Learning-Strategy--Design---Learner-Experience_R1094816-1",
 "firstSeen": "2026-11-12",
-"lastListed": "2026-11-16"
+"lastListed": "2026-11-16",
+"closed": "2026-11-16"
 },
 "wd-cvs-R1095361": {
 "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/RI---Woonsocket/Executive-Director--Colleague-Voice_R1095361",
@@ -2102,13 +2117,19 @@
 "wd-lumeris-R0007078": {
 "url": "https://lumeris.wd1.myworkdayjobs.com/LC/job/Remote-USA/CX-Strategy-Director_R0007078",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-16"
+"lastListed": "2026-11-16",
+"closed": "2026-11-16"
 },
 "wd-mckesson-JR0150126": {
 "url": "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-TX-Irving/Senior-Director-Product-Management_JR0150126-1",
 "firstSeen": "2026-11-11",
 "lastListed": "2026-11-12",
 "closed": "2026-11-13"
+},
+"wd-mckesson-JR0150938": {
+"url": "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-TX-Irving/Sr-Director--Strategy---Oncology---Multispecialty_JR0150938-1",
+"firstSeen": "2026-11-16",
+"lastListed": "2026-11-16"
 },
 "wd-mckesson-JR0151164": {
 "url": "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-TX-Irving/Director--Segment-Strategy--Pharmaceutical-_JR0151164",
