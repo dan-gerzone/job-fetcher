@@ -312,6 +312,11 @@
 "firstSeen": "2026-11-11",
 "lastListed": "2026-11-17"
 },
+"gh-6207114004": {
+"url": "https://job-boards.greenhouse.io/garnerhealth/jobs/6207114004",
+"firstSeen": "2026-11-17",
+"lastListed": "2026-11-17"
+},
 "gh-6212551004": {
 "url": "https://job-boards.greenhouse.io/twinhealth/jobs/6212551004",
 "firstSeen": "2026-11-11",
@@ -374,7 +379,8 @@
 "gh-8221941": {
 "url": "https://job-boards.greenhouse.io/omadahealth/jobs/8221941",
 "firstSeen": "2026-11-09",
-"lastListed": "2026-11-17"
+"lastListed": "2026-11-17",
+"closed": "2026-11-17"
 },
 "gh-8237780": {
 "url": "https://oscarhealth.com/careers/jobs?gh_jid=8237780",
@@ -1117,7 +1123,8 @@
 "ic-navitus-6145": {
 "url": "https://careers-navitus.icims.com/jobs/6145/director%2c-proposals---archimedes/job",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-17"
+"lastListed": "2026-11-17",
+"closed": "2026-11-17"
 },
 "ic-navitus-6508": {
 "url": "https://careers-navitus.icims.com/jobs/6508/director%2c-provider-relations-%28rph%29/job",
@@ -1615,7 +1622,8 @@
 "tb-csh-92581005584": {
 "url": "https://www.commonspirit.careers/job/colorado-springs/director-quality-and-patient-safety-officer/35300/92581005584",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-17"
+"lastListed": "2026-11-17",
+"closed": "2026-11-17"
 },
 "tb-kp-98768964080": {
 "url": "https://www.kaiserpermanentejobs.org/job/oakland/vp-advanced-analytics-risk-adjustment/641/98768964080",
@@ -1653,7 +1661,7 @@
 "lastListed": "2026-11-17"
 },
 "tb-mol-102814120160": {
-"url": "https://careers.molinahealthcare.com/job/columbia/director-long-term-services-and-supports-rn-required-remote-must-reside-in-south-carolina/21726/102814120160",
+"url": "https://careers.molinahealthcare.com/job/united-states/director-long-term-services-and-supports-rn-required-remote-must-reside-in-south-carolina/21726/102814120160",
 "firstSeen": "2026-11-11",
 "lastListed": "2026-11-17"
 },
@@ -1904,6 +1912,11 @@
 "firstSeen": "2026-11-17",
 "lastListed": "2026-11-17"
 },
+"uhg-103442333728": {
+"url": "https://careers.unitedhealthgroup.com/job/eden-prairie/sr-director-tech-operations-and-command-center-leader-remote/34088/103442333728",
+"firstSeen": "2026-11-17",
+"lastListed": "2026-11-17"
+},
 "uhg-97483656928": {
 "url": "https://careers.unitedhealthgroup.com/job/boise/director-provider-relations-and-network-management-remote-in-id/34088/97483656928",
 "firstSeen": "2026-11-09",
@@ -2120,6 +2133,11 @@
 "firstSeen": "2026-11-16",
 "lastListed": "2026-11-17"
 },
+"wd-caresource-R14601": {
+"url": "https://caresource.wd1.myworkdayjobs.com/CareSource/job/Remote/Director--EDS-Strategy-and-Operations_R14601-1",
+"firstSeen": "2026-11-17",
+"lastListed": "2026-11-17"
+},
 "wd-cen-1658268": {
 "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Senior-Director--Third-Party-Risk-Management_1658268",
 "firstSeen": "2026-11-09",
@@ -2237,6 +2255,11 @@
 "firstSeen": "2026-11-09",
 "lastListed": "2026-11-13",
 "closed": "2026-11-13"
+},
+"wd-cvs-R1028604": {
+"url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NY---Work-from-hom/Executive-Director--Growth-Strategy---Health100_R1028604",
+"firstSeen": "2026-11-17",
+"lastListed": "2026-11-17"
 },
 "wd-cvs-R1033773": {
 "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/Work-At-Home-Rhode-Island/Lead-Director--Payer-Relations_R1033773",
