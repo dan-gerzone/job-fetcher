@@ -1637,6 +1637,8 @@
    "Medicaid data analytics",
    "chief data officer health"
   ],
-  "health": "health|medic|clinic|hospital|patient|payer|payor|pharma|biotech|\\bcare\\b|provider|claims|life sciences|wellness|therap|nurs|medicaid|medicare"
+  "health": "health|medic|clinic|hospital|patient|payer|payor|pharma|biotech|\\bcare\\b|life sciences|wellness|therap|nurs|medicaid|medicare",
+  "healthStrong": "healthcare|health care|health plan|health system|hospital|patient|clinical|payer|payor|medicaid|medicare|value-based|population health|life sciences|provider network|medical",
+  "notHealth": "casualty|property|workers.? comp|umbrella|\\bauto\\b|\\bp&c\\b|reinsurance|annuit|retirement|wealth|mortgage|banking"
  }
 }

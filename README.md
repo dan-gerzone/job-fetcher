@@ -15,6 +15,11 @@ A Claude routine reads `data/`, judges fit and updates the job tracker.
   disappeared and records them in `data/verify.json`. `tracked.json` is optional (extra ids to check).
 - The Claude routine only reads this repo (it is public so no credentials are needed); it never pushes.
 - `data/run.json` shows per-source counts and any failures.
+- **Discovery sources** search across employers that are not on the list: 16 investor portfolio job boards (Getro),
+  association career centers (AHA, AMGA, APHA, SHSMD, AMCP, CHA, MGMA, NACCHO), Health Tech Nerds, Andrew Hudson's Jobs
+  List (Colorado), and remote-job feeds (Himalayas, Remotive, Jobicy). They keep senior, health-related, Colorado/remote
+  roles and drop anything a direct source already has. Adzuna and USAJobs turn on when the repository secrets
+  `ADZUNA_APP_ID` + `ADZUNA_APP_KEY` and `USAJOBS_KEY` + `USAJOBS_EMAIL` exist.
 - **Broad employers** (health systems, med tech, consultancies) are marked `"broad": true` (or listed in `broadBoards`):
   their titles must also match `filters.broadFunction`. `data/near_misses.json` lists senior titles the function or
   location screen dropped, so the filter can be audited.
