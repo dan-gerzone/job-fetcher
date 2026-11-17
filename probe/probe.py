@@ -47,73 +47,65 @@ def rec(name, url, n=900, find=None, **kw):
     o[name] = [st, fin[:90], len(b), sq(b[max(0, i - 150):], n)]
     return b
 
-# --- Getro
-b = rec("getro_page", "https://jobs.oakhcft.com/jobs", n=200)
+# --- Getro detail
+b = rec("getro_detail", "https://jobs.oakhcft.com/companies/curana-health/jobs/99958716", n=200)
 m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', b, re.S)
 if m:
-    nd = json.loads(m.group(1))
-    pp = nd.get("props", {}).get("pageProps", {})
-    o["getro_next_keys"] = [list(nd.keys()), list(pp.keys())[:30], nd.get("buildId")]
-    init = pp.get("initialState") or {}
-    o["getro_init_keys"] = {k: (list(v.keys())[:12] if isinstance(v, dict) else type(v).__name__) for k, v in init.items()} if isinstance(init, dict) else str(type(init))
-    jb = (init.get("jobs") or {}) if isinstance(init, dict) else {}
-    o["getro_jobs_sample"] = sq(json.dumps(jb), 2200)
-    o["getro_network"] = sq(json.dumps(pp.get("network") or {}), 500)
-for nm, hd in (("json_only", {"Accept": "application/json"}), ("json_origin", {"Accept": "application/json", "Origin": "https://jobs.oakhcft.com", "Referer": "https://jobs.oakhcft.com/"}),
-               ("star", {"Accept": "*/*", "Origin": "https://jobs.oakhcft.com", "Referer": "https://jobs.oakhcft.com/"})):
-    for body in ({"hitsPerPage": 3, "page": 0, "filters": {"page": 0}, "query": "director"}, {"hitsPerPage": 3, "page": 0, "filters": {}, "query": ""}):
-        st, fin, bb = get("https://api.getro.com/api/v2/collections/637/search/jobs", data=body, headers=hd)
-        o[f"getro_api_{nm}_{'q' if body['query'] else 'e'}"] = [st, len(bb), sq(bb, 1800 if st == 200 and "getro_ok" not in o else 150)]
-        if st == 200: o["getro_ok"] = nm
+    cj0 = (json.loads(m.group(1)).get("props", {}).get("pageProps", {}).get("initialState", {}).get("jobs", {}) or {}).get("currentJob") or {}
+    o["getro_detail_keys"] = [list(cj0.keys())[:40], sq(str(cj0.get("description"))[:300], 300)]
+st, fin, bb = get("https://api.getro.com/api/v2/collections/637/search/jobs", data={"hitsPerPage": 100, "page": 0, "filters": {}, "query": "director"}, headers={"Accept": "application/json"})
+try:
+    jj = json.loads(bb); o["getro_count"] = [st, len(jj["results"]["jobs"]), jj["results"].get("count"), [k for k in jj["results"].keys()]]
+except Exception as e: o["getro_count"] = [st, str(e)]
 # --- Consider
-op, cj = session()
-st, hd, b = sget(op, "https://jobs.gv.com/jobs")
-o["consider_page"] = [st, {k: v[:160] for k, v in hd.items() if k.lower() in ("set-cookie", "x-csrf-token")}, [c.name for c in cj], re.findall(r'[^"\'<>\s]{0,40}csrf[^"\'<>\s]{0,80}', b, re.I)[:6]]
-tok = next((c.value for c in cj if "csrf" in c.name.lower() or "xsrf" in c.name.lower()), None)
-m = re.search(r'csrf[-_]?token["\']?\s*(?:content=|[:=])\s*["\']([^"\']+)', b, re.I)
-tok = tok or (m.group(1) if m else None)
-o["consider_tok"] = bool(tok)
-for hname in ("x-csrf-token", "csrf-token", "x-xsrf-token"):
-    st, hd2, b2 = sget(op, "https://jobs.gv.com/api-boards/search-jobs", data={"meta": {"size": 3}, "board": {"id": "gv", "isParent": True}, "query": {"promoteFeatured": False}},
-                       headers={hname: tok or "", "Origin": "https://jobs.gv.com", "Referer": "https://jobs.gv.com/jobs"})
-    o[f"consider_api_{hname}"] = [st, sq(b2, 1600 if st == 200 else 150)]
-    if st == 200: break
-# --- others
-b = rec("htn", "https://jobs.healthtechnerds.com/", n=300)
-o["htn_fp"] = [re.findall(r'<script[^>]+src="([^"]+)"', b)[:6], re.findall(r'href="([^"]*job[^"]{4,90})"', b)[:6], [k for k in ("pallet", "getro", "consider", "niceboard", "jboard", "smartjobboard", "webflow", "__NEXT_DATA__", "jobboardly", "polymer", "ashby") if k in b.lower()]]
-m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', b, re.S)
-if m: o["htn_next"] = sq(m.group(1), 1500)
-for nm, u in (("naylor_amga", "https://careers.amga.org/jobs/?keywords=director"), ("naylor_aha", "https://jobs.healthcareercenter.com/jobs/?keywords=director+analytics"), ("naylor_nahq", "https://careercenter.nahq.org/jobs/?keywords=director"),
-              ("naylor_himss", "https://jobmine.himss.org/jobs/?keywords=director"), ("naylor_ache", "https://careers.ache.org/jobs/?keywords=analytics"), ("naylor_apha", "https://careers.apha.org/jobs/?keywords=director")):
-    b = rec(nm, u, n=150)
-    links = re.findall(r'href="(/jobs?/\d+/[^"]+)"', b)
-    i = b.find(links[0]) if links else -1
-    o[nm + "_x"] = [len(set(links)), sq(b[max(0, i - 700): i + 1500], 2000 if nm == "naylor_amga" else 300) if i >= 0 else ""]
-rec("naylor_amga_rss", "https://careers.amga.org/jobs/?keywords=director&display=rss", n=900)
-b = rec("madgex_mgma", "https://careers.mgma.com/jobs/?Keywords=director", n=100)
-links = re.findall(r'href="(/job/\d+/[^"]+)"', b); i = b.find(links[0]) if links else -1
-o["madgex_mgma_x"] = [len(set(links)), sq(b[max(0, i - 500): i + 1300], 1700) if i >= 0 else ""]
-rec("madgex_mgma_rss", "https://careers.mgma.com/jobsrss/?Keywords=director", n=900)
-b = rec("ws_naccho", "https://careers.naccho.org/jobs?keywords=director", n=100)
-links = re.findall(r'href="(https://careers\.naccho\.org/job/[^"]+)"', b); i = b.find(links[0]) if links else -1
-o["ws_naccho_x"] = [len(set(links)), sq(b[max(0, i - 500): i + 1200], 1500) if i >= 0 else ""]
-rec("hudson_feed", "https://andrewhudsonsjobslist.com/jobs/feed/", n=1500, find="<item>")
-rec("aspph", "https://publichealthjobs.aspph.org/?s=director", n=300)
-rec("aspph_feed", "https://publichealthjobs.aspph.org/feed/?post_type=job_listing&s=director", n=900, find="<item>")
-rec("healthecareers", "https://www.healthecareers.com/search-jobs/?keyword=director%20analytics&ps=5", n=300)
-b = rec("himalayas", "https://himalayas.app/jobs/api/search?q=healthcare%20analytics%20director&country=US", n=100)
+def consider(host, board, query):
+    op, cj = session()
+    st, hd, b = sget(op, f"https://{host}/jobs")
+    m = re.search(r'"csrfToken"\s*:\s*"([^"]+)"', b) or re.search(r"csrfToken[\"']?\s*[:=]\s*[\"']([^\"']+)", b)
+    bid = re.search(r'"board"\s*:\s*\{[^{}]*?"id"\s*:\s*"([^"]+)"', b)
+    tok = m.group(1) if m else ""
+    st, hd2, b2 = sget(op, f"https://{host}/api-boards/search-jobs", data={"meta": {"size": 5}, "board": {"id": board or (bid.group(1) if bid else ""), "isParent": True}, "query": query},
+                       headers={"x-csrf-token": tok, "Origin": f"https://{host}", "Referer": f"https://{host}/jobs"})
+    return st, b2, (bid.group(1) if bid else None), bool(tok)
+st, b2, bid, tk = consider("jobs.gv.com", "gv", {"promoteFeatured": False})
 try:
-    j = json.loads(b); x = j["jobs"][0]; x["description"] = (x.get("description") or "")[:150]
-    o["himalayas_job"] = [j.get("totalCount"), sq(json.dumps(x), 1600), [y.get("title") for y in j["jobs"][:12]]]
-except Exception as e: o["himalayas_job"] = str(e)
-b = rec("jobicy", "https://jobicy.com/api/v2/remote-jobs?count=50&geo=usa&industry=data-science", n=100)
-try:
-    j = json.loads(b); x = j["jobs"][0]; x["jobDescription"] = x.get("jobDescription", "")[:100]
-    o["jobicy_job"] = [len(j["jobs"]), sq(json.dumps(x), 900)]
-except Exception as e: o["jobicy_job"] = str(e)
-b = rec("remotive", "https://remotive.com/api/remote-jobs?search=healthcare", n=100)
-try:
-    j = json.loads(b); x = j["jobs"][0]; x["description"] = x.get("description", "")[:100]
-    o["remotive_job"] = [len(j["jobs"]), sq(json.dumps(x), 800)]
-except Exception as e: o["remotive_job"] = str(e)
+    jj = json.loads(b2); x = jj["jobs"][0]; x.pop("companyLogos", None)
+    o["consider_job"] = [list(jj.keys()), jj.get("total"), sq(json.dumps(x), 1700)]
+except Exception as e: o["consider_job"] = [st, str(e), sq(b2, 200)]
+for nm, q in (("text", {"promoteFeatured": False, "text": "director"}), ("q", {"promoteFeatured": False, "q": "director"}), ("keyword", {"promoteFeatured": False, "keywords": "director"}),
+              ("markets", {"promoteFeatured": False, "markets": ["Healthcare"]}), ("titles", {"promoteFeatured": False, "jobTitle": "director"})):
+    st, b2, _, _ = consider("jobs.gv.com", "gv", q)
+    try:
+        jj = json.loads(b2); o[f"consider_q_{nm}"] = [st, jj.get("total"), [(x.get("title"), x.get("companyName")) for x in jj.get("jobs", [])[:5]]]
+    except Exception as e: o[f"consider_q_{nm}"] = [st, sq(b2, 200)]
+for host in ("jobs.a16z.com", "jobs.healthtechnerds.com", "jobs.greylock.com"):
+    st, b2, bid, tk = consider(host, None, {"promoteFeatured": False})
+    o[f"consider_{host}"] = [st, bid, tk, sq(b2, 200)]
+b = rec("htn", "https://jobs.healthtechnerds.com/", n=100)
+i = b.lower().find("ashby"); o["htn_ashby_ctx"] = sq(b[max(0, i - 1200): i + 600], 1800)
+o["htn_counts"] = {k: b.lower().count(k) for k in ("ashbyhq", "greenhouse", "lever.co", "<article", "job-card", "data-job", "fetch(", ".json", "api/")}
+o["htn_fetch"] = re.findall(r"fetch\(([^)]{0,120})\)", b)[:6]
+# --- RSS boards
+def item(b):
+    i = b.find("<item>"); j = b.find("</item>", i)
+    return sq(b[i:j + 7], 1100) if i >= 0 else sq(b, 200)
+for host in ("careers.amga.org", "careers.apha.org", "careers.shsmd.org", "jobs.healthcareercenter.com", "jobmine.himss.org", "careers.ache.org", "careercenter.nahq.org", "jobbank.hfma.org", "careers.hfma.org", "careercenter.amia.org",
+             "careers.academyhealth.org", "careercenter.ahima.org", "careers.aapc.com", "careercenter.ispor.org", "jobs.amstat.org", "jobs.ashp.org", "careers.aonl.org", "careers.aapl.org", "careers.acpe.org", "jobs.healthcaresource.com",
+             "careers.nejm.org", "careers.hcanj.org", "careers.aamc.org", "careers.asahq.org", "careers.aha.org", "careers.namss.org", "careers.acmanet.org", "careers.aone.org", "careers.amcp.org", "careers.ahcancal.org", "careers.chausa.org",
+             "careers.vizientinc.com", "careers.essentialhospitals.org", "careers.hcca-info.org", "careers.aahpm.org", "careers.nahc.org", "careers.leadingage.org", "careers.acep.org", "careers.aafp.org", "careers.pcpcc.org", "careers.naacos.com",
+             "careers.aana.com", "careers.aanp.org", "careers.amcp.org", "careers.nahu.org", "careers.soa.org", "careers.actuary.org", "careers.amwa.org", "careers.shrm.org", "careers.tdwi.org", "careers.dama.org", "careers.amstat.org"):
+    st, fin, b = get(f"https://{host}/jobs/?keywords=director&display=rss", timeout=12)
+    if st == 200 and "<rss" in b[:400]:
+        o[f"rss_{host}"] = [b.count("<item>"), item(b) if host in ("careers.amga.org", "jobs.healthcareercenter.com") else sq((re.search(r"<title>(.*?)</title>", b, re.S) or [0, ""])[1], 80)]
+    else:
+        st2, fin2, b2 = get(f"https://{host}/jobsrss/?Keywords=director", timeout=12)
+        if st2 == 200 and "<rss" in b2[:400]:
+            o[f"madgex_{host}"] = [b2.count("<item>"), sq((re.search(r"<title>(.*?)</title>", b2, re.S) or [0, ""])[1], 80)]
+        else:
+            o.setdefault("rss_dead", []).append(f"{host}:{st}/{st2}")
+st, fin, b = get("https://careers.mgma.com/jobsrss/?Keywords=director")
+o["madgex_item"] = item(b)
+st, fin, b = get("https://careers.naccho.org/jobs?keywords=director")
+i = b.find('data-testid="jobs-list-item-link"'); o["ws_item"] = sq(b[i - 200: i + 2300], 2300)
+o["ws_pages"] = re.findall(r'href="([^"]*[?&]page=\d+[^"]*)"', b)[:3]
 json.dump(o, open(os.path.join(HERE, "out.json"), "w"), indent=0)
