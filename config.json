@@ -1584,13 +1584,7 @@
    "name": "MGMA Career Center"
   }
  ],
- "webscribble": [
-  {
-   "host": "careers.naccho.org",
-   "prefix": "naccho",
-   "name": "NACCHO"
-  }
- ],
+ "webscribble": [],
  "discovery": {
   "titleQueries": [
    "director",
