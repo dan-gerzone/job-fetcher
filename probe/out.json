@@ -1,372 +1,303 @@
 {
-"getro_page": [
+"getro_detail": [
 200,
-"https://jobs.oakhcft.com/jobs",
-210578,
+"https://jobs.oakhcft.com/companies/curana-health/jobs/99958716",
+63019,
 "<!DOCTYPE html><html lang=\"en\"><head><link rel=\"shortcut icon\" href=\"https://cdn.filepicker.io/api/file/TlPs01cNSleOY4ar4Ehq\" data-next-head=\"\"/><link rel=\"preload\" href=\"https://cdn.getro.com/collect"
 ],
-"getro_next_keys": [
+"getro_detail_keys": [
 [
-"props",
-"page",
-"query",
-"buildId",
-"assetPrefix",
-"isFallback",
-"isExperimentalCompile",
-"gssp",
-"appGip",
-"scriptLoader"
-],
-[
-"httpReferrer",
-"network",
-"_sentryTraceData",
-"_sentryBaggage",
-"protocol",
-"host",
-"initialState"
-],
-"qKjdLPRLH4HPX1tMcr-jQ"
-],
-"getro_init_keys": {
-"widgets": [
-"loading",
-"error",
-"jobs",
-"count",
-"facets"
-],
-"advancedDesign": [
-"initialized",
-"isScriptLoaded"
-],
-"allCompanies": [
-"list",
-"error",
-"initialized"
-],
-"companyDetails": [
+"applicationMethod",
+"applicationPath",
+"compensationCurrency",
+"compensationPeriod",
+"compensationAmountMinCents",
+"compensationAmountMaxCents",
+"compensationOffersEquity",
+"compensationPublic",
+"description",
+"descriptionLastUpdatedAt",
+"employmentTypes",
+"expiresAt",
 "id",
-"jobs"
+"locations",
+"organization",
+"postedAt",
+"slug",
+"source",
+"status",
+"title",
+"url",
+"deactivatedAt",
+"closedAt",
+"passesFilter",
+"visibility",
+"jobFunctions"
 ],
-"loading": [],
-"api": [],
-"companies": [
-"found",
-"total",
-"initialized",
-"isLoading",
-"isLazyLoading",
-"isFilterLoading"
+"None"
 ],
-"jobs": [
-"found",
-"currentJob",
-"total",
-"initialized",
-"loading",
-"isLazyLoading",
-"isFilterLoading"
-],
-"layout": [],
-"router": [
-"location"
-],
-"locationSuggestions": [
-"term",
-"suggestions",
-"initialized",
-"loading"
-],
-"page": [
-"referrer",
-"internalNav",
-"history"
-],
-"customFilters": [
-"filters",
-"initialized",
-"networkId",
-"status"
-],
-"jobFunctions": "NoneType",
-"allJobFunctions": "NoneType",
-"jobAlert": [
-"create",
-"update",
-"unsubscribe",
-"jobAlert"
-],
-"jobApplication": [
-"done",
-"error",
-"errorStatus"
-],
-"talentNetworkOnboarding": [
-"error",
-"talentOnboarding"
-],
-"filters": [
-"industryTags",
-"headCount",
-"stage",
-"loading",
-"loaded"
-],
-"network": [
-"loading",
-"loaded",
-"allCompanies",
-"scripts",
-"hero"
-],
-"companyOnboarding": [
-"company",
-"organizationId",
-"logoUpload",
-"careersPage",
-"lookup",
-"createOrFind",
-"update"
-]
-},
-"getro_jobs_sample": "{\"found\": [{\"id\": 99961391, \"organization\": {\"stage\": \"private_equity\", \"logoUrl\": \"https://cdn.getro.com/companies/1d0cec6f-8338-43e0-a10f-4a5a35fc8bcf-1760578759\", \"topics\": [], \"name\": \"Precision for Medicine\", \"headCount\": 5, \"id\": 30857, \"industryTags\": [\"Biotechnology\", \"Enterprise Applications\", \"Health Care\", \"Medical\", \"Medical Device\", \"Pharmaceutical\", \"Science\", \"Software\"], \"slug\": \"precision-for-medicine\"}, \"compensationPublic\": true, \"featured\": false, \"compensationAmountMaxCents\": null, \"searchableLocations\": [\"Remote\", \"United Kingdom\", \"Europe\"], \"createdAt\": 1794835009, \"weight\": 0, \"compensationAmountMinCents\": null, \"source\": \"career_page\", \"title\": \"Director, Regional HR Operations - EMEA\", \"workMode\": \"remote\", \"url\": \"https://boards.greenhouse.io/precisionmedicinegroup/jobs/6261021004\", \"skills\": [\"Leadership\", \"Collaboration\", \"Data Analysis\", \"Process Improvements\", \"Regulatory Compliance\", \"Governance\", \"Digital Technology\", \"Automation\"], \"locationDetails\": [{\"name\": \"Remote\", \"areaType\": \"global\", \"point\": null}, {\"name\": \"United Kingdom\", \"areaType\": \"country\", \"point\": \"POINT (-3.435973 55.378051)\"}], \"compensationOffersEquity\": null, \"compensationCurrency\": null, \"compensationPeriod\": \"period_not_defined\", \"locations\": [\"Remote\", \"United Kingdom\"], \"hasDescription\": true, \"slug\": \"99961391-director-regional-hr-operations-emea\", \"seniority\": \"director\"}, {\"id\": 99958716, \"organization\": {\"stage\": \"other\", \"logoUrl\": \"https://cdn.getro.com/companies/befc4ef1-3ecc-42a7-bae8-9482c7adb884-1760923519\", \"topics\": [], \"name\": \"Curana Health\", \"headCount\": 5, \"id\": 69824, \"industryTags\": [\"Health Care\", \"Healthcare\", \"Hospitals and Health Care\"], \"slug\": \"curana-health\"}, \"compensationPublic\": true, \"featured\": false, \"compensationAmountMaxCents\": null, \"searchableLocations\": [\"Lake Charles, LA, USA\", \"3, LA, USA\", \"Calcasieu Parish, LA, USA\", \"Louisiana, USA\", \"United States\", \"North America\"], \"createdAt\": 1794834253, \"weight\": 0, \"compensationAmountMinCents\": null, \"source\": \"career_page\", \"title\": \"Nurse Practitioner - Psychiatric - part time\", \"workMode\": \"on_site\", \"url\": \"https://general-careers-curanahealth.icims.com/jobs/4682/nurs",
-"getro_network": "{\"id\": \"637\", \"description\": \"Oak HC/FT is a premier venture capital fund investing in early to growth stage tech-enabled companies investing in Healthcare Information & Services and Financial Services Technology.\", \"domain\": \"oakhcft.com\", \"employerOnboardingSuccessText\": \"\", \"features\": [\"job_board\", \"dark_hero_text\", \"numbers_in_nav\", \"hide_name_in_hero\"], \"talentAttractionAvailable\": false, \"heroColorMask\": \"\", \"label\": \"oakhcft\", \"legal\": {\"link\": \"\", \"name\": \"\", \"email\": \"\", \"address\": \"\",",
-"getro_api_json_only_q": [
+"getro_count": [
 200,
-30834,
-"{\"results\":{\"jobs\":[{\"compensation_public\":true,\"featured\":false,\"compensation_amount_max_cents\":null,\"searchable_locations\":[\"Remote\",\"United Kingdom\",\"Europe\"],\"created_at\":1794835009,\"weight\":0,\"compensation_amount_min_cents\":null,\"source\":\"career_page\",\"title\":\"Director, Regional HR Operations - EMEA\",\"work_mode\":\"remote\",\"url\":\"https://boards.greenhouse.io/precisionmedicinegroup/jobs/6261021004\",\"skills\":[\"Leadership\",\"Collaboration\",\"Data Analysis\",\"Process Improvements\",\"Regulatory Compliance\",\"Governance\",\"Digital Technology\",\"Automation\"],\"location_details\":[{\"name\":\"Remote\",\"area_type\":\"global\",\"point\":null},{\"name\":\"United Kingdom\",\"area_type\":\"country\",\"point\":\"POINT (-3.435973 55.378051)\"}],\"compensation_offers_equity\":null,\"compensation_currency\":null,\"compensation_period\":\"period_not_defined\",\"organization\":{\"stage\":\"private_equity\",\"logo_url\":\"https://cdn.getro.com/companies/1d0cec6f-8338-43e0-a10f-4a5a35fc8bcf-1760578759\",\"topics\":[],\"name\":\"Precision for Medicine\",\"head_count\":5,\"id\":30857,\"industry_tags\":[\"Biotechnology\",\"Enterprise Applications\",\"Health Care\",\"Medical\",\"Medical Device\",\"Pharmaceutical\",\"Science\",\"Software\"],\"slug\":\"precision-for-medicine\"},\"locations\":[\"Remote\",\"United Kingdom\"],\"has_description\":true,\"slug\":\"99961391-director-regional-hr-operations-emea\",\"seniority\":\"director\",\"id\":99961391},{\"compensation_public\":true,\"featured\":false,\"compensation_amount_max_cents\":null,\"searchable_locations\":[\"Amsterdam, Netherlands\",\"North Holland, Netherlands\",\"Netherlands\",\"Europe\"],\"created_at\":1794823382,\"weight\":0,\"compensation_amount_min_cents\":null,\"source\":\"career_page\",\"title\":\"(Services) Security Director\",\"work_mode\":\"on_site\",\"url\":\"https://boards.greenhouse.io/workatbackbase/jobs/8222737\",\"skills\":[\"Risk Management\",\"Regulatory Comp"
-],
-"getro_ok": "json_origin",
-"getro_api_json_only_e": [
-200,
-26073,
-"{\"results\":{\"jobs\":[{\"compensation_public\":true,\"featured\":false,\"compensation_amount_max_cents\":null,\"searchable_locations\":[\"Remote\",\"United Kingdom"
-],
-"getro_api_json_origin_q": [
-200,
-30834,
-"{\"results\":{\"jobs\":[{\"compensation_public\":true,\"featured\":false,\"compensation_amount_max_cents\":null,\"searchable_locations\":[\"Remote\",\"United Kingdom"
-],
-"getro_api_json_origin_e": [
-200,
-26073,
-"{\"results\":{\"jobs\":[{\"compensation_public\":true,\"featured\":false,\"compensation_amount_max_cents\":null,\"searchable_locations\":[\"Remote\",\"United Kingdom"
-],
-"getro_api_star_q": [
-406,
-0,
-""
-],
-"getro_api_star_e": [
-406,
-0,
-""
-],
-"consider_page": [
-200,
-{
-"Set-Cookie": "session=eyJmbGFzaCI6e30sImNzcmZTZWNyZXQiOiJJLUF3SldMT0FIanVJTklNZC1DRE55UUoifQ==; path=/; HTTPOnly; Secure; SameSite=Lax; expires=Wed, 17 Nov 2027 05:24:38 GMT;"
-},
+20,
+288,
 [
-"session",
-"session.sig",
-"AWSALBAPP-0",
-"AWSALBAPP-1",
-"AWSALBAPP-2",
-"AWSALBAPP-3"
-],
-[
-"csrfToken"
+"jobs",
+"count"
 ]
 ],
-"consider_tok": true,
-"consider_api_x-csrf-token": [
+"consider_job": [
+[
+"version",
+"jobs",
+"meta",
+"availableFilters",
+"total",
+"errors",
+"debug"
+],
+8498,
+"{\"applicationWindow\": {\"status\": \"accepting\"}, \"applyUrl\": \"https://recruiting2.ultipro.com/FLO1013FLFR/JobBoard/acc64946-b33a-4b6e-b62d-bf9a497ef7b1/OpportunityDetail?opportunityId=c277c613-036b-49c2-b048-a8a762d12b87\", \"companyDomain\": \"flockfreight.com\", \"companyId\": \"Flock Freight\", \"companySlug\": \"flock-freight\", \"companyName\": \"Flock Freight\", \"companyStaffCount\": 355, \"considerHosted\": false, \"departments\": [], \"jobTypes\": [{\"id\": \"enterprise-account-executive\", \"label\": \"Enterprise Account Executive\", \"value\": \"enterprise-account-executive\"}, {\"id\": \"sales\", \"label\": \"Sales\", \"value\": \"sales\"}], \"jobFunctions\": [{\"id\": \"Sales\", \"label\": \"Sales\", \"value\": \"Sales\"}], \"locations\": [\"CA - HQ\", \"Flock HQ - Encinitas, CA\", \"Encinitas, CA\"], \"normalizedLocations\": [{\"id\": \"California\", \"label\": \"California\", \"value\": \"California\"}, {\"id\": \"Encinitas, California\", \"label\": \"Encinitas, California\", \"value\": \"Encinitas, California\"}], \"salary\": {\"period\": {\"label\": \"Year\", \"value\": \"year\"}, \"minValue\": 110000, \"maxValue\": 250000, \"currency\": {\"label\": \"USD\", \"value\": \"USD\"}, \"isOriginal\": true}, \"skills\": [{\"id\": \"resume:Logistics\", \"label\": \"Logistics\", \"value\": \"resume:Logistics\"}, {\"id\": \"resume:Artificial Intelligence\", \"label\": \"Artificial Intelligence\", \"value\": \"resume:Artificial Intelligence\"}, {\"id\": \"resume:Market Data\", \"label\": \"Market Data\", \"value\": \"resume:Market Data\"}, {\"id\": \"resume:Solution Sales\", \"label\": \"Solution Sales\", \"value\": \"resume:Solution Sales\"}, {\"id\": \"resume:Onboarding\", \"label\": \"Onboarding\", \"value\": \"resume:Onboarding\"}, {\"id\": \"resume:Supply Chain Management\", \"label\": \"Supply Chain Management\", \"value\": \"resume:Supply Chain Management"
+],
+"consider_q_text": [
 200,
-"{\"version\":{\"client\":{\"git\":\"f1ec986bc69d97665db01dddd9bc9f75bc1741fe\",\"date\":\"2026-11-17T02:32:22.261Z\"},\"server\":{\"git\":\"f1ec986bc69d97665db01dddd9bc9f75bc1741fe\",\"date\":\"2026-11-17T02:32:22.261Z\"}},\"jobs\":[{\"applicationWindow\":{\"status\":\"accepting\"},\"applyUrl\":\"https://recruiting2.ultipro.com/FLO1013FLFR/JobBoard/acc64946-b33a-4b6e-b62d-bf9a497ef7b1/OpportunityDetail?opportunityId=c277c613-036b-49c2-b048-a8a762d12b87\",\"companyDomain\":\"flockfreight.com\",\"companyLogos\":{\"manual\":{\"height\":160,\"src\":\"https://dzh2zima160vx.cloudfront.net/logo/bc068179597f6353c8ba272a38fbfbbe_256_160?Expires=1861920000&Signature=X0tbKUFkny5MFekeSNde3-kk-F6EMvc30lt8OrDYk4N0022bTd0yJ~q4ea60SVC7VYVAlw~r0bZxAoESBM8KqLhRexVPGFL9yvNo6GxXrtHDDeuIaM5r~TpFKGGtTvlGKwK9cQxAp5g9Z~h0ufhwwTo86Ac1gnt4DIF34grFt~E0CB-D5jEnPHdPYJ7INdpn4Pe52StRrJ9Ur8JHJ6GZnSGSIJJ-Y6QTqJ3dU9QMmaUbXa7B5u5ZbkvE8RJM5j6K2ycLdEsN2rOYR3xQC5~L0n6wtdjt2GCVBKdwxTud3rn0WewiAYVZ~HFo3QVzLeKWBPAj1RTekuhczdDZO2N1Jg__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q\",\"width\":256},\"linkedin\":{\"height\":100,\"src\":\"https://dzh2zima160vx.cloudfront.net/profile/0c85afb1f6a89adc95af8aa83d7f3f98_100_100?Expires=1893456000&Signature=VtetRL-IiStdd17HC42qyEyxc03oUqjjCXYIMFjrN72l8MoCaqU1mLlthC7Pro-mqbEasQGP43JO6RW5-~r8pn2tDvrAWIBIEuVgRWzZ4Swox7l9GVFqXTKbI50Oi1L1zZ-Bpn8~GqN6SSWnDGG~pdoeUBYfwpQaTORiOcugeecgfNuvVwLnnsOdHLYhp7uGofnqnAn~0--KwG2pwiaXhjkC1ZdAsVyfuPWdCu--Cu3lfrl-TKVaVqGsQN6lgpJBwxRgDIiGaOyThjvkzuE3UsWvpA87J2ZzYivrE9l5xnT2U3SmFyUK2zp5ThgWsGzBWo5AJSTy-VP6CMzkNRDVTg__&Key-Pair-Id=APKAII5OVX4LZ3WT422Q\",\"width\":100}},\"companyId\":\"Flock Freight\",\"companySlug\":\"flock-f"
+8498,
+[
+[
+"Enterprise Account Executive",
+"Flock Freight"
+],
+[
+"Enterprise Account Executive",
+"SingleStore"
+],
+[
+"Staff Mechanical Design Engineer - Instruments",
+"Overture Life"
+],
+[
+"Senior Site Reliability Engineer",
+"Censys"
+],
+[
+"Senior GRC Engineer II",
+"Aledade"
+]
+]
+],
+"consider_q_q": [
+200,
+8498,
+[
+[
+"Enterprise Account Executive",
+"Flock Freight"
+],
+[
+"Enterprise Account Executive",
+"SingleStore"
+],
+[
+"Staff Mechanical Design Engineer - Instruments",
+"Overture Life"
+],
+[
+"Senior Site Reliability Engineer",
+"Censys"
+],
+[
+"Senior GRC Engineer II",
+"Aledade"
+]
+]
+],
+"consider_q_keyword": [
+200,
+8498,
+[
+[
+"Enterprise Account Executive",
+"Flock Freight"
+],
+[
+"Enterprise Account Executive",
+"SingleStore"
+],
+[
+"Staff Mechanical Design Engineer - Instruments",
+"Overture Life"
+],
+[
+"Senior Site Reliability Engineer",
+"Censys"
+],
+[
+"Senior GRC Engineer II",
+"Aledade"
+]
+]
+],
+"consider_q_markets": [
+200,
+1,
+[
+[
+"Data Analyst Contractor",
+"DNAnexus"
+]
+]
+],
+"consider_q_titles": [
+200,
+8498,
+[
+[
+"Enterprise Account Executive",
+"Flock Freight"
+],
+[
+"Enterprise Account Executive",
+"SingleStore"
+],
+[
+"Staff Mechanical Design Engineer - Instruments",
+"Overture Life"
+],
+[
+"Senior Site Reliability Engineer",
+"Censys"
+],
+[
+"Senior GRC Engineer II",
+"Aledade"
+]
+]
+],
+"consider_jobs.a16z.com": [
+404,
+null,
+false,
+"<!DOCTYPE html><html lang=\"en\" class=\"r6tyWW_variable VtuiGq_variable wKSwCG_variable h-full\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link re"
+],
+"consider_jobs.healthtechnerds.com": [
+405,
+null,
+false,
+"405 Method Not Allowed "
+],
+"consider_jobs.greylock.com": [
+200,
+null,
+false,
+"<!DOCTYPE html><html data-dpl-id=\"dpl_Ae7oWhsFmgHgxjqTZkGGEpVTsTyc\" lang=\"en\" dir=\"ltr\" class=\"xv-oPG_variable umbFQW_variable font-sans aN_Ytq_variable\"><head><meta charSet=\"utf-8\"/><meta name=\"viewp"
 ],
 "htn": [
 200,
 "https://jobs.healthtechnerds.com/",
 172469,
-"<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /> <link rel=\"icon\" type=\"image/avif\" href=\"HTN.avif\" /> <title>Health Tech Nerds Job Board</title> <meta name=\"description\" content=\"Discover exciting opportunities"
+"<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\" /> <meta name=\"viewport\" content=\"widt"
 ],
-"htn_fp": [
-[
-"https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+"htn_ashby_ctx": "er function isNullValue(val) { if (!val) return true; const normalized = String(val).toLowerCase().trim(); return ['none', 'null', 'n/a', 'not specified', 'na', ''].includes(normalized); } // Helper function to safely parse markdown links (prevents XSS) function parseMarkdownLinks(text) { if (!text) return ''; return text.replace(/\\[(.*?)\\]\\((.*?)\\)/g, (match, linkText, url) => { // Validate URL - only allow http/https protocols let safeUrl = '#'; try { const parsed = new URL(url, window.location.origin); if (parsed.protocol === 'http:' || parsed.protocol === 'https:') { safeUrl = parsed.href; } } catch (e) { // Invalid URL, use # as fallback } return `<a href=\"${safeUrl}\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-link underline focus-outline\">${sanitize(linkText)}</a>`; }); } const genericCompanyDomains = [ 'linkedin.com', 'indeed.com', 'glassdoor.com', 'monster.com', 'ziprecruiter.com', 'careerbuilder.com', 'notion.so', 'greenhouse.io', 'lever.co', 'ashbyhq.com', 'workday.com', 'icims.com', 'smartrecruiters.com', 'jobvite.com', 'breezy.hr', 'bamboohr.com', 'applytojob.com', 'workable.com', 'google.com', 'docs.google.com', 'drive.google.com', 'slack.com', 'medium.com', 'substack.com', 'wellfound.com', 'angel.co', 'ycombinator.com', 'workatastartup.com' ]; function normalizeHostname(hostname) { if (!hostname) return ''; return decodeURIComponent(String(hostname)) .toLowerCase() .split('/')[0] ",
+"htn_counts": {
+"ashbyhq": 1,
+"greenhouse": 1,
+"lever.co": 1,
+"<article": 0,
+"job-card": 10,
+"data-job": 4,
+"fetch(": 2,
+".json": 2,
+"api/": 0
+},
+"htn_fetch": [
+"'/data/transformed_job_data.json'"
 ],
-[
-"https://jobs.healthtechnerds.com/",
-"https://www.healthtechnerds.com/subscribe?ref=jobboard",
-"https://www.healthtechnerds.com/?ref=jobboard",
-"https://www.healthtechnerds.com/about?ref=jobboard",
-"https://www.healthtechnerds.com/faqs?ref=jobboard",
-"https://www.healthtechnerds.com/subscribe?ref=jobboard"
+"rss_careers.amga.org": [
+50,
+"<item> <link>https://careers.amga.org/jobs/rss/22700734/executive-director</link> <title>Executive Director | Teton Valley Health Care Foundation</title> <guid isPermaLink=\"true\">https://careers.amga.org/jobs/rss/22700734/executive-director</guid> <description>Driggs, Idaho, Executive Director Reporting to the CEO of Teton Valley Health Care Driggs, Idaho The Teton Valley Health Care Foundation (the Foundation) seeks a dynamic and relationship-driven Executive Director to lead philanthropy efforts in support of exceptional healthcare throughout one of the most beautiful and rapidly growing communities in the Mountain West. As the philanthropic partner of Teton Valley Health Care, the Foundation connects donor generosity with critical healthcare needs, ensuring that high-quality care remains accessible, innovative, and community-centered for generations to come. This is a unique opportunity to join the Foundation during a period of renewal and growth. Supported by an engaged Foundation Board, committed organizational leadership, and a community that deeply values local healthcare, the"
 ],
-[
-"consider",
-"ashby"
-]
+"rss_careers.apha.org": [
+50,
+"Public Health CareerMart Search Results (&#39;director&#39; Jobs)"
 ],
-"naylor_amga": [
-200,
-"https://careers.amga.org/jobs/?keywords=director",
-5608,
-"<!DOCTYPE html> <html> <head> <title>Please click to confirm you are not a robot...</title> <meta name=\"viewport\" content=\"width=device-width, initial"
+"rss_careers.shsmd.org": [
+27,
+"SHSMD Career Center Search Results (&#39;director&#39; Jobs)"
 ],
-"naylor_amga_x": [
-0,
-""
+"rss_jobs.healthcareercenter.com": [
+50,
+"<item> <link>https://jobs.healthcareercenter.com/jobs/rss/22700734/executive-director</link> <title>Executive Director | Teton Valley Health Care Foundation</title> <guid isPermaLink=\"true\">https://jobs.healthcareercenter.com/jobs/rss/22700734/executive-director</guid> <description>Driggs, Idaho, Executive Director Reporting to the CEO of Teton Valley Health Care Driggs, Idaho The Teton Valley Health Care Foundation (the Foundation) seeks a dynamic and relationship-driven Executive Director to lead philanthropy efforts in support of exceptional healthcare throughout one of the most beautiful and rapidly growing communities in the Mountain West. As the philanthropic partner of Teton Valley Health Care, the Foundation connects donor generosity with critical healthcare needs, ensuring that high-quality care remains accessible, innovative, and community-centered for generations to come. This is a unique opportunity to join the Foundation during a period of renewal and growth. Supported by an engaged Foundation Board, committed organizational leadership, and a community that deeply values"
 ],
-"naylor_aha": [
-200,
-"https://jobs.healthcareercenter.com/jobs/?keywords=director+analytics",
-5608,
-"<!DOCTYPE html> <html> <head> <title>Please click to confirm you are not a robot...</title> <meta name=\"viewport\" content=\"width=device-width, initial"
+"rss_dead": [
+"jobmine.himss.org:403/403",
+"careers.ache.org:403/403",
+"careercenter.nahq.org:403/403",
+"jobbank.hfma.org:403/403",
+"careers.hfma.org:0/0",
+"careercenter.amia.org:0/0",
+"careers.academyhealth.org:0/0",
+"careercenter.ahima.org:0/0",
+"careers.aapc.com:0/0",
+"careercenter.ispor.org:0/0",
+"jobs.ashp.org:0/0",
+"careers.aapl.org:0/0",
+"careers.acpe.org:0/0",
+"jobs.healthcaresource.com:0/0",
+"careers.nejm.org:0/0",
+"careers.hcanj.org:0/0",
+"careers.aamc.org:0/0",
+"careers.asahq.org:403/403",
+"careers.aha.org:0/0",
+"careers.acmanet.org:0/0",
+"careers.ahcancal.org:404/404",
+"careers.vizientinc.com:404/404",
+"careers.essentialhospitals.org:0/0",
+"careers.hcca-info.org:0/0",
+"careers.aahpm.org:0/0",
+"careers.nahc.org:200/404",
+"careers.leadingage.org:403/403",
+"careers.acep.org:0/0",
+"careers.aafp.org:0/0",
+"careers.pcpcc.org:0/0",
+"careers.naacos.com:0/0",
+"careers.aana.com:0/0",
+"careers.aanp.org:0/0",
+"careers.nahu.org:403/403",
+"careers.soa.org:0/0",
+"careers.actuary.org:0/0",
+"careers.amwa.org:0/0",
+"careers.shrm.org:200/200",
+"careers.tdwi.org:0/0",
+"careers.dama.org:0/0",
+"careers.amstat.org:0/0"
 ],
-"naylor_aha_x": [
-0,
-""
+"madgex_jobs.amstat.org": [
+20,
+"Job Search RSS"
 ],
-"naylor_nahq": [
-403,
-"https://careercenter.nahq.org/jobs/?keywords=director",
-2000,
-"<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-e"
+"rss_careers.aonl.org": [
+15,
+"AONL Career Center Search Results (&#39;director&#39; Jobs)"
 ],
-"naylor_nahq_x": [
-0,
-""
+"rss_careers.namss.org": [
+50,
+"NAMSS Career Center Search Results (&#39;director&#39; Jobs)"
 ],
-"naylor_himss": [
-403,
-"https://jobmine.himss.org/jobs/?keywords=director",
-2000,
-"<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-e"
+"rss_careers.aone.org": [
+15,
+"AONL Career Center Search Results (&#39;director&#39; Jobs)"
 ],
-"naylor_himss_x": [
-0,
-""
+"rss_careers.amcp.org": [
+50,
+"AMCP Career Center Search Results (&#39;director&#39; Jobs)"
 ],
-"naylor_ache": [
-403,
-"https://careers.ache.org/jobs/?keywords=analytics",
-2000,
-"<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-e"
+"rss_careers.chausa.org": [
+13,
+"CHA Career Center Search Results (&#39;director&#39; Jobs)"
 ],
-"naylor_ache_x": [
-0,
-""
-],
-"naylor_apha": [
-200,
-"https://careers.apha.org/jobs/?keywords=director",
-5608,
-"<!DOCTYPE html> <html> <head> <title>Please click to confirm you are not a robot...</title> <meta name=\"viewport\" content=\"width=device-width, initial"
-],
-"naylor_apha_x": [
-0,
-""
-],
-"naylor_amga_rss": [
-200,
-"https://careers.amga.org/jobs/?keywords=director&display=rss",
-246671,
-"<?xml version=\"1.0\" encoding=\"UTF-8\" ?> <rss version=\"2.0\"> <channel> <title>AMGA Career Center Search Results (&#39;director&#39; Jobs)</title> <link>https://careers.amga.org</link> <description>Latest AMGA Career Center Jobs</description> <pubDate>Mon, 16 Nov 2026 11:18:00 Z</pubDate> <item> <link>https://careers.amga.org/jobs/rss/22700734/executive-director</link> <title>Executive Director | Teton Valley Health Care Foundation</title> <guid isPermaLink=\"true\">https://careers.amga.org/jobs/rss/22700734/executive-director</guid> <description>Driggs, Idaho, Executive Director Reporting to the CEO of Teton Valley Health Care Driggs, Idaho The Teton Valley Health Care Foundation (the Foundation) seeks a dynamic and relationship-driven Executive Director to lead philanthropy efforts in support of exceptional healthcare throughout one of the most beautiful and rapidly growing communities in "
-],
-"madgex_mgma": [
-403,
-"https://careers.mgma.com/jobs/?Keywords=director",
-1553,
-"<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width="
-],
-"madgex_mgma_x": [
-0,
-""
-],
-"madgex_mgma_rss": [
-200,
-"https://careers.mgma.com/jobsrss/?Keywords=director",
-16562,
-"<?xml version=\"1.0\" encoding=\"utf-8\"?> <rss version=\"2.0\" xmlns:opensearch=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" > <channel> <opensearch:totalResults>84</opensearch:totalResults> <title>Job Search RSS</title> <description></description> <link>https://careers.mgma.com/jobsrss/?keywords=director&amp;countrycode=US</link> <atom:link href=\"https://careers.mgma.com/jobsrss/?keywords=director&amp;countrycode=US\" rel=\"self\" type=\"application/rss+xml\" /> <pubDate>Mon, 16 Nov 2026 21:18:02 -0700</pubDate> <lastBuildDate>Mon, 16 Nov 2026 21:18:02 -0700</lastBuildDate> <generator>MGMA Career Center</generator> <item> <title>UCLA Health: Assistant Director for Access Operations - Patient Access Organization</title> <description> Range: $98,200-$214,600: UCLA Health: The Access Administrator serves as the vertical performance integrator for a defined specialt"
-],
-"ws_naccho": [
-200,
-"https://careers.naccho.org/jobs?keywords=director",
-326441,
-"<!DOCTYPE html> <html lang=\"en\"> <head> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.s"
-],
-"ws_naccho_x": [
-25,
-"ist-item-sponsored\" > Spotlight </span> <!--[if ENDBLOCK]><![endif]--> <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]--> <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]--> <!--[if BLOCK]><![endif]--> <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]--> <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]--> <h2 class=\"h6\"> <a href=\"https://careers.naccho.org/job/deputy-director-public-health-vancouver-washington-1650\" class=\"font-weight-bold text-wrap-anywhere bold \" data-id=\"1650\" target=\"_self\" rel=\"\" data-testid=\"jobs-list-item-link\" > Deputy Director Public Health </a> </h2> <div class=\"\"> <div class=\"location my-05\"> <!--[if BLOCK]><![endif]--> <div class=\"small\"> <i class=\"fas fa-building text-muted\"></i> Clark County Public Health </div> <!--[if ENDBLOCK]><![endif]--> <div class=\"small\"> <i class=\"fas fa-location-dot text-muted\"></i> Vancouver, Washington (Hybrid) <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]--> </div> </div> <!--[if BLOCK]><![endif]--> <table class=\"table table-borderless small my-05\"> <tbody> <!--[if BLOCK]><![endif]--> "
-],
-"hudson_feed": [
-200,
-"https://andrewhudsonsjobslist.com/jobs/feed/",
-97436,
-"obs &#8211; Andrew Hudson&#039;s Jobs List</title> <link>https://andrewhudsonsjobslist.com</link> <width>32</width> <height>32</height> </image> <item> <title>Social and Community Manager</title> <link>https://andrewhudsonsjobslist.com/jobs/social-and-community-manager-in-denver-colorado-us/</link> <dc:creator><![CDATA[AHJobsList]]></dc:creator> <pubDate>Mon, 16 Nov 2026 23:27:33 +0000</pubDate> <guid isPermaLink=\"false\">http://6afb9162d8ccf2622c9310b9</guid> <description><![CDATA[<p>Apply for [NICHE/FOCUS JOBS] at <a rel=\"nofollow\" href=\"https://andrewhudsonsjobslist.com\">Andrew Hudson&#039;s Jobs List - Best Career Connections in Colorado!</a></p> <p>Topo Designs is looking for a Social &#38; Community Manager to run our social channels and help us build the Topo online community. You'll own the strategy, the calendar, the community and our network of influencers, ambassadors and affiliates.</p> <p>The post <a rel=\"nofollow\" href=\"https://andrewhudsonsjobslist.com/jobs/social-and-community-manager-in-denver-colorado-us/\">Social and Community Manager</a> appeared first on <a rel=\"nofollow\" href=\"https://andrewhudsonsjobslist.com\">Andrew Hudson&#039;s Jobs List</a>.</p> ]]></description> <content:encoded><![CDATA[<p>Apply for [NICHE/FOCUS JOBS] at <a rel=\"nofollow\" href=\"https://andrewhudsonsjobslist.com\">Andrew Hudson&#039;s Jobs List - Best Career Connections in Colorado!</a></p> <p><strong>Job Summary</strong></p> <p>Topo Designs is looking for a Social &amp; Community Man"
-],
-"aspph": [
-403,
-"https://publichealthjobs.aspph.org/?s=director",
-520,
-"<html> <head><title>403 Forbidden</title></head> <body> <center><h1>403 Forbidden</h1></center> </body> </html> <!-- a padding to disable MSIE and Chrome friendly error page --> <!-- a padding to disable MSIE and Chrome friendly error page --> <!-- a padding to disable MSIE and Chrome friendly error"
-],
-"aspph_feed": [
-403,
-"https://publichealthjobs.aspph.org/feed/?post_type=job_listing&s=director",
-520,
-"<html> <head><title>403 Forbidden</title></head> <body> <center><h1>403 Forbidden</h1></center> </body> </html> <!-- a padding to disable MSIE and Chrome friendly error page --> <!-- a padding to disable MSIE and Chrome friendly error page --> <!-- a padding to disable MSIE and Chrome friendly error page --> <!-- a padding to disable MSIE and Chrome friendly error page --> <!-- a padding to disable MSIE and Chrome friendly error page --> <!-- a padding to disable MSIE and Chrome friendly error page --> "
-],
-"healthecareers": [
-200,
-"https://www.healthecareers.com/search-jobs?keyword=director+analytics",
-357799,
-" <!DOCTYPE html> <html lang=\"en\"> <head> <title>Healthcare &amp; Medical Jobs - Health eCareers</title> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=5\"> <meta name=\"verify-v1\" content=\"b"
-],
-"himalayas": [
-200,
-"https://himalayas.app/jobs/api/search?q=healthcare%20analytics%20director&country=US",
-185266,
-"{\"comments\":\"Search results come 20 to a page. Pass ?page=2, ?page=3 and so on for more; there is no"
-],
-"himalayas_job": [
-250,
-"{\"title\": \"Director, Payment Integrity (Analytics & Strategy) - REMOTE\", \"excerpt\": \"JOB DESCRIPTION Job Summary Responsible for leading the strategy, governance, implementation, maintenance, and optimization of the organization\\u2019s Payment Integrity post-pay data mining program.\", \"companyName\": \"Molina Healthcare\", \"companySlug\": \"molina-healthcare\", \"companyLogo\": \"https://cdn-images.himalayas.app/6jgknq0d0zzyaa0zhnhlcl6b62tq\", \"employmentType\": \"Full Time\", \"minSalary\": null, \"maxSalary\": null, \"salaryPeriod\": \"annual\", \"seniority\": [\"Director\"], \"currency\": null, \"locationRestrictions\": [\"United States\"], \"timezoneRestrictions\": [-10, -9, -8, -7, -6, -5, 14], \"categories\": [\"Payment-Integrity-Director\", \"Healthcare-Analytics-Director\", \"Data-Analytics-Director\", \"Payment-Integrity-Analytics-Director\"], \"parentCategories\": [], \"description\": \"<h3>JOB DESCRIPTION </h3><p></p><p><b>Job Summary</b></p><p><b>Responsible for leading the strategy, governance, implementation, maintenance, and opti\", \"pubDate\": 1794123711, \"expiryDate\": 1799307710, \"applicationLink\": \"https://himalayas.app/companies/molina-healthcare/jobs/director-payment-integrity-analytics-strategy-remote?utm_source=api\", \"guid\": \"https://himalayas.app/companies/molina-healthcare/jobs/director-payment-integrity-analytics-strategy-remote\"}",
-[
-"Director, Payment Integrity (Analytics & Strategy) - REMOTE",
-"Director, Audits (Healthcare)",
-"Director, Life Sciences Analytics and Solutions",
-"Director, Analytics",
-"Business Development Director - Healthcare Technology Market (B2B)",
-"Senior Director, Capacity Planning, Workforce Operations & Analytics",
-"Sales Director - Healthcare",
-"Director, Strategic Pricing and Contracting Analytics",
-"Senior Director, Healthcare Revenue Cycle Consulting",
-"Client Executive Director, Microsoft, Healthcare & Life Sciences",
-"Director, Healthcare Software Solutions",
-"Senior Director, Health Economics & Actuarial Analytics"
-]
-],
-"jobicy": [
-200,
-"https://jobicy.com/api/v2/remote-jobs?count=50&geo=usa&industry=data-science",
-305709,
-"{\"apiVersion\":\"2.2.19\",\"documentationUrl\":\"https:\\/\\/jobi.cy\\/apidocs\",\"friendlyNotice\":\"Thanks for "
-],
-"jobicy_job": [
-34,
-"{\"id\": 162554, \"url\": \"https://jobicy.com/jobs/162554-customer-insights-analyst\", \"jobSlug\": \"162554-customer-insights-analyst\", \"jobTitle\": \"Customer Insights Analyst\", \"companyName\": \"Datavant\", \"companyLogo\": \"https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/a41e8e85-221.jpeg\", \"jobIndustry\": [\"Data Science & Analytics\"], \"jobType\": [\"Full-Time\"], \"jobGeo\": \"USA\", \"jobLevel\": \"Director\", \"jobExcerpt\": \"Datavant is the data collaboration platform trusted for healthcare. Guided by our mission to make the world\\u2019s health data secure, accessible and actionable, we provide critical data solutions for organizations across the healthcare ecosystem - including providers, health plans, researchers, and life sciences companies. From fulfilling a single patient\\u2019s request for their medical records to&hellip;\", \"jobDescription\": \"<p><a href=\\\"https://jobicy.com/company/datava"
-],
-"remotive": [
-200,
-"https://remotive.com/api/remote-jobs?search=healthcare",
-258163,
-"{\"00-warning\": \"Remotive main domain moved to remotive.com ! Please make your API calls on remotive."
-],
-"remotive_job": [
-17,
-"{\"id\": 2069746, \"url\": \"https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746\", \"title\": \"Tech Lead Full-Stack Rails Engineer\", \"company_name\": \"Mitre Media\", \"company_logo\": \"https://remotive.com/job/2069746/logo\", \"category\": \"Software Development\", \"tags\": [\"api\", \"CSS\", \"docker\", \"elasticsearch\", \"fullstack\", \"html\", \"javascript\", \"kubernetes\", \"postgresql\", \"react\", \"ror\", \"ruby/rails\", \"AI/ML\", \"CAD\", \"advertising\", \"Redis\", \"ES6\", \"web applications\", \"MySQL\", \"NLP\", \"fintech\", \"Micro services\", \"github\", \"system architecture\"], \"job_type\": \"full_time\", \"publication_date\": \"2026-11-14T20:33:53\", \"candidate_required_location\": \"USA, Canada, USA timezones\", \"salary\": \"$170k - $200k\", \"description\": \"<p class=\\\"h1\\\" dir=\\\"ltr\\\" style=\\\"line-he"
+"madgex_item": "<item> <title>UCLA Health: Assistant Director for Access Operations - Patient Access Organization</title> <description> Range: $98,200-$214,600: UCLA Health: The Access Administrator serves as the vertical performance integrator for a defined specialty domain within the Patient Access Organization. Los Angeles, California (US) </description> <link>https://careers.mgma.com/job/124599/assistant-director-for-access-operations-patient-access-organization/?TrackID=24&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=general</link> <pubDate>Fri, 18 Sep 2026 16:59:00 -0700</pubDate> <guid isPermaLink=\"true\">https://careers.mgma.com/job/124599/assistant-director-for-access-operations-patient-access-organization/?TrackID=24&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=general</guid> </item>",
+"ws_item": "ealth-vancouver-washington-1650\" class=\"font-weight-bold text-wrap-anywhere bold \" data-id=\"1650\" target=\"_self\" rel=\"\" data-testid=\"jobs-list-item-link\" > Deputy Director Public Health </a> </h2> <div class=\"\"> <div class=\"location my-05\"> <!--[if BLOCK]><![endif]--> <div class=\"small\"> <i class=\"fas fa-building text-muted\"></i> Clark County Public Health </div> <!--[if ENDBLOCK]><![endif]--> <div class=\"small\"> <i class=\"fas fa-location-dot text-muted\"></i> Vancouver, Washington (Hybrid) <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]--> </div> </div> <!--[if BLOCK]><![endif]--> <table class=\"table table-borderless small my-05\"> <tbody> <!--[if BLOCK]><![endif]--> <tr> <td class=\"text-muted text-nowrap\">Salary</td> <td>$118,344 - $165,684 Per Year</td> </tr> <tr> <td class=\"text-muted text-nowrap\">Position Type</td> <td>Full Time</td> </tr> <!--[if ENDBLOCK]><![endif]--> </tbody> </table> <!--[if ENDBLOCK]><![endif]--> <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]--> </div> </div> </li> <!--[if ENDBLOCK]><![endif]--></ul> <ul class=\"list-group list-unstyled mb-0\" wire:loading.remove wire:target=\"search, selectFilter, sortBy, clearFilters\" data-testid=\"jobs-list\" > <!--[if BLOCK]><![endif]--> <li class=\"panel card panel-default search-item cursor-pointer rounded mb-1 text-wrap-anywhere\" data-id=\"1652\" wire:key=\"job-1652\" x-on:click=\" if ($event.metaKey || $event.ctrlKey || $event.shiftKey || $event.button !== 0) return $event.preventDefault() $dispatch('job-selected', { jobId: 1652, url: 'https:\\/\\/careers.naccho.org\\/job\\/director-department-of-st",
+"ws_pages": [
+"https://careers.naccho.org/jobs?locale=en&page=1&sort=relevance&country=&state=&city=&zip=&latitude=&longitude=&keywords=&city_state_zip=&position_type_filter=internship&job_id=",
+"https://careers.naccho.org/jobs?country=&state=&city=&zip=&latitude=&longitude=&keywords=&location_autocomplete_data=&city_state_zip=&locale=en&page=1&sort=date&position_type_filter=internship&job_id="
 ]
 }
