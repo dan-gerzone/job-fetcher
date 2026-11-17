@@ -25,6 +25,11 @@ jobs:
         with:
           python-version: "3.12"
       - name: Fetch
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          USAJOBS_KEY: ${{ secrets.USAJOBS_KEY }}
+          USAJOBS_EMAIL: ${{ secrets.USAJOBS_EMAIL }}
         run: python fetch.py
       - name: Commit data
         run: |

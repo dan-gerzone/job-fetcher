@@ -1468,5 +1468,175 @@
    "host": "careers.acentra.com",
    "company": "Acentra Health"
   }
- ]
+ ],
+ "getro": [
+  {
+   "host": "jobs.oakhcft.com",
+   "id": 637,
+   "name": "Oak HC/FT"
+  },
+  {
+   "host": "careers.flarecapital.com",
+   "id": 9366,
+   "name": "Flare Capital"
+  },
+  {
+   "host": "jobs.venrock.com",
+   "id": 319,
+   "name": "Venrock"
+  },
+  {
+   "host": "jobs.fprimecapital.com",
+   "id": 258,
+   "name": "F-Prime"
+  },
+  {
+   "host": "jobs.406ventures.com",
+   "id": 13096,
+   "name": ".406 Ventures"
+  },
+  {
+   "host": "jobs.blueventurefund.com",
+   "id": 145,
+   "name": "Blue Venture Fund"
+  },
+  {
+   "host": "jobs.generalcatalyst.com",
+   "id": 222,
+   "name": "General Catalyst"
+  },
+  {
+   "host": "jobs.khoslaventures.com",
+   "id": 257,
+   "name": "Khosla Ventures"
+  },
+  {
+   "host": "jobs.8vc.com",
+   "id": 1005,
+   "name": "8VC"
+  },
+  {
+   "host": "jobs.alleycorp.com",
+   "id": 636,
+   "name": "AlleyCorp"
+  },
+  {
+   "host": "jobs.thrivecap.com",
+   "id": 2105,
+   "name": "Thrive Capital"
+  },
+  {
+   "host": "jobs.insightpartners.com",
+   "id": 246,
+   "name": "Insight Partners"
+  },
+  {
+   "host": "jobs.accel.com",
+   "id": 8672,
+   "name": "Accel"
+  },
+  {
+   "host": "jobs.techstars.com",
+   "id": 89,
+   "name": "Techstars"
+  },
+  {
+   "host": "jobs.foundrygroup.com",
+   "id": 25,
+   "name": "Foundry"
+  },
+  {
+   "host": "jobs.signalfire.com",
+   "id": 135,
+   "name": "SignalFire"
+  }
+ ],
+ "naylor": [
+  {
+   "host": "jobs.healthcareercenter.com",
+   "name": "AHA Health Career Center"
+  },
+  {
+   "host": "careers.amga.org",
+   "name": "AMGA"
+  },
+  {
+   "host": "careers.apha.org",
+   "name": "APHA"
+  },
+  {
+   "host": "careers.shsmd.org",
+   "name": "SHSMD"
+  },
+  {
+   "host": "careers.amcp.org",
+   "name": "AMCP"
+  },
+  {
+   "host": "careers.chausa.org",
+   "name": "Catholic Health Association"
+  }
+ ],
+ "madgex": [
+  {
+   "host": "careers.mgma.com",
+   "prefix": "mgma",
+   "name": "MGMA Career Center"
+  }
+ ],
+ "webscribble": [
+  {
+   "host": "careers.naccho.org",
+   "prefix": "naccho",
+   "name": "NACCHO"
+  }
+ ],
+ "discovery": {
+  "titleQueries": [
+   "director",
+   "vice president",
+   "head of"
+  ],
+  "boardQueries": [
+   "director analytics",
+   "vice president analytics",
+   "director data",
+   "director informatics",
+   "population health",
+   "value-based care",
+   "director quality reporting",
+   "chief data",
+   "director insights",
+   "director business intelligence"
+  ],
+  "remoteQueries": [
+   "healthcare analytics director",
+   "health data director",
+   "vice president analytics healthcare",
+   "head of analytics healthcare",
+   "healthcare data product director",
+   "population health analytics",
+   "value-based care analytics",
+   "provider data director",
+   "claims analytics director",
+   "healthcare business intelligence director"
+  ],
+  "adzunaQueries": [
+   "director healthcare analytics",
+   "vice president healthcare analytics",
+   "director health data",
+   "head of analytics healthcare",
+   "director population health analytics",
+   "director value based care analytics",
+   "director healthcare business intelligence",
+   "director provider data"
+  ],
+  "usajobsQueries": [
+   "health data analytics director",
+   "health informatics supervisory",
+   "Medicaid data analytics",
+   "chief data officer health"
+  ],
+  "health": "health|medic|clinic|hospital|patient|payer|payor|pharma|biotech|\\bcare\\b|provider|claims|life sciences|wellness|therap|nurs|medicaid|medicare"
+ }
 }
