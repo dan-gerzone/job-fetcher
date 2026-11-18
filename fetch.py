@@ -47,6 +47,18 @@ RE_PAY = re.compile(r"[^.\n]{0,90}\$\s?\d[\d,]*(?:\.\d+)?\s?[kK]?[^.\n]{0,110}")
 RE_ELIG = re.compile(r"[^.\n]{0,160}(?:residing in|reside in|open to candidates|remote (?:in|from)|eligible states|following states|colorado)[^.\n]{0,220}", re.I)
 
 ERRORS = {}
+SECRET_VARS = ("ADZUNA_APP_ID", "ADZUNA_APP_KEY", "USAJOBS_KEY", "USAJOBS_EMAIL")
+for _v in SECRET_VARS:  # pasted secrets often carry stray whitespace/newlines
+    if os.environ.get(_v) is not None:
+        os.environ[_v] = os.environ[_v].strip()
+
+
+def scrub(t):
+    for v in SECRET_VARS:
+        x = os.environ.get(v)
+        if x:
+            t = t.replace(x, "***")
+    return t
 COUNTS = {}
 ALL_IDS = {}   # family -> set(doc ids)
 
@@ -196,7 +208,7 @@ def run_source(key, fn):
         COUNTS[key] = {"candidates": len(res), "secs": round(time.time() - t0, 1)}
         return res
     except Exception as e:  # noqa
-        ERRORS[key] = f"{type(e).__name__}: {e}"[:300]
+        ERRORS[key] = scrub(f"{type(e).__name__}: {e}")[:300]
         return []
 
 

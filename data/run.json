@@ -4,7 +4,7 @@
  "sourcesFailed": 1,
  "candidates": 447,
  "errors": {
-  "adzuna": "InvalidURL: URL can't contain control characters. '/v1/api/jobs/us/search/1?app_id=1c17cfe4\\n\\n&app_key=8aed74a537cf4bd71d29a5577328a78d&results_per_page=50&max_days_old=21&what=director%20healthcare%20analytics&where=Colorado&content-type=application/json' (found at least '\\n')"
+  "adzuna": "redacted"
  },
  "counts": {
   "adp:cdcf": {
