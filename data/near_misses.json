@@ -208,6 +208,15 @@
 },
 {
 "company": "AdventHealth",
+"title": "Director Emergency Services",
+"why": "function",
+"locations": [
+"ADVENTHEALTH GLENOAKS"
+],
+"url": "https://adventhealth.wd12.myworkdayjobs.com/AH_External_Career_Site/job/ADVENTHEALTH-GLENOAKS/Director-Emergency-Services_R-0411755"
+},
+{
+"company": "AdventHealth",
 "title": "Director of Cardiology Services",
 "why": "function",
 "locations": [
@@ -2354,15 +2363,6 @@
 "3 Locations"
 ],
 "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Remote/Enterprise-Client-Director---Northern-New-England_R4048713-1"
-},
-{
-"company": "GE HealthCare",
-"title": "International Head of Radiopharma Commercial",
-"why": "function",
-"locations": [
-"London"
-],
-"url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/London/International-Head-of-Radiopharma-Commercial_R4048069-2"
 },
 {
 "company": "GE HealthCare",
@@ -6925,15 +6925,6 @@
 },
 {
 "company": "Humana",
-"title": "Director - Enterprise Quality Methologies, Governance & Enablement",
-"why": "location",
-"locations": [
-"New York, NY"
-],
-"url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/New-York-NY/Director---Enterprise-Quality-Methologies--Governance---Enablement_R-432236"
-},
-{
-"company": "Humana",
 "title": "Director, Enterprise Transformation",
 "why": "location",
 "locations": [
@@ -7686,15 +7677,6 @@
 },
 {
 "company": "McKesson",
-"title": "Sr. Director, Financial Reporting",
-"why": "location",
-"locations": [
-"USA, VA, Richmond"
-],
-"url": "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-VA-Richmond/Sr-Director--Financial-Reporting_JR0154364"
-},
-{
-"company": "McKesson",
 "title": "Sr. Director, Network Operations",
 "why": "location",
 "locations": [
@@ -7886,15 +7868,6 @@
 },
 {
 "company": "Roche",
-"title": "Head of Digital Operations and Reliability",
-"why": "location",
-"locations": [
-"Hyderabad"
-],
-"url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Hyderabad/Head-of-Digital-Operations-and-Reliability_202604-110945-1"
-},
-{
-"company": "Roche",
 "title": "Head of Sustainability Reporting",
 "why": "location",
 "locations": [
@@ -8059,15 +8032,6 @@
 "Washington D.C."
 ],
 "url": "https://jointcommission.wd1.myworkdayjobs.com/JC/job/Washington-DC/Senior-Director--State-Engagement_JR100025"
-},
-{
-"company": "Trinity Health",
-"title": "Director of Quality (On-Site)",
-"why": "location",
-"locations": [
-"Atlanta, Georgia"
-],
-"url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Atlanta-Georgia/Director-of-Quality_00687879"
 },
 {
 "company": "Trinity Health",
