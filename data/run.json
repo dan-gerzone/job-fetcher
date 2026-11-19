@@ -1,22 +1,21 @@
 {
- "fetchedAt": "2026-11-19T19:36:58Z",
+ "fetchedAt": "2026-11-19T22:45:57Z",
  "sources": 346,
- "sourcesFailed": 2,
- "candidates": 445,
+ "sourcesFailed": 1,
+ "candidates": 455,
  "errors": {
-  "ashby:cedar": "HTTPError: HTTP Error 404: Not Found",
-  "govjobs:colorado": "URLError: <urlopen error timed out>"
+  "ashby:cedar": "HTTPError: HTTP Error 404: Not Found"
  },
  "counts": {
   "adp:cdcf": {
    "candidates": 0,
-   "secs": 0.4
+   "secs": 0.5
   },
   "adp:cdcf:all": 20,
   "adp:cdcf:sample": "Epidemiologist Coordinator",
   "adp:chcs": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   "adp:chcs:all": 0,
   "adp:civhc": {
@@ -26,123 +25,123 @@
   "adp:civhc:all": 0,
   "adp:pcori": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.4
   },
-  "adp:pcori:all": 7,
-  "adp:pcori:sample": "Intern - Undergraduate Level",
+  "adp:pcori:all": 8,
+  "adp:pcori:sample": "Government Relations Associate ",
   "adzuna": {
    "candidates": 3,
-   "secs": 25.4
+   "secs": 24.7
   },
   "adzuna:all": 33,
   "amazon": {
    "candidates": 0,
-   "secs": 4.3
+   "secs": 9.3
   },
-  "amazon:all": 334,
+  "amazon:all": 335,
   "ashby:1uphealth": {
    "candidates": 1,
-   "secs": 0.3
+   "secs": 0.4
   },
   "ashby:1uphealth:all": 3,
   "ashby:abridge": {
    "candidates": 1,
-   "secs": 0.1
+   "secs": 0.4
   },
   "ashby:abridge:all": 28,
   "ashby:akasa": {
    "candidates": 1,
-   "secs": 0.3
+   "secs": 0.4
   },
   "ashby:akasa:all": 9,
   "ashby:ambiencehealthcare": {
    "candidates": 0,
-   "secs": 0.0
+   "secs": 0.1
   },
-  "ashby:ambiencehealthcare:all": 16,
+  "ashby:ambiencehealthcare:all": 17,
   "ashby:anglehealth": {
    "candidates": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   "ashby:anglehealth:all": 2,
   "ashby:assorthealth": {
    "candidates": 0,
-   "secs": 0.1
+   "secs": 2.2
   },
   "ashby:assorthealth:all": 37,
   "ashby:candidhealth": {
    "candidates": 0,
-   "secs": 0.0
+   "secs": 0.2
   },
   "ashby:candidhealth:all": 30,
   "ashby:centivo": {
    "candidates": 0,
-   "secs": 0.0
+   "secs": 1.2
   },
   "ashby:centivo:all": 5,
   "ashby:certifyos": {
    "candidates": 3,
-   "secs": 0.3
+   "secs": 0.4
   },
   "ashby:certifyos:all": 21,
   "ashby:chartis": {
    "candidates": 1,
-   "secs": 0.5
+   "secs": 0.9
   },
   "ashby:chartis:all": 37,
   "ashby:color-health": {
    "candidates": 0,
-   "secs": 0.3
+   "secs": 0.4
   },
   "ashby:color-health:all": 15,
   "ashby:commure": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
-  "ashby:commure:all": 76,
+  "ashby:commure:all": 75,
   "ashby:develop-health": {
    "candidates": 1,
-   "secs": 0.1
+   "secs": 2.0
   },
   "ashby:develop-health:all": 18,
   "ashby:finni-health": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 2.4
   },
-  "ashby:finni-health:all": 138,
+  "ashby:finni-health:all": 137,
   "ashby:gravie": {
    "candidates": 1,
-   "secs": 0.2
+   "secs": 0.6
   },
   "ashby:gravie:all": 26,
   "ashby:grow-therapy": {
    "candidates": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   "ashby:grow-therapy:all": 32,
   "ashby:headway": {
    "candidates": 1,
-   "secs": 0.1
+   "secs": 0.2
   },
   "ashby:headway:all": 93,
   "ashby:healthgorilla": {
    "candidates": 1,
-   "secs": 0.1
+   "secs": 0.6
   },
   "ashby:healthgorilla:all": 1,
   "ashby:hellobrightline": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.4
   },
   "ashby:hellobrightline:all": 9,
   "ashby:hellopatient": {
    "candidates": 0,
-   "secs": 0.0
+   "secs": 0.2
   },
   "ashby:hellopatient:all": 8,
   "ashby:hinge-health": {
    "candidates": 1,
-   "secs": 0.5
+   "secs": 0.9
   },
   "ashby:hinge-health:all": 85,
   "ashby:infinitus": {
@@ -152,17 +151,17 @@
   "ashby:infinitus:all": 9,
   "ashby:nabla": {
    "candidates": 0,
-   "secs": 0.0
+   "secs": 0.9
   },
   "ashby:nabla:all": 9,
   "ashby:nirvana": {
    "candidates": 1,
-   "secs": 0.1
+   "secs": 0.2
   },
-  "ashby:nirvana:all": 8,
+  "ashby:nirvana:all": 9,
   "ashby:notable": {
    "candidates": 0,
-   "secs": 0.1
+   "secs": 0.3
   },
   "ashby:notable:all": 9,
   "ashby:nuna": {
@@ -177,201 +176,206 @@
   "ashby:openevidence:all": 8,
   "ashby:pearlhealth": {
    "candidates": 1,
-   "secs": 0.1
+   "secs": 0.5
   },
   "ashby:pearlhealth:all": 7,
   "ashby:pomelo-care": {
    "candidates": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
-  "ashby:pomelo-care:all": 90,
+  "ashby:pomelo-care:all": 93,
   "ashby:rula": {
    "candidates": 2,
-   "secs": 0.1
+   "secs": 1.7
   },
   "ashby:rula:all": 28,
   "ashby:serifhealth": {
    "candidates": 0,
-   "secs": 0.3
+   "secs": 0.4
   },
   "ashby:serifhealth:all": 3,
   "ashby:sondermind": {
    "candidates": 0,
-   "secs": 0.1
+   "secs": 2.3
   },
   "ashby:sondermind:all": 134,
   "ashby:sprinter-health": {
    "candidates": 0,
-   "secs": 0.1
+   "secs": 2.4
   },
   "ashby:sprinter-health:all": 66,
   "ashby:stedi": {
    "candidates": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   "ashby:stedi:all": 27,
   "ashby:stellar-health": {
    "candidates": 2,
-   "secs": 0.5
+   "secs": 0.2
   },
   "ashby:stellar-health:all": 9,
   "ashby:talkiatry": {
    "candidates": 1,
-   "secs": 0.5
+   "secs": 2.1
   },
   "ashby:talkiatry:all": 189,
   "ashby:tennr": {
    "candidates": 0,
-   "secs": 0.0
+   "secs": 0.1
   },
   "ashby:tennr:all": 22,
   "ashby:thyme-care": {
    "candidates": 3,
    "secs": 0.7
   },
-  "ashby:thyme-care:all": 44,
+  "ashby:thyme-care:all": 45,
   "ashby:turquoise-health": {
    "candidates": 1,
-   "secs": 0.1
+   "secs": 0.4
   },
-  "ashby:turquoise-health:all": 10,
+  "ashby:turquoise-health:all": 8,
   "ashby:virtahealth": {
    "candidates": 0,
-   "secs": 0.1
+   "secs": 2.1
   },
   "ashby:virtahealth:all": 24,
   "ashby:vori": {
    "candidates": 0,
-   "secs": 0.1
+   "secs": 0.4
   },
   "ashby:vori:all": 11,
   "bamboohr:contexture": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   "bamboohr:contexture:all": 8,
   "bamboohr:eonhealth": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.5
   },
   "bamboohr:eonhealth:all": 14,
   "bamboohr:kff": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.5
   },
   "bamboohr:kff:all": 1,
   "bamboohr:lightbeamhealth": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.5
   },
   "bamboohr:lightbeamhealth:all": 1,
   "bamboohr:taskforce": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.5
   },
   "bamboohr:taskforce:all": 2,
   "breezy:the-sequoia-project": {
    "candidates": 0,
-   "secs": 0.0
+   "secs": 0.2
   },
   "breezy:the-sequoia-project:all": 2,
   "discovery:candidates": 88,
   "discovery:duplicates": 56,
   "getro:careers.flarecapital.com": {
    "candidates": 4,
-   "secs": 1.6
+   "secs": 2.7
   },
   "getro:careers.flarecapital.com:all": 61,
   "getro:jobs.406ventures.com": {
    "candidates": 1,
-   "secs": 0.6
+   "secs": 1.2
   },
   "getro:jobs.406ventures.com:all": 36,
   "getro:jobs.8vc.com": {
    "candidates": 5,
-   "secs": 6.1
+   "secs": 15.9
   },
-  "getro:jobs.8vc.com:all": 962,
+  "getro:jobs.8vc.com:all": 960,
   "getro:jobs.accel.com": {
    "candidates": 2,
-   "secs": 22.8
+   "secs": 18.3
   },
   "getro:jobs.accel.com:all": 1498,
   "getro:jobs.alleycorp.com": {
    "candidates": 4,
-   "secs": 2.7
+   "secs": 4.5
   },
   "getro:jobs.alleycorp.com:all": 275,
   "getro:jobs.blueventurefund.com": {
    "candidates": 2,
-   "secs": 1.8
+   "secs": 2.4
   },
   "getro:jobs.blueventurefund.com:all": 115,
   "getro:jobs.foundrygroup.com": {
    "candidates": 0,
-   "secs": 1.0
+   "secs": 1.4
   },
   "getro:jobs.foundrygroup.com:all": 119,
   "getro:jobs.fprimecapital.com": {
    "candidates": 4,
-   "secs": 10.2
+   "secs": 6.9
   },
   "getro:jobs.fprimecapital.com:all": 330,
   "getro:jobs.generalcatalyst.com": {
    "candidates": 11,
-   "secs": 8.0
+   "secs": 16.9
   },
-  "getro:jobs.generalcatalyst.com:all": 1406,
+  "getro:jobs.generalcatalyst.com:all": 1405,
   "getro:jobs.insightpartners.com": {
    "candidates": 15,
-   "secs": 8.3
+   "secs": 13.5
   },
   "getro:jobs.insightpartners.com:all": 1015,
   "getro:jobs.khoslaventures.com": {
    "candidates": 3,
-   "secs": 3.5
+   "secs": 6.0
   },
   "getro:jobs.khoslaventures.com:all": 471,
   "getro:jobs.oakhcft.com": {
    "candidates": 4,
-   "secs": 2.9
+   "secs": 5.3
   },
   "getro:jobs.oakhcft.com:all": 314,
   "getro:jobs.signalfire.com": {
    "candidates": 1,
-   "secs": 0.9
+   "secs": 1.6
   },
   "getro:jobs.signalfire.com:all": 117,
   "getro:jobs.techstars.com": {
    "candidates": 5,
-   "secs": 3.8
+   "secs": 6.1
   },
   "getro:jobs.techstars.com:all": 448,
   "getro:jobs.thrivecap.com": {
    "candidates": 6,
-   "secs": 5.0
+   "secs": 10.5
   },
   "getro:jobs.thrivecap.com:all": 876,
   "getro:jobs.venrock.com": {
    "candidates": 6,
-   "secs": 21.7
+   "secs": 5.6
   },
   "getro:jobs.venrock.com:all": 219,
   "google": {
    "candidates": 5,
-   "secs": 10.7
+   "secs": 15.0
   },
   "google:all": 46,
+  "govjobs:colorado": {
+   "candidates": 5,
+   "secs": 7.5
+  },
+  "govjobs:colorado:all": 66,
   "greenhouse:abacusinsights": {
    "candidates": 1,
-   "secs": 0.3
+   "secs": 0.5
   },
   "greenhouse:abacusinsights:all": 17,
   "greenhouse:acog": {
    "candidates": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
-  "greenhouse:acog:all": 14,
+  "greenhouse:acog:all": 13,
   "greenhouse:agilesix": {
    "candidates": 0,
    "secs": 0.1
@@ -379,49 +383,49 @@
   "greenhouse:agilesix:all": 2,
   "greenhouse:akidolabs": {
    "candidates": 0,
-   "secs": 0.6
-  },
-  "greenhouse:akidolabs:all": 34,
-  "greenhouse:americaninstitutesforresearch": {
-   "candidates": 0,
    "secs": 0.4
   },
-  "greenhouse:americaninstitutesforresearch:all": 12,
+  "greenhouse:akidolabs:all": 35,
+  "greenhouse:americaninstitutesforresearch": {
+   "candidates": 0,
+   "secs": 0.6
+  },
+  "greenhouse:americaninstitutesforresearch:all": 11,
   "greenhouse:amwell": {
    "candidates": 0,
-   "secs": 0.3
+   "secs": 0.2
   },
   "greenhouse:amwell:all": 7,
   "greenhouse:belonghealth": {
    "candidates": 1,
-   "secs": 0.1
+   "secs": 0.4
   },
   "greenhouse:belonghealth:all": 3,
   "greenhouse:blinkhealth": {
    "candidates": 0,
    "secs": 0.3
   },
-  "greenhouse:blinkhealth:all": 65,
+  "greenhouse:blinkhealth:all": 67,
   "greenhouse:butterflynetwork": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.1
   },
   "greenhouse:butterflynetwork:all": 17,
   "greenhouse:carrotfertility": {
    "candidates": 0,
    "secs": 0.2
   },
-  "greenhouse:carrotfertility:all": 10,
+  "greenhouse:carrotfertility:all": 12,
   "greenhouse:chanzuckerberginitiative": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.4
   },
   "greenhouse:chanzuckerberginitiative:all": 4,
   "greenhouse:charliehealth": {
    "candidates": 0,
-   "secs": 0.3
+   "secs": 1.0
   },
-  "greenhouse:charliehealth:all": 277,
+  "greenhouse:charliehealth:all": 276,
   "greenhouse:civicactions": {
    "candidates": 0,
    "secs": 0.1
@@ -429,12 +433,12 @@
   "greenhouse:civicactions:all": 1,
   "greenhouse:cloverhealth": {
    "candidates": 4,
-   "secs": 0.5
+   "secs": 0.7
   },
   "greenhouse:cloverhealth:all": 54,
   "greenhouse:codeforamerica": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   "greenhouse:codeforamerica:all": 10,
   "greenhouse:coherehealth": {
@@ -444,7 +448,7 @@
   "greenhouse:coherehealth:all": 63,
   "greenhouse:collectivehealth": {
    "candidates": 0,
-   "secs": 0.4
+   "secs": 0.3
   },
   "greenhouse:collectivehealth:all": 3,
   "greenhouse:concertai": {
@@ -456,22 +460,22 @@
    "candidates": 0,
    "secs": 0.8
   },
-  "greenhouse:cortica:all": 51,
+  "greenhouse:cortica:all": 52,
   "greenhouse:datavant2": {
    "candidates": 5,
-   "secs": 1.2
+   "secs": 1.3
   },
-  "greenhouse:datavant2:all": 157,
+  "greenhouse:datavant2:all": 158,
   "greenhouse:definitivehc": {
    "candidates": 0,
-   "secs": 0.5
+   "secs": 0.6
   },
   "greenhouse:definitivehc:all": 33,
   "greenhouse:doximity": {
    "candidates": 1,
-   "secs": 0.5
+   "secs": 0.2
   },
-  "greenhouse:doximity:all": 11,
+  "greenhouse:doximity:all": 10,
   "greenhouse:elationhealth": {
    "candidates": 1,
    "secs": 0.3
@@ -479,72 +483,72 @@
   "greenhouse:elationhealth:all": 16,
   "greenhouse:evergreennephrology": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.4
   },
   "greenhouse:evergreennephrology:all": 6,
   "greenhouse:firsthand": {
    "candidates": 0,
-   "secs": 0.5
+   "secs": 0.7
   },
   "greenhouse:firsthand:all": 27,
   "greenhouse:flatironhealth": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.1
   },
   "greenhouse:flatironhealth:all": 21,
   "greenhouse:freenome": {
    "candidates": 1,
-   "secs": 0.3
+   "secs": 0.4
   },
   "greenhouse:freenome:all": 24,
   "greenhouse:garnerhealth": {
    "candidates": 2,
-   "secs": 0.3
+   "secs": 0.4
   },
   "greenhouse:garnerhealth:all": 60,
   "greenhouse:healthie": {
    "candidates": 0,
-   "secs": 0.5
+   "secs": 0.3
   },
-  "greenhouse:healthie:all": 16,
+  "greenhouse:healthie:all": 15,
   "greenhouse:healthjoy": {
    "candidates": 1,
-   "secs": 0.3
+   "secs": 0.6
   },
   "greenhouse:healthjoy:all": 4,
   "greenhouse:healthverity": {
    "candidates": 0,
-   "secs": 0.4
+   "secs": 0.6
   },
   "greenhouse:healthverity:all": 18,
   "greenhouse:hs": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.4
   },
   "greenhouse:hs:all": 4,
   "greenhouse:intersystems": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.4
   },
-  "greenhouse:intersystems:all": 85,
+  "greenhouse:intersystems:all": 84,
   "greenhouse:interwellhealth": {
    "candidates": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   "greenhouse:interwellhealth:all": 9,
   "greenhouse:judihealth": {
    "candidates": 2,
-   "secs": 0.3
+   "secs": 0.5
   },
   "greenhouse:judihealth:all": 82,
   "greenhouse:komodohealth": {
    "candidates": 1,
-   "secs": 0.2
+   "secs": 0.3
   },
-  "greenhouse:komodohealth:all": 18,
+  "greenhouse:komodohealth:all": 19,
   "greenhouse:lumahealth": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   "greenhouse:lumahealth:all": 3,
   "greenhouse:machinifyinc": {
@@ -554,17 +558,17 @@
   "greenhouse:machinifyinc:all": 62,
   "greenhouse:mainstreethealth": {
    "candidates": 0,
-   "secs": 0.3
+   "secs": 0.4
   },
   "greenhouse:mainstreethealth:all": 10,
   "greenhouse:mavenclinic": {
    "candidates": 4,
-   "secs": 0.5
+   "secs": 0.9
   },
-  "greenhouse:mavenclinic:all": 33,
+  "greenhouse:mavenclinic:all": 34,
   "greenhouse:modernhealth": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   "greenhouse:modernhealth:all": 3,
   "greenhouse:moxehealth": {
@@ -574,67 +578,67 @@
   "greenhouse:moxehealth:all": 1,
   "greenhouse:natera": {
    "candidates": 2,
-   "secs": 0.5
+   "secs": 0.8
   },
   "greenhouse:natera:all": 204,
   "greenhouse:navapbc": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.1
   },
   "greenhouse:navapbc:all": 20,
   "greenhouse:neuehealth": {
    "candidates": 0,
-   "secs": 0.6
+   "secs": 0.5
   },
   "greenhouse:neuehealth:all": 6,
   "greenhouse:omadahealth": {
    "candidates": 1,
-   "secs": 0.3
+   "secs": 0.2
   },
-  "greenhouse:omadahealth:all": 25,
+  "greenhouse:omadahealth:all": 24,
   "greenhouse:onemedical": {
    "candidates": 0,
-   "secs": 1.2
+   "secs": 0.8
   },
   "greenhouse:onemedical:all": 359,
   "greenhouse:oscar": {
    "candidates": 2,
-   "secs": 0.9
+   "secs": 1.4
   },
-  "greenhouse:oscar:all": 191,
+  "greenhouse:oscar:all": 193,
   "greenhouse:oshihealth": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.4
   },
   "greenhouse:oshihealth:all": 2,
   "greenhouse:pathai": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.1
   },
   "greenhouse:pathai:all": 15,
   "greenhouse:pinnacolassurance": {
    "candidates": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   "greenhouse:pinnacolassurance:all": 0,
   "greenhouse:prenuvo": {
    "candidates": 0,
-   "secs": 0.6
+   "secs": 0.7
   },
-  "greenhouse:prenuvo:all": 38,
+  "greenhouse:prenuvo:all": 39,
   "greenhouse:qgenda": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   "greenhouse:qgenda:all": 3,
   "greenhouse:qventus": {
    "candidates": 1,
-   "secs": 0.2
+   "secs": 0.3
   },
   "greenhouse:qventus:all": 15,
   "greenhouse:resolvetosavelives": {
    "candidates": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   "greenhouse:resolvetosavelives:all": 1,
   "greenhouse:rightway": {
@@ -644,54 +648,54 @@
   "greenhouse:rightway:all": 5,
   "greenhouse:rvohealth": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.5
   },
   "greenhouse:rvohealth:all": 23,
   "greenhouse:sidecarhealth": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.7
   },
-  "greenhouse:sidecarhealth:all": 9,
+  "greenhouse:sidecarhealth:all": 10,
   "greenhouse:smithrx": {
    "candidates": 1,
-   "secs": 0.2
+   "secs": 0.3
   },
-  "greenhouse:smithrx:all": 12,
+  "greenhouse:smithrx:all": 11,
   "greenhouse:strivehealth": {
    "candidates": 3,
-   "secs": 0.8
+   "secs": 0.6
   },
   "greenhouse:strivehealth:all": 37,
   "greenhouse:suki": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   "greenhouse:suki:all": 11,
   "greenhouse:swordhealth": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   "greenhouse:swordhealth:all": 23,
   "greenhouse:tebra": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   "greenhouse:tebra:all": 13,
   "greenhouse:truveta": {
    "candidates": 0,
-   "secs": 0.4
+   "secs": 0.7
   },
   "greenhouse:truveta:all": 36,
   "greenhouse:twinhealth": {
    "candidates": 1,
-   "secs": 0.3
+   "secs": 0.4
   },
-  "greenhouse:twinhealth:all": 41,
+  "greenhouse:twinhealth:all": 40,
   "greenhouse:twochairs": {
    "candidates": 2,
-   "secs": 0.3
+   "secs": 0.4
   },
-  "greenhouse:twochairs:all": 43,
+  "greenhouse:twochairs:all": 42,
   "greenhouse:uniteus": {
    "candidates": 0,
    "secs": 0.2
@@ -699,47 +703,47 @@
   "greenhouse:uniteus:all": 11,
   "greenhouse:upwardhealth": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.6
   },
-  "greenhouse:upwardhealth:all": 39,
+  "greenhouse:upwardhealth:all": 36,
   "greenhouse:veranahealth": {
    "candidates": 1,
-   "secs": 0.2
+   "secs": 0.3
   },
   "greenhouse:veranahealth:all": 4,
   "greenhouse:waymark": {
    "candidates": 1,
-   "secs": 0.2
+   "secs": 0.5
   },
   "greenhouse:waymark:all": 19,
   "greenhouse:wellthy": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.1
   },
-  "greenhouse:wellthy:all": 13,
+  "greenhouse:wellthy:all": 15,
   "greenhouse:zocdoc": {
    "candidates": 0,
-   "secs": 0.6
+   "secs": 0.5
   },
   "greenhouse:zocdoc:all": 65,
   "htn": {
    "candidates": 4,
-   "secs": 1.0
+   "secs": 1.4
   },
-  "htn:all": 46,
+  "htn:all": 52,
   "hudson": {
    "candidates": 0,
-   "secs": 1.3
+   "secs": 3.2
   },
   "hudson:all": 50,
   "icims:aphl": {
    "candidates": 0,
-   "secs": 0.2
+   "secs": 0.8
   },
   "icims:aphl:all": 7,
   "icims:ashp": {
    "candidates": 0,
-   "secs": 1.1
+   "secs": 1.0
   },
   "icims:ashp:all": 7,
   "icims:brookings": {
@@ -749,107 +753,107 @@
   "icims:brookings:all": 8,
   "icims:capbluecross": {
    "candidates": 1,
-   "secs": 0.6
+   "secs": 1.3
   },
   "icims:capbluecross:all": 17,
   "icims:cotiviti": {
    "candidates": 7,
-   "secs": 3.8
+   "secs": 4.3
   },
-  "icims:cotiviti:all": 69,
+  "icims:cotiviti:all": 73,
   "icims:curanahealth": {
    "candidates": 0,
-   "secs": 11.2
+   "secs": 4.7
   },
-  "icims:curanahealth:all": 247,
+  "icims:curanahealth:all": 248,
   "icims:healthedge": {
    "candidates": 2,
-   "secs": 5.7
+   "secs": 1.6
   },
   "icims:healthedge:all": 37,
   "icims:healthmanagement": {
    "candidates": 0,
-   "secs": 0.8
+   "secs": 0.6
   },
   "icims:healthmanagement:all": 9,
   "icims:heart": {
    "candidates": 0,
-   "secs": 5.4
+   "secs": 2.7
   },
-  "icims:heart:all": 99,
+  "icims:heart:all": 100,
   "icims:iehp": {
    "candidates": 2,
-   "secs": 3.3
+   "secs": 3.0
   },
-  "icims:iehp:all": 55,
+  "icims:iehp:all": 54,
   "icims:navitus": {
    "candidates": 3,
-   "secs": 6.8
+   "secs": 3.0
   },
   "icims:navitus:all": 78,
   "icims:personifyhealth": {
    "candidates": 1,
-   "secs": 0.5
+   "secs": 1.2
   },
   "icims:personifyhealth:all": 37,
   "icims:piedmont": {
    "candidates": 0,
-   "secs": 7.8
+   "secs": 18.2
   },
-  "icims:piedmont:all": 1829,
+  "icims:piedmont:all": 1828,
   "icims:symplr": {
    "candidates": 0,
-   "secs": 0.3
+   "secs": 0.8
   },
   "icims:symplr:all": 7,
   "jibe:acentra": {
    "candidates": 3,
-   "secs": 0.8
+   "secs": 1.5
   },
-  "jibe:acentra:all": 95,
+  "jibe:acentra:all": 94,
   "jibe:innovage": {
    "candidates": 2,
-   "secs": 0.9
+   "secs": 2.8
   },
-  "jibe:innovage:all": 192,
+  "jibe:innovage:all": 191,
   "jibe:rti": {
    "candidates": 2,
-   "secs": 0.3
+   "secs": 1.7
   },
-  "jibe:rti:all": 40,
+  "jibe:rti:all": 41,
   "lever:acumenllc": {
    "candidates": 0,
-   "secs": 0.5
+   "secs": 0.4
   },
   "lever:acumenllc:all": 0,
   "lever:aledade": {
-   "candidates": 1,
-   "secs": 0.8
+   "candidates": 2,
+   "secs": 5.9
   },
-  "lever:aledade:all": 39,
+  "lever:aledade:all": 42,
   "lever:altarum": {
    "candidates": 0,
-   "secs": 0.5
+   "secs": 0.3
   },
   "lever:altarum:all": 3,
   "lever:arcadia": {
    "candidates": 1,
-   "secs": 0.9
+   "secs": 1.6
   },
-  "lever:arcadia:all": 14,
+  "lever:arcadia:all": 12,
   "lever:artera": {
    "candidates": 0,
-   "secs": 1.7
+   "secs": 0.4
   },
   "lever:artera:all": 6,
   "lever:bellese": {
    "candidates": 1,
-   "secs": 0.6
+   "secs": 0.4
   },
   "lever:bellese:all": 7,
   "lever:canvasmedical": {
    "candidates": 0,
-   "secs": 0.5
+   "secs": 0.4
   },
   "lever:canvasmedical:all": 6,
   "lever:clarifyhealth": {
@@ -859,167 +863,167 @@
   "lever:clarifyhealth:all": 3,
   "lever:everlywell": {
    "candidates": 0,
-   "secs": 0.5
+   "secs": 0.3
   },
   "lever:everlywell:all": 15,
   "lever:h1": {
    "candidates": 0,
-   "secs": 2.6
+   "secs": 0.9
   },
   "lever:h1:all": 14,
   "lever:hhaexchange": {
    "candidates": 0,
-   "secs": 0.5
+   "secs": 0.3
   },
   "lever:hhaexchange:all": 25,
   "lever:includedhealth": {
    "candidates": 0,
-   "secs": 0.6
+   "secs": 0.4
   },
   "lever:includedhealth:all": 41,
   "lever:leantaas": {
    "candidates": 0,
-   "secs": 0.3
+   "secs": 0.2
   },
   "lever:leantaas:all": 2,
   "lever:lyrahealth": {
    "candidates": 4,
-   "secs": 1.3
+   "secs": 4.2
   },
-  "lever:lyrahealth:all": 454,
+  "lever:lyrahealth:all": 453,
   "lever:nomihealth": {
    "candidates": 1,
-   "secs": 0.8
+   "secs": 0.3
   },
   "lever:nomihealth:all": 5,
   "lever:pointclickcare": {
    "candidates": 2,
-   "secs": 1.5
+   "secs": 0.9
   },
-  "lever:pointclickcare:all": 85,
+  "lever:pointclickcare:all": 86,
   "lever:quantum-health": {
    "candidates": 3,
-   "secs": 2.1
+   "secs": 0.8
   },
-  "lever:quantum-health:all": 25,
+  "lever:quantum-health:all": 26,
   "lever:redoxengine": {
    "candidates": 1,
-   "secs": 0.7
+   "secs": 0.3
   },
   "lever:redoxengine:all": 3,
   "lever:ribbon": {
    "candidates": 0,
-   "secs": 0.3
+   "secs": 0.2
   },
   "lever:ribbon:all": 3,
   "lever:ro": {
    "candidates": 0,
-   "secs": 4.4
+   "secs": 0.5
   },
-  "lever:ro:all": 55,
+  "lever:ro:all": 56,
   "lever:sanabenefits": {
    "candidates": 0,
    "secs": 0.4
   },
-  "lever:sanabenefits:all": 7,
+  "lever:sanabenefits:all": 6,
   "lever:smiledigitalhealth": {
    "candidates": 0,
-   "secs": 0.5
+   "secs": 0.4
   },
   "lever:smiledigitalhealth:all": 8,
   "lever:veeva": {
    "candidates": 51,
-   "secs": 3.8
+   "secs": 3.3
   },
   "lever:veeva:all": 865,
   "lever:zushealth": {
    "candidates": 0,
-   "secs": 0.4
+   "secs": 0.2
   },
   "lever:zushealth:all": 6,
   "madgex:mgma": {
    "candidates": 0,
-   "secs": 3.5
+   "secs": 7.7
   },
   "madgex:mgma:all": 85,
   "microsoft": {
    "candidates": 0,
-   "secs": 223.3
+   "secs": 120.8
   },
   "microsoft:all": 11,
   "microsoft:partial": "HTTP Error 429: Too Many Requests",
   "naylor:careers.amcp.org": {
    "candidates": 3,
-   "secs": 53.1
+   "secs": 51.2
   },
   "naylor:careers.amcp.org:all": 104,
   "naylor:careers.amga.org": {
    "candidates": 4,
-   "secs": 46.1
+   "secs": 46.2
   },
   "naylor:careers.amga.org:all": 343,
   "naylor:careers.apha.org": {
    "candidates": 3,
-   "secs": 51.6
+   "secs": 48.2
   },
   "naylor:careers.apha.org:all": 390,
   "naylor:careers.chausa.org": {
    "candidates": 0,
-   "secs": 51.9
+   "secs": 49.6
   },
   "naylor:careers.chausa.org:all": 12,
   "naylor:careers.shsmd.org": {
    "candidates": 0,
-   "secs": 52.1
+   "secs": 50.5
   },
   "naylor:careers.shsmd.org:all": 18,
   "naylor:jobs.healthcareercenter.com": {
    "candidates": 3,
-   "secs": 37.3
+   "secs": 34.8
   },
   "naylor:jobs.healthcareercenter.com:all": 389,
   "oracle:abt": {
    "candidates": 0,
-   "secs": 1.4
+   "secs": 1.5
   },
   "oracle:abt:all": 3,
   "oracle:bcbsm": {
    "candidates": 0,
-   "secs": 1.5
+   "secs": 2.2
   },
   "oracle:bcbsm:all": 7,
   "oracle:bsca": {
    "candidates": 1,
-   "secs": 6.7
+   "secs": 11.4
   },
-  "oracle:bsca:all": 58,
+  "oracle:bsca:all": 57,
   "oracle:guidewell": {
    "candidates": 1,
-   "secs": 2.9
+   "secs": 5.1
   },
   "oracle:guidewell:all": 15,
   "oracle:mayo": {
    "candidates": 0,
-   "secs": 4.2
+   "secs": 6.8
   },
   "oracle:mayo:all": 72,
   "paylocity:mgma": {
    "candidates": 0,
-   "secs": 0.3
+   "secs": 0.5
   },
   "paylocity:mgma:all": 6,
   "paylocity:mgma:sample": "Account Executive",
   "paylocity:ncqa": {
    "candidates": 0,
-   "secs": 0.3
+   "secs": 0.5
   },
   "paylocity:ncqa:all": 3,
   "paylocity:ncqa:sample": "Medical Director, Clinical Quality Science",
   "remoteboards": {
    "candidates": 50,
-   "secs": 18.8
+   "secs": 38.2
   },
-  "remoteboards:all": 402,
+  "remoteboards:all": 404,
   "rippling:arine": {
    "candidates": 0,
    "secs": 0.2
@@ -1042,72 +1046,72 @@
   "rippling:ursahealth:all": 2,
   "smartrecruiters:evidation": {
    "candidates": 0,
-   "secs": 0.4
+   "secs": 0.5
   },
   "smartrecruiters:evidation:all": 8,
   "smartrecruiters:guidehealth": {
    "candidates": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   "smartrecruiters:guidehealth:all": 39,
   "smartrecruiters:healthpartners": {
    "candidates": 0,
-   "secs": 0.4
+   "secs": 0.5
   },
   "smartrecruiters:healthpartners:all": 7,
   "smartrecruiters:intuitive": {
    "candidates": 0,
-   "secs": 4.1
+   "secs": 4.9
   },
-  "smartrecruiters:intuitive:all": 848,
+  "smartrecruiters:intuitive:all": 849,
   "smartrecruiters:priviahealth": {
    "candidates": 0,
-   "secs": 0.4
+   "secs": 0.5
   },
   "smartrecruiters:priviahealth:all": 35,
   "successfactors:bsci": {
    "candidates": 0,
-   "secs": 1.1
+   "secs": 3.8
   },
-  "successfactors:bsci:all": 59,
+  "successfactors:bsci:all": 60,
   "successfactors:gainwell": {
-   "candidates": 4,
-   "secs": 1.7
+   "candidates": 5,
+   "secs": 7.3
   },
-  "successfactors:gainwell:all": 27,
+  "successfactors:gainwell:all": 28,
   "talentbrew:csh": {
    "candidates": 1,
    "secs": 3.2
   },
-  "talentbrew:csh:all": 409,
+  "talentbrew:csh:all": 408,
   "talentbrew:kp": {
    "candidates": 1,
-   "secs": 8.3
+   "secs": 8.1
   },
   "talentbrew:kp:all": 400,
   "talentbrew:mol": {
    "candidates": 8,
-   "secs": 2.7
+   "secs": 3.7
   },
-  "talentbrew:mol:all": 168,
+  "talentbrew:mol:all": 169,
   "uhg": {
-   "candidates": 41,
-   "secs": 14.0
+   "candidates": 42,
+   "secs": 13.7
   },
-  "uhg:all": 446,
+  "uhg:all": 445,
   "ukg:ddco": {
    "candidates": 0,
-   "secs": 0.5
+   "secs": 1.0
   },
   "ukg:ddco:all": 0,
   "ukg:milliman": {
    "candidates": 0,
-   "secs": 9.4
+   "secs": 3.9
   },
-  "ukg:milliman:all": 123,
+  "ukg:milliman:all": 124,
   "usajobs": {
    "candidates": 1,
-   "secs": 0.8
+   "secs": 1.6
   },
   "usajobs:all": 4,
   "workable:cirrusmd": {
@@ -1116,13 +1120,13 @@
   },
   "workable:cirrusmd:all": 1,
   "workable:innovaccer-analytics": {
-   "candidates": 4,
-   "secs": 2.8
+   "candidates": 6,
+   "secs": 3.4
   },
   "workable:innovaccer-analytics:all": 91,
   "workable:softheon": {
    "candidates": 0,
-   "secs": 0.1
+   "secs": 0.3
   },
   "workable:softheon:all": 3,
   "workday:aafp": {
@@ -1133,391 +1137,391 @@
   "workday:aafp:total": 2,
   "workday:aah": {
    "candidates": 0,
-   "secs": 73.6
+   "secs": 79.4
   },
-  "workday:aah:all": 1441,
+  "workday:aah:all": 1439,
   "workday:aah:total": 2000,
   "workday:aamc": {
    "candidates": 1,
-   "secs": 1.5
+   "secs": 1.2
   },
   "workday:aamc:all": 7,
   "workday:aamc:total": 7,
   "workday:abbott": {
    "candidates": 1,
-   "secs": 114.0
+   "secs": 109.7
   },
-  "workday:abbott:all": 1128,
+  "workday:abbott:all": 1124,
   "workday:abbott:total": 2000,
   "workday:adventhealth": {
    "candidates": 0,
-   "secs": 48.0
+   "secs": 41.6
   },
-  "workday:adventhealth:all": 1145,
+  "workday:adventhealth:all": 1144,
   "workday:adventhealth:total": 2000,
   "workday:agilent": {
    "candidates": 0,
-   "secs": 13.6
+   "secs": 13.5
   },
-  "workday:agilent:all": 361,
-  "workday:agilent:total": 361,
+  "workday:agilent:all": 364,
+  "workday:agilent:total": 364,
   "workday:agilonhealth": {
    "candidates": 2,
-   "secs": 0.9
+   "secs": 1.2
   },
   "workday:agilonhealth:all": 11,
   "workday:agilonhealth:total": 11,
   "workday:aha": {
    "candidates": 0,
-   "secs": 2.3
+   "secs": 0.9
   },
   "workday:aha:all": 6,
   "workday:aha:total": 6,
   "workday:alcon": {
    "candidates": 0,
-   "secs": 12.8
+   "secs": 11.7
   },
-  "workday:alcon:all": 337,
-  "workday:alcon:total": 337,
+  "workday:alcon:all": 334,
+  "workday:alcon:total": 334,
   "workday:alignmenthealthcare": {
-   "candidates": 10,
-   "secs": 2.2
+   "candidates": 9,
+   "secs": 2.3
   },
   "workday:alignmenthealthcare:all": 50,
   "workday:alignmenthealthcare:total": 50,
   "workday:allina": {
    "candidates": 0,
-   "secs": 32.9
+   "secs": 29.2
   },
-  "workday:allina:all": 806,
-  "workday:allina:total": 806,
+  "workday:allina:all": 830,
+  "workday:allina:total": 831,
   "workday:asco": {
    "candidates": 1,
-   "secs": 3.0
+   "secs": 0.7
   },
   "workday:asco:all": 8,
   "workday:asco:total": 8,
   "workday:athenahealth": {
    "candidates": 0,
-   "secs": 2.6
+   "secs": 2.8
   },
-  "workday:athenahealth:all": 69,
-  "workday:athenahealth:total": 69,
+  "workday:athenahealth:all": 71,
+  "workday:athenahealth:total": 71,
   "workday:availity": {
    "candidates": 2,
-   "secs": 1.7
+   "secs": 1.6
   },
   "workday:availity:all": 11,
   "workday:availity:total": 11,
   "workday:bannerhealth": {
    "candidates": 0,
-   "secs": 44.3
+   "secs": 49.2
   },
-  "workday:bannerhealth:all": 1352,
-  "workday:bannerhealth:total": 1353,
+  "workday:bannerhealth:all": 1343,
+  "workday:bannerhealth:total": 1343,
   "workday:baxter": {
    "candidates": 0,
-   "secs": 26.2
+   "secs": 35.0
   },
-  "workday:baxter:all": 532,
-  "workday:baxter:total": 532,
+  "workday:baxter:all": 531,
+  "workday:baxter:total": 531,
   "workday:bcbsa": {
    "candidates": 3,
-   "secs": 1.9
+   "secs": 2.1
   },
   "workday:bcbsa:all": 21,
   "workday:bcbsa:total": 21,
   "workday:bcbsma": {
    "candidates": 0,
-   "secs": 2.3
+   "secs": 2.2
   },
   "workday:bcbsma:all": 59,
   "workday:bcbsma:total": 59,
   "workday:bcbsnc": {
    "candidates": 0,
-   "secs": 2.0
+   "secs": 1.6
   },
   "workday:bcbsnc:all": 29,
   "workday:bcbsnc:total": 29,
   "workday:bcbst": {
    "candidates": 0,
-   "secs": 1.4
+   "secs": 1.6
   },
-  "workday:bcbst:all": 23,
-  "workday:bcbst:total": 23,
+  "workday:bcbst:all": 24,
+  "workday:bcbst:total": 24,
   "workday:bdx": {
    "candidates": 1,
-   "secs": 52.8
+   "secs": 48.0
   },
   "workday:bdx:all": 549,
   "workday:bdx:total": 549,
   "workday:bilh": {
    "candidates": 0,
-   "secs": 77.7
+   "secs": 73.0
   },
   "workday:bilh:all": 848,
   "workday:bilh:total": 2000,
   "workday:cambiahealth": {
    "candidates": 0,
-   "secs": 1.8
+   "secs": 1.7
   },
-  "workday:cambiahealth:all": 77,
-  "workday:cambiahealth:total": 77,
+  "workday:cambiahealth:all": 76,
+  "workday:cambiahealth:total": 76,
   "workday:cardinalhealth": {
    "candidates": 1,
-   "secs": 45.9
+   "secs": 43.3
   },
-  "workday:cardinalhealth:all": 838,
-  "workday:cardinalhealth:total": 838,
+  "workday:cardinalhealth:all": 845,
+  "workday:cardinalhealth:total": 848,
   "workday:careoregon": {
    "candidates": 0,
-   "secs": 0.4
+   "secs": 0.3
   },
   "workday:careoregon:all": 14,
-  "workday:careoregon:total": 15,
+  "workday:careoregon:total": 14,
   "workday:caresource": {
    "candidates": 6,
-   "secs": 2.8
+   "secs": 5.6
   },
-  "workday:caresource:all": 129,
-  "workday:caresource:total": 129,
+  "workday:caresource:all": 131,
+  "workday:caresource:total": 131,
   "workday:ccf": {
    "candidates": 0,
-   "secs": 70.2
+   "secs": 55.5
   },
-  "workday:ccf:all": 848,
-  "workday:ccf:total": 2401,
+  "workday:ccf:all": 845,
+  "workday:ccf:total": 2397,
   "workday:cen": {
    "candidates": 3,
    "secs": 21.6
   },
-  "workday:cen:all": 410,
-  "workday:cen:total": 410,
+  "workday:cen:all": 412,
+  "workday:cen:total": 412,
   "workday:cff": {
    "candidates": 0,
-   "secs": 2.2
+   "secs": 0.7
   },
-  "workday:cff:all": 12,
-  "workday:cff:total": 12,
+  "workday:cff:all": 11,
+  "workday:cff:total": 11,
   "workday:chenmed": {
    "candidates": 0,
-   "secs": 19.9
+   "secs": 17.5
   },
-  "workday:chenmed:all": 545,
-  "workday:chenmed:total": 545,
+  "workday:chenmed:all": 555,
+  "workday:chenmed:total": 555,
   "workday:christianacare": {
    "candidates": 0,
-   "secs": 14.1
+   "secs": 13.6
   },
-  "workday:christianacare:all": 351,
-  "workday:christianacare:total": 351,
+  "workday:christianacare:all": 353,
+  "workday:christianacare:total": 353,
   "workday:cigna": {
    "candidates": 4,
-   "secs": 25.7
+   "secs": 26.0
   },
   "workday:cigna:all": 516,
   "workday:cigna:total": 516,
   "workday:cityblockhealth": {
    "candidates": 1,
-   "secs": 17.8
+   "secs": 1.8
   },
-  "workday:cityblockhealth:all": 41,
-  "workday:cityblockhealth:total": 41,
+  "workday:cityblockhealth:all": 40,
+  "workday:cityblockhealth:total": 40,
   "workday:cochlear": {
    "candidates": 1,
-   "secs": 3.8
+   "secs": 5.2
   },
   "workday:cochlear:all": 97,
   "workday:cochlear:total": 97,
   "workday:corrohealth": {
    "candidates": 0,
-   "secs": 0.9
+   "secs": 1.0
   },
   "workday:corrohealth:all": 31,
   "workday:corrohealth:total": 31,
   "workday:crossoverhealth": {
    "candidates": 0,
-   "secs": 1.1
+   "secs": 1.9
   },
-  "workday:crossoverhealth:all": 72,
-  "workday:crossoverhealth:total": 72,
+  "workday:crossoverhealth:all": 69,
+  "workday:crossoverhealth:total": 69,
   "workday:cvs": {
    "candidates": 26,
-   "secs": 44.6
+   "secs": 66.3
   },
   "workday:cvs:all": 1273,
-  "workday:cvs:total": 18645,
+  "workday:cvs:total": 18691,
   "workday:danaher": {
    "candidates": 2,
-   "secs": 81.8
+   "secs": 77.0
   },
-  "workday:danaher:all": 1474,
-  "workday:danaher:total": 1475,
+  "workday:danaher:all": 1482,
+  "workday:danaher:total": 1482,
   "workday:davita": {
    "candidates": 9,
-   "secs": 24.0
+   "secs": 31.9
   },
-  "workday:davita:all": 679,
-  "workday:davita:total": 3302,
+  "workday:davita:all": 682,
+  "workday:davita:total": 3329,
   "workday:denverhealth": {
    "candidates": 2,
-   "secs": 10.4
+   "secs": 11.5
   },
-  "workday:denverhealth:all": 337,
-  "workday:denverhealth:total": 337,
+  "workday:denverhealth:all": 334,
+  "workday:denverhealth:total": 334,
   "workday:devoted": {
    "candidates": 3,
    "secs": 2.8
   },
-  "workday:devoted:all": 87,
-  "workday:devoted:total": 87,
+  "workday:devoted:all": 85,
+  "workday:devoted:total": 85,
   "workday:dexcom": {
    "candidates": 0,
-   "secs": 10.0
+   "secs": 17.9
   },
-  "workday:dexcom:all": 285,
-  "workday:dexcom:total": 285,
+  "workday:dexcom:all": 283,
+  "workday:dexcom:total": 283,
   "workday:edwards": {
    "candidates": 0,
-   "secs": 14.2
+   "secs": 12.4
   },
-  "workday:edwards:all": 362,
-  "workday:edwards:total": 362,
+  "workday:edwards:all": 363,
+  "workday:edwards:total": 363,
   "workday:elv": {
    "candidates": 0,
-   "secs": 6.5
+   "secs": 7.7
   },
-  "workday:elv:all": 266,
-  "workday:elv:total": 266,
+  "workday:elv:all": 279,
+  "workday:elv:total": 279,
   "workday:enovis": {
    "candidates": 0,
-   "secs": 8.8
+   "secs": 6.0
   },
-  "workday:enovis:all": 172,
-  "workday:enovis:total": 172,
+  "workday:enovis:all": 170,
+  "workday:enovis:total": 170,
   "workday:ensemblehp": {
    "candidates": 1,
-   "secs": 22.0
+   "secs": 18.5
   },
-  "workday:ensemblehp:all": 461,
-  "workday:ensemblehp:total": 461,
+  "workday:ensemblehp:all": 464,
+  "workday:ensemblehp:total": 464,
   "workday:evo": {
    "candidates": 1,
-   "secs": 2.0
+   "secs": 2.1
   },
   "workday:evo:all": 37,
   "workday:evo:total": 37,
   "workday:gatesfoundation": {
    "candidates": 0,
-   "secs": 1.1
+   "secs": 1.4
   },
   "workday:gatesfoundation:all": 24,
   "workday:gatesfoundation:total": 24,
   "workday:gehc": {
    "candidates": 1,
-   "secs": 21.3
+   "secs": 19.6
   },
-  "workday:gehc:all": 1071,
-  "workday:gehc:total": 1071,
+  "workday:gehc:all": 1073,
+  "workday:gehc:total": 1073,
   "workday:geisinger": {
    "candidates": 1,
-   "secs": 32.1
+   "secs": 26.3
   },
-  "workday:geisinger:all": 1340,
-  "workday:geisinger:total": 1340,
+  "workday:geisinger:all": 1346,
+  "workday:geisinger:total": 1346,
   "workday:globusmedical": {
    "candidates": 0,
-   "secs": 11.7
+   "secs": 10.4
   },
-  "workday:globusmedical:all": 326,
-  "workday:globusmedical:total": 326,
+  "workday:globusmedical:all": 323,
+  "workday:globusmedical:total": 323,
   "workday:goodrx": {
    "candidates": 0,
-   "secs": 0.5
+   "secs": 0.6
   },
   "workday:goodrx:all": 0,
   "workday:goodrx:total": 0,
   "workday:guidehouse": {
    "candidates": 2,
-   "secs": 34.4
+   "secs": 31.0
   },
-  "workday:guidehouse:all": 870,
-  "workday:guidehouse:total": 870,
+  "workday:guidehouse:all": 874,
+  "workday:guidehouse:total": 874,
   "workday:hc": {
    "candidates": 0,
-   "secs": 0.5
+   "secs": 0.4
   },
   "workday:hc:all": 4,
   "workday:hc:total": 4,
   "workday:hcsc": {
    "candidates": 2,
-   "secs": 8.1
+   "secs": 6.9
   },
-  "workday:hcsc:all": 203,
-  "workday:hcsc:total": 203,
+  "workday:hcsc:all": 211,
+  "workday:hcsc:total": 211,
   "workday:healthfirst": {
    "candidates": 0,
-   "secs": 2.0
+   "secs": 1.8
   },
-  "workday:healthfirst:all": 78,
-  "workday:healthfirst:total": 78,
+  "workday:healthfirst:all": 79,
+  "workday:healthfirst:total": 79,
   "workday:highmarkhealth": {
    "candidates": 1,
-   "secs": 117.2
+   "secs": 95.6
   },
-  "workday:highmarkhealth:all": 920,
-  "workday:highmarkhealth:total": 1868,
+  "workday:highmarkhealth:all": 921,
+  "workday:highmarkhealth:total": 1875,
   "workday:hum": {
    "candidates": 1,
-   "secs": 17.6
+   "secs": 14.0
   },
-  "workday:hum:all": 324,
-  "workday:hum:total": 325,
+  "workday:hum:all": 327,
+  "workday:hum:total": 327,
   "workday:huron": {
    "candidates": 7,
-   "secs": 14.2
+   "secs": 13.9
   },
-  "workday:huron:all": 281,
-  "workday:huron:total": 281,
+  "workday:huron:all": 279,
+  "workday:huron:total": 279,
   "workday:icf": {
    "candidates": 0,
-   "secs": 12.8
+   "secs": 11.1
   },
-  "workday:icf:all": 348,
-  "workday:icf:total": 348,
+  "workday:icf:all": 347,
+  "workday:icf:total": 347,
   "workday:illumina": {
    "candidates": 1,
-   "secs": 19.3
+   "secs": 7.3
   },
   "workday:illumina:all": 168,
-  "workday:illumina:total": 169,
+  "workday:illumina:total": 168,
   "workday:imh": {
    "candidates": 0,
-   "secs": 42.1
+   "secs": 47.3
   },
-  "workday:imh:all": 711,
-  "workday:imh:total": 1505,
+  "workday:imh:all": 716,
+  "workday:imh:total": 1531,
   "workday:insulet": {
    "candidates": 2,
-   "secs": 7.6
+   "secs": 6.3
   },
-  "workday:insulet:all": 175,
-  "workday:insulet:total": 175,
+  "workday:insulet:all": 176,
+  "workday:insulet:total": 176,
   "workday:integralife": {
    "candidates": 0,
-   "secs": 3.1
+   "secs": 3.7
   },
-  "workday:integralife:all": 156,
-  "workday:integralife:total": 156,
+  "workday:integralife:all": 154,
+  "workday:integralife:total": 154,
   "workday:iqvia": {
    "candidates": 0,
-   "secs": 121.3
+   "secs": 116.1
   },
-  "workday:iqvia:all": 1131,
-  "workday:iqvia:total": 1961,
+  "workday:iqvia:all": 1134,
+  "workday:iqvia:total": 1950,
   "workday:irhythmtech": {
    "candidates": 1,
-   "secs": 1.7
+   "secs": 1.4
   },
   "workday:irhythmtech:all": 59,
   "workday:irhythmtech:total": 59,
@@ -1525,101 +1529,101 @@
    "candidates": 0,
    "secs": 1.1
   },
-  "workday:jefferson:all": 30,
-  "workday:jefferson:total": 30,
+  "workday:jefferson:all": 29,
+  "workday:jefferson:total": 29,
   "workday:jj": {
    "candidates": 2,
-   "secs": 51.9
+   "secs": 46.3
   },
-  "workday:jj:all": 863,
-  "workday:jj:total": 1912,
+  "workday:jj:all": 866,
+  "workday:jj:total": 1920,
   "workday:jointcommission": {
    "candidates": 1,
-   "secs": 1.8
+   "secs": 1.5
   },
   "workday:jointcommission:all": 31,
   "workday:jointcommission:total": 31,
   "workday:labcorp": {
    "candidates": 1,
-   "secs": 44.6
+   "secs": 41.1
   },
-  "workday:labcorp:all": 618,
-  "workday:labcorp:total": 1746,
+  "workday:labcorp:all": 624,
+  "workday:labcorp:total": 1764,
   "workday:leidos": {
    "candidates": 0,
-   "secs": 125.1
+   "secs": 114.1
   },
-  "workday:leidos:all": 1134,
+  "workday:leidos:all": 1131,
   "workday:leidos:total": 2000,
   "workday:lumeris": {
    "candidates": 0,
-   "secs": 0.6
+   "secs": 1.2
   },
   "workday:lumeris:all": 11,
   "workday:lumeris:total": 11,
   "workday:marathonhealth": {
    "candidates": 0,
-   "secs": 15.7
+   "secs": 13.9
   },
-  "workday:marathonhealth:all": 524,
-  "workday:marathonhealth:total": 524,
+  "workday:marathonhealth:all": 526,
+  "workday:marathonhealth:total": 526,
   "workday:massgeneralbrigham": {
    "candidates": 0,
-   "secs": 89.1
+   "secs": 83.8
   },
-  "workday:massgeneralbrigham:all": 768,
+  "workday:massgeneralbrigham:all": 772,
   "workday:massgeneralbrigham:total": 2000,
   "workday:mckesson": {
    "candidates": 5,
-   "secs": 33.2
+   "secs": 38.8
   },
-  "workday:mckesson:all": 684,
-  "workday:mckesson:total": 685,
+  "workday:mckesson:all": 680,
+  "workday:mckesson:total": 681,
   "workday:medtronic": {
-   "candidates": 2,
-   "secs": 74.0
+   "candidates": 3,
+   "secs": 87.9
   },
-  "workday:medtronic:all": 940,
-  "workday:medtronic:total": 940,
+  "workday:medtronic:all": 945,
+  "workday:medtronic:total": 952,
   "workday:memorialhermann": {
    "candidates": 0,
-   "secs": 17.2
+   "secs": 14.8
   },
-  "workday:memorialhermann:all": 743,
-  "workday:memorialhermann:total": 743,
+  "workday:memorialhermann:all": 745,
+  "workday:memorialhermann:total": 745,
   "workday:merative": {
    "candidates": 0,
-   "secs": 0.9
+   "secs": 1.1
   },
   "workday:merative:all": 23,
   "workday:merative:total": 23,
   "workday:mercy": {
    "candidates": 0,
-   "secs": 37.3
+   "secs": 57.5
   },
-  "workday:mercy:all": 380,
+  "workday:mercy:all": 379,
   "workday:mercy:total": 2000,
   "workday:merit": {
    "candidates": 0,
-   "secs": 3.3
+   "secs": 3.1
   },
   "workday:merit:all": 103,
   "workday:merit:total": 103,
   "workday:modmed": {
    "candidates": 0,
-   "secs": 2.2
+   "secs": 2.5
   },
-  "workday:modmed:all": 85,
-  "workday:modmed:total": 85,
+  "workday:modmed:all": 86,
+  "workday:modmed:total": 86,
   "workday:multicare": {
    "candidates": 0,
-   "secs": 59.8
+   "secs": 51.3
   },
   "workday:multicare:all": 1365,
-  "workday:multicare:total": 1366,
+  "workday:multicare:total": 1365,
   "workday:nextgen": {
    "candidates": 3,
-   "secs": 2.6
+   "secs": 1.6
   },
   "workday:nextgen:all": 26,
   "workday:nextgen:total": 26,
@@ -1631,40 +1635,40 @@
   "workday:ntst:total": 69,
   "workday:ochsner": {
    "candidates": 0,
-   "secs": 65.8
+   "secs": 70.8
   },
-  "workday:ochsner:all": 707,
-  "workday:ochsner:total": 1809,
+  "workday:ochsner:all": 704,
+  "workday:ochsner:total": 1811,
   "workday:oneoncology": {
    "candidates": 2,
-   "secs": 2.1
+   "secs": 2.4
   },
-  "workday:oneoncology:all": 58,
-  "workday:oneoncology:total": 58,
+  "workday:oneoncology:all": 57,
+  "workday:oneoncology:total": 57,
   "workday:path": {
    "candidates": 0,
-   "secs": 1.7
+   "secs": 2.4
   },
   "workday:path:all": 63,
   "workday:path:total": 63,
   "workday:pcg": {
    "candidates": 1,
-   "secs": 4.1
+   "secs": 3.8
   },
   "workday:pcg:all": 81,
   "workday:pcg:total": 81,
   "workday:pewtrusts": {
    "candidates": 0,
-   "secs": 0.6
+   "secs": 0.5
   },
   "workday:pewtrusts:all": 16,
   "workday:pewtrusts:total": 16,
   "workday:philips": {
    "candidates": 0,
-   "secs": 69.9
+   "secs": 76.4
   },
-  "workday:philips:all": 773,
-  "workday:philips:total": 773,
+  "workday:philips:all": 778,
+  "workday:philips:total": 779,
   "workday:phreesia": {
    "candidates": 0,
    "secs": 0.6
@@ -1673,19 +1677,19 @@
   "workday:phreesia:total": 8,
   "workday:point32health": {
    "candidates": 1,
-   "secs": 2.0
+   "secs": 1.7
   },
-  "workday:point32health:all": 32,
-  "workday:point32health:total": 32,
+  "workday:point32health:all": 31,
+  "workday:point32health:total": 31,
   "workday:premera": {
    "candidates": 0,
-   "secs": 1.3
+   "secs": 1.4
   },
-  "workday:premera:all": 23,
-  "workday:premera:total": 23,
+  "workday:premera:all": 25,
+  "workday:premera:total": 25,
   "workday:premierinc": {
    "candidates": 7,
-   "secs": 3.0
+   "secs": 2.8
   },
   "workday:premierinc:all": 39,
   "workday:premierinc:total": 39,
@@ -1697,40 +1701,40 @@
   "workday:pressganey:total": 8,
   "workday:primetherapeutics": {
    "candidates": 0,
-   "secs": 1.5
+   "secs": 1.6
   },
   "workday:primetherapeutics:all": 36,
   "workday:primetherapeutics:total": 36,
   "workday:progyny": {
    "candidates": 0,
-   "secs": 0.7
+   "secs": 0.6
   },
   "workday:progyny:all": 18,
   "workday:progyny:total": 18,
   "workday:r1rcm": {
    "candidates": 1,
-   "secs": 14.5
+   "secs": 16.5
   },
-  "workday:r1rcm:all": 454,
-  "workday:r1rcm:total": 455,
+  "workday:r1rcm:all": 452,
+  "workday:r1rcm:total": 452,
   "workday:rand": {
    "candidates": 0,
    "secs": 0.6
   },
-  "workday:rand:all": 14,
-  "workday:rand:total": 14,
+  "workday:rand:all": 15,
+  "workday:rand:total": 15,
   "workday:resmed": {
    "candidates": 0,
-   "secs": 11.4
+   "secs": 14.1
   },
   "workday:resmed:all": 265,
   "workday:resmed:total": 265,
   "workday:roche": {
    "candidates": 0,
-   "secs": 42.3
+   "secs": 55.2
   },
-  "workday:roche:all": 1222,
-  "workday:roche:total": 1222,
+  "workday:roche:all": 1221,
+  "workday:roche:total": 1221,
   "workday:rwjf": {
    "candidates": 0,
    "secs": 1.6
@@ -1739,31 +1743,31 @@
   "workday:rwjf:total": 3,
   "workday:scanhealthplan": {
    "candidates": 0,
-   "secs": 3.4
+   "secs": 4.5
   },
   "workday:scanhealthplan:all": 100,
   "workday:scanhealthplan:total": 100,
   "workday:sentara": {
    "candidates": 0,
-   "secs": 50.8
+   "secs": 45.1
   },
-  "workday:sentara:all": 502,
+  "workday:sentara:all": 501,
   "workday:sentara:total": 2000,
   "workday:smithnephew": {
    "candidates": 1,
-   "secs": 16.8
+   "secs": 18.3
   },
-  "workday:smithnephew:all": 410,
-  "workday:smithnephew:total": 410,
+  "workday:smithnephew:all": 403,
+  "workday:smithnephew:total": 403,
   "workday:stryker": {
    "candidates": 0,
-   "secs": 118.8
+   "secs": 97.4
   },
-  "workday:stryker:all": 718,
-  "workday:stryker:total": 1523,
+  "workday:stryker:all": 726,
+  "workday:stryker:total": 1538,
   "workday:surescripts": {
    "candidates": 1,
-   "secs": 1.0
+   "secs": 1.2
   },
   "workday:surescripts:all": 27,
   "workday:surescripts:total": 27,
@@ -1775,37 +1779,37 @@
   "workday:tandemdiabetes:total": 48,
   "workday:tegria": {
    "candidates": 1,
-   "secs": 0.9
+   "secs": 0.8
   },
   "workday:tegria:all": 11,
   "workday:tegria:total": 11,
   "workday:teladoc": {
    "candidates": 2,
-   "secs": 1.7
+   "secs": 3.3
   },
-  "workday:teladoc:all": 60,
-  "workday:teladoc:total": 60,
+  "workday:teladoc:all": 61,
+  "workday:teladoc:total": 61,
   "workday:tempus": {
    "candidates": 0,
-   "secs": 6.8
+   "secs": 6.1
   },
   "workday:tempus:all": 154,
   "workday:tempus:total": 154,
   "workday:terumo": {
    "candidates": 0,
-   "secs": 3.4
+   "secs": 4.6
   },
   "workday:terumo:all": 104,
   "workday:terumo:total": 104,
   "workday:trinityhealth": {
    "candidates": 0,
-   "secs": 123.8
+   "secs": 111.3
   },
-  "workday:trinityhealth:all": 1013,
+  "workday:trinityhealth:all": 1014,
   "workday:trinityhealth:total": 2000,
   "workday:urban": {
    "candidates": 1,
-   "secs": 0.9
+   "secs": 1.1
   },
   "workday:urban:all": 5,
   "workday:urban:total": 5,
@@ -1813,47 +1817,47 @@
    "candidates": 0,
    "secs": 2.9
   },
-  "workday:veradigm:all": 103,
-  "workday:veradigm:total": 103,
+  "workday:veradigm:all": 104,
+  "workday:veradigm:total": 104,
   "workday:vizient": {
    "candidates": 6,
-   "secs": 14.8
+   "secs": 17.7
   },
-  "workday:vizient:all": 281,
-  "workday:vizient:total": 281,
+  "workday:vizient:all": 284,
+  "workday:vizient:total": 284,
   "workday:vumc": {
    "candidates": 0,
-   "secs": 54.5
+   "secs": 39.9
   },
-  "workday:vumc:all": 929,
-  "workday:vumc:total": 930,
+  "workday:vumc:all": 926,
+  "workday:vumc:total": 926,
   "workday:waystar": {
    "candidates": 1,
-   "secs": 2.3
+   "secs": 3.1
   },
   "workday:waystar:all": 44,
   "workday:waystar:total": 44,
   "workday:wellsky": {
    "candidates": 0,
-   "secs": 1.4
+   "secs": 1.2
   },
   "workday:wellsky:all": 28,
   "workday:wellsky:total": 28,
   "workday:wellstar": {
    "candidates": 0,
-   "secs": 32.9
+   "secs": 47.6
   },
-  "workday:wellstar:all": 1106,
-  "workday:wellstar:total": 1107,
+  "workday:wellstar:all": 1095,
+  "workday:wellstar:total": 1095,
   "workday:zoll": {
    "candidates": 0,
-   "secs": 9.2
+   "secs": 7.7
   },
-  "workday:zoll:all": 259,
-  "workday:zoll:total": 259,
+  "workday:zoll:all": 257,
+  "workday:zoll:total": 257,
   "zelis": {
    "candidates": 0,
-   "secs": 10.2
+   "secs": 10.8
   },
   "zelis:all": 16
  }
