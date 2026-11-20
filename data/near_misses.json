@@ -559,15 +559,6 @@
 },
 {
 "company": "Agilent",
-"title": "Director Reagent Research and Development",
-"why": "function",
-"locations": [
-"US-CA-Pacheco-Berry Drive"
-],
-"url": "https://agilent.wd5.myworkdayjobs.com/Agilent_Careers/job/US-CA-Pacheco-Berry-Drive/Director-Reagent-Research-and-Development_4039729"
-},
-{
-"company": "Agilent",
 "title": "Service Delivery Director",
 "why": "function",
 "locations": [
@@ -918,33 +909,6 @@
 "url": "https://bannerhealth.wd108.myworkdayjobs.com/Careers/job/Banner-Health-Corp-Phoenix-at-The-Bond-3200-E-Camelback-Rd/Senior-Director--Enterprise-Project-Management-Office_R4458979"
 },
 {
-"company": "Baxter",
-"title": "Director, Climate Transition & Clean Energy",
-"why": "function",
-"locations": [
-"Deerfield, Illinois"
-],
-"url": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Deerfield-Illinois/Director--Climate-Transition---Clean-Energy_JR-208147-1"
-},
-{
-"company": "Baxter",
-"title": "Head of Medical Affairs, Greater Asia & Japan",
-"why": "function",
-"locations": [
-"2 Locations"
-],
-"url": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Petaling-Jaya-Selangor/Head-of-Medical-Affairs--Greater-Asia---Japan_JR-213459"
-},
-{
-"company": "Beth Israel Lahey Health",
-"title": "Administrative Director of Operations, Surgery",
-"why": "function",
-"locations": [
-"Beth Israel Deaconess Medical Center"
-],
-"url": "https://bilh.wd1.myworkdayjobs.com/External/job/Beth-Israel-Deaconess-Medical-Center/Administrative-Director-of-Operations--Surgery_JR100692"
-},
-{
 "company": "Beth Israel Lahey Health",
 "title": "Chief Operating Officer, Northeast Hospital Corporation",
 "why": "function",
@@ -1051,6 +1015,15 @@
 "Beth Israel Deaconess Hospital Plymouth"
 ],
 "url": "https://bilh.wd1.myworkdayjobs.com/External/job/Beth-Israel-Deaconess-Hospital-Plymouth/Director--Perioperative-Services_JR105836"
+},
+{
+"company": "Beth Israel Lahey Health",
+"title": "Director, Plant Operations",
+"why": "function",
+"locations": [
+"Lahey Clinic"
+],
+"url": "https://bilh.wd1.myworkdayjobs.com/External/job/Lahey-Clinic/Director--Plant-Operations_JR107208"
 },
 {
 "company": "Beth Israel Lahey Health",
@@ -1663,6 +1636,15 @@
 "05555 - Casa del Mundo Office (Denver HQ)"
 ],
 "url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/05555---Casa-del-Mundo-Office-Denver-HQ/Sr-Director--Partner-Engagement_R0469945"
+},
+{
+"company": "DaVita",
+"title": "Vice President",
+"why": "function",
+"locations": [
+"05555 - Casa del Mundo Office (Denver HQ)"
+],
+"url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/05555---Casa-del-Mundo-Office-Denver-HQ/Vice-President_R0487146"
 },
 {
 "company": "DaVita",
@@ -3112,6 +3094,15 @@
 "url": "https://illumina.wd1.myworkdayjobs.com/illumina-careers/job/US---California---San-Diego/Senior-Director--HRBP_43781-JOB"
 },
 {
+"company": "Insulet",
+"title": "Director, Post Market Surveillance",
+"why": "function",
+"locations": [
+"Guadalajara, Jalisco"
+],
+"url": "https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Guadalajara-Jalisco/Director--Post-Market-Surveillance_REQ-2026-18172-1"
+},
+{
 "company": "Integra LifeSciences",
 "title": "Senior Director, Plant Manager",
 "why": "function",
@@ -3398,6 +3389,15 @@
 "Irvine, California, United States of America"
 ],
 "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Irvine-California-United-States-of-America/Director--Global-Planning--Neurovascular_R-110365-1"
+},
+{
+"company": "Johnson & Johnson",
+"title": "Director, Global Prostate Portfolio Commercial Lead",
+"why": "function",
+"locations": [
+"Raritan, New Jersey, United States of America"
+],
+"url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/Director--Global-Prostate-Portfolio-Commercial-Lead_R-099504-1"
 },
 {
 "company": "Johnson & Johnson",
@@ -3902,15 +3902,6 @@
 "Reston, VA"
 ],
 "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Reston-VA/Vice-President--Capture-Executive_R-00194740"
-},
-{
-"company": "Leidos",
-"title": "Vice President, Government Solutions Division",
-"why": "function",
-"locations": [
-"Reston, VA"
-],
-"url": "https://leidos.wd5.myworkdayjobs.com/External/job/Reston-VA/Vice-President--Government-Solutions-Division_R-00194392"
 },
 {
 "company": "Leidos",
@@ -5837,16 +5828,6 @@
 "url": "https://agilent.wd5.myworkdayjobs.com/Agilent_Careers/job/US-CA-Santa-Clara/Director--IP-Strategy---Technology-Intelligence_4040632"
 },
 {
-"company": "Agilent",
-"title": "Product Management Director - Cell Analysis",
-"why": "location",
-"locations": [
-"US-MA-Lexington",
-"US-VT-Winooski"
-],
-"url": "https://agilent.wd5.myworkdayjobs.com/Agilent_Careers/job/US-MA-Lexington/Product-Management-Director---Cell-Analysis_4039733"
-},
-{
 "company": "Alcon",
 "title": "Director, R&D Quality Assurance",
 "why": "location",
@@ -5937,24 +5918,6 @@
 "Banner Health Corp Phoenix at The Bond (3200 E Camelback Rd)"
 ],
 "url": "https://bannerhealth.wd108.myworkdayjobs.com/Careers/job/Banner-Health-Corp-Phoenix-at-The-Bond-3200-E-Camelback-Rd/VP--Government-Health-Programs--Banner-Plans---Networks_R4453396"
-},
-{
-"company": "Baxter",
-"title": "Sr. Director, Product Management - Connected Care Group",
-"why": "location",
-"locations": [
-"Deerfield, Illinois"
-],
-"url": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Deerfield-Illinois/Sr-Director--Product-Management---Connected-Care-Group_JR-212959"
-},
-{
-"company": "Baxter",
-"title": "Vice President, Global Quality Assurance, Medical Devices & Surgery",
-"why": "location",
-"locations": [
-"Deerfield, Illinois"
-],
-"url": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Deerfield-Illinois/Vice-President--Global-Quality-Assurance--Medical-Devices---Surgery_JR-211317-1"
 },
 {
 "company": "Beth Israel Lahey Health",
@@ -6293,6 +6256,17 @@
 },
 {
 "company": "Cigna / Evernorth",
+"title": "Director, Enterprise SOX IT Controls Modernization",
+"why": "location",
+"locations": [
+"Bloomfield, CT",
+"Philadelphia, PA",
+"MO, St. Louis, One Express Way"
+],
+"url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Director--Enterprise-SOX-IT-Controls-Modernization_26014257"
+},
+{
+"company": "Cigna / Evernorth",
 "title": "Director, Medical Drug Strategy - Express Scripts",
 "why": "location",
 "locations": [
@@ -6604,15 +6578,6 @@
 },
 {
 "company": "Edwards Lifesciences",
-"title": "Senior Director, AI Enabled Digital Products",
-"why": "location",
-"locations": [
-"USA - California \u2013 Irvine"
-],
-"url": "https://edwards.wd5.myworkdayjobs.com/EdwardsCareers/job/USA---California--Irvine/Senior-Director--AI-Enabled-Digital-Products_Req-50782"
-},
-{
-"company": "Edwards Lifesciences",
 "title": "Senior Director, AI Systems and Platforms",
 "why": "location",
 "locations": [
@@ -6658,15 +6623,6 @@
 "Austin, TX"
 ],
 "url": "https://ensemblehp.wd5.myworkdayjobs.com/EnsembleHealthPartnersCareers/job/Austin-TX/Head-of-Applied-AI_R052401"
-},
-{
-"company": "Ensemble Health Partners",
-"title": "Head of Product",
-"why": "location",
-"locations": [
-"Austin, TX"
-],
-"url": "https://ensemblehp.wd5.myworkdayjobs.com/EnsembleHealthPartnersCareers/job/Austin-TX/Head-of-Product_R041811"
 },
 {
 "company": "GE HealthCare",
@@ -7169,6 +7125,45 @@
 "Raritan, New Jersey, United States of America"
 ],
 "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/Director--Data---AI-Platforms_R-106627-2"
+},
+{
+"company": "Johnson & Johnson",
+"title": "Director, External Innovation, DPDS (In Silico Discovery)",
+"why": "location",
+"locations": [
+"Zug, Switzerland"
+],
+"url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Zug-Switzerland/Director--External-Innovation--DPDS--In-Silico-Discovery-_R-110799"
+},
+{
+"company": "Johnson & Johnson",
+"title": "Director, External Innovation, DPDS (In Silico Discovery)",
+"why": "location",
+"locations": [
+"London, United Kingdom"
+],
+"url": "https://jj.wd5.myworkdayjobs.com/JJ/job/London-United-Kingdom/Director--External-Innovation--DPDS--In-Silico-Discovery-_R-110800-1"
+},
+{
+"company": "Johnson & Johnson",
+"title": "Director, External Innovation, DPDS (In Silico Discovery)",
+"why": "location",
+"locations": [
+"Beerse, Antwerp, Belgium"
+],
+"url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Beerse-Antwerp-Belgium/Director--External-Innovation--DPDS--In-Silico-Discovery-_R-110798-1"
+},
+{
+"company": "Johnson & Johnson",
+"title": "Director, External Innovation, DPDS (In Silico Discovery)",
+"why": "location",
+"locations": [
+"South San Francisco, California, United States of America",
+"Cambridge, Massachusetts, United States of America",
+"La Jolla, California, United States of America",
+"Spring House, Pennsylvania, United States of America"
+],
+"url": "https://jj.wd5.myworkdayjobs.com/JJ/job/South-San-Francisco-California-United-States-of-America/Director--External-Innovation--DPDS--In-Silico-Discovery-_R-108788-1"
 },
 {
 "company": "Johnson & Johnson",
@@ -7981,6 +7976,15 @@
 "Raleigh, NC"
 ],
 "url": "https://veradigm.wd12.myworkdayjobs.com/VR/job/Raleigh-NC/Director-Product-Management---Care-Coordination_JR10760"
+},
+{
+"company": "Veradigm",
+"title": "Director, Enterpise Data Management",
+"why": "location",
+"locations": [
+"Raleigh, NC"
+],
+"url": "https://veradigm.wd12.myworkdayjobs.com/VR/job/Raleigh-NC/Director--Enterpise-Data-Management_JR11066-1"
 },
 {
 "company": "Veradigm",
