@@ -171,6 +171,24 @@
 "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---California---Santa-Rosa/Site-Lab-Operations-Director_31168039-1"
 },
 {
+"company": "Abbott",
+"title": "US Regional Managing Director",
+"why": "function",
+"locations": [
+"United States - Illinois - Lake Forest"
+],
+"url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---Illinois---Lake-Forest/US-Regional-Managing-Director_31168253-2"
+},
+{
+"company": "Abbott",
+"title": "US Regional Managing Director",
+"why": "function",
+"locations": [
+"United States - Illinois - Lake Forest"
+],
+"url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---Illinois---Lake-Forest/US-Regional-Managing-Director_31168251-2"
+},
+{
 "company": "AdventHealth",
 "title": "Administrative Director of Acute Care",
 "why": "function",
@@ -694,15 +712,6 @@
 },
 {
 "company": "BD",
-"title": "Director \u2014 Enterprise Program Management Office",
-"why": "function",
-"locations": [
-"USA NJ - Franklin Lakes"
-],
-"url": "https://bdx.wd1.myworkdayjobs.com/EXTERNAL_CAREER_SITE_USA/job/USA-NJ---Franklin-Lakes/Director---Enterprise-Program-Management-Office_R-560063"
-},
-{
-"company": "BD",
 "title": "Director, Global Service Parts Planning & Logistics",
 "why": "function",
 "locations": [
@@ -943,15 +952,6 @@
 "Deerfield, Illinois"
 ],
 "url": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Deerfield-Illinois/Director--Climate-Transition---Clean-Energy_JR-208147-1"
-},
-{
-"company": "Baxter",
-"title": "Head of Goverment Affairs Espa\u00f1a y Portugal",
-"why": "function",
-"locations": [
-"Madrid, Madrid"
-],
-"url": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Madrid-Madrid/Head-of-Goverment-Affairs-Espaa-y-Portugal_JR-211827"
 },
 {
 "company": "Baxter",
@@ -1224,13 +1224,13 @@
 "url": "https://cardinalhealth.wd1.myworkdayjobs.com/EXT/job/OH-Columbus-Card-Aviation/Chief-Pilot_20188694"
 },
 {
-"company": "ChenMed",
-"title": "Associate Center Operations Director",
+"company": "Cardinal Health",
+"title": "Director, Operational Excellence \u2013 Medical Distribution",
 "why": "function",
 "locations": [
-"Town n Country"
+"US-Nationwide-FIELD"
 ],
-"url": "https://chenmed.wd1.myworkdayjobs.com/ChenMed/job/Town-n-Country/Associate-Center-Operations-Director_R0050925"
+"url": "https://cardinalhealth.wd1.myworkdayjobs.com/EXT/job/US-Nationwide-FIELD/Director--Operational-Excellence---Medical-Distribution_20191524"
 },
 {
 "company": "ChenMed",
@@ -1396,30 +1396,12 @@
 },
 {
 "company": "DaVita",
-"title": "Director, Clinical Services, Hospital Services",
-"why": "function",
-"locations": [
-"7 Locations"
-],
-"url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/09538---North-Carolina-Remote/Director--Clinical-Services--Hospital-Services_R0459293"
-},
-{
-"company": "DaVita",
 "title": "Director, Clinician Experience",
 "why": "function",
 "locations": [
 "09507 - Colorado Remote"
 ],
 "url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/09507---Colorado-Remote/Director--Clinician-Experience_R0468528"
-},
-{
-"company": "DaVita",
-"title": "Director, IKC Operations",
-"why": "function",
-"locations": [
-"00200 - Heartland Division Office"
-],
-"url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/00200---Heartland-Division-Office/Director--IKC-Operations_R0465338"
 },
 {
 "company": "DaVita",
@@ -1963,15 +1945,6 @@
 },
 {
 "company": "Danaher",
-"title": "Senior Director, Clinical Translation, Danaher China",
-"why": "function",
-"locations": [
-"Shanghai, China"
-],
-"url": "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Shanghai-China/Senior-Director--Clinical-Translation--Danaher-China_R1307301"
-},
-{
-"company": "Danaher",
 "title": "Senior Director, R&D Bangalore",
 "why": "function",
 "locations": [
@@ -2122,15 +2095,6 @@
 "2 Locations"
 ],
 "url": "https://edwards.wd5.myworkdayjobs.com/EdwardsCareers/job/China-Shanghai/Senior-Director--Medical-Affairs--GC_Req-51448"
-},
-{
-"company": "Enovis",
-"title": "Vice President, Logistics",
-"why": "function",
-"locations": [
-"USA, Texas, Dallas"
-],
-"url": "https://enovis.wd5.myworkdayjobs.com/enovis/job/USA-Texas-Dallas/Vice-President--Logistics_R0034447"
 },
 {
 "company": "Ensemble Health Partners",
@@ -2317,6 +2281,15 @@
 "locations": [
 "Remote"
 ],
+"url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Remote/Care-Alliance-Program-Director_R4049948-1"
+},
+{
+"company": "GE HealthCare",
+"title": "Care Alliance Program Director",
+"why": "function",
+"locations": [
+"2 Locations"
+],
 "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Remote/Care-Alliance-Program-Director_R4049571-1"
 },
 {
@@ -2345,6 +2318,15 @@
 "Cincinnati (Wil) OH US"
 ],
 "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Cincinnati-Wil-OH-US/Director--ASL-Central---Pediatric-MR_R4046647-1"
+},
+{
+"company": "GE HealthCare",
+"title": "Director, Command Center",
+"why": "function",
+"locations": [
+"Remote"
+],
+"url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Remote/Director--Command-Center_R4049950-1"
 },
 {
 "company": "GE HealthCare",
@@ -2570,15 +2552,6 @@
 "2 Locations"
 ],
 "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---TX-San-Antonio/Director--Patient-Financial-Services--PFS----Healthcare-CBO_46772"
-},
-{
-"company": "Guidehouse",
-"title": "State and Local Government Director",
-"why": "function",
-"locations": [
-"US - CA, Sacramento"
-],
-"url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---CA-Sacramento/State-and-Local-Government-Director_41947"
 },
 {
 "company": "Highmark Health",
@@ -3815,21 +3788,21 @@
 },
 {
 "company": "Leidos",
+"title": "Senior Director - Counter-C5ISRT (Campaign Lead)",
+"why": "function",
+"locations": [
+"Alexandria, VA"
+],
+"url": "https://leidos.wd5.myworkdayjobs.com/External/job/Alexandria-VA/Senior-Director---Counter-C5ISRT--Campaign-Lead-_R-00197604"
+},
+{
+"company": "Leidos",
 "title": "Senior Director, Capture Management - Defense Technology",
 "why": "function",
 "locations": [
 "Huntsville, AL"
 ],
 "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Senior-Capture-Director---Defense-Technology_R-00194704"
-},
-{
-"company": "Leidos",
-"title": "Senior Director, Growth - Federal IT",
-"why": "function",
-"locations": [
-"Reston, VA"
-],
-"url": "https://leidos.wd5.myworkdayjobs.com/External/job/Reston-VA/Senior-Director--Growth---Federal-Health-IT_R-00194279"
 },
 {
 "company": "Leidos",
@@ -3857,6 +3830,15 @@
 "2 Locations"
 ],
 "url": "https://leidos.wd5.myworkdayjobs.com/External/job/The-Hague-Netherlands/Senior-Program-Director_R-00196344"
+},
+{
+"company": "Leidos",
+"title": "Senior Program Director",
+"why": "function",
+"locations": [
+"8693 Metairie LA Home Office"
+],
+"url": "https://leidos.wd5.myworkdayjobs.com/External/job/8693-Metairie-LA-Home-Office/Senior-Program-Director_R-00197589"
 },
 {
 "company": "Leidos",
@@ -4118,6 +4100,15 @@
 "2 Locations"
 ],
 "url": "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-VA-Richmond/Director--Technology-Vendor---Asset-Management_JR0152076"
+},
+{
+"company": "McKesson",
+"title": "Director, US Oncology Practice Technology",
+"why": "function",
+"locations": [
+"CAN, ON, Mississauga"
+],
+"url": "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/CAN-ON-Mississauga/Director--US-Oncology-Practice-Technology_JR0156785-1"
 },
 {
 "company": "McKesson",
@@ -5024,6 +5015,15 @@
 },
 {
 "company": "Trinity Health",
+"title": "Chief Clinical Officer (CCO) - Trinity Health Michigan (9 Hospitals)",
+"why": "function",
+"locations": [
+"2 Locations"
+],
+"url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Livonia-Michigan/Chief-Clinical-Officer--CCO----Trinity-Health-Michigan--9-Hospitals-_00693272"
+},
+{
+"company": "Trinity Health",
 "title": "Director - Critical Care",
 "why": "function",
 "locations": [
@@ -5192,6 +5192,15 @@
 "Tullahoma, TN"
 ],
 "url": "https://vumc.wd1.myworkdayjobs.com/vumccareers/job/Tullahoma-TN/Director-of-Case-Management---Vanderbilt-Tullahoma-Harton-Hospital_R-71985"
+},
+{
+"company": "Vanderbilt University Medical Center",
+"title": "Director of Pediatric Rehab",
+"why": "function",
+"locations": [
+"Nashville, TN"
+],
+"url": "https://vumc.wd1.myworkdayjobs.com/vumccareers/job/Nashville-TN/Director-of-Pediatric-Rehab_R-72294-1"
 },
 {
 "company": "Vanderbilt University Medical Center",
@@ -5563,15 +5572,6 @@
 "url": "https://zoll.wd5.myworkdayjobs.com/ZOLLMedicalCorp/job/Phoenix-AZ/Professional-Relations-Director---West-Coast_R20131"
 },
 {
-"company": "iRhythm",
-"title": "Vice President, M&A Integrations",
-"why": "function",
-"locations": [
-"2 Locations"
-],
-"url": "https://irhythmtech.wd5.myworkdayjobs.com/iRhythm/job/Solana-Beach-CA/Vice-President--M-A-Integrations_JR1823-1"
-},
-{
 "company": "Abbott",
 "title": "Associate Program Director, Digital Solutions",
 "why": "location",
@@ -5891,15 +5891,6 @@
 "Deerfield, Illinois"
 ],
 "url": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Deerfield-Illinois/Sr-Director--Product-Management---Connected-Care-Group_JR-212959"
-},
-{
-"company": "Baxter",
-"title": "Vice President, Global Quality Assurance, Medical Devices & Surgery",
-"why": "location",
-"locations": [
-"Deerfield, Illinois"
-],
-"url": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Deerfield-Illinois/Vice-President--Global-Quality-Assurance--Medical-Devices---Surgery_JR-211317-1"
 },
 {
 "company": "Beth Israel Lahey Health",
@@ -6357,15 +6348,6 @@
 },
 {
 "company": "Danaher",
-"title": "Chief AI & Data Officer",
-"why": "location",
-"locations": [
-"Shanghai, China"
-],
-"url": "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Shanghai-China/Digital-Lab-Solution-Leader_R1315650"
-},
-{
-"company": "Danaher",
 "title": "Director DBS - Life Sciences Innovation Group (Bangalore)",
 "why": "location",
 "locations": [
@@ -6381,17 +6363,6 @@
 "Krakow, Poland"
 ],
 "url": "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Krakow-Poland/Director--Data-Visualization--f-m-d-_R1314649-1"
-},
-{
-"company": "Danaher",
-"title": "Director, Devices & Micro Product",
-"why": "location",
-"locations": [
-"Little Chalfont, England",
-"Marlborough, Massachusetts, United States",
-"Cardiff, United Kingdom"
-],
-"url": "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Little-Chalfont-England/Director--Devices---Micro-Product_R1318970"
 },
 {
 "company": "Danaher",
@@ -6799,6 +6770,18 @@
 "url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Metairie-LA/Director--Network-Optimization_R-436675"
 },
 {
+"company": "Humana",
+"title": "Director, Technology Solutions",
+"why": "location",
+"locations": [
+"Louisville, KY",
+"Arlington, VA",
+"Tampa, FL",
+"Dallas, TX"
+],
+"url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Louisville-KY/Director--Technology-Solutions_R-435827"
+},
+{
 "company": "Huron",
 "title": "Digital Consulting Senior Director, Oracle Healthcare",
 "why": "location",
@@ -6971,15 +6954,6 @@
 },
 {
 "company": "Insulet",
-"title": "Director, Applied AI - (Hybrid - Acton, MA)",
-"why": "location",
-"locations": [
-"Acton, Massachusetts"
-],
-"url": "https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Director--Applied-AI----Hybrid---Acton--MA-_REQ-2026-18749"
-},
-{
-"company": "Insulet",
 "title": "Director, Quality Operations",
 "why": "location",
 "locations": [
@@ -7099,6 +7073,25 @@
 "San Diego, California, United States of America"
 ],
 "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/San-Diego-California-United-States-of-America/Director--Computer-Directed-Drug-Design-and-AI-Native-Molecular-Design---San-Diego--CA_R-101326"
+},
+{
+"company": "Johnson & Johnson",
+"title": "Director, Drug Product",
+"why": "location",
+"locations": [
+"Gent, East Flanders, Belgium"
+],
+"url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Gent-East-Flanders-Belgium/Director--Drug-Product_R-112697-1"
+},
+{
+"company": "Johnson & Johnson",
+"title": "Director, Drug Product",
+"why": "location",
+"locations": [
+"Raritan, New Jersey, United States of America",
+"Gent, East Flanders, Belgium"
+],
+"url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/Director--Drug-Product_R-112164-1"
 },
 {
 "company": "Johnson & Johnson",
@@ -7388,15 +7381,6 @@
 "Durham NC"
 ],
 "url": "https://labcorp.wd1.myworkdayjobs.com/External/job/Durham-NC/Senior-Director--Business-Analytics_2637739"
-},
-{
-"company": "Labcorp",
-"title": "Senior Director, Strategic Delivery & Transformation",
-"why": "location",
-"locations": [
-"Durham NC"
-],
-"url": "https://labcorp.wd1.myworkdayjobs.com/External/job/Durham-NC/Senior-Director--Strategic-Delivery---Transformation_2640005"
 },
 {
 "company": "Labcorp",

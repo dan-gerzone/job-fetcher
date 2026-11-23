@@ -4,11 +4,21 @@
 "firstSeen": "2026-11-09",
 "lastListed": "2026-11-22"
 },
+"ab-0e7a1330-de16-40e7-aa94-a224a86da21d": {
+"url": "https://jobs.ashbyhq.com/stellar-health/0e7a1330-de16-40e7-aa94-a224a86da21d",
+"firstSeen": "2026-11-23",
+"lastListed": "2026-11-23"
+},
 "ab-12b3b160-8efe-47d0-a8bf-5a928f414af3": {
 "url": "https://jobs.ashbyhq.com/chartis/12b3b160-8efe-47d0-a8bf-5a928f414af3",
 "firstSeen": "2026-11-11",
 "lastListed": "2026-11-11",
 "closed": "2026-11-19"
+},
+"ab-13066473-cf5a-41c5-9f93-bcd68b9376b6": {
+"url": "https://jobs.ashbyhq.com/gravie/13066473-cf5a-41c5-9f93-bcd68b9376b6",
+"firstSeen": "2026-11-23",
+"lastListed": "2026-11-23"
 },
 "ab-1fb1d289-defb-4754-a5bf-83e262c4e317": {
 "url": "https://jobs.ashbyhq.com/gravie/1fb1d289-defb-4754-a5bf-83e262c4e317",
@@ -160,6 +170,11 @@
 "firstSeen": "2026-11-09",
 "lastListed": "2026-11-23"
 },
+"ab-f1968315-7f4b-4de7-8452-ef32027c84ac": {
+"url": "https://jobs.ashbyhq.com/nirvana/f1968315-7f4b-4de7-8452-ef32027c84ac",
+"firstSeen": "2026-11-23",
+"lastListed": "2026-11-23"
+},
 "ab-f1ae5c48-c492-41e5-a2ab-0629d44f1cf7": {
 "url": "https://jobs.ashbyhq.com/nirvana/f1ae5c48-c492-41e5-a2ab-0629d44f1cf7",
 "firstSeen": "2026-11-09",
@@ -298,7 +313,8 @@
 "gh-5396773008": {
 "url": "https://job-boards.greenhouse.io/judihealth/jobs/5396773008",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-23"
+"lastListed": "2026-11-23",
+"closed": "2026-11-23"
 },
 "gh-5400232008": {
 "url": "https://job-boards.greenhouse.io/judihealth/jobs/5400232008",
@@ -421,7 +437,8 @@
 "gh-8024699": {
 "url": "https://job-boards.greenhouse.io/cloverhealth/jobs/8024699",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-23"
+"lastListed": "2026-11-23",
+"closed": "2026-11-23"
 },
 "gh-8094887": {
 "url": "https://job-boards.greenhouse.io/cloverhealth/jobs/8094887",
@@ -463,6 +480,11 @@
 "gh-8347862002": {
 "url": "https://job-boards.greenhouse.io/komodohealth/jobs/8347862002",
 "firstSeen": "2026-11-09",
+"lastListed": "2026-11-23"
+},
+"gh-8348201": {
+"url": "https://job-boards.greenhouse.io/doximity/jobs/8348201",
+"firstSeen": "2026-11-23",
 "lastListed": "2026-11-23"
 },
 "gh-8356762": {
@@ -1189,6 +1211,11 @@
 "firstSeen": "2026-11-19",
 "lastListed": "2026-11-23"
 },
+"hm-sagility--vp-clinical-practice-utilization-management": {
+"url": "https://himalayas.app/companies/sagility/jobs/vp-clinical-practice-utilization-management",
+"firstSeen": "2026-11-23",
+"lastListed": "2026-11-23"
+},
 "hm-sca-health--vice-president-data-and-artificial-intelligence": {
 "url": "https://himalayas.app/companies/sca-health/jobs/vice-president-data-and-artificial-intelligence",
 "firstSeen": "2026-11-17",
@@ -1292,7 +1319,8 @@
 "ic-cotiviti-23293": {
 "url": "https://careers-cotiviti.icims.com/jobs/23293/svp-transformation-execution-and-delivery/job",
 "firstSeen": "2026-11-19",
-"lastListed": "2026-11-23"
+"lastListed": "2026-11-23",
+"closed": "2026-11-23"
 },
 "ic-healthedge-8600": {
 "url": "https://careers-healthedge.icims.com/jobs/8600/program-management-director/job",
@@ -1561,7 +1589,8 @@
 "lv-86c92349-7318-4f86-9b59-4f73a640a915": {
 "url": "https://jobs.lever.co/redoxengine/86c92349-7318-4f86-9b59-4f73a640a915",
 "firstSeen": "2026-11-12",
-"lastListed": "2026-11-23"
+"lastListed": "2026-11-23",
+"closed": "2026-11-23"
 },
 "lv-894ccc47-f430-4391-8dc1-063079c602db": {
 "url": "https://jobs.lever.co/arcadia/894ccc47-f430-4391-8dc1-063079c602db",
@@ -1800,10 +1829,9 @@
 "lastListed": "2026-11-23"
 },
 "sf-gainwell-1415297500": {
-"url": "https://jobs.gainwelltechnologies.com/job/Any-city-Director%2C-Client-Delivery-Leader-SC-99999/1415297500/",
+"url": "https://jobs.gainwelltechnologies.com/job/Any-city-Director%2C-Rx-Client-Delivery-Leader-SC-99999/1415297500/",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-20",
-"closed": "2026-11-21"
+"lastListed": "2026-11-23"
 },
 "sf-gainwell-1438772400": {
 "url": "https://jobs.gainwelltechnologies.com/job/Any-city-Director-Program-Office-TX-99999/1438772400/",
@@ -1829,6 +1857,11 @@
 "tb-csh-101958387520": {
 "url": "https://www.commonspirit.careers/job/centennial/director-utilization-management/35300/101958387520",
 "firstSeen": "2026-11-11",
+"lastListed": "2026-11-23"
+},
+"tb-csh-103580615072": {
+"url": "https://www.commonspirit.careers/job/chicago/system-director-formation-innovative-technology-analytics/35300/103580615072",
+"firstSeen": "2026-11-23",
 "lastListed": "2026-11-23"
 },
 "tb-csh-92581005584": {
@@ -1880,7 +1913,8 @@
 "tb-mol-99817590400": {
 "url": "https://careers.molinahealthcare.com/job/united-states/director-medical-economics-remote/21726/99817590400",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-23"
+"lastListed": "2026-11-23",
+"closed": "2026-11-23"
 },
 "uhg-100045687920": {
 "url": "https://careers.unitedhealthgroup.com/job/eden-prairie/director-medicaid-program-integrity-remote/34088/100045687920",
@@ -2191,6 +2225,16 @@
 "lastListed": "2026-11-22",
 "closed": "2026-11-23"
 },
+"uhg-103700367184": {
+"url": "https://careers.unitedhealthgroup.com/job/eden-prairie/senior-director-payer-assessment-innovation-remote/34088/103700367184",
+"firstSeen": "2026-11-23",
+"lastListed": "2026-11-23"
+},
+"uhg-103700370064": {
+"url": "https://careers.unitedhealthgroup.com/job/boston/vp-of-product-innovation-ai-and-product-office-remote-in-boston-houston-indianapolis-minneapolis-or/34088/103700370064",
+"firstSeen": "2026-11-23",
+"lastListed": "2026-11-23"
+},
 "uhg-97483656928": {
 "url": "https://careers.unitedhealthgroup.com/job/boise/director-provider-relations-and-network-management-remote-in-id/34088/97483656928",
 "firstSeen": "2026-11-09",
@@ -2370,6 +2414,11 @@
 "firstSeen": "2026-11-11",
 "lastListed": "2026-11-13",
 "closed": "2026-11-14"
+},
+"wd-bcbst-R-52220": {
+"url": "https://bcbst.wd1.myworkdayjobs.com/External/job/USA-TN-Chattanooga-Remote/Managing-Director--Enterprise-Quality_R-52220",
+"firstSeen": "2026-11-23",
+"lastListed": "2026-11-23"
 },
 "wd-bdx-R-558443": {
 "url": "https://bdx.wd1.myworkdayjobs.com/EXTERNAL_CAREER_SITE_USA/job/USA-NJ---Franklin-Lakes/GVP---GPO-Strategy-and-Health-Systems_R-558443",
@@ -2664,6 +2713,11 @@
 "lastListed": "2026-11-11",
 "closed": "2026-11-11"
 },
+"wd-cvs-R1075564": {
+"url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/MO---Work-from-home/Lead-Director--Solution-Delivery-_R1075564",
+"firstSeen": "2026-11-23",
+"lastListed": "2026-11-23"
+},
 "wd-cvs-R1078091": {
 "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/MA---Wellesley/Lead-Director--Health100-App---Digital-Product_R1078091",
 "firstSeen": "2026-11-09",
@@ -2673,6 +2727,11 @@
 "wd-cvs-R1080298": {
 "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Lead-Director--Workforce-Performance---Incentive-Strategy_R1080298",
 "firstSeen": "2026-11-09",
+"lastListed": "2026-11-23"
+},
+"wd-cvs-R1080649": {
+"url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Lead-Director--Digital-Product_R1080649-1",
+"firstSeen": "2026-11-23",
 "lastListed": "2026-11-23"
 },
 "wd-cvs-R1080763": {
