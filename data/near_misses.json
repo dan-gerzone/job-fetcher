@@ -577,6 +577,15 @@
 },
 {
 "company": "Agilent",
+"title": "Director, Automation Enablement",
+"why": "function",
+"locations": [
+"US-CA-Santa Clara"
+],
+"url": "https://agilent.wd5.myworkdayjobs.com/Agilent_Careers/job/US-CA-Santa-Clara/Director--Automation-Enablement_4040822"
+},
+{
+"company": "Agilent",
 "title": "Service Delivery Director",
 "why": "function",
 "locations": [
@@ -1162,6 +1171,15 @@
 },
 {
 "company": "Beth Israel Lahey Health",
+"title": "Executive Director, Patient Access",
+"why": "function",
+"locations": [
+"Beth Israel Lahey Health"
+],
+"url": "https://bilh.wd1.myworkdayjobs.com/External/job/Beth-Israel-Lahey-Health/Executive-Director--Patient-Access-Pre-Arrival-Services_JR95305"
+},
+{
+"company": "Beth Israel Lahey Health",
 "title": "Executive Director, Philanthropy -Beverly Hospital",
 "why": "function",
 "locations": [
@@ -1393,6 +1411,15 @@
 "7 Locations"
 ],
 "url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/05597---Galaxy-Elite-Force-Division-Office/Director--Clinical-Services_R0440753-1"
+},
+{
+"company": "DaVita",
+"title": "Director, Clinical Services, Hospital Services",
+"why": "function",
+"locations": [
+"7 Locations"
+],
+"url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/09538---North-Carolina-Remote/Director--Clinical-Services--Hospital-Services_R0459293"
 },
 {
 "company": "DaVita",
@@ -2194,15 +2221,6 @@
 "Remote - Nationwide"
 ],
 "url": "https://ensemblehp.wd5.myworkdayjobs.com/EnsembleHealthPartnersCareers/job/Remote---Nationwide/Director--Coding_R051951-1"
-},
-{
-"company": "Ensemble Health Partners",
-"title": "Director, Operations Readiness",
-"why": "function",
-"locations": [
-"Remote - Nationwide"
-],
-"url": "https://ensemblehp.wd5.myworkdayjobs.com/EnsembleHealthPartnersCareers/job/Remote---Nationwide/Director--Operations-Readiness_R050890"
 },
 {
 "company": "Ensemble Health Partners",
@@ -3905,15 +3923,6 @@
 },
 {
 "company": "Marathon Health",
-"title": "Director of Operations",
-"why": "function",
-"locations": [
-"2 Locations"
-],
-"url": "https://marathonhealth.wd501.myworkdayjobs.com/Marathon-Health-Careers/job/Remote-IL---Plains/Director-of-Operations_JR109267"
-},
-{
-"company": "Marathon Health",
 "title": "Lab Director - Claysburg & Altoona, PA",
 "why": "function",
 "locations": [
@@ -4019,6 +4028,15 @@
 "Boston-MA"
 ],
 "url": "https://massgeneralbrigham.wd1.myworkdayjobs.com/MGBExternal/job/Boston-MA/Research-Administrative-Director--Wellman-Center-for-Photomedicine_RQ4082875"
+},
+{
+"company": "Mass General Brigham",
+"title": "Senior Director of Development, Faulkner Hospital",
+"why": "function",
+"locations": [
+"Somerville-MA"
+],
+"url": "https://massgeneralbrigham.wd1.myworkdayjobs.com/MGBExternal/job/Somerville-MA/Senior-Director-of-Development--Faulkner-Hospital_RQ4087660"
 },
 {
 "company": "McKesson",
@@ -5712,6 +5730,15 @@
 },
 {
 "company": "AdventHealth",
+"title": "Director Strategic Program Management",
+"why": "location",
+"locations": [
+"AH SUPPORT CENTER"
+],
+"url": "https://adventhealth.wd12.myworkdayjobs.com/AH_External_Career_Site/job/AH-SUPPORT-CENTER/Director-Strategic-Program-Management_R-0410499"
+},
+{
+"company": "AdventHealth",
 "title": "Director of Change Strategy",
 "why": "location",
 "locations": [
@@ -6070,6 +6097,16 @@
 "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/MO---Florissant/Population-Health-Director--Field_R1057018"
 },
 {
+"company": "Cardinal Health",
+"title": "Director, Strategic Sourcing Theranostic Isotopes",
+"why": "location",
+"locations": [
+"OH-Dublin-Cardinal Place",
+"US-Nationwide-FIELD"
+],
+"url": "https://cardinalhealth.wd1.myworkdayjobs.com/EXT/job/OH-Dublin-Cardinal-Place/Director--Strategic-Sourcing-Theranostic-Isotopes_20190660"
+},
+{
 "company": "Centene",
 "title": "Director, Payment Integrity - Appeals & Disputes",
 "why": "location",
@@ -6080,6 +6117,18 @@
 "Remote-NC"
 ],
 "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Director--Payment-Integrity---Appeals---Disputes_1677291"
+},
+{
+"company": "Centene",
+"title": "Director, Payment Integrity - Implementation & Delivery",
+"why": "location",
+"locations": [
+"Remote-MO",
+"Remote-GA",
+"Remote-NC",
+"Remote-TX"
+],
+"url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Director--Payment-Integrity---Implementation---Delivery_1678123"
 },
 {
 "company": "Centene",
@@ -6383,23 +6432,21 @@
 },
 {
 "company": "Danaher",
+"title": "Director, AI Product Manager",
+"why": "location",
+"locations": [
+"Washington DC, United States"
+],
+"url": "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Washington-DC-United-States/Director--AI-Product-Manager_R1323560"
+},
+{
+"company": "Danaher",
 "title": "Director, Data Visualization (f/m/d)",
 "why": "location",
 "locations": [
 "Krakow, Poland"
 ],
 "url": "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Krakow-Poland/Director--Data-Visualization--f-m-d-_R1314649-1"
-},
-{
-"company": "Danaher",
-"title": "Director, Devices & Micro Product",
-"why": "location",
-"locations": [
-"Little Chalfont, England",
-"Marlborough, Massachusetts, United States",
-"Cardiff, United Kingdom"
-],
-"url": "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Little-Chalfont-England/Director--Devices---Micro-Product_R1318970"
 },
 {
 "company": "Danaher",
@@ -6557,6 +6604,15 @@
 "USA - California \u2013 Irvine"
 ],
 "url": "https://edwards.wd5.myworkdayjobs.com/EdwardsCareers/job/USA---California--Irvine/Senior-Director--AI-Systems-and-Platforms_Req-50786"
+},
+{
+"company": "Edwards Lifesciences",
+"title": "Senior Director, GPS&L Strategy and PMO",
+"why": "location",
+"locations": [
+"USA - California \u2013 Irvine"
+],
+"url": "https://edwards.wd5.myworkdayjobs.com/EdwardsCareers/job/USA---California--Irvine/Senior-Director--GPS-L-Strategy-and-PMO_Req-52338"
 },
 {
 "company": "Elevance Health",
@@ -6763,15 +6819,6 @@
 },
 {
 "company": "Highmark Health",
-"title": "Evaluation and Scholarship Director - Hybrid | Pittsburgh, PA",
-"why": "location",
-"locations": [
-"Pittsburgh PA, 15212, 320 E N Ave."
-],
-"url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15212-320-E-N-Ave/Evaluation-and-Scholarship-Director_J290304"
-},
-{
-"company": "Highmark Health",
 "title": "Executive Director Development -  Operations & Strategic Programs",
 "why": "location",
 "locations": [
@@ -6787,6 +6834,17 @@
 "Pittsburgh PA, 15222, PAP, Penn Avenue Place"
 ],
 "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/SVP-and-President-Medicaid-Business_J266922"
+},
+{
+"company": "Humana",
+"title": "Associate VP, Clinical AI Agents",
+"why": "location",
+"locations": [
+"Louisville, KY",
+"DFW Airport, TX",
+"Nashville, TN"
+],
+"url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Louisville-KY/Associate-VP--Clinical-AI-Agents_R-438199"
 },
 {
 "company": "Humana",
@@ -7385,6 +7443,15 @@
 },
 {
 "company": "Labcorp",
+"title": "Executive Director, Digital Product Strategy",
+"why": "location",
+"locations": [
+"Durham NC"
+],
+"url": "https://labcorp.wd1.myworkdayjobs.com/External/job/Durham-NC/Executive-Director--Product-Strategy_2638202"
+},
+{
+"company": "Labcorp",
 "title": "Senior Director, Business Analytics",
 "why": "location",
 "locations": [
@@ -7617,15 +7684,6 @@
 "Medical Plaza North"
 ],
 "url": "https://memorialhermann.wd5.myworkdayjobs.com/external/job/Medical-Plaza-North/VP--Innovation-and-AI_100189477"
-},
-{
-"company": "Mercy",
-"title": "Director Managed Care - Value Based Initiatives",
-"why": "location",
-"locations": [
-"Mercy Hospital St Louis"
-],
-"url": "https://mercy.wd1.myworkdayjobs.com/mercycareers/job/Mercy-Hospital-St-Louis/Director---Managed-Care_JR272594"
 },
 {
 "company": "Mercy",
