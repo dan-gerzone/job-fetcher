@@ -892,15 +892,6 @@
 },
 {
 "company": "Banner Health",
-"title": "Director of Perioperative Services",
-"why": "function",
-"locations": [
-"Banner Boswell Med Ctr (10401 W Thunderbird Blvd)"
-],
-"url": "https://bannerhealth.wd108.myworkdayjobs.com/Careers/job/Banner-Boswell-Med-Ctr-10401-W-Thunderbird-Blvd/Director-of-Perioperative-Services_R4459506"
-},
-{
-"company": "Banner Health",
 "title": "Executive Director, Banner Alzheimer's Institutes",
 "why": "function",
 "locations": [
@@ -2662,15 +2653,6 @@
 "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15212-320-E-N-Ave/System-Modality-Chief---AGH_J291966"
 },
 {
-"company": "Highmark Health",
-"title": "VP Well in Place",
-"why": "function",
-"locations": [
-"Pittsburgh PA, 15222, FAP, 5th Avenue Place"
-],
-"url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/VP-Enhanced-Community-Care-Management_J274985"
-},
-{
 "company": "Huron",
 "title": "Healthcare Tech Senior Director - MEDITECH",
 "why": "function",
@@ -3323,15 +3305,6 @@
 "title": "Director of Business Excellence",
 "why": "function",
 "locations": [
-"Zuchwil, Switzerland"
-],
-"url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Zuchwil-Switzerland/Director-of-Business-Excellence_R-111419-1"
-},
-{
-"company": "Johnson & Johnson",
-"title": "Director of Business Excellence",
-"why": "function",
-"locations": [
 "5 Locations"
 ],
 "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raynham-Massachusetts-United-States-of-America/Director-of-Business-Excellence_R-088636-2"
@@ -3977,7 +3950,7 @@
 },
 {
 "company": "Mass General Brigham",
-"title": "Director - Physics and Dosimetry",
+"title": "Chief of Physics and Dosimetry",
 "why": "function",
 "locations": [
 "Dover-NH"
@@ -5096,6 +5069,15 @@
 },
 {
 "company": "Trinity Health",
+"title": "Director, Clinical Research Operations",
+"why": "function",
+"locations": [
+"Loyola Medicine - Loyola University Medical Center"
+],
+"url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Loyola-Medicine---Loyola-University-Medical-Center/Director--Clinical-Research-Operations_00709314"
+},
+{
+"company": "Trinity Health",
 "title": "EVS National Service Area Director- MidWest- MI, OH, GA Relocation Assistance",
 "why": "function",
 "locations": [
@@ -5456,15 +5438,6 @@
 },
 {
 "company": "Vizient",
-"title": "VP, Venture Delivery",
-"why": "function",
-"locations": [
-"Virtual Office"
-],
-"url": "https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Virtual-Office/VP--Venture-Delivery_34742R-1"
-},
-{
-"company": "Vizient",
 "title": "Value Analysis Director",
 "why": "function",
 "locations": [
@@ -5718,6 +5691,15 @@
 "Costa Rica - Alajuela"
 ],
 "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Costa-Rica---Alajuela/Quality-Director--m-f-d-_31166788-1"
+},
+{
+"company": "Abbott",
+"title": "Sr. Director, Commercial Excellence and Productivity- Nutrition",
+"why": "location",
+"locations": [
+"United States - Ohio - Columbus"
+],
+"url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---Ohio---Columbus/Sr-Director--Commercial-Excellence-and-Productivity--Nutrition_31162669-1"
 },
 {
 "company": "AdventHealth",
@@ -6204,6 +6186,16 @@
 "Remote-NJ"
 ],
 "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-NY/Senior-Director--Provider-Network-Performance_1672785"
+},
+{
+"company": "Centene",
+"title": "Senior Director, Strategic Initiatives",
+"why": "location",
+"locations": [
+"Remote-FL",
+"Remote-MO"
+],
+"url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-FL/Senior-Director--Strategic-Initiatives_1676813-1"
 },
 {
 "company": "Centene",
@@ -6707,6 +6699,15 @@
 "BeiJing"
 ],
 "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/BeiJing/Service-Product-Director_R4049348-2"
+},
+{
+"company": "Gates Foundation",
+"title": "Deputy Director \u2013 Strategy, Planning & Management and Measurement, Learning & Evaluation",
+"why": "location",
+"locations": [
+"New Delhi, India"
+],
+"url": "https://gatesfoundation.wd1.myworkdayjobs.com/Gates/job/New-Delhi-India/Deputy-Director---Strategy--Planning---Management-and-Measurement--Learning---Evaluation_B021652-1"
 },
 {
 "company": "Geisinger",
