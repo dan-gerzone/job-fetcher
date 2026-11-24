@@ -298,15 +298,6 @@
 },
 {
 "company": "AdventHealth",
-"title": "Executive Director of Behavioral Health",
-"why": "function",
-"locations": [
-"01 ADVENTHEALTH SOUTH ORLANDO"
-],
-"url": "https://adventhealth.wd12.myworkdayjobs.com/AH_External_Career_Site/job/01-ADVENTHEALTH-SOUTH-ORLANDO/Executive-Director-of-Service-Line_R-0410768"
-},
-{
-"company": "AdventHealth",
 "title": "Executive Director of Change Enablement",
 "why": "function",
 "locations": [
@@ -954,6 +945,15 @@
 "url": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Petaling-Jaya-Selangor/Head-of-Medical-Affairs--Greater-Asia---Japan_JR-213459"
 },
 {
+"company": "Baxter",
+"title": "Sr Director, Commercial Technology",
+"why": "function",
+"locations": [
+"Deerfield, Illinois"
+],
+"url": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Deerfield-Illinois/Sr-Director--Commercial-Technology_JR-213484-1"
+},
+{
 "company": "Beth Israel Lahey Health",
 "title": "Chief Financial Officer, BID-Milton",
 "why": "function",
@@ -1258,15 +1258,6 @@
 "Ashburn (Evergreen Park)"
 ],
 "url": "https://chenmed.wd1.myworkdayjobs.com/ChenMed/job/Ashburn-Evergreen-Park/Associate-Center-Operations-Director--Float---various-locations-_R0050377"
-},
-{
-"company": "ChenMed",
-"title": "Associate Center Operations Director (Float)",
-"why": "function",
-"locations": [
-"Lake Forest Hills"
-],
-"url": "https://chenmed.wd1.myworkdayjobs.com/ChenMed/job/Lake-Forest-Hills/Associate-Center-Operations-Director--Float-_R0050756"
 },
 {
 "company": "ChenMed",
@@ -2215,6 +2206,15 @@
 },
 {
 "company": "Ensemble Health Partners",
+"title": "Director, Patient Access (50% travel)",
+"why": "function",
+"locations": [
+"Remote - Nationwide"
+],
+"url": "https://ensemblehp.wd5.myworkdayjobs.com/EnsembleHealthPartnersCareers/job/Remote---Nationwide/Director--Patient-Access--50--travel-_R053394-1"
+},
+{
+"company": "Ensemble Health Partners",
 "title": "Director, Patient Access (Travel)",
 "why": "function",
 "locations": [
@@ -2642,6 +2642,15 @@
 "Pittsburgh PA, 15212, 320 E N Ave."
 ],
 "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15212-320-E-N-Ave/System-Modality-Chief---AGH_J291966"
+},
+{
+"company": "Highmark Health",
+"title": "VP Well in Place",
+"why": "function",
+"locations": [
+"Pittsburgh PA, 15222, FAP, 5th Avenue Place"
+],
+"url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15222-FAP-5th-Avenue-Place/VP-Enhanced-Community-Care-Management_J274985"
 },
 {
 "company": "Huron",
@@ -4879,15 +4888,6 @@
 "url": "https://smithnephew.wd5.myworkdayjobs.com/External/job/Fort-Worth/Senior-Director--Wound-Biologics-R-D_R92951"
 },
 {
-"company": "Smith+Nephew",
-"title": "Sr. Director, IT, Global Operations",
-"why": "function",
-"locations": [
-"Memphis, TN"
-],
-"url": "https://smithnephew.wd5.myworkdayjobs.com/External/job/Memphis-TN/Sr-Director--IT--Global-Operations_R92418"
-},
-{
 "company": "Stryker",
 "title": "Commercial Director, Taiwan",
 "why": "function",
@@ -5069,6 +5069,15 @@
 },
 {
 "company": "Trinity Health",
+"title": "Director of Practice Operations - Capital District",
+"why": "function",
+"locations": [
+"Medical Associates Administration Offices - Albany, New York"
+],
+"url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Medical-Associates-Administration-Offices---Albany-New-York/Director-of-Practice-Operations---Capital-District_00709112"
+},
+{
+"company": "Trinity Health",
 "title": "EVS National Service Area Director- MidWest- MI, OH, GA Relocation Assistance",
 "why": "function",
 "locations": [
@@ -5135,9 +5144,9 @@
 "title": "Regional Director: Orthopedic Services",
 "why": "function",
 "locations": [
-"MMCIA - MercyOne  Laurel Medical Office Buidling Central IA"
+"2 Locations"
 ],
-"url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/MMCIA---MercyOne--Laurel-Medical-Office-Buidling-Central-IA/Regional-Director--Orthopedic-Services_00707023-1"
+"url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/MOQ---Bridge-Building/Regional-Director--Orthopedic-Services_00707023-1"
 },
 {
 "company": "Trinity Health",
@@ -6032,6 +6041,15 @@
 },
 {
 "company": "CVS Health",
+"title": "Lead Director,  D-SNP Market Lead",
+"why": "location",
+"locations": [
+"NC - Cary"
+],
+"url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/NC---Cary/Lead-Director---D-SNP-Market-Lead_R1106834"
+},
+{
+"company": "CVS Health",
 "title": "Meritain Client Solutions Director, Client Management",
 "why": "location",
 "locations": [
@@ -6349,11 +6367,10 @@
 "title": "Senior Development Director",
 "why": "location",
 "locations": [
-"Palm Beach, FL",
 "West Palm Beach, FL",
-"Fort Lauderdale, FL"
+"Palm Beach, FL"
 ],
-"url": "https://cff.wd504.myworkdayjobs.com/explore-career-opportunities/job/Palm-Beach-FL/Senior-Development-Director_JR100712"
+"url": "https://cff.wd504.myworkdayjobs.com/explore-career-opportunities/job/West-Palm-Beach-FL/Senior-Development-Director_JR100712"
 },
 {
 "company": "Danaher",
@@ -6625,15 +6642,6 @@
 "BeiJing"
 ],
 "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/BeiJing/Senior-Director---Product-Management_R4050050-1"
-},
-{
-"company": "GE HealthCare",
-"title": "Senior Director - SaaS Analytics & AI",
-"why": "location",
-"locations": [
-"IND19-01-Bengaluru-EPIP 122 (Phase II)"
-],
-"url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Senior-Director---SaaS-Analytics---AI_R4046567-1"
 },
 {
 "company": "GE HealthCare",
@@ -7374,15 +7382,6 @@
 "Durham NC"
 ],
 "url": "https://labcorp.wd1.myworkdayjobs.com/External/job/Durham-NC/Executive-Director--Consumer-Insights-and-Analytics_2639225"
-},
-{
-"company": "Labcorp",
-"title": "Executive Director, Digital Product Strategy",
-"why": "location",
-"locations": [
-"Durham NC"
-],
-"url": "https://labcorp.wd1.myworkdayjobs.com/External/job/Durham-NC/Executive-Director--Product-Strategy_2638202"
 },
 {
 "company": "Labcorp",
