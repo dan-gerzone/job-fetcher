@@ -225,7 +225,8 @@
 "az-5975122024": {
 "url": "https://www.adzuna.com/details/5975122024?utm_medium=api&utm_source=1c17cfe4",
 "firstSeen": "2026-11-22",
-"lastListed": "2026-11-23"
+"lastListed": "2026-11-23",
+"closed": "2026-11-24"
 },
 "gh-4402286009": {
 "url": "https://job-boards.greenhouse.io/swordhealth/jobs/4402286009",
@@ -680,6 +681,11 @@
 "firstSeen": "2026-11-23",
 "lastListed": "2026-11-24"
 },
+"gt-100617753": {
+"url": "https://honesthealth.wd503.myworkdayjobs.com/HonestHealth/job/Remote/Director--Quality-Performance_2026-R158",
+"firstSeen": "2026-11-24",
+"lastListed": "2026-11-24"
+},
 "gt-54547661": {
 "url": "https://www.banjorobinson.com/the-cats-at-banjo-are-hiring-head-of-product/",
 "firstSeen": "2026-11-17",
@@ -713,7 +719,8 @@
 "gt-85111875": {
 "url": "https://jobs.ashbyhq.com/turquoise-health/2e561ff1-731a-4e5c-a3cf-13d46f7f276d",
 "firstSeen": "2026-11-23",
-"lastListed": "2026-11-24"
+"lastListed": "2026-11-24",
+"closed": "2026-11-24"
 },
 "gt-89107305": {
 "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=5154a6eb-14d1-4663-b31c-c91a4fc4a51a&ccId=9200096284196_2&jobId=566008",
@@ -784,7 +791,8 @@
 "gt-95503466": {
 "url": "https://jobs.ashbyhq.com/deaa6ad2-d184-436b-b69e-17f761da1d94/2b1ec67d-2b4f-4aa5-beca-ebd5a325628a",
 "firstSeen": "2026-11-17",
-"lastListed": "2026-11-24"
+"lastListed": "2026-11-24",
+"closed": "2026-11-24"
 },
 "gt-95503497": {
 "url": "https://jobs.ashbyhq.com/deaa6ad2-d184-436b-b69e-17f761da1d94/ab07cc01-b512-4380-8df6-026c38bb3809",
@@ -824,7 +832,8 @@
 "gt-96473207": {
 "url": "https://careers.flourish.health/jobs/717048-director-clinical-product",
 "firstSeen": "2026-11-17",
-"lastListed": "2026-11-24"
+"lastListed": "2026-11-24",
+"closed": "2026-11-24"
 },
 "gt-96945842": {
 "url": "https://boards.greenhouse.io/gomotive/jobs/8880889002",
@@ -1426,6 +1435,11 @@
 "firstSeen": "2026-11-17",
 "lastListed": "2026-11-17"
 },
+"lv-001617c4-fe76-496e-8cd0-ccfba2e4de54": {
+"url": "https://jobs.lever.co/veeva/001617c4-fe76-496e-8cd0-ccfba2e4de54",
+"firstSeen": "2026-11-24",
+"lastListed": "2026-11-24"
+},
 "lv-0371466d-53b7-4ffe-95a4-435cbfd558d8": {
 "url": "https://jobs.lever.co/veeva/0371466d-53b7-4ffe-95a4-435cbfd558d8",
 "firstSeen": "2026-11-11",
@@ -1829,6 +1843,11 @@
 "firstSeen": "2026-11-11",
 "lastListed": "2026-11-24"
 },
+"sf-gainwell-1201369300": {
+"url": "https://jobs.gainwelltechnologies.com/job/Any-city-Director%2C-Client-Delivery-Leader-TX-99999/1201369300/",
+"firstSeen": "2026-11-24",
+"lastListed": "2026-11-24"
+},
 "sf-gainwell-1406346500": {
 "url": "https://jobs.gainwelltechnologies.com/job/Any-city-Transformation-Director-%28Testing-&-Quality-Services%29-TX-99999/1406346500/",
 "firstSeen": "2026-11-11",
@@ -1948,7 +1967,8 @@
 "uhg-100993181856": {
 "url": "https://careers.unitedhealthgroup.com/job/draper/director-rebate-strategy-and-operations-remote/34088/100993181856",
 "firstSeen": "2026-11-09",
-"lastListed": "2026-11-24"
+"lastListed": "2026-11-24",
+"closed": "2026-11-24"
 },
 "uhg-101002092816": {
 "url": "https://careers.unitedhealthgroup.com/job/eden-prairie/senior-director-six-sigma-remote/34088/101002092816",
@@ -2241,6 +2261,26 @@
 "firstSeen": "2026-11-23",
 "lastListed": "2026-11-24"
 },
+"uhg-103711347232": {
+"url": "https://careers.unitedhealthgroup.com/job/boston/sr-director-ux-product-design-ai-and-product-office-remote-in-boston-houston-indianapolis-or-southe/34088/103711347232",
+"firstSeen": "2026-11-24",
+"lastListed": "2026-11-24"
+},
+"uhg-103735169472": {
+"url": "https://careers.unitedhealthgroup.com/job/boston/director-of-product-ai-and-product-office-remote-in-boston-houston-indianapolis-or-southern-califor/34088/103735169472",
+"firstSeen": "2026-11-24",
+"lastListed": "2026-11-24"
+},
+"uhg-103735169680": {
+"url": "https://careers.unitedhealthgroup.com/job/boston/vp-of-product-agentic-platform-ai-and-product-office-remote-in-boston-houston-indianapolis-minneapo/34088/103735169680",
+"firstSeen": "2026-11-24",
+"lastListed": "2026-11-24"
+},
+"uhg-103735170208": {
+"url": "https://careers.unitedhealthgroup.com/job/boston/vp-or-product-product-data-platform-ai-and-product-office-remote-in-boston-houston-indianapolis-min/34088/103735170208",
+"firstSeen": "2026-11-24",
+"lastListed": "2026-11-24"
+},
 "uhg-97483656928": {
 "url": "https://careers.unitedhealthgroup.com/job/boise/director-provider-relations-and-network-management-remote-in-id/34088/97483656928",
 "firstSeen": "2026-11-09",
@@ -2288,6 +2328,16 @@
 "firstSeen": "2026-11-18",
 "lastListed": "2026-11-24"
 },
+"uj-894082700": {
+"url": "https://www.usajobs.gov:443/job/894082700",
+"firstSeen": "2026-11-24",
+"lastListed": "2026-11-24"
+},
+"wd-aah-R290032": {
+"url": "https://aah.wd115.myworkdayjobs.com/External/job/Remote/Real-World-Data---Evidence-Program-Delivery---Operations-Director--National-Center-for-Clinical-Trials--NCCT-_R290032",
+"firstSeen": "2026-11-24",
+"lastListed": "2026-11-24"
+},
 "wd-aamc-10009429": {
 "url": "https://aamc.wd5.myworkdayjobs.com/AAMC/job/Washington-DC/Sr-Director--Science-Policy-and-Regulatory-Counsel_10009429",
 "firstSeen": "2026-11-11",
@@ -2307,7 +2357,8 @@
 "wd-agilonhealth-R003633": {
 "url": "https://agilonhealth.wd1.myworkdayjobs.com/External/job/Remote---USA/Director--Cost-of-Care-Solutions_R003633",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-24"
+"lastListed": "2026-11-24",
+"closed": "2026-11-24"
 },
 "wd-agilonhealth-R003689": {
 "url": "https://agilonhealth.wd1.myworkdayjobs.com/External/job/Remote---USA/Regional-Director--Operations_R003689",
@@ -2434,6 +2485,11 @@
 "wd-cardinalhealth-20190859": {
 "url": "https://cardinalhealth.wd1.myworkdayjobs.com/EXT/job/US-Nationwide-FIELD/Director--AI-Strategy---Business-Transformation_20190859",
 "firstSeen": "2026-11-11",
+"lastListed": "2026-11-24"
+},
+"wd-cardinalhealth-20191663": {
+"url": "https://cardinalhealth.wd1.myworkdayjobs.com/EXT/job/OH-Ohio-Work-from-Home/Director--IT---SAP-Transformation-Leader_20191663-1",
+"firstSeen": "2026-11-24",
 "lastListed": "2026-11-24"
 },
 "wd-caresource-R13739": {
@@ -3106,7 +3162,8 @@
 "wd-hum-R-433818": {
 "url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Remote-Nationwide/Director--Corporate-Strategy_R-433818",
 "firstSeen": "2026-11-14",
-"lastListed": "2026-11-24"
+"lastListed": "2026-11-24",
+"closed": "2026-11-24"
 },
 "wd-hum-R-434432": {
 "url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Remote-Nationwide/Director--Data-Quality---Integrity--Provider-Network-Operations-_R-434432",
