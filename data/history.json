@@ -283,12 +283,14 @@
 "gh-4721039006": {
 "url": "https://job-boards.greenhouse.io/strivehealth/jobs/4721039006",
 "firstSeen": "2026-11-09",
-"lastListed": "2026-11-25"
+"lastListed": "2026-11-25",
+"closed": "2026-11-25"
 },
 "gh-4721458006": {
 "url": "https://job-boards.greenhouse.io/strivehealth/jobs/4721458006",
 "firstSeen": "2026-11-09",
-"lastListed": "2026-11-25"
+"lastListed": "2026-11-25",
+"closed": "2026-11-25"
 },
 "gh-4726960006": {
 "url": "https://job-boards.greenhouse.io/strivehealth/jobs/4726960006",
@@ -830,7 +832,7 @@
 "gt-96006576": {
 "url": "https://boards.greenhouse.io/candid/jobs/8859668002",
 "firstSeen": "2026-11-17",
-"lastListed": "2026-11-24"
+"lastListed": "2026-11-25"
 },
 "gt-96070472": {
 "url": "https://jobs.ashbyhq.com/deaa6ad2-d184-436b-b69e-17f761da1d94/cbb9c971-28af-4099-8dfe-3ed22466fcb7",
@@ -1430,8 +1432,7 @@
 "jb-acentra-6401": {
 "url": "https://careers.acentra.com/jobs/6401",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-25",
-"closed": "2026-11-25"
+"lastListed": "2026-11-25"
 },
 "jb-acentra-7396": {
 "url": "https://careers.acentra.com/jobs/7396",
@@ -1974,6 +1975,11 @@
 "firstSeen": "2026-11-11",
 "lastListed": "2026-11-25"
 },
+"tb-mol-103784107136": {
+"url": "https://careers.molinahealthcare.com/job/united-states/program-director-quality-improvement-remote-in-ohio/21726/103784107136",
+"firstSeen": "2026-11-25",
+"lastListed": "2026-11-25"
+},
 "tb-mol-99817590400": {
 "url": "https://careers.molinahealthcare.com/job/united-states/director-medical-economics-remote/21726/99817590400",
 "firstSeen": "2026-11-11",
@@ -2191,8 +2197,7 @@
 "uhg-103211516304": {
 "url": "https://careers.unitedhealthgroup.com/job/eden-prairie/senior-director-strategy-and-transformation-integrated-specialty-care-remote/34088/103211516304",
 "firstSeen": "2026-11-12",
-"lastListed": "2026-11-15",
-"closed": "2026-11-16"
+"lastListed": "2026-11-25"
 },
 "uhg-103216188096": {
 "url": "https://careers.unitedhealthgroup.com/job/eden-prairie/director-of-technology-remote/34088/103216188096",
@@ -2308,7 +2313,7 @@
 "lastListed": "2026-11-25"
 },
 "uhg-103735169472": {
-"url": "https://careers.unitedhealthgroup.com/job/boston/sr-director-of-product-ai-and-product-office-remote-in-boston-houston-indianapolis-or-southern-cali/34088/103735169472",
+"url": "https://careers.unitedhealthgroup.com/job/boston/sr-director-of-product-management-ai-and-product-office-remote-in-boston-houston-indianapolis-or-so/34088/103735169472",
 "firstSeen": "2026-11-24",
 "lastListed": "2026-11-25"
 },
@@ -2325,6 +2330,11 @@
 "uhg-103739097008": {
 "url": "https://careers.unitedhealthgroup.com/job/boston/vp-of-product-risk-quality-and-affordability-remote-in-boston-houston-indianapolis-minneapolis-or-s/34088/103739097008",
 "firstSeen": "2026-11-24",
+"lastListed": "2026-11-25"
+},
+"uhg-103782188320": {
+"url": "https://careers.unitedhealthgroup.com/job/eden-prairie/vp-payer-clinical-and-provider-network-performance/34088/103782188320",
+"firstSeen": "2026-11-25",
 "lastListed": "2026-11-25"
 },
 "uhg-97483656928": {
@@ -2496,8 +2506,7 @@
 "wd-availity-R0008564": {
 "url": "https://availity.wd1.myworkdayjobs.com/Availity_Careers_US/job/Remote---United-States/Deputy-CISO_R0008564",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-18",
-"closed": "2026-11-19"
+"lastListed": "2026-11-25"
 },
 "wd-bcbsa-JR5957": {
 "url": "https://bcbsa.wd1.myworkdayjobs.com/Careers/job/Chicago-or-Washington-DC/Head-of-Medicare-Performance-Hub_JR5957",
@@ -3113,6 +3122,11 @@
 "firstSeen": "2026-11-24",
 "lastListed": "2026-11-25"
 },
+"wd-davita-R0488142": {
+"url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/05555---Casa-del-Mundo-Office-Denver-HQ/Vice-President--Corporate-Strategy_R0488142",
+"firstSeen": "2026-11-25",
+"lastListed": "2026-11-25"
+},
 "wd-denverhealth-R18174": {
 "url": "https://denverhealth.wd1.myworkdayjobs.com/DHHA-Main/job/Denver-Health-Medical-Plan---601-Broadway-Denver-CO-80203/Senior-Director--Health-Plan-Utilization-Management---Denver-Health-Medical-Plan--Must-Live-in-Colorado--Weekly-On-Site-Requirement-_R18174-2",
 "firstSeen": "2026-11-11",
@@ -3357,6 +3371,11 @@
 "lastListed": "2026-11-16",
 "closed": "2026-11-16"
 },
+"wd-leidos-R-00197788": {
+"url": "https://leidos.wd5.myworkdayjobs.com/External/job/Reston-VA/Senior-Director--Data-and-AI_R-00197788",
+"firstSeen": "2026-11-25",
+"lastListed": "2026-11-25"
+},
 "wd-lumeris-R0007078": {
 "url": "https://lumeris.wd1.myworkdayjobs.com/LC/job/Remote-USA/CX-Strategy-Director_R0007078",
 "firstSeen": "2026-11-11",
@@ -3578,7 +3597,8 @@
 "wd-smithnephew-R93126": {
 "url": "https://smithnephew.wd5.myworkdayjobs.com/External/job/US---Field/Enterprise-AI-Product-Management-Director_R93126",
 "firstSeen": "2026-11-11",
-"lastListed": "2026-11-25"
+"lastListed": "2026-11-25",
+"closed": "2026-11-25"
 },
 "wd-surescripts-REQ3196": {
 "url": "https://surescripts.wd503.myworkdayjobs.com/surescriptscareers/job/United-States/Director-Product-Operations_REQ3196-1",
