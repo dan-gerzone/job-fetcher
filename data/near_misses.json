@@ -343,15 +343,6 @@
 },
 {
 "company": "AdventHealth",
-"title": "Home Health Director",
-"why": "function",
-"locations": [
-"ADVENTHEALTH 6061 S WILLOW"
-],
-"url": "https://adventhealth.wd12.myworkdayjobs.com/AH_External_Career_Site/job/ADVENTHEALTH-6061-S-WILLOW/Dir--Home-Health-Administrator_R-0329052"
-},
-{
-"company": "AdventHealth",
 "title": "VP CFO, Texas Health Huguley",
 "why": "function",
 "locations": [
@@ -574,6 +565,24 @@
 "US-CA-Santa Clara"
 ],
 "url": "https://agilent.wd5.myworkdayjobs.com/Agilent_Careers/job/US-CA-Santa-Clara/Director--Automation-Enablement_4040822"
+},
+{
+"company": "Agilent",
+"title": "Director, Services & Support",
+"why": "function",
+"locations": [
+"India-New Delhi"
+],
+"url": "https://agilent.wd5.myworkdayjobs.com/Agilent_Careers/job/India-New-Delhi/Director--Services---Support_4040979-1"
+},
+{
+"company": "Agilent",
+"title": "Director, Services & Support",
+"why": "function",
+"locations": [
+"India-Bangalore"
+],
+"url": "https://agilent.wd5.myworkdayjobs.com/Agilent_Careers/job/India-Bangalore/Director--Services---Support_4040980"
 },
 {
 "company": "Agilent",
@@ -2161,15 +2170,6 @@
 },
 {
 "company": "Ensemble Health Partners",
-"title": "Director, Patient Access (Travel)",
-"why": "function",
-"locations": [
-"Remote - Nationwide"
-],
-"url": "https://ensemblehp.wd5.myworkdayjobs.com/EnsembleHealthPartnersCareers/job/Remote---Nationwide/Director-II--Patient-Access--Onsite--WI-_R037847-1"
-},
-{
-"company": "Ensemble Health Partners",
 "title": "Head of Operator Engagement",
 "why": "function",
 "locations": [
@@ -3005,6 +3005,15 @@
 },
 {
 "company": "Integra LifeSciences",
+"title": "Director, Plant Manager",
+"why": "function",
+"locations": [
+"DE-BW-Rietheim Weilheim-405-Facility"
+],
+"url": "https://integralife.wd1.myworkdayjobs.com/Careers/job/DE-BW-Rietheim-Weilheim-405-Facility/Director--Plant-Manager_JR-6900"
+},
+{
+"company": "Integra LifeSciences",
 "title": "IT Director, Integrated Business Planning",
 "why": "function",
 "locations": [
@@ -3074,15 +3083,6 @@
 "Nevada Central Office"
 ],
 "url": "https://imh.wd108.myworkdayjobs.com/IntermountainCareers/job/Nevada-Central-Office/Pediatric-Services-Director_R186153"
-},
-{
-"company": "Intermountain Health",
-"title": "Practice Director- Medical Group Surgical Specialties",
-"why": "function",
-"locations": [
-"Billings Medical Group"
-],
-"url": "https://imh.wd108.myworkdayjobs.com/IntermountainCareers/job/Billings-Medical-Group/Practice-Director--Medical-Group-Surgical-Specialties_R183062"
 },
 {
 "company": "Johnson & Johnson",
@@ -3551,15 +3551,6 @@
 "Charlotte NC"
 ],
 "url": "https://labcorp.wd1.myworkdayjobs.com/External/job/Charlotte-NC/Regional-Hospital-Lab-Director_2622087"
-},
-{
-"company": "Labcorp",
-"title": "Senior Director Clinical Contact Center Operations",
-"why": "function",
-"locations": [
-"2 Locations"
-],
-"url": "https://labcorp.wd1.myworkdayjobs.com/External/job/Burlington-NC/Senior-Director-Clinical-Contact-Center-Operations_2640617-1"
 },
 {
 "company": "Labcorp",
@@ -4529,6 +4520,15 @@
 },
 {
 "company": "Roche",
+"title": "Country Chief Accountant (Vietnamese Speaker)",
+"why": "function",
+"locations": [
+"Petaling Jaya"
+],
+"url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Petaling-Jaya/Country-Chief-Accountant--Vietnamese-Speaker-_202611-130233"
+},
+{
+"company": "Roche",
 "title": "Customer Engagement Chapter Lead (Commercial Ophthalmology Director)",
 "why": "function",
 "locations": [
@@ -5399,6 +5399,15 @@
 "4 Locations"
 ],
 "url": "https://wellstar.wd1.myworkdayjobs.com/wellstarcareers/job/Kennestone-Hospital/Director--Endoscopy-Services_JR-79407"
+},
+{
+"company": "Wellstar",
+"title": "Director, Respiratory Care",
+"why": "function",
+"locations": [
+"Kennestone Hospital"
+],
+"url": "https://wellstar.wd1.myworkdayjobs.com/wellstarcareers/job/Kennestone-Hospital/Director--Respiratory-Care_JR-81913"
 },
 {
 "company": "ZOLL Medical",
@@ -6902,15 +6911,6 @@
 },
 {
 "company": "Illumina",
-"title": "Director, Strategic Sourcing Indirect",
-"why": "location",
-"locations": [
-"US - California - San Diego"
-],
-"url": "https://illumina.wd1.myworkdayjobs.com/illumina-careers/job/US---California---San-Diego/Associate-Director--Strategic-Sourcing---GIS_41615-JOB"
-},
-{
-"company": "Illumina",
 "title": "Senior Director, Corporate Strategy (San Diego / Hybrid)",
 "why": "location",
 "locations": [
@@ -7673,15 +7673,6 @@
 "Indianapolis"
 ],
 "url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Indianapolis/Director--Strategy---Business-Operations_202611-129643"
-},
-{
-"company": "Roche",
-"title": "Head of Integrated Digital Solutions",
-"why": "location",
-"locations": [
-"Bucharest"
-],
-"url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Bucharest/Head-of-Integrated-Digital-Solutions_202611-129440"
 },
 {
 "company": "SCAN Health Plan",
