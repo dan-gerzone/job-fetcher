@@ -2258,15 +2258,6 @@
 },
 {
 "company": "GE HealthCare",
-"title": "Director of Project Management",
-"why": "function",
-"locations": [
-"Toronto"
-],
-"url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Toronto/Director-of-Project-Management_R4048852-1"
-},
-{
-"company": "GE HealthCare",
 "title": "Director, ASL Central & Pediatric MR",
 "why": "function",
 "locations": [
@@ -3506,6 +3497,15 @@
 "Holyoke MA"
 ],
 "url": "https://labcorp.wd1.myworkdayjobs.com/External/job/Holyoke-MA/Lab-Operations-Director_2638757"
+},
+{
+"company": "Labcorp",
+"title": "Logistics Director",
+"why": "function",
+"locations": [
+"Raleigh NC"
+],
+"url": "https://labcorp.wd1.myworkdayjobs.com/External/job/Raleigh-NC/Logistics-Director_2635307"
 },
 {
 "company": "Labcorp",
@@ -7001,27 +7001,9 @@
 "title": "Director, External Innovation, DPDS (In Silico Discovery)",
 "why": "location",
 "locations": [
-"Zug, Switzerland"
-],
-"url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Zug-Switzerland/Director--External-Innovation--DPDS--In-Silico-Discovery-_R-110799"
-},
-{
-"company": "Johnson & Johnson",
-"title": "Director, External Innovation, DPDS (In Silico Discovery)",
-"why": "location",
-"locations": [
 "London, United Kingdom"
 ],
 "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/London-United-Kingdom/Director--External-Innovation--DPDS--In-Silico-Discovery-_R-110800-1"
-},
-{
-"company": "Johnson & Johnson",
-"title": "Director, External Innovation, DPDS (In Silico Discovery)",
-"why": "location",
-"locations": [
-"Beerse, Antwerp, Belgium"
-],
-"url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Beerse-Antwerp-Belgium/Director--External-Innovation--DPDS--In-Silico-Discovery-_R-110798-1"
 },
 {
 "company": "Johnson & Johnson",
